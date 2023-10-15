@@ -1,0 +1,3 @@
+<lora:bronya:0.7> bronyarand ,  silver hair ,  ponytail,  drill hair, gray eyes
+<lora:bronya:0.7> bronyarand ,  silver hair ,  ponytail,  drill hair, gray eyes , (negligee:1.3)
+<lora:bronya:0.7> bronyarand ,  silver hair ,  ponytail,  drill hair, gray eyes , (nude:1.4)
