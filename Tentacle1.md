@@ -16,10 +16,35 @@ illustration  ,  (Top Quality, 8k:1.1), (Sharp Focus:1.2), (perfect anatomy:1.2)
 
 # 基本
 
+## 前座
+
+### パンチラ
+
+#### たくし上げ
+{ frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth |  3::disgust , sweat,  }  BREAK
+(__nsp/my/new_panties__ , __nsp/my/panties__:1.2) , {sitting , wariza | sitting  } ,  detail panties { front | from above } , bottomless ,  skirt , (skirt lift,  lifted by self:1.3) , looking at viewer , water surface , 
+
+#### 膝抱え
+(__nsp/my/new_panties__ , __nsp/my/panties__:1.2) ,  ( knees together , legs closed:1.3) , (front:1.2), { <lora:hugging_own_legs_v0.3:1> hugging own legs | squatting } , (looking at another,  looking away:1.3),
+
+#### 立膝
+{ frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   }  ,  { open mouth | 1.5::closed mouth }   , (heavy breathing:1.2),  <lora:tentacles_v0.4:0.8:lbw=MIDD> , (many many oily tentacles:1.2) , <lora:kneestogetherfeetapart:0.7:lbw=MIDD> , knees together feet apart, sitting, panties , __nsp/my/panties__ ,  pantyshot
+
+
 ## ランダム
 { { 2::frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   }  , dynamic pose, frown , disgust , looking at another , looking to the side,     tentacles, tentacles pit , (many many oily tentacles:1.2), (mucus:1.2), <lora:tentacles_v0.4:0.7:lbw=MIDD> , (panties:1.1) , {  leaning forward , doggystyle,  | sitting | 1.5::wariza  } , ? , { spoken question mark | spoken ellipsis }    (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1) , <lora:tentacles_v0.4:0.6:lbw=MIDD>  , { front | from behind }  | 
 { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   }  ,  { open mouth | 1.5::closed mouth }   , (heavy breathing:1.2),  <lora:tentacles_v0.4:0.8:lbw=MIDD> , (many many oily tentacles:1.2) , tentacles on arms ,   (mucus:1.2), (__nsp/my/panties__:1.2) , __nsp/my/new_panties__ , { {front | cowboy shot }, ( knees together , legs closed:1.3) , (front:1.2), pov , {  sitting ,  { wariza | 2::spread legs ,  (tentacles restraint legs:1.2) | 2::hands on floor } } } ,  tentacles,  tentacle pit , { water surface |  tentacle pit  }  , { looking at viewer | looking to the side | face down }  |
 { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   } , tentacles , tentacle pit , restrained , tentacles ,  { open mouth | 2::closed mouth } , <lora:tentacles_v0.4:1>  , (tentacles wraps around legs:1.1), (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1) , tearing up ,   standing  , (spread legs:1.3),  (focus crotch:1.2)   , narrow waist ,  (Directly below:1.3) , (from below:1.2) ,  bottomless , (skirt lift,  lifted by self:1.1) , looking at viewer ,  embarrassed,  upper body,  (headless , body only:1.2) , dynamic pose } 
+
+## エロ顔
+{  (embarrassed,blush:1.3) , light smile , open mouth  |  nsfw,(ecstasy:1.3) ,(slut:1.2),(vulgarity:1.3),(fucked silly:1.1),(steam:1.1),(wet:0.8),(trembling:0.8),(tears:0.7) ,(sweat:0.8), wince , female orgasm,  heavy breathing, light smile | (embarrassed,blush:1.3), (steam:0.8),(wet:0.8),(sweat:0.8),(trembling:1.3) , (parted lips:1.3),(harf open eyes:1.4),(feeling weak:1.5) , open mouth  | (embarrassed,blush:1.3), ,(steam:0.8),(wet:0.8),(sweat:0.8),(trembling:1.3) ,(parted lips:1.3),(harf open eyes:1.4),(feeling weak:1.5) , open mouth } BREAK
+(tentacle pit:1.1) , tentacles , tentacle nest ,tentacles , tentacle pit , tentacles , <lora:tentacles_v0.4:0.75>   BREAK
+
+## エロ顔
+{  (embarrassed,blush:1.3), (steam:0.8),(wet:0.8),(sweat:0.8),(trembling:1.3) , (parted lips:1.3),(harf open eyes:1.4),(feeling weak:1.5) , open mouth  | (embarrassed,blush:1.3), ,(steam:0.8),(wet:0.8),(sweat:0.8),(trembling:1.3) ,(parted lips:1.3),(harf open eyes:1.4),(feeling weak:1.5) , open mouth } BREAK
+(tentacle pit:1.1) , tentacles , tentacle nest ,tentacles , tentacle pit , tentacles , <lora:tentacles_v0.4:0.75>   BREAK
+
+
 
 ## pile2
 
@@ -45,21 +70,30 @@ in tentacle pit , tentacles , tentacle nest , open clothes,  { (__nsp/my/new_bra
 ## 目覚め * 10
  <!-- lying,  on  floor , sleeping, { closed eyes |  half-closed eyes } ,  full body,  (tentacles wraps around legs:1.1), (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1) , <lora:tentacles_v0.4:0.6:lbw=MIDD> , (many many oily tentacles:1.2), (mucus:1.2), (__nsp/my/panties__:1.2) , __nsp/my/new_panties__ , focus panties , detail panties , { closed eyes | one eye closed } ,   on tentacles pit , {  sleep on back  | sleep on  stomach | Lying down } , close mouse ,  water surface -->
 
+## 正面
+
+{ 2::frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   }  , dynamic pose, frown , disgust , looking at another , looking to the side,     tentacles, tentacles pit , (many many oily tentacles:1.2), (mucus:1.2), <lora:tentacles_v0.4:0.7:lbw=MIDD> , (panties:1.2) , ? ,  (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1) , <lora:tentacles_v0.4:0.6:lbw=MIDD>   ,  down blouse,  prone bone,  bottom up , doggystyle,  all fours  , { front | 2::(from behind , panties:1.2) }  , (open mouth:1.2)
+
 ## 胸隠し * 1 * 3
 
- <!-- { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   } , <lora:covering_breasts_v0.1:1> ,  { open mouth | 2::closed mouth }, (covering crotch:1.1), (covering breasts:1.1)   , { standing , upper body , bottomless  | sitting , wariza  }, open mouth, { front | from above } , , tentacles,  in tentacles pit , (many many oily tentacles:1.2), (mucus:1.2), <lora:tentacles_v0.4:0.4:lbw=MIDD> , __nsp/my/angle__ , water surface -->
+ { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   } , <lora:covering_breasts_v0.1:1> ,  { open mouth | 2::closed mouth }, covering crotch , covering breasts  , { standing , upper body , bottomless  | sitting , wariza  }, open mouth, { front | from above } , , tentacles,  in tentacles pit , (many many oily tentacles:1.2), (mucus:1.2), <lora:tentacles_v0.4:0.4:lbw=MIDD> , __nsp/my/angle__ ,{  water surface | on ground }  , (open mouth:1.2)
 
 # 後ろマルチビュー
 
-{ 2::frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   }  , dynamic pose, frown , disgust , looking at another , looking to the side,     tentacles, tentacles pit , (many many oily tentacles:1.2), (mucus:1.2), <lora:tentacles_v0.4:0.7:lbw=MIDD> , (panties:1.1) , {  leaning forward , doggystyle,  | sitting | 1.5::wariza  } , ? , { spoken question mark | spoken ellipsis }    (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1) , <lora:tentacles_v0.4:0.6:lbw=MIDD>  , { front | from behind } 
+{ 2::frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   }  , dynamic pose, frown , disgust , looking at another , looking to the side,     tentacles, tentacles pit , (many many oily tentacles:1.2), (mucus:1.2), <lora:tentacles_v0.4:0.7:lbw=MIDD> , (panties:1.1) , {  leaning forward , doggystyle,  | sitting | 1.5::wariza  } , ? , { spoken question mark | spoken ellipsis }    (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1) , <lora:tentacles_v0.4:0.6:lbw=MIDD>  , { front | from behind }  , (open mouth:1.2)
+
+
+## 2
+{ 2::frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   }  , dynamic pose, frown , disgust , looking at another , looking to the side,     tentacles, tentacles pit , (many many oily tentacles:1.2), (mucus:1.2), <lora:tentacles_v0.4:0.7:lbw=MIDD> , (panties:1.2) , { (ass:1.3) , all fours,  doggystyle,  } , ? , { spoken question mark | spoken ellipsis }    (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1) , <lora:tentacles_v0.4:0.6:lbw=MIDD>  , from behind , { multiple views,  face | sweat } 
+
 
 # 座り膝抱え * 1 * 3
 <!-- 
- { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   } ,  (__nsp/my/panties__:1.2) , __nsp/my/new_panties__ , focus panties , detail panties , looking at another,  looking to the side,   ( knees together , legs closed:1.3) , (front:1.2), { <lora:hugging_own_legs_v0.3:1> hugging own legs | squatting} , tentacles,  in tentacles pit , (many many oily tentacles:1.2), (mucus:1.2), <lora:tentacles_v0.4:0.4:lbw=MIDD> , __nsp/my/angle__ , water surface -->
+ { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   } ,  (__nsp/my/panties__:1.2) , __nsp/my/new_panties__ , focus panties , detail panties , looking at another,  looking to the side,   ( knees together , legs closed:1.3) , (front:1.2), { <lora:hugging_own_legs_v0.3:1> hugging own legs | squatting} , tentacles,  in tentacles pit , (many many oily tentacles:1.2), (mucus:1.2), <lora:tentacles_v0.4:0.4:lbw=MIDD> , __nsp/my/angle__ , { water surface  | on ground }  -->
 
 ## 座りパンチラ * 2 * 6
 
-{ frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   }  ,  { open mouth | 1.5::closed mouth }   , (heavy breathing:1.2),  <lora:tentacles_v0.4:0.8:lbw=MIDD> , (many many oily tentacles:1.2) , tentacles on arms ,   (mucus:1.2), (__nsp/my/panties__:1.2) , __nsp/my/new_panties__ , ( knees together , legs closed:1.3) , (front:1.2), pov , {  sitting ,  { wariza | 4::spread legs , (front:1.2) ,   (tentacles restraint legs:1.2) | 1.2::hands on floor } }  ,  tentacles,  tentacle pit , { water surface |  tentacle pit  }  , { looking at viewer | looking to the side | face down } 
+{ frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   }  ,  { open mouth | 1.5::closed mouth }   , (heavy breathing:1.2),  <lora:tentacles_v0.4:0.8:lbw=MIDD> , (many many oily tentacles:1.2) , tentacles on arms ,   (mucus:1.2), (__nsp/my/panties__:1.2) , __nsp/my/new_panties__ , ( knees together , legs closed:1.3) , (front:1.2), pov , {  sitting ,  { wariza | 2::spread legs , (front:1.2) ,   (tentacles restraint legs:1.2) | 1.2::hands on floor } }  ,  tentacles,  tentacle pit , { water surface |  tentacle pit  }  , { looking at viewer | looking to the side | face down } , legs around tentacles  , (open mouth:1.2)
 
 <!-- 
 ## 釣られる * 1 * 3
@@ -74,26 +108,28 @@ in tentacle pit , tentacles , tentacle nest , open clothes,  { (__nsp/my/new_bra
  { panicking,  surprised | female orgasm, (ecstasy:1.2),   ,  tearing up,  open clothes,  ,  (heavy breathing:1.2)  } , tentacles , tentacle pit , restrained , tentacles , open mouth,   ,  , <lora:tentacles_v0.4:1>  , (tentacles wraps around legs:1.1), (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1) , sobbing,  { standing  |  lying ,  spread legs ,  ass  } ,  nsfw , vaginal , vore , being swalloed, restrained , bound wrists , __nsp/my/angle__ , { sweat | 2:: <lora:projectile_cum_v0.2:1>  , projectile cum  , bukkake,  cum in pussy,  cum on body,  facial,  cum on breasts,  }  -->
 
 ## 正常位 , 騎乗位 * 2 * 4
- {  { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   } | female orgasm, (ecstasy:1.2),   ,  tearing up,  open clothes,  ,  (heavy breathing:1.2)  } , tentacles , tentacle pit , restrained , tentacles , open mouth,   ,  , <lora:tentacles_v0.4:1>  , (tentacles wraps around legs:1.1), (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1) , sobbing,  { standing  |  lying ,  spread legs ,  ass  } ,  nsfw , vaginal , vore , being swalloed, restrained , bound wrists , __nsp/my/angle__ ,{arms up | hands on own chest  |  breasts squeezed together }   |  straddling , cowgirl position, from below,  ceiling  ,  { sweat | hands on own chest  |  breasts squeezed together } missionary, vaginal, pov ,  1boy,  spread legs , { multiple insertion | large insertion | shiny hair }  ,{  <lora:multiple_insertions_v0.2:0.75:lbw=MIDD> , multiple insertion | sweat | <lora:large_insertion_v0.1:0.75:lbw=MIDD> large insertion }
+ <!-- {  { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   } | female orgasm, (ecstasy:1.2),   ,  tearing up,  open clothes,  ,  (heavy breathing:1.2)  } , tentacles , tentacle pit , restrained , tentacles , open mouth,   ,  , <lora:tentacles_v0.4:1>  , (tentacles wraps around legs:1.1), (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1) , sobbing,  { standing  |  lying ,  spread legs ,  ass  } ,  nsfw , vaginal , vore , being swalloed, restrained , bound wrists , __nsp/my/angle__ ,{arms up | hands on own chest  |  breasts squeezed together }   |  straddling , cowgirl position, from below,  ceiling  ,  { sweat | hands on own chest  |  breasts squeezed together } missionary, vaginal, pov ,  1boy,  spread legs , { multiple insertion | large insertion | shiny hair }  ,{  <lora:multiple_insertions_v0.2:0.75:lbw=MIDD> , multiple insertion | sweat | <lora:large_insertion_v0.1:0.75:lbw=MIDD> large insertion } -->
  
 ## 四つん這い
- {  { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   } | female orgasm, (ecstasy:1.2),   ,  tearing up,  open clothes,  ,  (heavy breathing:1.2)  }  , tentacles , tentacle pit , restrained , tentacles , open mouth,   ,  , <lora:tentacles_v0.4:1>  ,  sobbing,  all fours,  { front  |  3::ass ,   from behind } , pussy in tentacles,  mouth in tentacles, fellatio,  {  <lora:multiple_insertions_v0.2:0.75:lbw=MIDD> , multiple insertion | sweat | <lora:large_insertion_v0.1:0.75:lbw=MIDD> large insertion }
+ <!-- {  { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   } | female orgasm, (ecstasy:1.2),   ,  tearing up,  open clothes,  ,  (heavy breathing:1.2)  }  , tentacles , tentacle pit , restrained , tentacles , open mouth,   ,  , <lora:tentacles_v0.4:1>  ,  sobbing,  all fours,  { front  |  3::ass ,   from behind } , pussy in tentacles,  mouth in tentacles, fellatio,  {  <lora:multiple_insertions_v0.2:0.75:lbw=MIDD> , multiple insertion | sweat | <lora:large_insertion_v0.1:0.75:lbw=MIDD> large insertion } -->
 
 
  ## テンプレ 2 * 6
  <!-- (restrained:1.2) , { 1.5::frown , one eye closed  |  1.5::open mouth,   ,   ,  { sweat |  1.2::(empty eyes:1.2) } | (sexual ecstasy:1.3), orgasm ,  open eyes , in heat , seductive smile } ,  (heavy breathing:1.2) BREAK sobbing, <lora:tentacles_v0.4:1> , (many many oily tentacles:1.2), (mucus:1.2), (tentacle wraps around arms:1.1) ,  (tentacles wraps around legs:1.1), (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1) , sobbing ,  { all fours,  doggystyle , { from behind | front }  |  spread legs , { front | from from above } | cowgirl position , squatting |  lying , missionary | 2::dynamic pose } BREAK{  { tentacles in vaginal  | 2::<lora:multiple_insertions_v0.2:0.7>  multiple insertions |  tentacles in vaginal ,  <lora:large_insertion_v0.1:0.7> large insertion } , {  pussy juice | 2::pussy  juice , (cum in pussy , after vaginal,  cum explosion:1.2) } , (trembling:1.3) } , __nsp/my/angle__ ,  water surface -->
 
 ## 後ろから * 1 * 3
-{  { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   } |  open mouth,   ,   | (sexual ecstasy:1.3), orgasm ,  open eyes , in heat } ,  (heavy breathing:1.2)  ,  empty eyes,  sobbing, <lora:tentacles_v0.4:0.8:lbw=MIDD> ,  tentacles ,  all fours,  doggystyle , on stomach,  {  cowboy shot , front  | 3::from behind ,ass focus } , tentacles in vaginal  , (many many oily tentacles:1.2), (mucus:1.2), (tentacle wraps around arms:1.1) ,  (tentacles wraps around legs:1.1), (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1)  , (restrained:1.2) ,  water surface , { multiple views,  { uterus,  pussy | front } |  sweat, }
+<!-- {  { frown , nose blush,  embarrassed,  sweat,  |  cry , sad , clenched teeth,  sweat,   } |  open mouth,   ,   | (sexual ecstasy:1.3), orgasm ,  open eyes , in heat } ,  (heavy breathing:1.2)  ,  empty eyes,  sobbing, <lora:tentacles_v0.4:0.8:lbw=MIDD> ,  tentacles ,  all fours,  doggystyle , on stomach,  {  cowboy shot , front  | 3::from behind ,ass focus } , tentacles in vaginal  , (many many oily tentacles:1.2), (mucus:1.2), (tentacle wraps around arms:1.1) ,  (tentacles wraps around legs:1.1), (tentacles wraps around breasts:1.1), (tentacles wraps around waist:1.1)  , (restrained:1.2) ,  water surface , { multiple views,  { uterus,  pussy | front } |  sweat, } -->
 
 ## フェラ * 1 * 3
-(sexual ecstasy:1.3), open mouth , tearing up,  ,  (heavy breathing:1.2)  ,  { fellatio ,  tentacles fellatio}  , tentacles in mouth , , facial ,  cum in mouth ,  <lora:tentacles_v0.4:0.8:lbw=MIDD> , tentacles,  { from side |  pov  } ,  (restrained:1.4)  , (many many oily tentacles:1.2), (mucus:1.2) 
+<!-- (sexual ecstasy:1.3), open mouth , tearing up,  ,  (heavy breathing:1.2)  ,  { fellatio ,  tentacles fellatio}  , tentacles in mouth , , facial ,  cum in mouth ,  <lora:tentacles_v0.4:0.8:lbw=MIDD> , tentacles,  { from side |  pov  } ,  (restrained:1.4)  , (many many oily tentacles:1.2), (mucus:1.2)  -->
 
 ## 完落ち * 1 * 3
-(sexual ecstasy:1.3), open mouth , { tearing up | sweat } , sweat,  (heavy breathing:1.2)  , { smile | frown | one eye closed }  , looking at viewer,  { wariza | standing | spread legs , focus crotch  }  ,  empty eyes,  heart-shaped pupils,  spoken heart,  <lora:tentacles_v0.4:0.8:lbw=MIDD> , tentacles,  { from side |  pov  } ,  (restrained:1.4)  , (many many oily tentacles:1.2), (mucus:1.2)  , multiple views, front , ass , bukkake, <lora:bukkake_v0.4:0.7>
+<!-- (sexual ecstasy:1.3), open mouth , { tearing up | sweat } , sweat,  (heavy breathing:1.2)  , { smile | frown | one eye closed }  , looking at viewer,  { wariza | standing | spread legs , focus crotch  }  ,  empty eyes,  heart-shaped pupils,  spoken heart,  <lora:tentacles_v0.4:0.8:lbw=MIDD> , tentacles,  { from side |  pov  } ,  (restrained:1.4)  , (many many oily tentacles:1.2), (mucus:1.2)  , multiple views, front , ass , bukkake, <lora:bukkake_v0.4:0.7> -->
 
 ## 中出し * 1 * 3
-(sexual ecstasy:1.3), open mouth ,{ tearing up | sweat } , sweat,  (heavy breathing:1.2)  , { smile | frown | one eye closed }  , looking at viewer, spread legs,   empty eyes,  heart-shaped pupils,  spoken heart,  <lora:tentacles_v0.4:0.8:lbw=MIDD> , tentacles,  front  , (many many oily tentacles:1.2), (mucus:1.2) ,  <lora:cervix:1:lbw=MIDD> , cervix ,  clitoris , urethra , cum in pussy , cum explosion,  
+<!-- (sexual ecstasy:1.3), open mouth ,{ tearing up | sweat } , sweat,  (heavy breathing:1.2)  , { smile | frown | one eye closed }  , looking at viewer, spread legs,   empty eyes,  heart-shaped pupils,  spoken heart,  <lora:tentacles_v0.4:0.8:lbw=MIDD> , tentacles,  front  , (many many oily tentacles:1.2), (mucus:1.2) ,  <lora:cervix:1:lbw=MIDD> , cervix ,  clitoris , urethra , cum in pussy , cum explosion,   -->
+
+
 
 # 横向き
 

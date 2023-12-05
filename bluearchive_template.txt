@@ -10,6 +10,9 @@ shirokodef, silver hair, blue eyes, animal ears, blue scarf,  medium hair,  jack
 harunadef ,  silver hair ,  red eyes , straight hair
 <lora:bluearchivefull1:1:OUTD> arissailor , black hair, long hair smile , embarrassed BREAK
 
+<lora:bluearchivefull1:1:lbw=OUTD> { yuukadef, black hair, blue eyes , halo break , medium breasts,  | 
+hinadef, silver hair ,  teen , purple eyes , medium breasts,  |  hoshinodef, pink hair , orange eyes , small breasts,  | 
+miyakodef , silver hair , grey eyes, large breasts | hifumidef, yellow eyes,  blonde hair, small breasts | mikadef , pink hair , orange eyes, small breasts | shirokodef, silver hair, blue eyes, animal ears, blue scarf,  medium hair, small breasts,  } , 
 Lora trained on 62975 images of Blue Archive Characters
 
 This is missing a few characters and only has 86 characters in total.
