@@ -9,15 +9,30 @@
 1girl, 1boy ,   breasts, mature female,   BREAK
 <lora:pecorine_v1:1> 24yo,  (large breasts:1.2), aapeco, very long hair, ahoge, braid, tiara, hair ribbon, { red ascot, cleavage, shrug (clothing), white dress, short sleeves, white gloves, pleated skirt, red skirt |  2::(nude, naked:1.5) }   BREAK
 
-nsfw , {15$$(embarrassed, nose blush:1.3) | (ecstasy:1.3) | (slut:1.2) | (vulgarity:1.3) | (fucked silly:1.1) | (wet:0.8) | (trembling:0.8)| (tears:0.7) | (drooling:0.6) | (sweat:0.8) | {  4::open eyes | (closed eyes:1.2) } | wince | (orgasm:1.5) | (half open eyes:1.4) | (feeling weak:1.5) | cum in pussy , cum on body | cum explosion } , on bed , in door , {3::open mouth | parted lips | closed mouth }   |   BREAK
+nsfw , {3-10$$(embarrassed, nose blush:1.3) | (ecstasy:1.3) | (slut:1.2) | (vulgarity:1.3) | (fucked silly:1.1) | (wet:0.8) | (trembling:0.8)| (tears:0.7) | (drooling:0.6) | (sweat:0.8) | {  4::open eyes | (closed eyes:1.2) } | wince | (orgasm:1.5) | (half open eyes:1.4) | (feeling weak:1.5) | cum in pussy , cum on body | cum explosion } , on bed , in door , {3::open mouth | parted lips | closed mouth }   |   BREAK
 
 
 <!-- 8k wallpaper, extremely detailed fingers, detail eyes , perfect anatomy, highly detailed background, shiny skin, narrow waist  BREAK
 { (embarrassed,blush:1.3), (wet:0.8),(sweat:0.8),(trembling:1.3) , (parted lips:1.3),(harf open eyes:1.4),(feeling weak:1.5) , open mouth  | (embarrassed,blush:1.3),(wet:0.8),(sweat:0.8),(trembling:1.3) ,(parted lips:1.3),(harf open eyes:1.4),(feeling weak:1.5) , open mouth } ,  { 1-3$$(cum in pussy:1.2) | cum on breasts | cum on body | shiny skin , (motion blur:1.3) } , (trembling:1.5) BREAK -->
 
+# 催眠表情
+nsfw , nsfw , {20$$(embarrassed, nose blush:1.3) | (ecstasy:1.3) | (slut:1.2) | (vulgarity:1.3) | (wet:0.8) | (trembling:0.8)| (tears:0.7) | (drooling:0.6) | (sweat:0.8) | { open eyes } | wince | (orgasm:1.5) |(feeling weak:1.5) | sweat}    , (heavy breathing:1.2) ,  { 6::sweat |  cum in pussy , cum on body , cum explosion  }  (trembling:1.1),  BREAK
+
+# レイプ
+nude  ,  naked , tearing up,  streaming tears,  wavy mouth,  sobbing ,  pussy juice,  heavy breathing,  open mouth,  (looking away:1.5),  (motion lines,  trembling,:1.5) , (expressionless:1.3), (empty eyes:1.7), scared,  (trembling:1.6) , open mouth,  cum in pussy , 
+
+# すやすや
+
+
 # 表情
 
-nsfw , {20$$(embarrassed, nose blush:1.3) | (ecstasy:1.3) | (slut:1.2) | (vulgarity:1.3) | (fucked silly:1.1) | (wet:0.8) | (trembling:0.8)| (tears:0.7) | (drooling:0.6) | (sweat:0.8) | {  open eyes | (closed eyes:1.4) } | wince | (orgasm:1.5) | (half open eyes:1.4) | (feeling weak:1.5) | sweat} , on bed , in door , in hotel ,  { ahegao,  wave mouth, frown | sweat , frown | sweat , light smile  }  , (heavy breathing:1.2) , { 2::sweat |  cum in pussy , cum on body , cum explosion  }  (trembling:1.1), tareme BREAK
+nsfw , {20$$(embarrassed, nose blush:1.3) | (ecstasy:1.3) | (slut:1.2) | (vulgarity:1.3) | (wet:0.8) | (trembling:0.8)| (tears:0.7) | (drooling:0.6) | (sweat:0.8) | {  6::open eyes | (closed eyes:1.4) } | wince | (orgasm:1.5) |(feeling weak:1.5) | sweat}  , { ahegao,  wave mouth, frown |  shouting , open mouth |   sweat , frown  }  , (heavy breathing:1.2) ,  { 6::sweat |  cum in pussy , cum on body , cum explosion  }  (trembling:1.1),  { tareme  } ,   BREAK
+
+## アヘ顔
+nsfw , {20$$(embarrassed, nose blush:1.3) | (ecstasy:1.3) | (slut:1.2) | (vulgarity:1.3) | (wet:0.8) | (trembling:0.8)| (tears:0.7) | (drooling:0.6) | (sweat:0.8) | {  6::open eyes | (closed eyes:1.4) } | wince | (orgasm:1.5) |(feeling weak:1.5) | sweat}  ,{ ahegao,  wave mouth, frown | seductive smile  }  , (heavy breathing:1.2) ,  (trembling:1.4), tareme  , (heavy breathing:1.2) ,  { 1.5::sweat |  cum in pussy , cum on body , cum explosion  }  (trembling:1.1),  { tareme  } ,   BREAK
+
+
+<!-- nsfw , {20$$(embarrassed, nose blush:1.3) | (ecstasy:1.3) | (slut:1.2) | (vulgarity:1.3) | (wet:0.8) | (trembling:0.8)| (tears:0.7) | (drooling:0.6) | (sweat:0.8) | {  6::open eyes | (closed eyes:1.4) } | wince | (orgasm:1.5) |(feeling weak:1.5) | sweat}  , { ahegao,  wave mouth, frown | sweat , frown | {4$${ tearing up |   streaming tears |  cry | sad | sobbing | scared   } }  }  , (heavy breathing:1.2) ,  { 6::sweat |  cum in pussy , cum on body , cum explosion  }  (trembling:1.1),  { tareme  } ,   BREAK -->
 
 ## アヘ顔
 { ahegao,  wave mouth, frown | seductive smile  }  , (heavy breathing:1.2) ,  (trembling:1.1), tareme
@@ -25,23 +40,55 @@ nsfw , {20$$(embarrassed, nose blush:1.3) | (ecstasy:1.3) | (slut:1.2) | (vulgar
 ## くっころ
 angry ,  disgust,   clenched teeth,  (heavy breathing:1.2) ,  (trembling:1.1),   clenched teeth, tearing up,  streaming tears,  saliva 
 
+## 新
 
+### SEX
+ ,( 1boy , spread legs,  missionary , sex , penis in vaginal , pussy juice , focus crotch , lying , on bed :1.3) , { hands on own chest  |  breasts squeezed together , __nsp/myNSFW/commonArm__ } , sex ,  (motion lines , trembling:1.3),  on back ,   spread legs, 
+
+
+ <lora:DildoRidingBack:0.95:lbw=MIDD> , DILDORIDINGBACK ,  DILDO  , DILDO RIDING , FROM BEHIND
 ## StylePile
+<lora:MissionaryVaginal-v2:0.75:lbw=MIDD> missionary vaginal, spread legs, { sweat | legs up} ,  deep, huge tentacles  , Amateur
+
 <lora:POVMissionary:0.6:lbw=MIDD> , {arms up | hands on own chest  |  breasts squeezed together , __nsp/myNSFW/commonArm__ } , sex ,  motion lines , on back , 
 { lying, missionary ,  {arms up | hands on own chest  |  breasts squeezed together }   |  straddling , cowgirl position, from below,  ceiling  ,  { sweat | hands on own chest  |  breasts squeezed together } } missionary, vaginal, 1boy, penis, spread legs , <lora:motion_blur_v0.3:1> , motion blur, 
+{ lying, missionary ,  {arms up | hands on own chest  |  breasts squeezed together }   |  straddling , cowgirl position, from below,  ceiling  ,  { sweat | hands on own chest  |  breasts squeezed together } } missionary, vaginal, 1boy, penis, spread legs , <lora:motion_blur_v0.3:1> , motion blur, 
 <lora:PSCowgirl:0.75:lbw=MIDD> , 1boy,squatting cowgirl position, vaginal, pov, pussy
+<lora:PSCowgirl:0.75:lbw=MIDD> , 1boy,squatting cowgirl position, vaginal, pov, pussy
+<lora:CONCEPT-HipGrabCowgirl:1> , POVHipGrabCowgirl, hetero, vaginal , penis in vaginal , open pussy , 
 lying , ass focus , from behind , on back ,  missionary, vaginal, 1boy, penis, spread legs , <lora:motion_blur_v0.3:1> , motion blur, 
 <lora:EkuneCowgirl:0.75:lbw=MIDD> , cowgirlpose, (1boy, penis:1.1), cowgirl position, ass , pussy, anus  , bottomless  , ass grab , hip grab  , on bed ,
 <lora:SideFellatio:1> , 1boy , sidefellatio, 1boy, penis , fellatio, from side, cum in mouth , face up  , kneeing, 1boy 
-<lora:POVDoggy:0.4:lbw=MIDD> , from behind , penis in pussy, on bed , sheet grab,  doggystyle, pov hands, ass grab, ({ pillow hug | sheet grab}:1.2) ,  looking at viewer, 
- lying on bed , stomach,   spread legs , pussy , ass , , looking at viewer,  on bed , indoors, pussy , <lora:Saya-spread pussy(fingers)2:0.9> , spread pussy , front 
-sitting , spread legs , pussy , ass , indoors, pussy ,, front , <lora:dskbSPu:0.3> , dskbSPu , uterus ,  focus crotch, front , crotch focus , 
+<lora:POVDoggy:0.4:lbw=MIDD> , from behind , all fours , doggy style ,  penis in pussy, on bed , sheet grab,  doggystyle, pov hands, ass grab, ({ pillow hug | sheet grab}:1.2) ,  looking at viewer, 
+nsfw,pov,astride,thrusting <lora:cowgirl_with_hands_on_knees_v1.0:0.8:lbw=MIDD> , thrusting
+ <lora:front_view_all_fours_doggystyle_v1.0:0.85> doggystyle, all fours,  sex from behind, facing viewer
+ lying on bed , stomach,   spread legs , pussy , (looking away:1.3)  ,  on bed , indoors, pussy , <lora:Saya-spread pussy(fingers)2:0.8> , spread pussy , front , { cum in pussy | 2::sweat} , 
+sitting , spread legs , pussy , ass , indoors, pussy ,, front , <lora:dskbSPu:0.2:lbw=MIDD> , dskbSPu , uterus ,  focus crotch, front , crotch focus , 
+<lora:Saya-lying on back6:0.8:lbw=MIDD> , on back , spread legs,  pussy , vaginal , on back , on bed , 
+
+## StylePile
+<!-- <lora:IPV1:0.8:lbw=MIDD> , 1boy, penis, imminent penetration, lying, on back, spread legs, 1, leg grab
+<lora:POVMissionary:0.6:lbw=MIDD> , {arms up | hands on own chest  |  breasts squeezed together , __nsp/myNSFW/commonArm__ } , sex ,  motion lines , on back , 
+{ lying, missionary ,  {arms up | hands on own chest  |  breasts squeezed together }   |  straddling , cowgirl position, from below,  ceiling  ,  { sweat | hands on own chest  |  breasts squeezed together } } missionary, vaginal, 1boy, penis, spread legs , <lora:motion_blur_v0.3:1> , motion blur, 
+<lora:PSCowgirl:0.75:lbw=MIDD> , 1boy,squatting cowgirl position, vaginal, pov, pussy
+<lora:CONCEPT-HipGrabCowgirl:1> , POVHipGrabCowgirl, hetero, vaginal , penis in vaginal , open pussy , 
+lying , ass focus , from behind , on back ,  missionary, vaginal, 1boy, penis, spread legs , <lora:motion_blur_v0.3:1> , motion blur, 
+<lora:EkuneCowgirl:0.75:lbw=MIDD> , cowgirlpose, (1boy, penis:1.1), cowgirl position, ass , pussy, anus  , bottomless  , ass grab , hip grab  , on bed ,
+<lora:SideFellatio:1> , 1boy , sidefellatio, 1boy, penis , fellatio, from side, cum in mouth , face up  , kneeing, 1boy 
+<lora:POVDoggy:0.4:lbw=MIDD> , from behind , all fours , doggy style ,  penis in pussy, on bed , sheet grab,  doggystyle, pov hands, ass grab, ({ pillow hug | sheet grab}:1.2) ,  looking at viewer, 
+1girl, 1boy, doggystyle, all fours, sex from behind, facing viewer, nsfw <lora:Doggy:0.8:lbw=MIDD> , on bed , { pillow hug | sheets grab } , { from side|  front } 
+nsfw,pov,astride,thrusting <lora:cowgirl_with_hands_on_knees_v1.0:0.8:lbw=MIDD> , thrusting
+ <lora:front_view_all_fours_doggystyle_v1.0:0.85> doggystyle, all fours,  sex from behind, facing viewer
+ lying on bed , stomach,   spread legs , pussy , ass , , looking at viewer,  on bed , indoors, pussy , <lora:Saya-spread pussy(fingers)2:0.9> , spread pussy , front , cum in pussy , 
+sitting , spread legs , pussy , ass , indoors, pussy ,, front , <lora:dskbSPu:0.2:lbw=MIDD> , dskbSPu , uterus ,  focus crotch, front , crotch focus , 
+<lora:Saya-lying on back6:0.8:lbw=MIDD> , on back , spread legs,  pussy , vaginal , on back , on bed ,  -->
+
 ## 1024 対応
 
 <lora:kneestogetherfeetapart:1> , knees together feet apart, sitting, pussy , vaginal , arms behind back , detail vaginal , detail pussy 
 <lora:SidewayAss:1> , sidewayassms , spread pussy , spread ass ,hand on own ass ,lying
-{ lying, missionary ,  {arms up | hands on own chest  |  breasts squeezed together }   |  straddling , cowgirl position, from below,  ceiling  ,  { sweat | hands on own chest  |  breasts squeezed together } } missionary, vaginal, 1boy, penis, spread legs , <lora:motion_blur_v0.3:1> , motion blur, 
- lying on bed , stomach,   spread legs , pussy , ass , , looking at viewer,  on bed , indoors, pussy , <lora:Saya-spread pussy(fingers)2:0.9> , spread pussy , front 
+{ lying, missionary ,  {arms up | hands on own chest  |  breasts squeezed together }   |  straddling , cowgirl position, from below,  ceiling  ,  { sweat | hands on own chest  |  bearsts squeezed together } } missionary, vaginal, 1boy, penis, spread legs , <lora:motion_blur_v0.3:1> , motion blur, 
+ lying on bed , stomach,   spread legs , pussy , ass , , looking at viewer,  on bed , indoors, pussy , <lora:Saya-spread pussy(fingers)2:0.8:lbw=OUTD> , spread pussy , front 
 <lora:pzuri:1:1:lbw=MIDD> , 1boy, breasts, heavy breathing, paizuri,penis  , ejaculation, projectile_cum, nipples, breasts squeezed together, cum on breast, 1boy, (penis:1.2), smile , laughing, front , looking at viewer,  pov , sweat, { cum | cum shot | sweat } 
 
 ### ヘッダー
@@ -54,6 +101,9 @@ sitting , spread legs , pussy , ass , indoors, pussy ,, front , <lora:dskbSPu:0.
 ### 体操座り
 <lora:kneestogetherfeetapart:0.8:lbw=MIDD> , knees together feet apart, sitting, panties, pantyshot
  
+### バック顔
+ <lora:front_view_all_fours_doggystyle_v1.0:0.85> doggystyle, all fours,  sex from behind, facing viewer
+
 ### うつ伏せ
 <lora:wpose:0.75:lbw=MIDD> , ass, lying, on stomach, pussy, spread legs, anus, spread legs, upper body,  on bed , { pillow hug | pillow grab } 
 
@@ -117,21 +167,28 @@ lying , ass focus , from behind , on back ,  missionary, vaginal, 1boy, penis, s
 <lora:EkuneCowgirl:0.45:lbw=MIDD> , cowgirlpose, (1boy, penis:1.1), cowgirl position, ass , pussy, anus  , bottomless  , ass grab , hip grab , __sell/template_missionary__  , on bed ,
 
 ### 横フェラ
- <lora:SideFellatio:0.7:lbw=MIDD> , sidefellatio,( 1boy, penis:1.2), fellatio, from side, cum in mouth , face up  , kneeing, 1boy 
+ <lora:SideFellatio:1> , sidefellatio, 1boy, penis, fellatio, from side, smile , laughing,  (heavy breathing:1.2),  
 
 # 768 * 512 横長
+1girl, (1boy, doggystyle:1.3), all fours, (sex from behind:1.3), facing viewer, nsfw ,  <lora:Doggy:0.8:lbw=IND> , on bed , { pillow hug | sheets grab } 
 <lora:PSCowgirl:0.75:lbw=MIDD> , 1boy,squatting cowgirl position, vaginal, pov, pussy
-<lora:EkunePOVFellatioV2:0.75:lbw=MIDD> , fellatio,  povfellatio, 1boy , (penis:1.2) ,  cum in mouth, cum drip, all fours,  doggystyle,  leaning forward, kneeling, 
+<lora:EkunePOVFellatioV2:0.75:lbw=MIDD> , fellatio,  povfellatio, 1boy , (penis:1.2) ,  cum in mouth, cum drip, all fours ,  front , pov ,  from above , (facial,  bukkake:1.3) , collarbone, 
  <lora:EkuneSideDoggy:0.75:lbw=MIDD> ,  sidedoggystyle, 1boy, ass, doggystyle, sex, all fours, standing sex, torso grab, top-down bottom-up,  ({ pillow hug | sheet grab}:1.2) ,  looking at viewer,  sweat, (trembling:1.3)
  <lora:EkuneProneBone:0.75:lbw=MIDD> , proneposition, prone bone, 1boy, ass, lying, sex from behind, pillow, prone bone, (1boy:1.2),  lying, (sex from behind:1.3), (sex:1.3), looking at viewer, legs together, (motion blur), (motion line), boy holding girl , from side  ,  ({ pillow hug | sheet grab}:1.2) , (trembling:1.3) ,  looking at viewer,  sweat, nose blush, 
- <lora:fucsil1:0.75:lbw=MIDD> ,  on bed, simple background, indoors, sex from behind, 1boy, (motion lines:1.5), (trembling:1.3)
+ <lora:EkuneProneBone:0.75:lbw=MIDD> , proneposition, prone bone, 1boy, ass, lying, sex from behind, pillow, prone bone, (1boy:1.2),  lying, (sex from behind:1.3), (sex:1.3), looking at viewer, legs together, (motion blur), (motion line), boy holding girl , from side  ,  ({ pillow hug | sheet grab}:1.2) , (trembling:1.3) ,  looking at viewer,  sweat, nose blush, 
+ <lora:fucsil1:0.75:lbw=MIDD> ,  on bed, simple background, indoors, sex from behind, 1boy, (motion lines:1.5), (trembling:1.3), (motion blur:1.2), 
+ <lora:fucsil1:0.75:lbw=MIDD> ,  on bed, simple background, indoors, sex from behind, 1boy, (motion lines:1.5), (trembling:1.3), (motion blur:1.2), 
+
+## 新正常位
+<lora:MissionaryVaginal-v2:0.7:lbw=MIDD> ,spreading legs,(missionary vaginal fuck) , laying in bed , uncensored , 1pillow ,  (pov),(deep penetration:1.3), (motion lines,  motion blur:1.2),  ( torso grab:1.2),  half open mouth,  heavy breathing,  embarrassed,  Creampie , close up , Amateur  , sweat,  drooling, <lora:pov_torso_grab_v0.1a:1>pov hands
+
 
 ## パイズリ 640 * 640推奨
 <lora:pzuri:1:1:lbw=MIDD> , 1boy, breasts, heavy breathing, paizuri,penis  , ejaculation, projectile_cum, nipples, breasts squeezed together, cum on breast, 1boy, (penis:1.2), smile , laughing, front , looking at viewer,  pov , sweat, { cum | cum shot | sweat } 
 
 
 ## フェラ 768*512 (横長推奨)
-<lora:EkunePOVFellatioV2:1:lbw=MIDD> , fellatio,  povfellatio, 1boy , (penis:1.2) ,  cum in mouth, cum drip, all fours,  doggystyle,  leaning forward, kneeling, 
+<lora:EkunePOVFellatioV2:1:lbw=MIDD> , fellatio,  povfellatio, 1boy , (penis:1.2) ,    bukkake,  { sweat | facial , bukkake ,  <lora:bukkake_v0.4:1> } 
 
 ## 横ドギー 768*512 推奨
  <lora:EkuneSideDoggy:0.65:lbw=MIDD> ,  sidedoggystyle, 1boy, ass, doggystyle, sex, all fours, standing sex, torso grab, top-down bottom-up,  ({ pillow hug | sheet grab}:1.2) ,  looking at viewer,  sweat, (trembling:1.3)
@@ -142,11 +199,18 @@ lying , ass focus , from behind , on back ,  missionary, vaginal, 1boy, penis, s
 ## 後ろから
  <lora:fucsil1:1:lbw=MIDD> ,  on bed, simple background, indoors, sex from behind, 1boy, (motion lines:1.5), (trembling:1.3)
 
+## オナ
+ <lora:masturbation-v1:1>masturbation, fingering, female_masturbation, grabbing_own_breast , sitting , on bed , spread legs,  __nsp/my/angle__ , looking at viewer, 
 
 # 640 * 640
 <lora:pzuri:0.6:lbw=MIDD> , 1boy, breasts, heavy breathing, paizuri,penis  , ejaculation, projectile_cum, nipples, breasts squeezed together, cum on breast, 1boy, (penis:1.2), smile , laughing, front , looking at viewer,  pov , sweat, { cum | cum shot | sweat } 
 <lora:female_masturbation_v0.5:0.7> , 1girl , female masturbation, { open eyes  | one eye closed | closed eyes }  { spread legs | wariza | lying , on stomach } , on bed , pussy, orgasm, female orgasm, pussy juice, nose blush, ,  { closed mouth | open mouth }  , sweat,  __nsp/my/angle__ , { own breast grab | sweat }  , (trembling:1.5), 
 <lora:female_masturbation_v0.5:0.7> , 1girl , female masturbation, { open eyes  | one eye closed | closed eyes }  , { 3::spread legs | wariza }  , on bed , pussy, ahegao , pussy juice, nose blush, ,  { closed mouth | open mouth }  , sweat,  __nsp/my/angle__ , { own breast grab | sweat }  , (trembling:1.5), 
+1girl, 1boy, doggystyle, all fours, sex from behind, facing viewer, nsfw <lora:Doggy:0.8:lbw=MIDD> , on bed , { pillow hug | sheets grab } 
+nsfw,pov,astride,thrusting <lora:cowgirl_with_hands_on_knees_v1.0:0.8:lbw=MIDD> , thrusting ,( motion lines,  motion blur,:1.4)  
+
+# Batch
+lying , on bed , pussy , vaginal , open crotch , hands on crotch 
 
 
 ## 終わり
@@ -201,6 +265,11 @@ looking down , face down , ceiling , arms on knee , frown , (from below:1.2), fl
 
 
 # Controlnet
+
+## オマンコ開き
+C:\イラスト関係\成果\保存\Controlnet\ctrlnet\OpenposeNSFWPresenting_v10\OpenPose\batch
+
+pussy , vaginal , open pussy ,  cum in pussy 
 
 ## 足裏 深度　無し
 
