@@ -19,11 +19,23 @@ sitting , hugging own legs,  on ground , (white panties:1.3), (knees together fe
 ### 導入 パンツ
 sitting , spread legs,  on ground , (pink panties , lingerie , lace panties :1.3), (knees together feet apart,:1.3)    , legs wrap tentacles,  arms wrap tentacles torso wrap tentacles, 
 
+
+## 導入　見直し
+
+キャラ
+{ sitting , on ground , spread legs,  legs wrap tentacles ,  { mucus ,covering breasts,  covering crotch }    |  knees together feet apart, sitting,  |  3::doggystyle,  all fours,  { 2::front , cleavage collarbone , open clothes  |  ass , legs wrap tentacles , from behind , spread legs }   }  ,  ({ white | light pink | light blue }  panties , { 2::lace panties , lingerie |  cotton panties  } :1.2),   legs wrap tentacles , torso wrap tentacles BREAK
+ { {8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared | frown |  shouting | panicking | half-closed eyes }  }  ,   (trembling:1.1), { 4::open mouth | clenched teeth | (one eye closed:1.4)  , wavy mouth | close mouth } , { 4::(looking away:1.5) | face down | looking at viewer } , close-up character,  { 3::sweat | (multiple views, split view:1.2) } 
+
 ## 導入2
 nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.4) , tentacle pit <lora:Tentacles:0.65:0.5:lbw=ALL:stop=10> , 
 キャラ, 胸の大きさ , (open clothes:1.1),  nipples,  legs wrap tentacles,  arms wrap tentacles , torso wrap tentacles,  tearing up,  streaming tears, 
 { sitting ,  (white panties:1.3) , lingerie,  legs wrap tentacles ,  { mucus ,covering breasts,  covering crotch }    | knees together feet apart, sitting, , ( white panties:1.1)  |  2::doggystyle,  all fours, ass ,  from behind , white panties  } , (in tentacle pit ,  in dark room :1.2) ,  BREAK
  { {8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared | frown |  shouting | panicking | half-closed eyes }  }  ,   (trembling:1.1), { 4::open mouth | clenched teeth | (one eye closed:1.4)  , wavy mouth | close mouth } , { 4::(looking away:1.5) | face down | looking at viewer } ,  { 1.4::(sweat:0.8) | (multiple views:1.2), (multiple views, split view:1.5), (close-up face, close-up upper body:1.4),White (square:1.2) (borders:0.8), } , (looking away:1.1)  BREAK
+
+
+## 挿入見直し
+nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tentacle pit ,
+{  missionary vaginal, spread legs,  deep insertion , huge tentacles  , missionary , | 3::(from behind:1.3) , leaning forward,  (wall:1.1) , (touch the wall  , wall on hands:1.2) ,   |  all fours,  doggystyle, from behind , pussy vaginal , ass , spread legs |  knees together feet apart, sitting, arms up , restrained tentacles,  arms wrap tentacles  | { lying, missionary ,  {arms up | arms behind head | arms behind back  }   |  straddling , cowgirl position, squatting,  from below,  ceiling  }  } , tentacle is penis , penis in pussy ,  tentacles sex , large insertion , deep insertion ,  gangbang,  grabbing tentacles,   close-up pussy in tentacles ,  ass focus , (looking away,:1.3) , (tentacles in pussy:1.2) , tentacles in vaginal ,  tentacles sex , multiple insertion , large insertion ,  {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts } 
 
 ## 挿入
 
