@@ -1,0 +1,156 @@
+AI呪文10異世界ファンタジー編
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+おまじない※この辺入れておけばいいかな
+isekai, 異世界、
+fantasy, ファンタジー、
+fictional, 架空の、
+
+背景関連
+medieval city main street, 中世都市のメインストリート、
+outdoors, アウトドア
+indoors, インドア
+rubble ruins, 廃墟
+forest, 森林
+old castle, 古城
+cave, 洞窟
+inside the cave, 洞窟の中
+swamp, 沼地
+In town, 街中
+
+各種職種（〇〇〇_costume, にするとその職業の衣装に大抵はなる
+warrior, 闘士
+fighter, 戦士
+Swordsman, 剣士
+knight, 騎士
+mage, 魔法使い
+witch, 魔女
+wizard, 魔法使い　※wizardry, 魔術師
+Archer, 弓使い
+priest, 祭司、僧侶
+cleric, 聖教者
+cassock, 司祭平服　※シスター服になるかな
+Thief, 盗賊
+Assassin, アサシン
+ninja, 忍者
+samurai, 侍
+alchemist, 錬金術師
+blacksmith, 鍛冶屋
+
+各種防具
+armor, 鎧
+bikini armor, ビキニアーマー
+leather armor, レザーアーマー（素材鎧
+plate armor, プレートアーマー（素材鎧
+robe, ローブ
+cloak, マント、外套、クローク
+hooded cloak, フード付きマント（wear a hood,でフードをかぶる
+mage robe, 魔術師のローブ
+paladin robe, パラディンローブ
+helmet, ヘルメット
+gauntlets, ガントレット
+greaves, グリーブ
+shirts, pants, belts, gloves, boots, シャツ、パンツ、ベルト、グローブ、ブーツ、
+
+※職業_costume,shirts,pants,belts,gloves,boots,で結構いける
+
+各種武器
+sword, ソード
+greatsword, グレートソード
+rapier, レイピア
+Japanese sword, 日本刀
+
+spear, 槍
+bardiche, バルディッシュ
+
+shield, 盾
+large shield, 大楯
+
+magic staff, 魔法の杖
+Wood Staff, 木の杖
+gnarled wooden staff, 節くれだった木の杖
+
+Bible, 聖書
+Book, 本（普通の
+Grimoire, 魔道書
+
+bow, ボウ
+longbow, ロングボウ
+crossbow, クロスボウ
+bowgun, ボウガン
+
+その他道具
+Backpack, バックパック
+Potion, ポーション（瓶に入っている
+Scroll, スクロール
+Torch, たいまつ
+Lantern, ランタン
+
+ポーズなど
+fighting stance, ファイティングスタンス
+fighting pose, ファイティングポーズ
+holding a sword, 剣を握っている
+holding a flaming sword, 炎の剣を握っている、
+holding a lightning sword, 雷の剣を握っている、
+holding a frozen sword, 凍結の剣を握っている、
+Equipped with an shield, 盾を装備している
+
+アクションバトルポーズ、モーションブラー、シーンスピード、バトルエフェクト、
+aciton battle pose,(motion blur),(sense of speed),(Battle Effects),
+
+魔法エフェクトの一部　※詳しくは、03魔法使い編を
+magic circle, 魔法陣
+Summons a golem, ゴーレム召喚
+Shoot fireball at the enemy, 敵に向かって火の玉を発射し（イメージはメラ系
+Shoot flame rays at the enemy, 敵に火炎光線を発射し（イメージはギラ系？
+Shoot waterball at the enemy, 敵に向かって水球を発射し（イメージはザバ系
+Shoot lump of ice at the enemy, 氷の塊を敵に撃ち込み（イメージはヒャド系
+Shoot chemical explosion at the enemy, 敵に向けて化学爆発を発射し（イメージはイオ系
+Shoot swirling wind blade at the enemy, 渦巻く風の刃を敵に向けて発射し（イメージはバギ系
+Shoot lightning strike at the enemy, 敵に雷撃を放ち（イメージはデイン系
+
+The castle is explosion with magic, 魔法で城が爆発している
+burning explosion background, 燃焼爆発の背景
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+☆衣装テンプレ☆
+女騎士（ナイト
+knight_costume, altyn helmet, armor, chest protector, gauntlets, greaves, knee pads, elbow pads, pauldrons, faulds, skirt, cape, holding a sword, Equipped with an shield,
+
+新人冒険者風（剣士にしてるだけ
+Swordsman_costume, leather clothes, shirt, pants, belt, gloves, boots, cloak, holding a sword, has a shield,
+
+弓使い（アーチャー
+Archer_costume, leather_armor, cloak, pants, gloves, shoes, holding a longbow, arrow,
+
+錬金術師（アルケミスト
+alchemist_costume, belt pouch,flask, holding test tube,
+
+吟遊詩人（バード
+Bard_costume, playing classical guitar, cape, puffy_sleeves, thigh_boots, green clothes,
+
+魔女（ウィッチ
+witch_costume, black witch hat, off-shoulder slit dress, detached sleeves, cape, g-string, garter belt, lace legwear, high-low skirt, black ankle boots, thighhighs, hoop earrings, pendant, holding magic staff,
+
+魔法使い（ウィザード
+wizard_costume, green witch hat, green robe, green cape, pants, shoes, hoop earrings, pendant, holding magic staff,
+
+エルフ魔法使い（エルフウィザード
+wizard dress, green cape, shoes, hoop earrings, pendant, holding magic staff,
+blonde hair, middle hair, twin braids, aqua eyes, pointy ears,
+
+治癒士（ヒーラー
+Healer_costume, shirts, pants, belts, boots, holding a mace, Equipped with an shield,
+
+聖職者（クレリック
+cleric_costume, robe, cap, gloves, boots, buddha rosary, bracelet, holding a wand,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
+
+
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+このへん見ておくといいかも
+https://hikari-aiart.com/stablediffusion-pronpt-fantasy-costume/
+

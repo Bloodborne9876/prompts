@@ -269,7 +269,7 @@ artoria pendragon \(swimsuit archer\) \(fate\)
 artoria pendragon \(swimsuit archer\) \(first ascension\) \(fate\)
 artoria pendragon \(swimsuit ruler\) \(fate\)
 artoria pendragon \(swimsuit ruler\) \(second ascension\) \(fate\)
-aru \(blue archive\)
+aru \(blue archive\) , white gloves, horns, high-waist skirt, fur-trimmed coat, white shirt, high heels, neck ribbon, coat on shoulders, anklet , teen , 16yo , 
 aru \(new year\) \(blue archive\)
 arulumaya
 arurandeisu
@@ -1700,7 +1700,7 @@ kawakaze \(azur lane\)
 kawashima sapphire
 kawashiro nitori
 kaya \(blue archive\)
-kayoko \(blue archive\)
+kayoko \(blue archive\) , kayoko, red eyes, black hair, white hair, hair between eyes, multicolored hair, two-tone hair, black ponytail, ear piercing, demon horns, halo, horns, wings, low wings, single wing, two-tone hair, choker , expressionless,   teen , 16yo ,  sandals ,   light smile, 
 kayoko \(new year\) \(blue archive\)
 kazama iroha
 kazama iroha \(1st costume\)
@@ -2473,7 +2473,7 @@ musubime yui
 mutsu \(azur lane\)
 mutsu \(kancolle\)
 mutsuki \(azur lane\)
-mutsuki \(blue archive\)
+mutsuki \(blue archive\) , purple eyes,white hair,side ponytail,halo,pointy ears,cropped jacket,short sleeves,high-waist skirt, frilled skirt,black boots,a thigh strap ,  teen , 16yo , 
 mutsuki \(new year\) \(blue archive\)
 mutsuki tooru
 my melody
@@ -3254,7 +3254,7 @@ seofon \(granblue fantasy\)
 seox \(granblue fantasy\)
 serafall leviathan
 serah farron
-serika \(blue archive\)
+serika \(blue archive\),red eyes,black hair,long hair,twintails,halo,animal ears,school uniform,blazer,pleated skirt,plaid skirt,necktie,bike shorts,black socks,sneakers , (blue hair ribbon:1.2) 
 serika \(new year\) \(blue archive\)
 serika \(swimsuit\) \(blue archive\)
 serina \(blue archive\)

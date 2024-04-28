@@ -1,0 +1,319 @@
+﻿AI呪文03気になるもの編
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+サンキュー看板
+(Holding a sign that reads "Thank You."),
+グッジョブ看板
+(Holding a sign that reads "Good Job."),
+おはよう看板
+(Holding a sign that reads "Good Morning."),
+ウェルカム看板
+(Holding a sign that reads "Welcome."),
+ごめんねソーリー看板
+(Holding a sign that reads "Gomen Ne Sorry."),
+
+愛してる看板
+(Holding a sign that reads "I love you."),
+
+※(Holding a sign, reads "Good Job."),これでも看板は出る
+
+※番外看板
+やっぱり神なんていなかったんだ。看板（BingではNGだった
+(Holding a sign that reads "There was no God after all."),
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+ポジティブおまじない※品質呪文を混ぜて使う。これは例です
+masterpiece, best quality, ultra detailed, 
+masterpiece, best quality, ultra detailed, super fine concept art, hard surface,
+masterpiece, best quality, ultra detailed, high resolution,
+masterpiece, best quality, ultra detailed, high resolution, 8K, detailed beautiful face and eyes, very detailed background,
+
+ちびおまじない
+masterpiece, best quality, ultra detailed, high resolution, misshapen,
+かわいいちび化
+ultra cute kawaii, (chibi:1.4),
+
+
+品質：全体
+masterpiece,（名画、最高傑作）入れるだけで品質が上がるので基本必要。
+best quality,（最高品質 ）入れるだけで品質が上がるので基本必要。
+ultra detailed,　（より詳細な、より精密に）
+extremely detailed CG,　（超精密ＣＧ）
+high resolution,　（高解像度）
+4K,　（4K品質）描き込みが増える。
+8K,　（8K品質）より描き込みが増える。
+unreal engine,　（３ＤＣＧ風のリアルな感じに）
+
+品質：部分的
+cinematic lighting,　（シネマティックライティング）人物の後ろから光が当たった感じに。
+dynamic lighting,　（ダイナミックライティング）ハイコントラストに。
+rembrandt lighting,　（レンブラントライティング）モデルの斜め前方向から照明を当てることにより、立体感を印象深く強調できる。
+warm lighting,　（暖かみのあるライティング）
+beautiful mechanics,　（機械の構図が詳細になる）
+super detailed skin,　（きめ細やかな肌に）
+detailed beautiful eyes,　（目を美しく）
+detailed beautiful face,　（顔を美しく）
+detailed beautiful face and eyes,　（顔と目を美しく）
+very detailed background,　（背景を細やかに）
+highly detailed background,　（背景をより細やかに）
+elaborately designed clothes,　（凝ったデザインの服に）
+
+super fine concept art, 機械関係の品質アップ呪文
+hard surface,メカっぽくする呪文
+
+タッチや画風
+animated, アニメ化
+Animification, アニメ化
+Anime Screencap, アニメのキャプチャ風
+Cel Anime,日本のアニメ風
+Novel Illustration,小説の挿絵風
+Official Art,公式アート風
+3D render, 3DCG風
+clay animation style, クレイアニメ風
+
+american comic, アメコミ風※わかりずらいよー
+comic style, コミック風※コマ割りが付くみたい
+comic cover, コミック表紙※読めない文字の表紙になるよー
+trading card, card frame, TCG風※カードフレームが付く
+game user interface, ゲーム画面風※ゲーム画面のようなウィンドウ等が出ます。
+
+anime colored, アニメ塗りだよ
+realistic,　よりリアルなタッチに。3Dよりの表現
+photorealistic,　さらにリアルなタッチに。ほぼ写真よりの表現
+hyperrealistic,　超リアルなタッチに
+nihonga,　日本画風
+ukiyo-e,　浮世絵風
+cyberpunk, サイバーパンク
+steampunk, スチームパンク
+
+in ○○○○ style　例、in FGO style
+in Dragon Ball style,
+in kyoto animation style,
+in girls und panzer style,
+in chainsaw man style,
+
+映画風ライト、映画風シャドー、映画風アングル　※リアル調になる気がする
+cinematic lighting, cinematic shadows, cinematic angle,
+
+動的なアングル
+dynamic angle,
+
+激しいアングル
+intense angle,
+
+ダッチアングル（カメラを傾けて、あえて水平にせず撮影する方法
+dutch angle,
+
+正面から顔に光を当てるらしい
+lighting front, 又は　lighting forward,
+
+
+背景
+outdoors, アウトドア
+beach, 浜辺
+lantern floating, 灯籠流し
+rubble ruins, 廃墟
+cliff, 崖
+Rehearsal hall, 稽古場（リハーサルホール）
+practice room, 練習室
+new york city, outdoors, midnight,ニューヨーク市、屋外、真夜中、
+
+異世界、ファンタジー、中世都市のメインストリート、
+isekai,fantasy,medieval city main street,
+
+赤と黄色のサンバースト パターンの背景、
+(red and yellow sunburst pattern background:1.4),
+
+陰陽図の背景
+(yin and yang diagram background),
+
+龍の背景
+(Oriental dragon background),
+
+剣、盾　を握る
+※(holding a sword), (holding a shield),
+
+真剣な表情、
+serious expression,
+真剣な顔、
+serious face,
+
+爆笑（ニシシシシシって感じで笑う
+grinning squinting face,
+
+>_<, :d, の合わせでかつ、ちびキャラだと(≧∇≦)こんな顔になる※貰い物
+
+;d,　笑顔でウィンク
+:3,　猫口（ω）
+;3,　猫口でウィンク（＞ω・）キュピ
+
+絶対領域※プロンプトが邪魔になることもある
+zettai ryouiki,
+
+ポーズ
+stylish pose,スタイリッシュポーズ
+action pose,アクションポーズ
+dynamic pose, ダイナミックポーズ
+acrobatic pose,アクロバティックポーズ
+
+fighting stance,ファイティングスタンス
+battle, バトル
+
+((action pose, motion blur)), モーションブラー付きアクションポーズ
+kung fu pose, kung fu aciton, 等もある
+
+ダイナミックバトルポーズ、モーションブラー、シーンスピード、バトルエフェクト、
+dynamic battle pose,(motion blur),(sense of speed),(Battle Effects),
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+特殊構図
+reference sheet　キャラ設定
+three views from front, back and side　キャラクター三面図
+costume setup materials　設定画風
+bust chart　作品登場キャラの胸の大きさランキングのような構図
+character chart　キャラ一覧
+to many pose ポーズ集
+on the screen of smartphone camera app frame　スマホのカメラ画面
+
+輪郭線とか
+hard-edged, 鮮明な線
+bold, 太い線
+bold outline, 太い輪郭
+thick outline, 厚い輪郭
+black outline, 黒い輪郭
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+吹き出しや
+speech_bubble
+
+吹き出し表示(マーク)
+｢♡｣マーク　→　spoken heart
+｢？｣マーク　→　spoken question mark
+｢！｣マーク　→　spoken exclamation mark
+｢♪｣マーク　→　spoken musical note
+｢💢｣マーク　→　spoken anger vein
+
+吹き出しにブロッコリーが出る（object,の後に記入したものを表示
+spoken object,broccoli,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+☆ブルマ（簡易　ガチャ必須
+white gym uniform , black buruma,
+white gym shirt, black buruma,
+
+☆アメスク（簡易　ガチャ必須
+tied blouse, open blouse, cleavage, wearing school girl,
+tied shirt, 
+※ネガティブに
+tie, long tie, bow tie, necktie, collar, ribbon tie,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+片目隠れ髪、髪透過して目表示
+hair over one eye, eyes visible through hair,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+白Tシャツにプリント（とりあえずピカチュウ
+white T-shirt printed pikachu,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+マジック・ザ・ギャザリングを（トレーディングカードを）遊んでいる
+(Magic: The Gathering:1.2), playing trading card game,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+少女はハンバーグステーキを食べるパグ犬を抱きしめる、
+girl hugs pug dog eating hamburg steak,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+女性が男の子を膝に乗せて絵本を読んであげます、
+A woman puts a boy on her lap and reads a picture book to him,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+女の子が焚き火でマシュマロを焼いて食べる
+A girl roast marshmallows on a bonfire and eat them,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+セーラー服部分を半透明にする
+sailor, (((see through sailor))), dark blue pleated skirt, red neck ribbon, 
+print bra, g-string, ankle socks brown loafers, 
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+指で口の端を引っ張ってイーってする　※貰い物
+finger in mouth, hooking mouth own middle-fingers
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+クラシックオープンカーを運転する、ハイウェー、外、日中
+Driving a classic convertible car, highway,outdoors,day,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+幽霊に取り憑かれて支配されている女の子のアニメ風イラスト、白目、
+An anime-style illustration of a girl possessed and controlled by a ghost, Blank Eyes,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+お盆迎え火、提灯、
+Obon welcoming fire, lanterns,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+屋根にはしごが付いた消防車、
+A fire engine with a ladder on the roof,
+荷台にはしごを載せた消防車、
+A fire truck with a ladder on the carrier,
+
+※アメリカでは[fire truck]をはしご車、[fire engine]を消防車と使い分ける場合もあるとのこと（とあるサイト情報より
+
+AIだと、あまり差が…わからんちん
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+消防関連（消防士、消防車、消火活動、住宅火災など）※Bingで使うといいかも
+(masterpiece,best quality),ultra high res,misshapen,
+(chibi:1.4),(firefighter girl) in fire, (do firefighting), (Water cannon), (angry),
+Buildings burning up in house fire, fire-engine,
+spraying water on a burning house,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+ゴーストバスターズの服
+masterpiece, best quality, ultra detailed, high resolution, misshapen,
+cowboy shot, chibi, 
+(ghost buster uniform:1.3),
+messy hair,short hair,brown hair,ahoge,brown eyes, tareme, 
+
+ゴースト、人魂、スカルフレイム
+((ghost:1.4)),(human soul:1.3),(Skull_Flame:1.2),
+
+コテコテの女幽霊
+triangular headpiece, white kimono,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+スライムに襲われて鎧や衣服が溶ける（スライムに取り憑かれる）
+(((clinging to slime and possessed:1.4))),
+(torn clothes:1.2),(torn chest protector:1.2),(torn gauntlets:1.2), (torn pauldrons:1.1),
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+巫女服（神社付きshrine　※頂きました
+hakama, hakama_skirt, japanese_clothes, kimono, long_sleeves, tabi, zouri, miko, red_hakama,skirt, sleeves_past_wrists, torii, white_kimono, wide_sleeves, shrine, japan
+
+ネガティブに追加
+bare shoulders,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+ドラゴンボール風オーラチャージ・Bing版
+Anime Screencap, In Dragon Ball style, A you is charging its aura,
+
+飛び出す、突進体当たり攻撃、
+jump out, Rushing body attack, 
+
+手のひらからエネルギー波を発し、
+Emit energy waves from your palms,
+
+前方に突き出した掌からビームを発射し、
+shoot a very large beam from the palm that sticks out forward,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+[ネガティブ]
+(low quality,worst quality:1.4),
+extra limbs,missing limb,extra digit,fewer digit,missing digit,missing finger,fused fingers,mutated hands and fingers,
+
+以下必要に応じて
+bad anatomy, bad hands, bad arms, extra fingers,
+multiple angle, multiple views, 
+mouth mask, glasses,
+(animal ears, fake animal ears, pointy ears, devil ears:1.4),
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー

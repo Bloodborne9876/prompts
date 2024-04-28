@@ -1,0 +1,57 @@
+﻿AI呪文05動物騎乗編
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「馬に乗る」
+masterpiece, best quality, ultra detailed,
+(Riding on a horse),
+1girl,solo,
+white t-shirt, bule denim shorts, white bra, white panties, 
+white socks, sneakers, bracelet, yellow star earrings,
+brown hair, messy hair, short hair, ahoge, purple eyes, tareme,
+forest,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+[ネガティブ]
+(low quality,worst quality:1.4),
+extra limbs,missing limb,extra digit,fewer digit,missing digit,missing finger,fused fingers,mutated hands and fingers,
+
+※他の動物などに乗せた場合、バイクや馬が出る確率を押さえる（必須というわけではない
+(bicycle,motorcycle:1.4),
+(horse:1.4),
+
+以下必要に応じて
+bad anatomy, bad hands, bad arms, extra fingers,
+multiple angle, multiple views, 
+mouth mask, glasses,
+(animal ears, fake animal ears, pointy ears, devil ears:1.4),
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+☆騎乗系
+riding on motorcycle, バイクに乗る
+ride a bike, 自転車に乗る
+ride a horse, 馬に乗る
+Astride a horse, 馬にまたがって
+
+
+動物の巨大なガマ蛙の背中に乗る、
+(Ride on the back of an animal giant toad:1.3),
+
+動物の巨大なハムスターの背中に乗る、
+(Ride on the back of an animal giant hamster:1.3),
+
+龍の背中に乗る
+ride on the back of a chinese green dragon,
+ride on the back of a Oriental green dragon,
+
+アルパカに乗る
+ride an alpaca,
+ゾウに乗る
+ride a Elephant,
+
+四輪バギーに乗っている、
+ride a quad buggy,
+
+※ハムスターとか小さい動物や騎乗用動物でない場合乗るのが大変
+※小さい動物は「animal giant 〇〇〇」にするとか
+※なかなか乗らない場合強調しましょう
+
+
