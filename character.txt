@@ -26,7 +26,7 @@ abigail williams \(traveling outfit\) \(fate\)
 absinthe \(arknights\)
 abyss mage \(genshin impact\)
 accelerator \(toaru majutsu no index\)
-acheron \(honkai: star rail\)
+acheron \(honkai: star rail\) , long hair, short shorts, leg tattoo, single knee boot, single thigh boot, midriff, black gloves, hair ornament, choker, long coat, single sleeve, single gauntlet, uneven legwear ,  <lora:Char-HonkaiSR-Acheron-XL-V2:0.9> ,
 achilles \(fate\)
 adam \(honkai impact\)
 admiral \(kancolle\)
@@ -755,7 +755,8 @@ dorothea arnault
 dorothea arnault \(plegian\)
 dorothea arnault \(summer\)
 dorothy \(arknights\)
-dorothy \(nikke\)
+dorothy \(nikke\) , nikke ,   pink hair, long hair, one side hair bun, braid, purple eyes, hair ribbon, hair ornament, purple ribbon, white dress, cleavage, large breasts, halterneck, frilled choker, frills, detached sleeves, puffy sleeves, white thighhighs , white high heels,  16yo , teen  , 
+dorothy \(nikke\) , nikke ,   pink hair, long hair, one side hair bun, braid, purple eyes, hair ribbon, hair ornament, purple ribbon,   nude, nake,  completely nude,  cleavage, large breasts,  white thighhighs ,  16yo , teen  , 
 dottore \(genshin impact\)
 doujima nanako
 dp-12 \(girls' frontline\)
@@ -936,6 +937,7 @@ fionn mac cumhaill \(fate/grand order\)
 fiora \(xenoblade\)
 fir \(fire emblem\)
 firefly \(honkai: star rail\)
+<lora:firefly_new:0.7> , firefly \(honkai: star rail\) ,  Firefly's def clothes, def clothe, 1girl, black thighhighs, blue eyes, hairband, long hair, black hairband, fingerless gloves, skirt,  small breasts,  white shirt , 
 firewatch \(arknights\)
 firis mistlud
 fischl \(ein immernachtstraum\) \(genshin impact\)
@@ -996,7 +998,11 @@ fu hua \(phoenix\)
 fu hua \(shadow knight\)
 fu hua \(taixuan impression\)
 fu hua \(valkyrie accipiter\)
-fu xuan \(honkai: star rail\)
+//付玄
+fu xuan \(honkai: star rail\) ,  (yellow eyes:1.5), forehead jewel, hair ornament, hair stick, long hair, low twintails, parted bangs, pink hair, twintails,bare shoulders, black dress, bridal gauntlets, detached collar, detached sleeves, dress, jewelry, neck ring, pantyhose, skirt, white pantyhose, white skirt, small breasts,  flat chest,  12yo 
+fu xuan \(honkai: star rail\) ,  (yellow eyes:1.5), forehead jewel, hair ornament, long hair, low twintails, parted bangs, pink hair, twintails,bare shoulders, black dress, bridal gauntlets, detached collar, detached sleeves, dress, jewelry, neck ring, skirt,  white skirt, small breasts,  flat chest,  12yo  BREAK
+fu xuan \(honkai: star rail\) ,  (yellow eyes:1.5), forehead jewel, hair ornament, long hair, low twintails, parted bangs, pink hair, twintails, loli ,  (nude , naked, completely nude:1.3),  small breasts,  flat chest,  12yo  BREAK
+
 fubuki \(azur lane\)
 fubuki \(blue archive\)
 fubuki \(one-punch man\)
@@ -1234,7 +1240,7 @@ helm \(nikke\)
 henya the genius
 heracles \(fate\)
 hermione \(azur lane\)
-herta \(honkai: star rail\)
+herta \(honkai: star rail\) ,  long hair, grey hair, hair flower, beret, black headwear, joints, choker, key, sailor collar, shoulder cutout, white dress, detached sleeves , small breasts,  flat chest,  12 yo 
 hessian \(fate\)
 hestia \(danmachi\)
 hi-nu gundam
@@ -1338,6 +1344,7 @@ hoshikawa sara \(1st costume\)
 hoshikawa sara \(4th costume\)
 hoshimachi suisei
 hoshimachi suisei \(1st costume\)
+hoshimachi suisei , hololive,  \(1st costume\) , solo, side ponytail, blue hair ,  hoshimachi suisei, fingerless gloves, single thighhigh, jewelry, thigh strap, bracelet, buttons, plaid dress, blue choker, blue belt, plaid skirt, mini crown, grey skirt, blue ascot, long sleeves, plaid jacket  teen , 14yo , small breasts, 
 hoshimachi suisei \(3rd costume\)
 hoshimachi suisei \(maid\)
 hoshimachi suisei \(school uniform\)
@@ -1466,7 +1473,7 @@ inugami korone \(4th costume\)
 inui sajuna
 inui shinju
 inui toko
-inuyama aoi
+inuyama aoi , yurucamp,  mediam_hair, breasts, bangs, brown_hair, hair_ornament,, side_ponytail, swept_bangs, thick_eyebrows, hair_bobbles, skin_fang, green eyes , fang, sailor_collar,, sweater, , motosu school uniform, yellow sweater,  , , checkered pleated skirt,, white_neckerchief, 16yo ,
 inuyama tamaki
 invincible dragon \(last origin\)
 io \(granblue fantasy\)
@@ -1564,7 +1571,7 @@ jinako carigiri
 jing ke \(fate\)
 jing yuan
 jingburger
-jingliu \(honkai: star rail\)
+jingliu \(honkai: star rail\) , black gloves, blue dress, detached sleeves, hair ribbon, white skirt, pelvic curtain, halterneck, looking at viewer, parted lips, adjusting hair,  (blindfold:1.3), 
 jingwei \(bird\)
 jinno megumi
 jirou kyouka
@@ -1609,6 +1616,8 @@ kaga sumire
 kagami hayato
 kagami kira
 kagamihara nadeshiko
+kagamihara nadeshiko , blue eyes , pink hair ,  long hair, low twintails, hair between eyes , school uniform, light yellow sweater, sailor collar, serafuku, blue plaid skirt ,  pleated skirt,  (black pantyhose:1.4) , white necktie,  teen , 16yo , medium breasts, 
+
 kagamihara sakura
 kagamine len
 kagamine rin
@@ -1703,7 +1712,7 @@ kaya \(blue archive\)
 kayoko \(blue archive\) , kayoko, red eyes, black hair, white hair, hair between eyes, multicolored hair, two-tone hair, black ponytail, ear piercing, demon horns, halo, horns, wings, low wings, single wing, two-tone hair, choker , expressionless,   teen , 16yo ,  sandals ,   light smile, 
 kayoko \(new year\) \(blue archive\)
 kazama iroha
-kazama iroha \(1st costume\)
+kazama iroha \(1st costume\) , hololive , kazama iroha, blonde hair, fingerless gloves, japanese clothes, white thighhighs, haori, black gloves, bangs, pleated skirt, ponytail, chest sarashi, blue eyes, black hairband, hair ornament, leaf hair ornament, long sleeves, covered navel, breasts
 kazami yuuka
 kazano hiori
 kazuha's friend \(genshin impact\)
@@ -2059,6 +2068,7 @@ lunch \(bad\) \(dragon ball\)
 lunch \(dragon ball\)
 lunch \(good\) \(dragon ball\)
 luo xiaohei
+#羅刹
 luocha \(honkai: star rail\)
 lupusregina beta
 lust \(fma\)
@@ -2684,6 +2694,7 @@ nu gundam
 nuernberg \(azur lane\)
 nui sociere
 nui sociere \(1st costume\)
+#トパーズ
 numby \(honkai: star rail\)
 nun bora
 nun bora \(2nd costume\)
@@ -2938,7 +2949,10 @@ pururut
 pyra \(pro swimmer\) \(xenoblade\)
 pyra \(xenoblade\)
 qin liangyu \(fate\)
-qingque \(honkai: star rail\)
+##青雀
+qingque \(honkai: star rail\) , brown hair, low  twintails, looking_at_viewer, brown_hair, hairclip , bangs, green_eyes, grey_hair, detached_sleeves, socks, hairclip, dress , flat chest,  small breasts,   12yo
+qingque \(honkai: star rail\) , brown hair,  { 8::straight hair , long hair  |  low  twintails }  looking_at_viewer, brown_hair, hairclip , bangs, green_eyes, grey_hair,  { 10::(nude , naked, completely nude:1.3) | (torn clothes:1.3),  detached_sleeves, socks, hairclip, dress } , flat chest,  small breasts,  teen , loli ,  12yo ,
+
 qiqi \(genshin impact\)
 quanxi \(chainsaw man\)
 qubeley
@@ -3078,7 +3092,7 @@ roxy migurdia
 rozaliya olenyeva
 rpk-16 \(girls' frontline\)
 rpk-16 \(renate\) \(girls' frontline\)
-ruan mei \(honkai: star rail\)
+ruan mei \(honkai: star rail\) , china dress, green gloves, hair ornament, pumps, detached collar, necklace, capelet, thigh strap , medium breasts, blue green eyes , multicolored eyes , 18yo
 ruin guard \(genshin impact\)
 rukkhadevata \(genshin impact\)
 rumi \(blue archive\)
@@ -3142,7 +3156,7 @@ sakura kyoko
 sakura laurel \(umamusume\)
 sakura miko
 sakura miko \(1st costume\)
-sakura miko \(3rd costume\)
+sakura miko \(3rd costume\) , sakura miko, 1girl, solo, green eyes, long hair, ahoge, black headwear, white shirt, black thighhighs, pink hair, red skirt, plaid skirt, garter straps, hairclip, animal hat, low twintails, neck bell, breasts, long sleeves, black bow, underbust
 sakura miko \(4th costume\)
 sakura miko \(old design\)
 sakura miko \(school uniform\)
@@ -3429,7 +3443,7 @@ silence suzuka \(umamusume\)
 silica
 silica \(sao-alo\)
 silva \(granblue fantasy\)
-silver wolf \(honkai: star rail\)
+silver wolf \(honkai: star rail\) , small breasts,  flat chest, 12yo ,  shirt, hair ornament, gloves, navel, cleavage, bare shoulders, jewelry, medium breasts, jacket, hair ribbon, white shirt, thighs, earrings, open clothes, shorts, sleeveless, choker, black gloves, hairclip, midriff, fingerless gloves, armpits, off shoulder, stomach, open jacket, crop top, sleeveless shirt, thigh strap, black shorts, sunglasses, fishnets, eyewear on head, open fly, micro shorts
 silverash \(arknights\)
 silvervale
 sims \(azur lane\)
@@ -3496,7 +3510,7 @@ space ishtar \(fate\)
 space ishtar \(first ascension\) \(fate\)
 space ishtar \(second ascension\) \(fate\)
 space ishtar \(third ascension\) \(fate\)
-sparkle \(honkai: star rail\) , twintails, hair ornament, off shoulder kimono, mask on head, detached sleeves, choker, obi, single glove, cross-laced sandals, wristband, criss-cross halter, thigh strap
+sparkle \(honkai: star rail\) , black hair , long twintails,  (red off shoulder kimono:1.3), mask on head, detached sleeves, choker, obi, single glove, cross-laced sandals, wristband, criss-cross halter, thigh strap , small breasts,  flat chest,  12yo ,  red and purple eyes, multicolored eyes
 spas-12 \(girls' frontline\)
 spas-12 \(midsummer fruit\) \(girls' frontline\)
 special week \(hopping vitamin heart\) \(umamusume\)
@@ -4131,7 +4145,7 @@ yuigahama yui's mother
 yuisis \(granblue fantasy\)
 yukari \(blue archive\)
 yukari \(princess connect!\)
-yukihana lamy
+yukihana lamy  ,  long hair, streaked hair, ahoge, braid, beret, white headwear, hair flower, blue bowtie, cleavage, clothing cutout, white shirt, off shoulder, sleeveless, black corset, blue coat, snowflake print, fur-trimmed coat, open clothes, white thighhighs, brown belt, blue skirt , large breasts,  yellow eyes
 yukihana lamy \(1st costume\)
 yukihana lamy \(3rd costume\)
 yukihana lamy \(4th costume\)
@@ -4210,3 +4224,5 @@ zooey \(summer\) \(granblue fantasy\)
 zuikaku \(azur lane\)
 zuikaku \(the wind's true name\) \(azur lane\)
 zz gundam
+toloveru
+yabukikentarou,  to love-ru,  momo velia deviluke , pink eyes , pink hair , short hair , medium breasts,  skirt , yellow sweater vest, green checkered skirt, 
