@@ -170,10 +170,24 @@ Gumroad : https://0xffff.gumroad.com/
 
 
 ---
+ご要望にお答えして、Gumroadでのサブスクを開設しました🪄
+全部ではないですが、追加イラストがある場合があります。
+しばらくトライアルで置いておきますので、よろしければご覧ください。
+https://0xffff.gumroad.com/l/jczqdf
+
 以下の店舗で様々なイラスト集を販売中です。よろしければご覧ください。
 Booth : https://tanukimart.booth.pm/
 Gumroad : https://0xffff.gumroad.com/
 その他リンク集：https://potofu.me/0xffff
 
 
- 
+
+---
+Gumroadでサブスクやってます。投げ銭代わりにご利用ください。
+試作や先行公開など行っています。詳しくはお品書きをご覧ください。
+https://0xffff.gumroad.com/l/jczqdf
+
+以下の店舗で様々なイラスト集を販売中です。よろしければご覧ください。
+Booth : https://tanukimart.booth.pm/
+Gumroad : https://0xffff.gumroad.com/
+その他リンク集：https://potofu.me/0xffff

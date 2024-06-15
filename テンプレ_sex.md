@@ -56,7 +56,7 @@ angry ,  disgust,   clenched teeth,  (heavy breathing:1.2) ,  (trembling:1.1),  
 <lora:PSCowgirl:0.75:lbw=MIDD> , 1boy,squatting cowgirl position, vaginal, pov, pussy
 <lora:PSCowgirl:0.75:lbw=MIDD> , 1boy,squatting cowgirl position, vaginal, pov, pussy
 <lora:CONCEPT-HipGrabCowgirl:1> , POVHipGrabCowgirl, hetero, vaginal , penis in vaginal , open pussy , 
-lying , ass focus , from behind , on back ,  missionary, vaginal, 1boy, penis, spread legs , <lora:motion_blur_v0.3:1> , motion blur, 
+lying , ass focus , from behind , on back ,  missionary, vaginal, 1boy, penis, spread legs , <lora:motion_blur_v0.3:1> , motion blurbest quality, masterpiece, very aesthetic, absurdres , (ultrahigh resolution textures), bokeh, intricate details, hyperdetailed, (official art, extreme detailed,) ( highest detailed), HDR+ , , 
 <lora:EkuneCowgirl:0.75:lbw=MIDD> , cowgirlpose, (1boy, penis:1.1), cowgirl position, ass , pussy, anus  , bottomless  , ass grab , hip grab  , on bed ,
 <lora:SideFellatio:1> , 1boy , sidefellatio, 1boy, penis , fellatio, from side, cum in mouth , face up  , kneeing, 1boy 
 <lora:POVDoggy:0.4:lbw=MIDD> , from behind , all fours , doggy style ,  penis in pussy, on bed , sheet grab,  doggystyle, pov hands, ass grab, ({ pillow hug | sheet grab}:1.2) ,  looking at viewer, 
@@ -284,3 +284,7 @@ straddling , cowgirl position, from below,  ceiling  , sweat ,  missionary, vagi
  nude , spread legs,  perfect pussy , focus crotch  <lora:newb_0.1:0.2> , open pussy , female masturbation,  hands in pussy ,  orgasm,  female orgasm,  pussy juice,  sweat,  heavy breathing,   clenched teeth,  frown , trembling,   
 
 sitting , on chair , female masturbation,  pussy juice,  panties , ahegao , nose blush,  in classroom, 
+
+## メイドパイズリ
+
+1girl , solo , <lora:gakuen_idolmaster_pony_v2:0.75>  , HANAMI_UME ,HANAMI_UME , wavy hair,  medium hair,  orange hair,  orange eyes,  large breasts,   ahoge  , maid,  maid headdress,  maid apron,  bare shoulders,  large breasts,  miniskirt,  black thighhighs,  paizuri, in classroom , pov , indoors,  from above , penis , nipples,  (motion lines,  motion blur:1.3),  lotion on breasts,  head tilt,  heavy breathing,  orgasm, ecstasy, (bukkake , cum on breasts,  cum on body:1.2),   light smile ,  heavy breathing, 

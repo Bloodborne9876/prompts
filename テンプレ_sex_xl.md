@@ -4,6 +4,8 @@
 # フェラ
 1boy ,   mouth in penis ,  (irrumatio:1.3)  , fellatio,  mouth in penis , penis , in mouth , open mouth,  tearing up ,   , pov , on bed, doggystyle,  all fours,  from above  ,  , close-up , face 
 
+## まとめ
+1boy , on bed, sex , heavy breathing , { close mouth , (trembling:1.2)  | open mouth,  drooling } ,  { 1-2$$tearing up |  female orgasm | streaming tears }  , (motion lines, trembling:1.2),  {  skirt lift,  lifted by self,   { cowgirl position | missionary }  , pussy , vaginal ,   spread legs,  deep insetion  , { cum in pussy | sweat }   |  { front | from behind ,  , { cum in pussy | sweat }  } , all fours,  doggystyle  , { pillow grab |  sheet grab} ,  { ass grab | torso grab } | prone bone , { front | from side ,  { cum in pussy | sweat }  }  , { pillow grab |  sheet grab}  }  , { cum in pussy | sweat  }
 
 # 正常位
 1boy ,  on bed ,  penis in pussy ,  cum in pussy ,  1boy ,  (missionary,  sex , penis in pussy:1.3)  ,   on back , spread legs,  deep penetration,  ,    (torso grab:1.3),  (motion lines,  motion blur:1.8),  <lora:missionary:0.85>missionary sex 
@@ -12,6 +14,9 @@
 nsfw , {20$$(embarrassed, nose blush:1.3) | (ecstasy:1.3) | (slut:1.2) | (vulgarity:1.3) | (wet:0.8) | (trembling:0.8)| (tears:0.7) | (drooling:0.6) | (sweat:0.8) | {  6::open eyes | (closed eyes:1.4) } | wince | (orgasm:1.5) |(feeling weak:1.5) | sweat}  , { ahegao,  wave mouth, frown |  shouting , open mouth |   sweat , frown  }  , (heavy breathing:1.2) ,  { 6::sweat |  cum in pussy , cum on body , cum explosion  }  (trembling:1.1),  { tareme  } ,   BREAK
 { lying, missionary ,  {arms up | hands on own chest  |  breasts squeezed together }   |  straddling , cowgirl position, from below,  ceiling  ,  { sweat | hands on own chest  |  breasts squeezed together } } missionary, vaginal, 1boy, penis, spread legs , motion blur, 
 
+## 断面図
+
+multiple views, ( x-ray , cum in uterus :1.2) 
 
  # バック
  all fours,  doggystyle,  from behind , 1boy , sex , missionary,  crying , sad , pussy , ass  , in tent , torso grab,  pov , heavy breathing,  penis in pussy ,  (motion lines,  trembling:1.3),  looking at viewer, deep insertion , missionary ,  spread legs, 
@@ -23,6 +28,9 @@ nsfw , {20$$(embarrassed, nose blush:1.3) | (ecstasy:1.3) | (slut:1.2) | (vulgar
 
  ## しゃがみ
  sitting , squatting,  (knees apart feet together:1.5),   (front:1.3) , { smile , (head tilt:1.3) | (expressionless,  looking away:1.3) } ,  (front:1.2) , outdoors,  on bed ,  close-up pussy 
+
+
+
 
  ## 胸寄せ
  sitting , wariza , embarrassed , frown , light smile,  arms between breasts,  cleavage,   from above , head tilt , looking at viewer,  close-up face , indoors,  on bed 
@@ -36,3 +44,8 @@ lying , on bed ,  covering breasts,  open mouth,  upper body,  on bed , pillow, 
   indoors,  in love  hotel ,  BREAK
   open mouth,  from below , spread legs,  standing , close-up pussy , embarrassed,  ceiling,  open mouth, 
    
+
+   ## ディルドオナにー
+
+
+   nude , naked, completely nude,  on floor , masturbation,  orgasm,  open mouth,  cowgirl position , dildo riding,   ,  front , small breasts,  flat chest,  drooling,   hands on Clitoris ,  hands on nipples,  trembling,  female orgasm, female ejaculation, 

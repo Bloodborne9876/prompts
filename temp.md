@@ -29,4 +29,63 @@ sunlight,  lens flare , pussy , vaginal
 ### 1
 1girls ,  front , (head tilt:1.2),  light smile , ?,   platinum blonde hair, short hair,  braid , red eyes , orange eyes ,  multicolored eyes,  (pointy ears:1.2),  in park bench , in village,  from side , cleavage , hemp robe , simple white  robe 
 sunlight,  lens flare  , open mouth, 
-- 
+
+### 黒髪
+
+best quality, masterpiece, very aesthetic, absurdres , (ultrahigh resolution textures), bokeh, intricate details, hyperdetailed, (official art, extreme detailed,) ( highest detailed), HDR+ BREAK
+1girls ,  front , standing , platinum blonde hair, short hair,  braid , red eyes , orange eyes ,  multicolored eyes,  (pointy ears:1.2), on grass, in village,  from side , cleavage , hemp robe , simple white  robe , black obi ,   mini skirt , 
+sunlight,  lens flare  , open mouth,  looking at viewer,  smile , 
+
+### sex
+score_9, score_8_up, score_7_up, best quality, masterpiece, very aesthetic, absurdres , megami magazine, bokeh, intricate details, hyperdetailed, (official art, extreme detailed,) ( highest detailed), HDR , game cg , megami magazine , BREAK <lora:Difference_EdgeEmphasisForEbaraPonylr1e04:0.3>, <lora:Difference_BodyShadowForEbaraPony:0.3> , teen , 14yo , realistic , large breasts,
+<lora:gakuen_idolmaster_pony_v2:0.7> , in hotel ,  HIMESAKI_RINAMI , short sleeves, brown hair , (nude , naked , completely nude:1.3),  blue and purple eyes , multicolored eyes, , teen , long hair , 16yo , large breasts,   spread legs,  close-up pussy , multiple views,  heavy breathing, female orgasm,  nose blush,  open mouth, 1boy,  penis in pussy , looking at viewer,  , frown , embarrassed ,  ,  looking at viewer,  from above , lying , on bed ,  deep insertion , (x-ray:1.2) , (motion lines,  motion blur:1.4),  close eyes ,  orgasm,  pussy juice,  (trembling:1.5),   penis tightening ,
+
+### りなみちゃｎ
+
+1. おもちゃ？ですか…? 使ったことないです
+2. えっ　あっ!!! 
+こんなの……　すぐイッちゃう……っ
+こんな……物みたいに扱われるなんて……
+3. はぁ　はぁ (よだれ垂らす)
+えっ?
+4. じゅぽじゅぽ（イラマチオ）
+5. じゅぽじゅぽ多視点　２P
+
+6. おまんこ開き
+えっ!? そんなセリフ…
+笑顔で……言わなきゃ駄目ですか……
+恋人…関係……ですか
+6. おまんこ開き
+JKの処女お、おま…んこに、おちん…ちん…を入れて
+好きなときにしゃ、射精…してください。
+6. おまんこ開き
+もう、我慢できないです。処女おまんこがヒクヒクして、
+おち…んちんを受け入れる準備が整っています。
+ずっと大事にしていた処女おまんこをあなたに捧げ…ます……
+7. ペニス当てる
+早く……早く……!
+8. 半分挿入（苦しそう)
+あの、全部入りましたか……
+
+
+
+## 
+やぁ、リーリエ。君は「処女」だそうだが、このSNSには彼氏が写っているな。君が「処女」かどうか試そう。
+今からその男たちとSEXをして処女膜が破られるか試そう
+ところで、君の体に引火性物質が塗ってある。ロウソクには十分気を付けろよ。君の放火で死んだ人々に復讐されるかもしれん。
+
+
+## ワークショップ
+
+-初回
+おはようございます、花海咲季です
+おはようございます、花海佑芽です
+
+- スリーサイズの紹介 スリーサイズは･･･
+
+- おっぱいのサイズも紹介
+えっ　胸のサイズもですか？
+Cです。
+Fです。
+
+- はい、お願いします。
