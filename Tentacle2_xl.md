@@ -34,6 +34,8 @@ nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tenta
 { { standing  |  sitting  , on ground  }   spread legs ,  legs wrap tentacles ,  mucus ,   {1-3$$sweat |  covering crotch }  , { front | from below }  |  sitting , on ground ,  (knees together feet apart:1.3),  { front | from below }   |1.5::doggystyle,  all fours, { front , close-up face  | 4::ass , from behind } , on ground }  ,  BREAK (close-up crotch:1.1),  ( { light pink | light blue |  white }  panties ), 
  { {8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared | frown |  shouting | panicking | half-closed eyes }  }  ,   (trembling:1.1), { 4::open mouth | clenched teeth | (one eye closed:1.4)  , wavy mouth | close mouth } , { 4::(looking away:1.5) | face down | looking at viewer } , BREAK 
 
+## 導入3
+in cave , water surface , { sitting ,  spread legs  ,  { arms up , restrained | sweat }   |  knees together feet apart,  sitting,  { covering panties | sweat } , |  doggystyle,  all fours,  from behind  , ass  | standing ,  (spread legs:1.3), (focus crotch:1.1)  , (directly below:1.3) , (from below:1.2) ,  { arms up , restrained | sweat }    }  , {   3-5$$tearing up | frown | surprised,  panicking |  streaming tears | cry | sad |   scared | horror \(theme\)  } , {  4::open mouth | teeth mouth } , { (looking away:1.5) | looking at viewer } ,  sweat,  (mucus:1.2) , { 1.2::(sweat:0.8) |  (multiple views:1.3) } BREAK , ( legs wrap tentacles:1.1) ,  { pussy |  lace panties } 
 
 ## 挿入見直し
 on ground , tentacles , (many many tentacles , tentacle nest:1.1) , realistic, 
