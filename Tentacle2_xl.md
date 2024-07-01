@@ -28,6 +28,11 @@ sitting , spread legs,  on ground , (pink panties , lingerie , lace panties :1.3
 nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tentacle pit ,
  { {8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared | frown |  shouting | panicking | half-closed eyes }  }  ,   (trembling:1.1), { 4::open mouth | clenched teeth | (one eye closed:1.4)  , wavy mouth | close mouth } , { 4::(looking away:1.5) | face down | looking at viewer } , close-up character,  { 3::sweat | (multiple views, split view:1.2) } 
 
+## 導入　見直し4
+in cave , water surface , { sitting ,  spread legs  ,  { arms up , restrained | sweat }   |  knees together feet apart,  sitting,  { covering panties | sweat } , |  doggystyle,  all fours,  from behind  , ass  | standing ,  (spread legs:1.3), (focus crotch:1.1)  , (directly below:1.3) , (from below:1.2) ,  { arms up , restrained | sweat }    }  , {   3-5$$tearing up | frown | surprised,  panicking |  streaming tears | cry | sad |   scared | horror \(theme\)  } , {  4::open mouth | teeth mouth } , { (looking away:1.5) | looking at viewer } ,  sweat,  (mucus:1.2) , { 1.5::(sweat:0.8) |  (multiple views:1.3) } BREAK , ( legs wrap tentacles:1.1) ,  lace trim panties ,  
+ <lora:tentacles_Pony_V1.0:0.5> SHOKUSYU, TENTACLES,TENTACLES PIT ,  restrained, 
+
+
 ## 導入2
 nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tentacle pit ,
 キャラ, 胸の大きさ

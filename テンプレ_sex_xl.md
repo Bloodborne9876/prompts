@@ -1,8 +1,53 @@
+# 導入
+
+ {  sweat | breasts squeezed together |  grabbing breasts } ,  { white | light bloue | light pink  panties  } , nipples,  open clothes,  sitting , on bed , { sweat | spread legs | (knees apart feet together:1) } , open mouth ,  { 1-2$$heavy breathing | embarrassed | spoken heart | spoken musical note |  (light smile,  head tilt:1.2) } 
+
+  nipples, all fours,  doggystyle,  heavy breathing,  open mouth,  { 1-2$$ heavy breathing | embarrassed | spoken heart | spoken musical note |  (light smile,  head tilt:1.2) }  , from below , on bed, 
+
+# 手コキ
+, 1boy , penis , penis grab , (motion lines:1.4),   { from side | pov }  ,  kneeing, , look up ,  { licking testicles |   cuddling handjob | licking penis  | fellatio , drooling  | irrumatio , drooling, head  grab , deepthroat } , { heavy breathing | orgasm | embarrassed | sweat | spoken heart  } 
+
+# 射精
+1boy ,   mouth in penis ,  (irrumatio:1.3)  , fellatio,  mouth in penis , penis , in mouth , open mouth,  tearing up ,   , pov , on bed, doggystyle,  all fours,  from above  ,  , close-up , face 
+
+# ごっくん
+ { 2::sweat |  1boy , penis , penis grab } , (motion lines:1.4),   kneeing, , front ,   open mouth , cum in mouth , cum in throat,  cum in throat,  drooling,  light smile, { sweat  , heavy breathing,  light smile | 0.3::heart-shaped pupils,  spoken heart,  orgasm } , { heavy breathing | (head tilt:1.2)} 
+
+# ごっくん2
+(motion lines:1.4),   kneeing, , front ,   open mouth , cum in mouth , cum in throat,  cum in throat,  drooling,  light smile, { sweat  , heavy breathing,  light smile | 0.3::heart-shaped pupils,  spoken heart,  orgasm } , { heavy breathing | (head tilt:1.2)} 
+
+# オナ
+sitting , on white couch , masturbation,   spread legs ,   grabbing  breasts ,   sweat,  embarrassed, heavy breathing,  {  open mouth , drooling | 0.3::clenched teeth one eye closed , trembling  | 0.3::ahegao,  open mouth,  drooling }  pussy juice,   female orgasm,  __nsp/my/angle__ , heavy reathing, 
+
+# くぱぁ
+ nude , naked,  spread pussy , pussy juice,   sitting , on white couch , { 2::sweat |   grabbing  breasts }   sweat,  embarrassed, heavy breathing,  {  open mouth , drooling | 0.3::clenched teeth one eye closed , trembling  | 0.3::ahegao,  open mouth,  drooling }  pussy juice,   female orgasm,  { front | from below } , heavy reathing,  tearing up, cervix,  <lora:cervix_Pony_V1.0:1>  spread pussy, cervix , cervix prolapse, ( spoken x-ray  cum  in uterus:1.2)
+
+# こすりつけ
+open mouth, grabbing penis ,   orgasm,  drooling,  looking at viewer,  heavy breathing,    lying , on bed ,  holding own legs  , { sweat | drooling | trembling } ,
+
 # お尻突き出し
  <lora:_sdxl-hipbom:0.7:stop=10> _sdxl-hipbom , ass focus, top-down bottom-up , on bed , hotel , pussy , vaginal  , pussy juice  , embarrassed,  looking at viewer,  open mouth, 
 
 # フェラ
 1boy ,   mouth in penis ,  (irrumatio:1.3)  , fellatio,  mouth in penis , penis , in mouth , open mouth,  tearing up ,   , pov , on bed, doggystyle,  all fours,  from above  ,  , close-up , face 
+
+## 正常位
+missionary,  sex , pov ,   { holding legs | torso grab | holding hands | holding arms } ,   {arms up |   breasts squeezed together |  __nsp/myNSFW/commonArm__ } ,   motion lines  , trembling,  { 1-3$$orgasm | sweat |  heavy breathing | head tilt |  one eye closed | frown |  trembling | spoken heart | heart-shaped pupils }  , open mouth,  close-up pussy , 
+
+## ガラス越し
+  sex from behind , standing doggy  , doggystyle,  sex , Against glass sex , against glass, front,  sex from behind, 1boy,  motion lines  , trembling,  { 1-3$$orgasm | sweat |  heavy breathing | head tilt |  one eye closed | frown |  trembling | spoken heart | heart-shaped pupils }  , open mouth,  , ahegao , trembling,  female orgasm,  drooling,  hands on glass , breasts on glass , (multiple views,  uterus in pussy , uterus in penis , front :1.3) 
+
+## 騎乗位
+{ cowgirl position |  1.5::reverse cowgirl position , from behind ,  torso grab  | squatting cowgirl position | straddling | upright straddle | 1.5::reverse upright straddle , from behind , torso grab }  ,  sex ,   motion lines  , trembling,  { 1-3$$orgasm | sweat |  heavy breathing | head tilt |  one eye closed | frown |  trembling | spoken heart | heart-shaped pupils }  , { sweat , orgasm, female orgasm  |  drooling,  embarrassed,  heavy breathing,  open mouth } , { 1.2::open eyes | one eye closed }   close-up pussy  , pussy juice  , cum explosion,  cum in pussy,   { sweat |  (x-ray,  uterus:1.2) , { light smile , open mouth |  surprise }  } , 
+
+## パイズリ
+  { 2::from side | pov }  ,  kneeing, , look up , paizuri , penis , { heavy breathing | orgasm | embarrassed | sweat | spoken heart  }  , open mouth,  heavy breathing, 
+
+## 後ろクパァ
+ from behind , hands on bathroom wall , light smile,  pussy juice , orgasm,  light smile , ass ,  pussy , from below  , pov , spread pussy,   heavy breathing,  open mouth, 
+
+## くぱぁ
+lying on bed,  { 7-7$$orgasm | sweat |  heavy breathing | head tilt |   trembling | spoken heart | heart-shaped pupils }  , open mouth,  , ahegao , trembling,  female orgasm,  drooling,  , ahegao , cum in pussy,   looking at viewer,  spoken heart,  spread pussy , wet hair,  wet,  trembling, 
 
 ## まとめ
 1boy , on bed, sex , heavy breathing , { close mouth , (trembling:1.2)  | open mouth,  drooling } ,  { 1-2$$tearing up |  female orgasm | streaming tears }  , (motion lines, trembling:1.2),  {  skirt lift,  lifted by self,   { cowgirl position | missionary }  , pussy , vaginal ,   spread legs,  deep insetion  , { cum in pussy | sweat }   |  { front | from behind ,  , { cum in pussy | sweat }  } , all fours,  doggystyle  , { pillow grab |  sheet grab} ,  { ass grab | torso grab } | prone bone , { front | from side ,  { cum in pussy | sweat }  }  , { pillow grab |  sheet grab}  }  , { cum in pussy | sweat  }
@@ -49,3 +94,36 @@ lying , on bed ,  covering breasts,  open mouth,  upper body,  on bed , pillow, 
 
 
    nude , naked, completely nude,  on floor , masturbation,  orgasm,  open mouth,  cowgirl position , dildo riding,   ,  front , small breasts,  flat chest,  drooling,   hands on Clitoris ,  hands on nipples,  trembling,  female orgasm, female ejaculation, 
+
+
+   
+## 流れ
+
+- 四つん這い
+- パイズリ 
+-  doggystyle,  from above , heavy breathing,  pov , from above , paizuri,  open mouth,   orgasm,  sweat , licking penis,  cum shot ,  facial,  cum on breasts,  cum on body,  light smile , sweat,  cum in mouth , cum in throat, 
+-  
+
+- オナにー
+masturbation,  lying on bed , __nsp/my/angle__ , { close-up face | close-up pussy } , heavy breathing, spread legs,  pussy , female masturbation,  orgasm,   { 2-3$$close eyes | trembling | heavy breathing | { 3::open mouth |  clenched teeth } | pussy in finger } ,  spread pussy, 
+
+- オマンコ見せ
+ on bed , spread legs, nose blush,  heavy breathing, open mouth,  pussy juice , spread pussy ,  close-up pussy , cervix,  <lora:cervix_Pony_V1.0:1> spread pussy, cervix , cervix prolapse,  { frown | light smile | orgasm } , __nsp/my/angle__ , sweat, 
+
+- バック
+ on bed ,all fours,  doggystyle, torso grab, heavy breathing,  heart-shaped pupils,   pussy,  orgasm,  looking at viewer,  penis in pussy , spread legs, {front , close-up face faceless male , { surprised | orgasm | ahegao } | pov , from behind , ass } ,   , (motion lines,  motion blur,:1.3) , trembling, 
+
+- 騎乗位
+-  { 2::straddling , from behind , ass , penis in pussy |  cowgirl position }  , orgasm , heavy breathing,  straddling, pov ,  from below , motion lines,  trembling,  motion blur,  open mouth,  looking at viewer,  sweat,  
+-   { cowgirl position } , { 2-3$$cum in pussy  | x-ray | uterus  |  uterus in cum | multiple views }   , orgasm , heavy breathing,  straddling, pov ,  from below , motion lines,  trembling,  motion blur,  open mouth,  looking at viewer,  sweat,  
+- 中出し後開き
+light smile , on bed , spread legs, nose blush,  heavy breathing, open mouth,  pussy juice , spread pussy ,  close-up pussy , cervix,  <lora:cervix_Pony_V1.0:1> spread pussy, cervix , cervix prolapse,  {  light smile | orgasm } , __nsp/my/angle__ , sweat,  cum in pussy , cum in cervix,  multiple views,  cum explosion,  
+
+
+- 挿入
+{ sitting position, hug, face to face, straddle , faceless male |  missionary | grabbing from behind,  penis in pussy  }  , penis in pussy , sex ,  orgasm , heavy breathing,  motion lines,  trembling,  motion blur,  open mouth,  looking at viewer,  sweat,   { orgasm |  (ahegao:0.9) }  , drooling,   , sweat,  (motion lines:1.2),  multiple views,  pussy juice,  { sweat | (x-ray , uterus:1.1) }  ,  cum in pussy ,  cum in uterus , cum explosion,  
+
+- ラスト
+tearing up,  orgasm,  lying on bed , trembling,  from above , spread pussy,  cum in pussy,  cum explosion,  happy,  spoken heart,  multiple views,  close-up pussy , 
+
+- standing , from below , cum explosion,  spread pussy,   spread pussy,  orgasm,  open mouth,  light smile , (head tilt:1.2),  spread legs,  penis , pov 
