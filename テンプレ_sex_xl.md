@@ -26,16 +26,26 @@ sitting , on white couch , masturbation,   spread legs ,   grabbing  breasts ,  
 open mouth, grabbing penis ,   orgasm,  drooling,  looking at viewer,  heavy breathing,    lying , on bed ,  holding own legs  , { sweat | drooling | trembling } ,
 
 # お尻突き出し
- <lora:_sdxl-hipbom:0.7:stop=10> _sdxl-hipbom , ass focus, top-down bottom-up , on bed , hotel , pussy , vaginal  , pussy juice  , embarrassed,  looking at viewer,  open mouth, 
+<lora:Pov_Standing_Doggy_Style__Missionary_looking_up:1> Pov Standing Doggy Style, curving back towards viewer , (trembling,  motion lines:1.2),  (holding arms:1.2) ,  mouth open  , (from behind:1.3) , orgasm,  heavy breathing,  open mouth,  cum in pussy,  orgasm,  (drooling,  trembling:1.2), 
+
+# 胸隠し
+ standing , { embarrassed | nose blush } , { 2::full body | upper body } , { covering breasts | covering crotch | breasts squeezed together,  } , looking away , in hotel , { frown | tearing up | disgust }  , { open mouth,  |clenched teeth | close mouth } , pussy , 
 
 # フェラ
 1boy ,   mouth in penis ,  (irrumatio:1.3)  , fellatio,  mouth in penis , penis , in mouth , open mouth,  tearing up ,   , pov , on bed, doggystyle,  all fours,  from above  ,  , close-up , face 
+
+# 強制フェラ
+head grabbing  , { fellatio |  2::irrumatio , deepthroat }  , {  (surprised:1.3) | crying , streaming tears,  frown  } ,  look up,  tearing up,  drooling,  { open eyes | one eye closed } , heavy breathing  , motion lines, trembling,  penis ,  from side , , kneeing, 
 
 ## 正常位
 missionary,  sex , pov ,   { holding legs | torso grab | holding hands | holding arms } ,   {arms up |   breasts squeezed together |  __nsp/myNSFW/commonArm__ } ,   motion lines  , trembling,  { 1-3$$orgasm | sweat |  heavy breathing | head tilt |  one eye closed | frown |  trembling | spoken heart | heart-shaped pupils }  , open mouth,  close-up pussy , 
 
 ## ガラス越し
   sex from behind , standing doggy  , doggystyle,  sex , Against glass sex , against glass, front,  sex from behind, 1boy,  motion lines  , trembling,  { 1-3$$orgasm | sweat |  heavy breathing | head tilt |  one eye closed | frown |  trembling | spoken heart | heart-shaped pupils }  , open mouth,  , ahegao , trembling,  female orgasm,  drooling,  hands on glass , breasts on glass , (multiple views,  uterus in pussy , uterus in penis , front :1.3) 
+
+## 立ちバック
+<lora:Pov_Standing_Doggy_Style__Missionary_looking_up:1> Pov Standing Doggy Style, curving back towards viewer , holding arms ,  mouth open
+
 
 ## 騎乗位
 { cowgirl position |  1.5::reverse cowgirl position , from behind ,  torso grab  | squatting cowgirl position | straddling | upright straddle | 1.5::reverse upright straddle , from behind , torso grab }  ,  sex ,   motion lines  , trembling,  { 1-3$$orgasm | sweat |  heavy breathing | head tilt |  one eye closed | frown |  trembling | spoken heart | heart-shaped pupils }  , { sweat , orgasm, female orgasm  |  drooling,  embarrassed,  heavy breathing,  open mouth } , { 1.2::open eyes | one eye closed }   close-up pussy  , pussy juice  , cum explosion,  cum in pussy,   { sweat |  (x-ray,  uterus:1.2) , { light smile , open mouth |  surprise }  } , 
@@ -58,6 +68,10 @@ lying on bed,  { 7-7$$orgasm | sweat |  heavy breathing | head tilt |   tremblin
 
 nsfw , {20$$(embarrassed, nose blush:1.3) | (ecstasy:1.3) | (slut:1.2) | (vulgarity:1.3) | (wet:0.8) | (trembling:0.8)| (tears:0.7) | (drooling:0.6) | (sweat:0.8) | {  6::open eyes | (closed eyes:1.4) } | wince | (orgasm:1.5) |(feeling weak:1.5) | sweat}  , { ahegao,  wave mouth, frown |  shouting , open mouth |   sweat , frown  }  , (heavy breathing:1.2) ,  { 6::sweat |  cum in pussy , cum on body , cum explosion  }  (trembling:1.1),  { tareme  } ,   BREAK
 { lying, missionary ,  {arms up | hands on own chest  |  breasts squeezed together }   |  straddling , cowgirl position, from below,  ceiling  ,  { sweat | hands on own chest  |  breasts squeezed together } } missionary, vaginal, 1boy, penis, spread legs , motion blur, 
+
+## バック
+all fours,  doggystyle,   1boy , sex , front  , heavy breathing,  penis in pussy ,  (motion lines,  trembling:1.3),  
+<lora:HDA_Doggystyle_HairPulledBackXL:1>HDA_MasterpieceXL_v.1, 1girl, HDA_HikariXL, HDA_Doggystyle_HairPulledBackXL, front , close up face 
 
 ## 断面図
 

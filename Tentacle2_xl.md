@@ -40,7 +40,17 @@ nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tenta
  { {8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared | frown |  shouting | panicking | half-closed eyes }  }  ,   (trembling:1.1), { 4::open mouth | clenched teeth | (one eye closed:1.4)  , wavy mouth | close mouth } , { 4::(looking away:1.5) | face down | looking at viewer } , BREAK 
 
 ## 導入3
-in cave , water surface , { sitting ,  spread legs  ,  { arms up , restrained | sweat }   |  knees together feet apart,  sitting,  { covering panties | sweat } , |  doggystyle,  all fours,  from behind  , ass  | standing ,  (spread legs:1.3), (focus crotch:1.1)  , (directly below:1.3) , (from below:1.2) ,  { arms up , restrained | sweat }    }  , {   3-5$$tearing up | frown | surprised,  panicking |  streaming tears | cry | sad |   scared | horror \(theme\)  } , {  4::open mouth | teeth mouth } , { (looking away:1.5) | looking at viewer } ,  sweat,  (mucus:1.2) , { 1.2::(sweat:0.8) |  (multiple views:1.3) } BREAK , ( legs wrap tentacles:1.1) ,  { pussy |  lace panties } 
+ nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tentacle pit , in cave , { sitting , spread legs , { 2::arms up , arms wrap tentacles ,  restrained | sweat } , legs wrap tentacles | knees together feet apart, sitting, | doggystyle, all fours, from behind , ass , legs wrap tentacles | standing , (spread legs:1.3), (focus crotch:1.1) , (directly below:1.3) , (from below:1.2) , { 2::arms up ,  arms wrap tentacles , restrained | sweat } , legs wrap tentacles } , { 3-5$$tearing up | frown | surprised, panicking | streaming tears | cry | sad | scared | horror \(theme\) } , { 4::open mouth | teeth mouth } , { (looking away:1.5) | looking at viewer } , sweat, (mucus:1.2) , { 1-2$$(sweat:0.8) |  heavy breathing | open clothes,  nipples | (multiple views , close-up panties  :1.3) } ,  { ( { light pink | light blue |  white }  panties:1.1)  , lace panties  , lace trim panties  ,  | pussy  , vaginal  } ,   { (sweat:0.8) |  0.5::pee } BREAK , 
+
+### negative
+ (insertion , tentacle insertion , missionary,  tentacle sex:1.3) 
+
+
+ <!-- ( legs wrap tentacles:1.1) , { pussy , sex , tentacles sex } , pussy in tentacles , trembling, orgasm, cum in pussy, trembling, (trembling:1.3), -->
+
+## 変数
+${face=!{ 8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared | frown |  shouting | panicking | half-closed eyes }    ,(motion blur:1.2), ( motion lines,    trembling:1.3), { 2::open mouth | clenched teeth , orgasm,  trembling,  | (one eye closed:1.4)  , wavy mouth , trembling,  orgasm } , { 2::(looking away:1.5) | face down | looking at viewer } } 
+
 
 ## 挿入見直し
 on ground , tentacles , (many many tentacles , tentacle nest:1.1) , realistic, 

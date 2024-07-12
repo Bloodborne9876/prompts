@@ -89,3 +89,10 @@ Cです。
 Fです。
 
 - はい、お願いします。
+
+
+${alya=!{<lora:alya_anime_v2-soralz:0.7> ,ALYA, LONG HAIR, SILVER HAIR, AHOGE, CROSSED BANGS, red HAIR RIBBON, SIDELOCKS, BLUE EYES}}
+${yuki=!{<lora:yuki_anime-soralz:0.7>,YUKI, BLACK HAIR, LONG HAIR, HALF UPDO, HAIR BETWEEN EYES, PURPLE EYES }}
+${wear =!{nude , naked , completely nude | SCHOOL UNIFORM, GREY JACKET, OPEN JACKET, LONG SLEEVES, RED BOW, WHITE SHIRT, COLLARED SHIRT, BLACK VEST, BUTTONS, BLACK DRESS, WHITE THIGHHIGHS } } , 
+1girls , ${yuki} , ${wear}, , medium breasts, 
+on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tentacle pit , in cave , { sitting , spread legs , { 2::arms up , arms wrap tentacles ,  restrained | sweat } , legs wrap tentacles | knees together feet apart, sitting, | doggystyle, all fours, from behind , ass , legs wrap tentacles | standing , (spread legs:1.3), (focus crotch:1.1) , (directly below:1.3) , (from below:1.2) , { 2::arms up ,  arms wrap tentacles , restrained | sweat } , legs wrap tentacles } , { 3-5$$tearing up | frown | surprised, panicking | streaming tears | cry | sad | scared | horror \(theme\) } , { 4::open mouth | teeth mouth } , { (looking away:1.5) | looking at viewer } , sweat, (mucus:1.2) , { 1-2$$(sweat:0.8) |  heavy breathing | open clothes,  nipples | multiple views } ,  { ( { light pink | light blue |  white }  panties:1.1)  , lace panties  , lace trim panties  ,  (close-up panties:1.3) | pussy  , vaginal  } ,   { (sweat:0.8) |  0.5::pee } BREAK ,  

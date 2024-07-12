@@ -234,8 +234,7 @@ looking down , face down , ceiling , arms on knee , frown , (from below:1.2), fl
 
 ## オナニー
 ### ヘッダー
-{ nose blush,  embarrassed,  sweat | 1.5::nose blush,  embarrassed,  (heavy breathing:1.2) , spoken heart }, { 2::open mouth | closed mouth } , { open eyes | one eye closed }  , looking at viewer, BREAK
-
+{ nose blush,  embarrassed,  sweat | 1.5::nose blush,  embarrassed,  (heavy breathing:1.2)  }, { 2::open mouth | closed mouth } , { open eyes | one eye closed }  , looking at viewer, BREAK female masturbation,  fingers in pussy ,  cowboy shot,   full body,  looking away   ( recording mark  , battery indicator:1.3), 
 
 
  ### パンツオナ
