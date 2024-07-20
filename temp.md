@@ -96,3 +96,35 @@ ${yuki=!{<lora:yuki_anime-soralz:0.7>,YUKI, BLACK HAIR, LONG HAIR, HALF UPDO, HA
 ${wear =!{nude , naked , completely nude | SCHOOL UNIFORM, GREY JACKET, OPEN JACKET, LONG SLEEVES, RED BOW, WHITE SHIRT, COLLARED SHIRT, BLACK VEST, BUTTONS, BLACK DRESS, WHITE THIGHHIGHS } } , 
 1girls , ${yuki} , ${wear}, , medium breasts, 
 on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tentacle pit , in cave , { sitting , spread legs , { 2::arms up , arms wrap tentacles ,  restrained | sweat } , legs wrap tentacles | knees together feet apart, sitting, | doggystyle, all fours, from behind , ass , legs wrap tentacles | standing , (spread legs:1.3), (focus crotch:1.1) , (directly below:1.3) , (from below:1.2) , { 2::arms up ,  arms wrap tentacles , restrained | sweat } , legs wrap tentacles } , { 3-5$$tearing up | frown | surprised, panicking | streaming tears | cry | sad | scared | horror \(theme\) } , { 4::open mouth | teeth mouth } , { (looking away:1.5) | looking at viewer } , sweat, (mucus:1.2) , { 1-2$$(sweat:0.8) |  heavy breathing | open clothes,  nipples | multiple views } ,  { ( { light pink | light blue |  white }  panties:1.1)  , lace panties  , lace trim panties  ,  (close-up panties:1.3) | pussy  , vaginal  } ,   { (sweat:0.8) |  0.5::pee } BREAK ,  
+
+
+${alya=!{<lora:alya_anime_v2-soralz:0.8> ,ALYA, LONG HAIR, SILVER HAIR, AHOGE, CROSSED BANGS, red HAIR RIBBON, SIDELOCKS, BLUE EYES}}
+${yuki=!{<lora:yuki_anime-soralz:0.7>,YUKI, BLACK HAIR, LONG HAIR, HALF UPDO, HAIR BETWEEN EYES, PURPLE EYES }}
+${wear =!{1.5::nude , naked , completely nude | SCHOOL UNIFORM, GREY JACKET, OPEN JACKET, LONG SLEEVES, RED BOW, WHITE SHIRT, COLLARED SHIRT, BLACK VEST, BUTTONS, BLACK DRESS, WHITE THIGHHIGHS } } , 
+1girls , ${alya} , ${wear}, , medium breasts, 
+
+
+score_9, , best quality, masterpiece, very aesthetic, absurdres , megami magazine, bokeh, intricate details, hyperdetailed, (official art, extreme detailed,) ( highest detailed), eyeliner, (long eyelashes:1.1), (multicolored eyes, shiny eyes:1.2) , iris space , shiny hair , detail hair , HDR BREAK , ( game cg, realistic:1.1), <lora:Difference_EdgeEmphasisForEbaraPonylr1e04:0.5> , (realistic:1.3),  15yo , 
+${alya=!{<lora:alya_anime_v2-soralz:1:1:lbw=1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0>> ,ALYA, LONG HAIR, SILVER HAIR, AHOGE, CROSSED BANGS, red HAIR RIBBON, SIDELOCKS, BLUE EYES}}
+${yuki=!{<lora:yuki_anime-soralz:0.7>,YUKI, BLACK HAIR, LONG HAIR, HALF UPDO, HAIR BETWEEN EYES, PURPLE EYES }}
+${wear =!{1.5::nude , naked , completely nude | SCHOOL UNIFORM, GREY JACKET, OPEN JACKET, LONG SLEEVES, RED BOW, WHITE SHIRT, COLLARED SHIRT, BLACK VEST, BUTTONS, BLACK DRESS, WHITE THIGHHIGHS } } , 
+(1girl, solo:1.2) , ${alya} , ${wear}, , medium breasts,
+{ 8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared |  shouting | panicking | half-closed eyes } ,  (surprised:1.2)     ,(motion blur:1.2),  heavy breathing,  
+(tentalce irrumatio) , tentacle in mouth , (looking at another,  looking away:1.4), (bukkake,  cum on body,  facial,  cum on breasts:1.1),  { sweat |  (close-up face:1.2) }  , <lora:tentacles_Pony_V1.0:0.8> SHOKUSYU, TENTACLES,TENTACLES PIT  , { sweat |  cum in mouth , bukkake , facial }   {   (arms up  restrained:1.2) , { lying , on ground |  sitting , on ground  } , spread legs , lace panties |  all fours , doggystyle,  {  from side | __nsp/my/angle__  } }
+
+
+score_9, , best quality, masterpiece, very aesthetic, absurdres , megami magazine, bokeh, intricate details, hyperdetailed, (official art, extreme detailed,) ( highest detailed), eyeliner, (long eyelashes:1.1), (multicolored eyes, shiny eyes:1.2) , iris space , shiny hair , detail hair , HDR BREAK , ( game cg, realistic:1.1), <lora:Difference_EdgeEmphasisForEbaraPonylr1e04:0.5> ,  15yo , loli , teen  , volumetric light, best shadows
+${alya=!{<lora:alya_anime_v2-soralz:0.8> ,ALYA, LONG HAIR, SILVER HAIR, platinum hair ,  AHOGE, CROSSED BANGS, red strings HAIR RIBBON, SIDELOCKS, BLUE EYES }}
+${yuki=!{<lora:yuki_anime-soralz:1:lbw=ALL:stop=24>,YUKI, BLACK HAIR, LONG HAIR, HALF UPDO, HAIR BETWEEN EYES, PURPLE EYES }}
+${wear =!{  GREY JACKET, OPEN JACKET, LONG SLEEVES, RED BOW, WHITE SHIRT, COLLARED SHIRT, BLACK VEST, BUTTONS, BLACK DRESS, white thighhighs, black loafers} } , 
+1girls , ${alya} , ${wear}, , medium breasts, 
+in classroom,  standing , smile , closed eyes,  open mouth, 
+
+
+score_9, , best quality, masterpiece, very aesthetic, absurdres , megami magazine, bokeh, intricate details, hyperdetailed, (official art, extreme detailed,) ( highest detailed), eyeliner, (long eyelashes:1.1), (multicolored eyes, shiny eyes:1.2) , iris space , shiny hair , detail hair , HDR BREAK , ( game cg, realistic:1.1), <lora:Difference_EdgeEmphasisForEbaraPonylr1e04:0.5> ,  15yo , loli , teen  , volumetric light, best shadows
+${alya=!{<lora:alya_anime_v2-soralz:0.8> ,ALYA, LONG HAIR, SILVER HAIR, platinum hair ,  AHOGE, CROSSED BANGS, red strings HAIR RIBBON, SIDELOCKS, BLUE EYES }}
+${yuki=!{<lora:yuki_anime-soralz:1:lbw=ALL:stop=24>,YUKI, BLACK HAIR, LONG HAIR, HALF UPDO, HAIR BETWEEN EYES, PURPLE EYES }}
+${wear =!{ 3::nude , naked , completely nude | GREY JACKET, OPEN JACKET, LONG SLEEVES, RED BOW, WHITE SHIRT, COLLARED SHIRT, BLACK VEST, BUTTONS, BLACK DRESS, white thighhighs, black loafers} } , 
+1girls , ${alya} , ${wear}, , medium breasts, 
+on ground , tentacles , (many many tentacles , tentacle nest:1.1) , in cave , 
+(empty eyes,  expressionless:1.3),  sweat, open mouth,  drooling,  motion lines,  (Pregnancy:1.3) ,  drooling,  <lora:HDA_TentacleSexXL_v1.2:1.2> from below  , sitting  spread legs, missionary,  pussy ,   arms up , low angle ,  open arms  , restrained arms  , arms wrap tentacles , legs wrap tentacles  ,open mouth,  drooling, breasts wrap tentacles , torso wrap tentacles  , (sweat:1.4),  large tentacles , large insertion , deep insertion ,   <lora:tentacle_pit:1>tentaclepitlora, (Pregnancy , pregnant:1.1)

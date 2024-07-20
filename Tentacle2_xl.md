@@ -40,7 +40,7 @@ nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tenta
  { {8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared | frown |  shouting | panicking | half-closed eyes }  }  ,   (trembling:1.1), { 4::open mouth | clenched teeth | (one eye closed:1.4)  , wavy mouth | close mouth } , { 4::(looking away:1.5) | face down | looking at viewer } , BREAK 
 
 ## 導入3
- nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tentacle pit , in cave , { sitting , spread legs , { 2::arms up , arms wrap tentacles ,  restrained | sweat } , legs wrap tentacles | knees together feet apart, sitting, | doggystyle, all fours, from behind , ass , legs wrap tentacles | standing , (spread legs:1.3), (focus crotch:1.1) , (directly below:1.3) , (from below:1.2) , { 2::arms up ,  arms wrap tentacles , restrained | sweat } , legs wrap tentacles } , { 3-5$$tearing up | frown | surprised, panicking | streaming tears | cry | sad | scared | horror \(theme\) } , { 4::open mouth | teeth mouth } , { (looking away:1.5) | looking at viewer } , sweat, (mucus:1.2) , { 1-2$$(sweat:0.8) |  heavy breathing | open clothes,  nipples | (multiple views , close-up panties  :1.3) } ,  { ( { light pink | light blue |  white }  panties:1.1)  , lace panties  , lace trim panties  ,  | pussy  , vaginal  } ,   { (sweat:0.8) |  0.5::pee } BREAK , 
+ nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tentacle pit , in cave , { sitting , spread legs , { 2::arms up , arms wrap tentacles ,  restrained | sweat } , legs wrap tentacles | knees together feet apart, sitting, | lying , from behind ,  ass , spread legs, on stomach , legs wrap tentacles , looking at viewer | doggystyle, all fours, from behind , ass , legs wrap tentacles | standing , (spread legs:1.3), (focus crotch:1.1) , (directly below:1.3) , (from below:1.2) , { 2::arms up ,  arms wrap tentacles , restrained | sweat } , legs wrap tentacles } , { 3-5$$tearing up | frown | surprised, panicking | streaming tears | cry | sad | scared | horror \(theme\) } , { 4::open mouth | teeth mouth } , { (looking away:1.5) | looking at viewer } , sweat, (mucus:1.2) , { 1-2$$(sweat:0.8) |  heavy breathing | open clothes,  nipples | (multiple views , close-up panties  :1.3) } ,  ( { light pink | light blue |  white }  panties:1.1)  , lace panties  , lace trim panties BREAK , 
 
 ### negative
  (insertion , tentacle insertion , missionary,  tentacle sex:1.3) 
@@ -61,6 +61,12 @@ on ground , tentacles , (many many tentacles , tentacle nest:1.1) ,
 spread legs, sole ,   arms up , restrained,  cum explosion,  (trembling, motion lines:1.5),    cum in pussy,  , tentacle is penis , penis in pussy ,  tentacles sex , large insertion , deep insertion ,  gangbang,  grabbing tentacles,   close-up pussy in tentacles ,  ass focus , (looking away,:1.3) , (tentacles in pussy:1.2) , tentacles in vaginal ,  tentacles sex , multiple insertion , large insertion ,  {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts } , { 2.5::sweat | 1.5::(multiple views , close-up pussy:1.2) }  , __nsp/my/angle__
 
 
+## バック
+<lora:HDA_Doggystyle_HairPulledBackXL:1>HDA_Doggystyle_HairPulledBackXL , doggystyle,  all fours,  drooling,  open mouth,  tearing up,  spread legs,  head down , legs wrap tentacles 
+
+## ごっくん
+{ 8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared | frown |  shouting | panicking | half-closed eyes }   ,  upper body,  open mouth,  cum in mouth , cum in throat,  drooling,  upper body,  close-up face , tearing up,   arms up ,   
+
 ## レイプ目
 nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tentacle pit ,
 (empty eyes,  expressionless:1.5),  drooling,  open mouth,  (cum in pussy , cum explosion,   bukkake , cum on body,  cum on breasts,  facial , after vaginal,  after sex:1.3),  steam,  heavy breathing,   (trembling:1.4),  (trembling:1.6) , , vaginal ,  after rape, { (from behind , ass  , all fours , doggystyle:1.2) | ( lying , on stomach:1.2) , spread legs,  full body , arms up , arms wrap tentacles , from above } , close-up crotch , tearing up,   on ground  , (looking away:1.7) ,  upper body,  legs wrap tentacles , 
@@ -68,6 +74,9 @@ nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tenta
 ## temp
 ### 立ちバック
 from below, ass, standing , pussy , vaginal ,  , nose blush  ,  pussy juice,  ceiling,  , indoors,  in hotel 
+
+## バック
+{ 8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared | frown |  shouting | panicking | half-closed eyes }  , <lora:HDA_TentacleSexXL_v1.2:1.2> (shot from behind. from behind, back view, side view:1.2), (tentacle sex:1.2), low angle ,  open arms  , restrained arms  , arms wrap tentacles , legs wrap tentacles  , from behind , hip ,  open mouth,  drooling,   purple eyes  , { x-ray , uterus in cum |  2::multiple views,  uterus in cum }
 
 <!-- 
 ## 挿入
@@ -87,6 +96,10 @@ spread legs,  legs wrap tentacles , restrained legs , pussy vaginal , sex , tent
  { 5-6$$(embarrassed:0.8) |  | (trembling:1.4)| (tears:0.7) |(drooling:0.8) | (sweat:0.8) | open eyes | fucked silly  }  ,  { 1.5::sweat | 0.5::cum in pussy , cum on body , cum explosion , ecstasy ,  orgasm , female orgasm  }   , (trembling:1.1), { close mouth | open mouth } , { 1-3$$fucked silly  embarrassed |  (heavy breathing:1.2) , light smile | ahegao }  , { 2::sweat | spoken heart }  , (heart-shaped pupils:1.2),  drooling ,  pink eyes, (trembling:1.2) , motion lines,  pussy , vaginal , tentacles , in pussy BREAK
  { missionary vaginal, spread legs,  deep insertion , huge tentacles  , missionary ,  { arms up  | covering breasts | arms behind head |  gangbang,  grabbing tentacles  }  | (from behind:1.3) , leaning forward,  (wall:1.1) , (touch the wall  , wall on hands:1.2) | 1.5:: all fours,  doggystyle, { front , close-up face  |  from behind , pussy vaginal  , ass , spread legs } |  knees together feet apart, sitting, arms up , restrained tentacles,  arms wrap tentacles   |  straddling , cowgirl position, { spread legs |  squatting } , { front |  from below , ceiling | from above } }  , tentacles sex , large insertion , deep insertion ,   close-up pussy in tentacles ,  (tentacles in pussy:1.2) , tentacles in vaginal ,  tentacles sex , multiple insertion , large insertion ,  {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts } ,  { 1-3$$sweat | (multiple views, split view:1.2) | xray , tentacles in uterus | cum in pussy , uterus in pussy }
 
+
+## メス落ち2
+ { 5-6$$(embarrassed:0.8) |  | (trembling:1.4)| (tears:0.7) |(drooling:0.8) | (sweat:0.8) | open eyes | fucked silly  }  ,  { 1.5::sweat | 0.5::cum in pussy , cum on body , cum explosion , ecstasy ,  orgasm , female orgasm  }   , (trembling:1.1), { close mouth | open mouth } , { 1-3$$fucked silly  embarrassed |  (heavy breathing:1.2) , light smile | ahegao }  , { 2::sweat | spoken heart }  , (heart-shaped pupils:1.2),  drooling ,  pink eyes, (trembling:1.2) , motion lines,  pussy , vaginal , tentacles , in pussy BREAK , motion lines,  pussy , vaginal , tentacles , in pussy BREAK
+ <lora:HDA_TentacleSexXL_v1.2:0.75>HDA_TentacleSexXL_v1.2 ,    doggystyle,  from behind ,  ass , (  uterus  ,  multiple views :1.2) ,  tentacle on nipples,  inhaling nipples, 
 
 
 ## 後ろ挿入おねだり
@@ -152,10 +165,11 @@ lying  , spread legs , pussy   ,  open pussy , (hands spread pussy ,   spread pu
 #### 立ち
 hotel , spread legs,  standing , directly below  , from below , upper body,  spread legs , pussy  , open pussy , (hands spread pussy ,   spread pussy:1.3) ,   hands on pussy , light smile , embarrassed, (pussy juice:1.2) , (close up pussy , close up utels:1.3) 
 
-## フェラ
+## フェラ3
 
-(fellatio , tentacle fellatio,  tentacles in mouth :1.2) , tentacles sex , tentacle in mouth , (looking at another,  looking away:1.4), (bukkake,  cum on body,  facial,  cum on breasts:1.1),  (close-up face:1.2)
-
+nsfw , on ground , tentacle , tentacle nest , tentacle pit , in cave 
+{ 8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared |  shouting | panicking | half-closed eyes } ,  (surprised:1.2)     ,(motion blur:1.2),  heavy breathing,  
+(tentalce irrumatio) , tentacle in mouth , (looking at another,  looking away:1.4), (bukkake,  cum on body,  facial,  cum on breasts:1.1),  { sweat |  (close-up face:1.2) }  , <lora:tentacles_Pony_V1.0:0.8> SHOKUSYU, TENTACLES,TENTACLES PIT  , { sweat |  cum in mouth , bukkake , facial }   {   (arms up  restrained:1.2) , { lying , on ground |  sitting , on ground  } , spread legs , lace panties |  all fours , doggystyle,  {  from side | __nsp/my/angle__  } }
 
 ## 四つん這い中だし
   (cum in pussy,  cum on body,  bukkake,  facial:1.4) , (from behind , all fours,  doggystyle:1.5)  , (close-up pussy :1.5),  (ass , open pussy ,  hand on own hip:1.3), 
@@ -163,8 +177,10 @@ hotel , spread legs,  standing , directly below  , from below , upper body,  spr
 ## メス落ち汎用
  { 5-6$$(embarrassed:0.8) |  | (trembling:1.4)| (tears:0.7) |(drooling:0.8) | (sweat:0.8) | open eyes | fucked silly  }  ,  { 1.5::sweat | 0.5::cum in pussy , cum on body , cum explosion , ecstasy ,  orgasm , female orgasm  }   , (trembling:1.1), { close mouth | open mouth | wavy mouth } , { 1-3$$:light smile |  frown | embarrassed |  (heavy breathing:1.2)     | ahegao }  , { 2::sweat | spoken heart }  , (heart-shaped pupils:1.2),  drooling ,  pink eyes, (trembling:1.2) , motion lines,  pussy , vaginal , tentacles , in pussy BREAK
  tentacles , (many many tentacles ,   tentacle nest:1.4) , tentacle pit <lora:Tentacles:0.65:0.5:lbw=ALL:stop=10> ,  tentacles  ,  (in tentacle pit:1.4) , faint light , in trapped  BREAK
+
+
  { 5-6$$(embarrassed:0.8) |  | (trembling:1.4)| (tears:0.7) | (drooling:0.8) | (sweat:0.8) | open eyes | fucked silly  }  ,  { 1.5::sweat | 0.5::cum in pussy , cum on body , cum explosion , ecstasy ,  orgasm , female orgasm  }   , (trembling:1.1), { open mouth | closed mouth  | wavy mouth } , { 1-3$$:light smile |  frown |  heavy breathing | embarrassed   | ahegao } ,  { 2::sweat | spoken heart }  , (heart-shaped pupils:1.2),  drooling ,  pink eyes, (trembling:1.2) , motion lines,  pussy , vaginal , tentacles , in pussy BREAK
-{ spread legs,  night front , lying , on bed  , spread pussy,  hands open pussy , uterus , ass  | 3::from behind,  hands on hip , open pussy , all fours ,  pussy , doggystyle,  from behind , ass , close-up pussy , spread legs,  __nsp/my/angle__ | standing , front , from below ,  close-up pussy , directly below , hands on pussy , spread legs , spread pussy } , pussy,  orgasm,  ahegao,  { 2.5::sweat | multiple views }  ,  { 1-2$$multiple insertion | large insertion }  , deep insertion , cum in pussy , (bukkake,  cum on body,  cum on breasts,  facial , bukkake , cum on body:1.2),   (tentacle is penis , tentacles in pussy , tentacles sex:1.2)  , (heavy breathing,  steam:1.2)  ,  (gangbang,  rape:1.2),  
+{ spread legs,  night front , lying , on bed  , spread pussy,  hands open pussy , uterus , ass  | from behind,  hands on hip , open pussy , all fours ,  pussy , doggystyle,  from behind , ass , close-up pussy , spread legs,  __nsp/my/angle__ | standing , front , from below ,  close-up pussy , directly below , hands on pussy , spread legs , spread pussy } , pussy,  orgasm,  ahegao,  { 2.5::sweat | multiple views }  ,  { 1-2$$multiple insertion | large insertion }  , deep insertion , cum in pussy , (bukkake,  cum on body,  cum on breasts,  facial , bukkake , cum on body:1.2),   (tentacle is penis , tentacles in pussy , tentacles sex:1.2)  , (heavy breathing,  steam:1.2)  ,  (gangbang,  rape:1.2),  
  
  ## 中田氏懇願
   { 5-6$$(embarrassed:0.8) |  | (trembling:1.4)| (tears:0.7) |(drooling:0.8) | (sweat:0.8) | open eyes | fucked silly  }  , lying  , spread legs , pussy   ,  open pussy , (hands spread pussy ,   spread pussy:1.3) ,   hands on pussy , light smile , embarrassed,  cum in pussy in
