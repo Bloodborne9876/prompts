@@ -128,3 +128,12 @@ ${wear =!{ 3::nude , naked , completely nude | GREY JACKET, OPEN JACKET, LONG SL
 1girls , ${alya} , ${wear}, , medium breasts, 
 on ground , tentacles , (many many tentacles , tentacle nest:1.1) , in cave , 
 (empty eyes,  expressionless:1.3),  sweat, open mouth,  drooling,  motion lines,  (Pregnancy:1.3) ,  drooling,  <lora:HDA_TentacleSexXL_v1.2:1.2> from below  , sitting  spread legs, missionary,  pussy ,   arms up , low angle ,  open arms  , restrained arms  , arms wrap tentacles , legs wrap tentacles  ,open mouth,  drooling, breasts wrap tentacles , torso wrap tentacles  , (sweat:1.4),  large tentacles , large insertion , deep insertion ,   <lora:tentacle_pit:1>tentaclepitlora, (Pregnancy , pregnant:1.1)
+
+
+
+
+## 
+
+仕方ない、
+学年中の女子から虐められている僕が仕返しするには
+異能"触手凌辱"（トラブル)を使わざるを得ない

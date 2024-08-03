@@ -4,8 +4,8 @@
 
   nipples, all fours,  doggystyle,  heavy breathing,  open mouth,  { 1-2$$ heavy breathing | embarrassed | spoken heart | spoken musical note |  (light smile,  head tilt:1.2) }  , from below , on bed, 
 
-# 手コキ
-, 1boy , penis , penis grab , (motion lines:1.4),   { from side | pov }  ,  kneeing, , look up ,  { licking testicles |   cuddling handjob | licking penis  | fellatio , drooling  | irrumatio , drooling, head  grab , deepthroat } , { heavy breathing | orgasm | embarrassed | sweat | spoken heart  } 
+# フェラ型総合
+1boy , penis , { licking penis | penis grab | fellatio | irrumatio | deepthroat  } ,  { sweat | orgasm drooling } ,  { from side , looking up , kneeing    | 4::pov }   , { sweat | 0.75::head grab }    , looking at viewer,   { heavy breathing | orgasm | embarrassed | sweat | spoken heart  }   , {  cum in mouth , facial , cum on body  |  2::sweat } 
 
 # 射精
 1boy ,   mouth in penis ,  (irrumatio:1.3)  , fellatio,  mouth in penis , penis , in mouth , open mouth,  tearing up ,   , pov , on bed, doggystyle,  all fours,  from above  ,  , close-up , face 
@@ -53,6 +53,9 @@ missionary,  sex , pov ,   { holding legs | torso grab | holding hands | holding
 ## パイズリ
   { 2::from side | pov }  ,  kneeing, , look up , paizuri , penis , { heavy breathing | orgasm | embarrassed | sweat | spoken heart  }  , open mouth,  heavy breathing, 
 
+## お風呂
+<lora:mixed_bathing_from_behind_pony_v01a:1.2> { 5::mixed bathing, 1girl, 1boy,looking at viewer,pov,nude,breasts, nipples,(from behind:1.3), grabbing another's breast,  from behind | mixed bathing, 1girl, 1boy,looking at viewer, ,(from behind:1.3), breasts,pov,nude,nipples } , pov ,  open mouth,  
+
 ## 後ろクパァ
  from behind , hands on bathroom wall , light smile,  pussy juice , orgasm,  light smile , ass ,  pussy , from below  , pov , spread pussy,   heavy breathing,  open mouth, 
 
@@ -88,6 +91,8 @@ multiple views, ( x-ray , cum in uterus :1.2)
  ## しゃがみ
  sitting , squatting,  (knees apart feet together:1.5),   (front:1.3) , { smile , (head tilt:1.3) | (expressionless,  looking away:1.3) } ,  (front:1.2) , outdoors,  on bed ,  close-up pussy 
 
+## 睡眠強姦
+sleep,  (sleeping:1.3),  open mouth,  pajamas,  open clothes, closed eyes, nipples,   spread legs,  on bed   , medium breasts,   sleep assault , missionary,  sex , pov ,  pussy juice  , motion lines,  (trembling:1.2),  { torso grab | leg grab | grabbing another's breast }  , { 3::sweat | (multiple views, x-ray ,  cum in pussy,  uterus,:1.3) }
 
 
 
