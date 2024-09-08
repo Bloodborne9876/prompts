@@ -38,6 +38,12 @@ on bed ,  { missionary | 2:: missionary,  cowgirl position } ,  tearing up,  str
 ### 横向き
 doggystyle,  holding arms ,  pussy , vaginal , sex , 1boy , deep insertion , deep penetration, cum in pussy ,  close-up face ,  cum in pussy , 1boy ,  torso grab,  (trembling,  motion lines,  motion blur:1.2),  tightening pussy , ( x-ray , multiple views,  fertilization,  fertilization egg ,  empty eyes,  surprised:1.2) 
 
+### テープ拘束
+ crying   , streaming tears, surprised,   sitting , white panties ,   (tape gag,  arms behind back,  restrained:1.1),  in warehouse , knees together feet apart,  spread legs,   sweat,  lace trim panties , from below , close-up crotch , looking at viewer,  recording,  battery indicator,  "REC"
+ 
+( motion lines , motion blur,  trembling:1.3), HDA_DoggyStyleXL_v1.3, doggystyle,  1boy ,  (tape gag,  arms behind back,  restrained:1.4),  on bed , (HDA_AhegaoXL:0.8) ahegao, 
+
+
 ## イラマチオ
 
 one eye closed,  surprised,  another's head grab , irrumatio, deepthroat,  penis ,   crying , tearing up,  streaming tears,  drooling,  multiple boys,  holding arms , cowboy shot,  cum in mouth , (surprised,   trembling:1.3), 
@@ -149,6 +155,9 @@ top-down bottom-up,  ass grab ,   (trembling:1.1), (heavy breathing:0.8), (in pu
 1girls , gangbang,  cum shot , bukkake , facial , torso grab,  cum on breasts,  cum on body,  cum in pussy,   nude , naked, completely nude ,  surprised, { open mouth | wink } ,  tearing up,  streaming tears,   crying,  streaming tears,   orgasm,  female orgasm,   missionary,  sex , multiple penis , bukkake,  (trembling:1.1), (heavy breathing:0.8), (in pussy :1.2) ,  motion lines,   (1boy:1.2) , faceless male,  clothes lift,  pussy juice , nipples,  pussy , pov ,  ( battery indicator,  recording , recording mark ,"REC":1.3) , { sweat | 1.3::(cum in pussy,  uterus , x-ray:1.4)  } , (motion lines,  motion blur:1.3)
 
 
+### レイプ語
+HDA_AfterGangbangXL , lying on floor ,  standing boy , tearing up,  streaming tears,  empty eyes,  empty eyes,  arms behind back ,  spread legs,   from side ,  
+
 ### 目覚め
 1girls , gangbang,  nude , naked, completely nude ,  tearing up,   crying,  streaming tears , all fours , doggy style , { irrumatio | licking penis } ,  from side , , orgasm,  female orgasm,   missionary,  sex ,  (trembling:1.1), (heavy breathing:0.8), (in pussy :1.2) ,  motion lines,   (1boy:1.2) , faceless male,  pussy juice , nipples,  pussy , ( battery indicator,  recording , recording mark ,"REC":1.3) , { sweat | 1.3::(cum in pussy,  uterus , x-ray:1.4)  } , (motion lines,  motion blur:1.3)
 
@@ -159,3 +168,17 @@ top-down bottom-up,  ass grab ,   (trembling:1.1), (heavy breathing:0.8), (in pu
 
  #### 
    in office , sitting , on office chair,  table , holding cup,  smile ,  open mouth,  speaking ,  
+
+#### 睡眠姦
+1773234367
+
+lying , on bed, open mouth,  sleeping, closed eyes,  open mouth,  open shirt,  white bra ,  from below ,  pillow ,  lace bra , lingerie,  skirt lift , white panties ,  (bra lift:1.2) , nipples,  large breasts,  spread legs,  close-up crotch , arms up , arms behind back 
+
+lying , on bed, open mouth,  sleeping, closed eyes,  open mouth,  open shirt,   from below ,  pillow ,   skirt lift ,  pussy , nipples,  large breasts,  spread legs,  close-up crotch , clitoris,   arms up , spread another's pussy , pov ,  pussy juice , ecstasy,  heavy breathing, 
+
+#### 挿入間近
+lying , on bed, open mouth,  sleeping, closed eyes,  open mouth,   { from above , { spread pussy | sweat } , pov , 1boy ,  |  2::1boy ,  from below  } ,   imminent penetration,  1boy , penis , ,  spread legs, 
+
+#### 挿入
+
+lying , on bed, open mouth,  sleeping, closed eyes,  open mouth,   { from above , { spread pussy | sweat } , pov , 1boy ,  |  2::1boy ,  from below  } ,   missionary,  sex ,   1boy , deep penetration , trembling,   spread legs,  { leg grab  | torso grab | sweat }   , cum

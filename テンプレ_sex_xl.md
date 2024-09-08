@@ -37,6 +37,9 @@ open mouth, grabbing penis ,   orgasm,  drooling,  looking at viewer,  heavy bre
 # 強制フェラ
 head grabbing  , { fellatio |  2::irrumatio , deepthroat }  , {  (surprised:1.3) | crying , streaming tears,  frown  } ,  look up,  tearing up,  drooling,  { open eyes | one eye closed } , heavy breathing  , motion lines, trembling,  penis ,  from side , , kneeing, 
 
+## 背面座位
+1boy , faceless male,  ,( reverse upright straddle:1.3), penis ,  sex  , ecstasy,  orgasm,   holding legs  ,  grabbing from behind,  heavy breathing,  tearing up,  (ecstasy:1.4) , (covering crotch:1.1),  <lora:jyojishitagi_Pony_V1.0:1>jyojipan,bra ,underwear,  lift bra , nipples, 
+
 ## 正常位
 missionary,  sex , pov ,   { holding legs | torso grab | holding hands | holding arms } ,   {arms up |   breasts squeezed together |  __nsp/myNSFW/commonArm__ } ,   motion lines  , trembling,  { 1-3$$orgasm | sweat |  heavy breathing | head tilt |  one eye closed | frown |  trembling | spoken heart | heart-shaped pupils }  , open mouth,  close-up pussy , 
 
