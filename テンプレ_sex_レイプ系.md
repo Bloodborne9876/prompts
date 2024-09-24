@@ -182,3 +182,15 @@ lying , on bed, open mouth,  sleeping, closed eyes,  open mouth,   { from above 
 #### 挿入
 
 lying , on bed, open mouth,  sleeping, closed eyes,  open mouth,   { from above , { spread pussy | sweat } , pov , 1boy ,  |  2::1boy ,  from below  } ,   missionary,  sex ,   1boy , deep penetration , trembling,   spread legs,  { leg grab  | torso grab | sweat }   , cum
+
+
+## 後ろから
+spread legs,  (grabbing from behind:1.2),  sex , penis , deep penetration,  reverse upright straddle,  on couch ,   , school uniform,  kneehighs,  serafuku,  black pleated skirt,  1boy ,  breasts grab , motion lines,  clothes lift,  bra  nipples,  open mouth,  heavy breathing,  , (trembling:0.8),  skirt lift, pussy ,   from below, ceiling,  clitoris,  close-up pussy , pussy juice, 
+
+spread legs,  (grabbing from behind:1.2),  sex , penis , (deep penetration,  x-ray:1.2) ,   reverse upright straddle,  on couch ,   , school uniform,  kneehighs,  serafuku,  black pleated skirt,  1boy ,  breasts grab , motion lines,  clothes lift,  bra  nipples,  open mouth,  heavy breathing,  , (trembling:0.8),  skirt lift, pussy ,   from below, ceiling,  clitoris,  close-up pussy , pussy juice,  arms behind back  , (cum in uterus , trembling:1.3), 
+## 種付けプレス
+mating press,  missionary,  spread legs,  cowboy shot,  on bed,  heavy breathing,  indoors,  1boy , sex ,  penis ,  deep penetration, tearing up,  streaming tears,  tape gag,  trembling, fat man ,  (used condom,:1.2)  , holding arms 
+
+
+## ごうかん
+1boy , pov , from  below , cowgirl position , gangbang , fellatio , handjob , 2boys ,  ecstasy,  sex , (motion lines , motion blur,:1.2)    ,  on floor    open clothes,  nipples,  tongue out,  drooling,  hypnosis,  empty eyes,  heart-shaped pupils,  fellatio ,  missionary,  sex , irrumatio,  skirt lift,  lifted by self,  ,  bra  , cum on tongue,  facial , cum on breasts,  bukkake,  (japanese sound effects:1.2),  ejaculation,  female ejaculation,  x-ray ,  cum in uterus 
