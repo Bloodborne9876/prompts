@@ -32,6 +32,12 @@
 ## レイプ4
 on bed ,  { missionary | 2:: missionary,  cowgirl position } ,  tearing up,  streaming tears,  crying  ,  { 2::clenched teeth , sweat, heavy breathing,   (orgasm,  trembling,  female orgasm:1.3) ,  grabbing penis  |  shouting , cum on body , bukkake , trembling,  orgasm , heavy breathing,  | 2::empty eyes , open mouth , holding arms , cum on body,  cum on breasts,  facial ,  } , { arms up | arms behind back | sweat } ,  { cum in pussy , (x-ray , uterus:1.3) | pussy juice } , 
 
+
+
+### 四つん這い
+1boy , fatman , faceless male,  torso grab,  all fours,   sex from behind , (orgasm,  ecstasy:1.3),   open mouth,  pussy juice,  motion lines,  trembling,   (clitoris:1.2), 
+
+
 ## 受精
 { 2::lying , on bed , missionary  }  ,  pussy , vaginal , sex , 1boy , deep insertion , deep penetration, cum in pussy ,  close-up face ,  cum in pussy , 1boy ,  torso grab,  (trembling,  motion lines,  motion blur:1.2),  tightening pussy , ( x-ray , fertilization,  fertilization egg ,  empty eyes,  surprised:1.2), pov 
 

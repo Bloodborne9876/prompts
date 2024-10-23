@@ -6,7 +6,8 @@ echo inpus as %targetPath%
 
 cd %targetPath%
 mkdir "00_main"
-mkdir "01_trial"
-mkdir "02_title"
+mkdir "00_main\png"
+mkdir "01_title"
+mkdir "02_trial"
 
 pause
