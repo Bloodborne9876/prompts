@@ -29,8 +29,16 @@ nsfw , on ground , tentacles , (many many tentacles , tentacle nest:1.1) , tenta
  { {8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared | frown |  shouting | panicking | half-closed eyes }  }  ,   (trembling:1.1), { 4::open mouth | clenched teeth | (one eye closed:1.4)  , wavy mouth | close mouth } , { 4::(looking away:1.5) | face down | looking at viewer } , close-up character,  { 3::sweat | (multiple views, split view:1.2) } 
 
 ## 導入　見直し4
-in cave , water surface , { sitting ,  spread legs  ,  { arms up , restrained | sweat }   |  knees together feet apart,  sitting,  { covering panties | sweat } , |  doggystyle,  all fours,  from behind  , ass  | standing ,  (spread legs:1.3), (focus crotch:1.1)  , (directly below:1.3) , (from below:1.2) ,  { arms up , restrained | sweat }    }  , {   3-5$$tearing up | frown | surprised,  panicking |  streaming tears | cry | sad |   scared | horror \(theme\)  } , {  4::open mouth | teeth mouth } , { (looking away:1.5) | looking at viewer } ,  sweat,  (mucus:1.2) , { 1.5::(sweat:0.8) |  (multiple views:1.3) } BREAK , ( legs wrap tentacles:1.1) ,  lace trim panties ,  
+in cave ,  { sitting ,  spread legs  ,  { arms up , restrained | sweat }   |  knees together feet apart,  sitting,  { covering panties | sweat } , |  doggystyle,  all fours,  from behind  , ass  | standing ,  (spread legs:1.3), (focus crotch:1.1)  , (directly below:1.3) , (from below:1.2) ,  { arms up , restrained | sweat }    }  , {   3-5$$tearing up | frown | surprised,  panicking |  streaming tears | cry | sad |   scared | horror \(theme\)  } , {  4::open mouth | teeth mouth } , { (looking away:1.5) | looking at viewer } ,  sweat,  (mucus:1.2) , { 1.5::(sweat:0.8) |  (multiple views:1.3) } BREAK , ( legs wrap tentacles:1.1) ,  lace trim panties ,  
  <lora:tentacles_Pony_V1.0:0.5> SHOKUSYU, TENTACLES,TENTACLES PIT ,  restrained, 
+
+
+## 導入　見直し5
+<lora:FComic_1to1000_Pony_V1:1:stop=10>fcomic_1to1000_pony, (comic:1.25),
+(Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect)
+in cave ,  { sitting ,  spread legs  ,  { arms up , restrained | sweat }   |  knees together feet apart,  sitting,  { covering panties | sweat } , |  doggystyle,  all fours,  from behind  , ass  | standing ,  (spread legs:1.3), (focus crotch:1.1)  , (directly below:1.3) , (from below:1.2) ,  { arms up , restrained | sweat }    }  , {   3-5$$tearing up | frown | surprised,  panicking |  streaming tears | cry | sad |   scared | horror \(theme\)  } , {  4::open mouth | teeth mouth } , { (looking away:1.5) | looking at viewer } ,  sweat,  (mucus:1.2) BREAK , ( legs wrap tentacles:1.1) ,  lace trim panties ,  {1.5::crying , sobbing , streaming tears | scared , surprised } , tearing up 
+
+
 
 
 ## 導入2
@@ -122,9 +130,7 @@ irrumatio, (trembling, motion lines:1.5),  ass focus ,  (tentacles in pussy:1.2)
 
 ## フェラ
 
-
- <lora:Mariya Mikhailovna Kujou(tsrdta)-Pony:0.95> MARIA, MEDIUM HAIR, (BROWN HAIR:1.2), AHOGE, HAIR BETWEEN EYES, HAIR ORNAMENT, BROWN EYES , large breasts,  { school uniform,grey jacket,cropped jacket,open clothes,open jacket,wing collar,green bowtie,black dress,pleated dress,collared shirt,white shirt,medium breasts,skindentation,long sleeves,zettai ryouiki,black 
- thighhighs,black footwear,loafers , { sweat | torn clothes }  | 4::(nude , naked, completely nude) , black thighhighs }  , in cave ,  . facial,  cum on breasts,  cum on body,  facial , cum in mouth  <lora:extreme_bukkake_v0.1-pony:1> , 
+in cave ,  . facial,  cum on breasts,  cum on body,  facial , cum in mouth  <lora:extreme_bukkake_v0.1-pony:1> , 
 { licking tentacle | tentacle irrumatio | irrumatio }  , { 2:: from above , looking at viewer,   |  kneeing,  from side   }  upper body, { arms up |   grab tentacle  }   drooling, 
   { 1.5::(ecstasy:1.3) , orgasm  | 0.2::HDA_AhegaoXL , saliva }  ,  drooling  trembling,  (sweat:1.2),  heavy breathing  , open mouth,  cum in throat,  throat , (ecstasy:1.2), 
 
@@ -134,7 +140,7 @@ irrumatio, (trembling, motion lines:1.5),  ass focus ,  (tentacles in pussy:1.2)
 <lora:FComic_1to1000_Pony_V1:1:stop=10>fcomic_1to1000_pony, (comic:1.25),
 (Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect)
 1girl, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice,  trembling,  
-spread legs, (directly below:1.3)  ,  doggystyle,  all fours, irrumatio, gangbang,  rape,  (trembling, motion lines:1.5),  ass focus ,  (tentacles in pussy:1.2) , tentacles in vaginal ,  tentacles sex , double  penetration, deep penetration,  large insertion ,  {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts } , anus insertion , ass insertion ,  (irrumatio:1.3),  arms wrap tentacles , (cum in pussy , cum in mouth , cum in ass , bukkake,  cum on breasts,  cum on body,  facial:1.2) , surprised 
+spread legs, (directly below:1.3)  ,  doggystyle,  all fours, irrumatio, gangbang,  rape,  (trembling, motion lines:1.5),  ass focus ,  (tentacles in pussy:1.2) , tentacles in vaginal ,  tentacles sex , double  penetration, deep penetration,  large insertion ,  {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts } , anus insertion , ass insertion ,  (irrumatio:1.3),  arms wrap tentacles , (cum in pussy , cum in mouth , cum in ass , bukkake,  cum on breasts,  cum on body,  facial:1.2) , {1.5::crying , sobbing , streaming tears | scared , surprised } , tearing up 
 
 
 
@@ -159,7 +165,7 @@ pov   ,HDA_TentacleSexXL_v1.2 , paizuri , tentacle paizuri  , facial,  cum on br
 ## バック
 on ground , tentacles , (many many tentacles , tentacle nest:1.1) ,
 { 8-15$$  panicking | embarrassed | tearing up |  (sweat:0.8) | crying | tearing up | streaming tears | open eyes  | crying | sobbing |  scared | frown |  shouting | panicking | half-closed eyes }    ,(motion blur:1.2), ( motion lines,    trembling:1.3), { 2::open mouth | clenched teeth , orgasm,  trembling,  | (one eye closed:1.4)  , wavy mouth , trembling,  orgasm } , { 2::(looking away:1.5) | face down | looking at viewer } BREAK
-<lora:HDA_Doggystyle_HairPulledBackXL:1>HDA_Doggystyle_HairPulledBackXL , doggystyle,  all fours,  drooling,  open mouth,  tearing up,  spread legs,  head down , legs wrap tentacles  , { sweat | (multiple views , close-up pussy:1.2) } , { sweat |   1.5::<lora:HDA_TentacleSexXL_v1.2:0.8>HDA_TentacleSexXL_v1.2 }  , uterus , uterus in cum 
+ doggystyle,  all fours,  drooling,  open mouth,  tearing up,  spread legs,  head down , legs wrap tentacles  , { sweat | (multiple views , close-up pussy:1.2) } , { sweat |   1.5::<lora:HDA_TentacleSexXL_v1.2:0.8>HDA_TentacleSexXL_v1.2 }  , uterus , uterus in cum 
 
 ## フェラ
 on ground , tentacles , (many many tentacles , tentacle nest:1.1) ,
