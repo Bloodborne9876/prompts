@@ -8,10 +8,12 @@ in  purple tentacle pit , mucus
 
 # 表情
 
-heavy breathing,  (orgasm,  ecstasy,  trembling:1.3),   
+{ 2-3$$ sweat | frown | tearing | crying  | surprised } ,  { 2::open mouth | clenched teeth } , trembling,  { 3-7$$orgasm,  ecstasy | heavy breathing, |cum on body , facial , cum on breasts | tearing up |  streaming tears |  sobbing | scared | embarrassed |  heart-shaped pupils,  } ,  (orgasm,  ecstasy:1.2)
+
 
 ## メス堕ち表情
 
+heavy breathing,  (orgasm,  ecstasy,  trembling:1.3),   
 heart-shaped pupils,  { sweat | 1.2::ahegao }  , bukkake,  cum in pussy,  cum on breasts,  cum on body,  facial ,
 
 
@@ -283,31 +285,38 @@ open mouth,  frown , disgust,  clenched teeth,  sweat,   heavy breathing,  embar
 
 ## 漫画風
 
- { reverse cowgial position , ass , from behind , { (spread legs:1.2) ,  from below , ceiling   }  |   (reverse upright straddle:1.3), spread legs, clitoris , close-up pussy　 |  cowgirl position,  { squatting | straddling }  , from below , ceiling , clitoris , close-up pussy  }     (trembling, motion lines:1.2)  
+ <!-- { reverse cowgial position , ass , from behind , { (spread legs:1.2) ,  from below , ceiling   }  |   (reverse upright straddle:1.3), spread legs, clitoris , close-up pussy　 |  cowgirl position,  { squatting | straddling }  , from below , ceiling , clitoris , close-up pussy  }     (trembling, motion lines:1.2)  
  ,  {  double  penetration |  deep penetration} , large insertion , { 1-3$$cum in pussy,  bukkake,  cum on breasts,  facial |  (multiple views , close-up pussy:1.2)  | (sound effects:1.2)  | (multiple views,  uterus in cum:1.2)  }  , {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts }  , tentacles in vaginal ,  (tentacles in pussy:1.2)  , motion lines,  motion blur, 
-(comic), Multi view, Frame, Text, speech bubble, frame,   trembling, focus line, vibrating line, comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)  ,  (drooling:1.2),  orgasm 
+(comic), Multi view, Frame, Text, speech bubble, frame,   trembling, focus line,  , comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)  ,  (drooling:1.2),  orgasm  -->
 
 
 ## 漫画風2
-all fours,  doggystyle,   reverse cowgial position , ass , from behind , cowgirl position,  { squatting | straddling }  , from below ,  clitoris , close-up pussy  ,   (trembling, motion lines:1.2)  
+<!-- all fours,  doggystyle,   reverse cowgial position , ass , from behind , cowgirl position,  { squatting | straddling }  , spread legs, from below ,  (clitoris:1.1) , close-up pussy  ,   (trembling, motion lines:1.2)  
  ,  {  double  penetration |  deep penetration} , large insertion , { 1-3$$cum in pussy,  bukkake,  cum on breasts,  facial |  (multiple views , close-up pussy:1.2)  | (sound effects:1.2)  | (multiple views,  uterus in cum:1.2)  }  , {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts }  , tentacles in vaginal ,  (tentacles in pussy:1.2)  , motion lines,  motion blur, 
-(comic:1.2), Multi view, Frame, Text, speech bubble, frame,   trembling, focus line, vibrating line, comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)  ,  (drooling:1.2),  orgasm , arms wrap tentacles,  
+(comic:1.2), Multi view, Frame, Text, speech bubble, frame,   trembling, focus line,  , comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)  ,  (drooling:1.2),  orgasm , arms wrap tentacles,   -->
 
+
+{ all fours,  doggystyle  ,  { front , close-up face | ass , hip }  | standing , doggy style , { from behind | from side} , { arms up | arms behind back , restrained }  , legs wrap tentacles, restrained | spread legs,  spread arms,  ass | reverse cowgial position , ass , from behind  , from below , close-up pussy |  cowgirl position,  { squatting | straddling } , from below , close-up pussy  |  2::spread legs, (from below:1.1) ,  (clitoris:1.1) , close-up pussy  ,   (trembling, motion lines:1.2)  }
+ ,  {  double  penetration |  deep penetration} , large insertion , { 1-3$$cum in pussy,  bukkake,  cum on breasts,  facial |  (multiple views , close-up pussy:1.2)  |  (multiple views,  uterus in cum:1.2)  }  , {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts }  , tentacles in vaginal ,  (tentacles in pussy:1.2)  , motion lines,  motion blur, 
+(comic:1.2), Multi view, Frame, Text, speech bubble, frame,   trembling, focus line, comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)  ,  (drooling:1.2),   { 1-3$$orgasm , arms wrap tentacles,  |    <lora:breast_tentacle:1>tentacle on breast , tentacle sucking breast  | female ejaculation } 
+
+-  spread legs , suspended in the air , from side , 
+- wariza , on ground , learing foreword
 
 ### バック中心
  <!-- reverse cowgial position ,  spread legs, clitoris , close-up pussy ,  all fours,  from behind , ass ,   (trembling, motion lines:1.2)  
  ,  {  deep penetration} , large insertion , { 1-3$$cum in pussy,  bukkake,  cum on breasts,  facial |  (multiple views , close-up pussy:1.2)  | (sound effects:1.2)  | (multiple views,  uterus in cum:1.2)  }  , {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts }  , tentacles in vaginal ,  (tentacles in pussy:1.2)  , motion lines,  motion blur, 
-(comic:1.3), multiple views, Frame, Text, speech bubble, frame,   trembling, focus line, vibrating line, comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)  ,  (drooling:1.2),  uterus ,  ovaries,  -->
+(comic:1.3), multiple views, Frame, Text, speech bubble, frame,   trembling, focus line,  , comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)  ,  (drooling:1.2),  uterus ,  ovaries,  -->
 
 ### 騎乗位中心
 <!-- heart  ,  heart-shaped pupils,   bukkake,  cum on breasts,  facial , bukkake,  puffy nipples,  (trembling, heavy breathing,  open mouth,  drooling,  ecstasy,  orgasm:1.3),  {sweat | ahegao }  
  reverse cowgial position ,  spread legs, clitoris , close-up pussy ,  all fours,  from behind , ass ,   (trembling, motion lines:1.2)  
  ,  {  double  penetration |  deep penetration} , large insertion , { 1-3$$cum in pussy,  bukkake,  cum on breasts,  facial |  (multiple views , close-up pussy:1.2)  | (sound effects:1.2)  | (multiple views,  uterus in cum:1.2)  }  , {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts }  , tentacles in vaginal ,  (tentacles in pussy:1.2)  , motion lines,  motion blur, 
-(comic:1.3), multiple views, Frame, Text, speech bubble, frame,   trembling, focus line, vibrating line, comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)   ,  (drooling:1.2),  uterus ,  ovaries,  -->
+(comic:1.3), multiple views, Frame, Text, speech bubble, frame,   trembling, focus line,  , comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)   ,  (drooling:1.2),  uterus ,  ovaries,  -->
 
 ### 足開
  <!-- ,  {  double  penetration |  deep penetration} , large insertion , { 1-3$$cum in pussy,  bukkake,  cum on breasts,  facial |  (multiple views , close-up pussy:1.2)  | (sound effects:1.2)  | (multiple views,  uterus in cum:1.2)  }  , {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts }  , tentacles in vaginal ,  (tentacles in pussy:1.2)  , motion lines,  motion blur, 
-(comic:1.3), multiple views, Frame, Text, speech bubble, frame,   trembling, focus line, vibrating line, comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)  ,  (drooling:1.2),  orgasm  -->
+(comic:1.3), multiple views, Frame, Text, speech bubble, frame,   trembling, focus line,  , comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)  ,  (drooling:1.2),  orgasm  -->
 
 ### 尻上げ
 top-down bottom-up,   spread legs    {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts }  , tentacles in vaginal ,  (tentacles in pussy:1.2)  , motion lines,  motion blur,  (comic:1.2), coma++,  Frame, Text, frame,  comic expression, (full body:1.2)  , ( close-up pussy ,  multiple views:1.1), arms wrap tentacles, 
@@ -319,7 +328,7 @@ top-down bottom-up,   spread legs    {1-3$$ legs wrap tentacles | torso wrap ten
 <!-- heart  ,  heart-shaped pupils,   bukkake,  cum on breasts,  facial , bukkake,  puffy nipples,  (trembling, heavy breathing,  open mouth,  drooling,  ecstasy,  orgasm:1.3),  { sweat |  ahegao , drooling }  , bukkake,  cum on breasts,  cum on body,  facial 
  reverse cowgial position ,  spread legs, clitoris , close-up pussy ,  all fours,  doggystyle,  legs wrap tentacles ,arms wrap tentacles , spread legs,  close-up pussy , clitoris , 
  ,  {  deep penetration} , large insertion ,  cum in pussy,  bukkake,  cum on breasts,  facial  , (multiple views:1.2),  cum in pussy ,  motion lines,  motion blur,  tentacles sex ,  uterus , ovaries, 
-(comic:1.3), multiple views, Frame, Text, speech bubble, frame,   trembling, focus line, vibrating line, comic expression , full body,  -->
+(comic:1.3), multiple views, Frame, Text, speech bubble, frame,   trembling, focus line,  , comic expression , full body,  -->
 
 # メス堕ち
 <!-- 
@@ -403,7 +412,7 @@ all fours,  doggystyle,   irrumatio,  deepthroat,  cum in mouth ,  deep penetrat
 heart  ,  heart-shaped pupils,   bukkake,  cum on breasts,  facial , bukkake,  puffy nipples, 
  { 2$${ doggystyle,  all fours  , {  from behind   ass focus  |  close-up face } } |  cowgirl position  , from below , close-up pussy ,  |   { (spread legs:1.2) ,  from below , ceiling   }  |   (reverse upright straddle:1.3), spread legs,  from below , ceiling  , clitoris , close-up pussy　 |  cowgirl position,  { squatting | straddling }  , from below , ceiling , clitoris , close-up pussy  }     (trembling, motion lines:1.2)  
  ,  {  double  penetration |  deep penetration} , large insertion , { 1-3$$cum in pussy,  bukkake,  cum on breasts,  facial |  (multiple views , close-up pussy:1.2)  | (sound effects:1.2)  | (multiple views,  uterus in cum:1.2)  }  , {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts }  , tentacles in vaginal ,  (tentacles in pussy:1.2)  , motion lines,  motion blur, 
-(comic), Multi view, Frame, Text, speech bubble, frame,   trembling, focus line, vibrating line, comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)  ,  (drooling:1.2),  orgasm 
+(comic), Multi view, Frame, Text, speech bubble, frame,   trembling, focus line,  , comic expression, ( speech bubble,  Sound effect:1.2),  (full body:1.2)  ,  (drooling:1.2),  orgasm 
   
 
 ### 気分で付与
