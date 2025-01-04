@@ -200,3 +200,13 @@ mating press,  missionary,  spread legs,  cowboy shot,  on bed,  heavy breathing
 
 ## ごうかん
 1boy , pov , from  below , cowgirl position , gangbang , fellatio , handjob , 2boys ,  ecstasy,  sex , (motion lines , motion blur,:1.2)    ,  on floor    open clothes,  nipples,  tongue out,  drooling,  hypnosis,  empty eyes,  heart-shaped pupils,  fellatio ,  missionary,  sex , irrumatio,  skirt lift,  lifted by self,  ,  bra  , cum on tongue,  facial , cum on breasts,  bukkake,  (japanese sound effects:1.2),  ejaculation,  female ejaculation,  x-ray ,  cum in uterus 
+
+
+## SEX
+ (orgasm,  ecstasy:1.3),  nipples,  
+arms behind back , restrained,  all fours,  doggystyle,   motion lines,  motion blur, leaning forward,  tearing up,  streaming tears, sex , torso grab 
+
+1girl , 1boy , black background , simple background, 
+dim lights ,  medium breasts,  nose blush,  nipples, 
+in prison ,   teen , toddler body ,  age down , slender , silver hair  , short hair,  small breasts,  flat chest,  loli , pink frilled dress,  skirt ,  
+faceless female,  from behind , fellatio,  from below,  kneeing, 
