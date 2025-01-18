@@ -4,6 +4,22 @@
 
 in  purple tentacle pit , mucus
 
+## テンプレート
+
+```
+${openType=!{open clothes , open own clothes}} 
+${openOnly=!{open clothes}} 
+${braColor=!{white ribbon bra , (white:1.3)}} 
+${pantyColor=!{(white:1.1)}} 
+${dMouth=!{open mouth | open mouth , wavy mouth |clenched teeth}} 
+${eMouth=!{drooling , open mouth | open mouth }} 
+1girl , solo ,  simple background,  (black background:1.1)
+simple background,  (black background:1.2), 
+in  purple tentacle pit , mucus,
+1girl , solo , <lora:HSR_DHT_v1.0_noob:1> HSR_DHT,purple eyes,long hair,brown hair,purple headwear , purple dress, black boots,black pantyhose,frills , torn pantyhose,  panties under pantyhose, 
+[X] ,
+```
+
 
 ## 表情
 
@@ -14,17 +30,25 @@ in  purple tentacle pit , mucus
 
 
 ### 苦悶
-
+<!-- 
 in  purple tentacle pit , mucus
-{ 2-3$$ sweat | frown | tearing | crying  | surprised } ,  { 2::open mouth | clenched teeth } , trembling,  { 3-7$$orgasm,  ecstasy | heavy breathing, |cum on body , facial , cum on breasts | tearing up |  streaming tears |  sobbing | scared | embarrassed | (trembling:1.3) } 
+{ 1-3$$ sweat |  tearing | crying | half-closed eyes } ,  { 4::open mouth | clenched teeth } , trembling,  { 2-3$$ (ecstasy:1.2) | heavy breathing, |cum on body , facial , cum on breasts | tearing up |  embarrassed | (trembling:1.3) }  -->
+
+
+#### ショートカット
+```
+in purple tentacle pit , mucus
+{ 1-3$$ sweat |  tearing | crying | half-closed eyes } , open mouth, { closed eyes |  one eye closed |  half-closed eyes , drooling  } ,   , trembling,  { 2-3$$ (ecstasy:1.2) | heavy breathing, |cum on body , facial , cum on breasts | tearing up |  embarrassed | (trembling:1.3) }  , { 1-3$$pink eyes | sweat | female ejaculation | cum in pussy  } 
+{ __tentacle/10_sex_horizon__ | __tentacle/11_sex_vertical__  } , close-up pussy , { 1-3$$from below |  (uterus:1.2) | sweat  }  , large insertion  ,  { 1-2$$sweat |  (japanese sound effect:1.2) | (japanese speech bubble:1.2) } 
+```
 
 ### メス堕ち表情
 
 <!-- { (orgasm, ecstasy:1.1) , light smile | (orgasm,  ecstasy:1.1) , drooling  | ahegao , drooling } ,   (pink eyes , heart-shaped pupils:1.1),  heavy breathing,  open mouth,  bukkake,  cum on body,  cum on breasts,  { 1-4$$multiple views | fertilization | uterus | x-ray } -->
 ```
-{ ( ecstasy) , light smile | (orgasm,  ecstasy:1.2) , drooling  | female ejaculation , drooling } ,   (pink eyes , heart-shaped pupils:1.1),  heavy breathing,  open mouth,  bukkake,  cum on body,  cum on breasts,  { fertilization | uterus | x-ray }
+in purple tentacle pit , mucus
+(2-3$${ ecstasy | female orgasm | female ejajucation | drooling }:1.2)  , pink eyes , heart-shaped pupils , { half-closed eyes | ahegao | half-closed eyes , female orgasm }  , close-up pussy , { 1-3$$from below |  (uterus:1.2) | sweat  }  , large insertion  ,  { 1-2$$sweat |  (japanese sound effect:1.2) | (japanese speech bubble:1.2) } 
 ```
-
 
 ### 全体的に感じ
 { (orgasm, ecstasy:1.1) , light smile | (orgasm,  ecstasy:1.1) , drooling  | ahegao , drooling } ,   (pink eyes , heart-shaped pupils:1.1),  heavy breathing,  open mouth,  bukkake,  cum on body,  cum on breasts,  { 1-4$$multiple views | fertilization | uterus | x-ray }
@@ -103,10 +127,14 @@ nsfw ,(tentacle nest , tentacle pit:1.2)   , heavy breathing,  trembling,
   in cave , tentacle nest , tentacle pit  , sitting , wariza ,  irrumatio,  close-up face ,  tongue out,  spread arms,  restrained on tentacles,  { cowboy shot | from side }  , bukkake,  facial ,  cum on breasts,  cum on body,  tentacles in mouth ,  ( facial , bukkake,  cum in mouth:1.2) , <lora:tentacles_coilV3:0.8:stop=20> , { arms up | arms behind back } , tentacles coil on body , 
 
 ### ショトカ
+
+{ 2-3$$ sweat | frown | tearing | crying  | surprised } ,  { 2::open mouth | clenched teeth } , trembling,  { 1-2$$ (ecstasy:1.2) | heavy breathing, |cum on body , facial , cum on breasts | tearing up |  embarrassed, } 
 __tentacle/02_fellatio__  , (multiple views , close-up face :1.2),  crying,  tearing up,  streaming tears,  teardrop,  flying teardrops,  
 
-
+{ 2-3$$ sweat | frown | tearing | crying  | surprised } ,  { 2::open mouth | clenched teeth } , trembling,  { 1-2$$ (ecstasy:1.2) | heavy breathing, |cum on body , facial , cum on breasts | tearing up |  embarrassed, } 
 __tentacle/10_sex_horizon__ , (japanese sound effect:1.2)  , female ejaculation,  
+
+{ 2-3$$ sweat | frown | tearing | crying  | surprised } ,  { 2::open mouth | clenched teeth } , trembling,  { 1-2$$ (ecstasy:1.2) | heavy breathing, |cum on body , facial , cum on breasts | tearing up |  embarrassed, } 
 
 
 ## ごっくん
@@ -443,16 +471,23 @@ all fours,  doggystyle,   irrumatio,  deepthroat,  cum in mouth ,  deep penetrat
 (comic:1.4), multiple views,   frame, focus line, comic expression, (full body:1.2)   ,     -->
 
 ## 上位2
-{ top-down bottom-up |   all fours,   (from behind , ass:1.3) , focus  |   (tentacles straddling:1.1) | reverse cowgirl position,  squatting,  (from behind , ass:1.2)  |  (tentacles cowgirl position:1.1) ,  squatting  | spread legs,  legs up } , {  from below |  close-up pussy } , (motion lines,  motion blur:1.2),  {  close-up breasts | breast sucking |  milking tentacles, breastfeeding |  tentacles { fellatio |  irrumatio | handjob:1.1 } }   
-(comic:1.1), multiple views,  frame, focus line, comic expression, (full body:0.9)   , tentacles sex , pussy , vaginal , { sweat |  (uterus:1.2) } 
+<!-- { top-down bottom-up |   all fours,   (from behind , ass:1.3) , focus  |   (tentacles straddling:1.1) | reverse cowgirl position,  squatting,  (from behind , ass:1.2)  |  (tentacles cowgirl position:1.1) ,  squatting  | spread legs,  legs up } , {  from below |  close-up pussy } , (motion lines,  motion blur:1.2),  {  close-up breasts | breast sucking |  milking tentacles, breastfeeding |  tentacles { fellatio |  irrumatio | handjob:1.1 } }   
+(comic:1.1), multiple views,  frame, focus line, comic expression, (full body:0.9)   , tentacles sex , pussy , vaginal , { sweat |  (uterus:1.2) }  -->
 
 ## 上位3
-{ top-down bottom-up |   all fours,   (from behind , ass:1.3) , focus  |   (tentacles straddling:1.1) | reverse cowgirl position,  squatting,  (from behind , ass:1.2)  |  (tentacles cowgirl position:1.1) ,  squatting  | spread legs,  legs up } , {  from below |  close-up pussy } , (motion lines,  motion blur:1.2), { sweat | close-up breasts | breast sucking |  milking tentacles, breastfeeding |  tentacles { fellatio |  irrumatio | handjob:1.1 } | 
-(comic:1.1), multiple views,  frame, focus line, comic expression, (full body:0.9)   , tentacles sex , pussy , vaginal , { sweat |  (uterus:1.2) } }
+<!-- { top-down bottom-up |   all fours,   (from behind , ass:1.3) , focus  |   (tentacles straddling:1.1) | reverse cowgirl position,  squatting,  (from behind , ass:1.2)  |  (tentacles cowgirl position:1.1) ,  squatting  | spread legs,  legs up } , {  from below |  close-up pussy } , (motion lines,  motion blur:1.2), { sweat | close-up breasts | breast sucking |  milking tentacles, breastfeeding |  tentacles { fellatio |  irrumatio | handjob:1.1 } | 
+(comic:1.1), multiple views,  frame, focus line, comic expression, (full body:0.9)   , tentacles sex , pussy , vaginal , { sweat |  (uterus:1.2) } } , close-up crotch  -->
+
+## 上位4
+{ top-down bottom-up |   all fours,   (from behind , ass:1.3) , focus  |   (tentacles straddling:1.1) | reverse cowgirl position,  squatting,  (from behind , ass:1.2)  |  (tentacles cowgirl position:1.1) ,  squatting  | spread legs,  legs up } , {  from below |  close-up pussy } , (motion lines,  motion blur:1.2), { sweat | close-up breasts | breast sucking |  milking tentacles, breastfeeding |  tentacles { fellatio |  irrumatio | handjob:1.1 } } , close-up crotch ,  pussy ,  large insertion , deep penetration, (  female orgasm,  ecstasy:1.5), 
+
+## おすすめ
+__tentacle/11_sex_vertical__ , [X] , close-up crotch ,  pussy ,  large insertion , deep penetration, (  female orgasm,  ecstasy:1.5), 
+__tentacle/10_sex_horizon__ , [X] , close-up crotch ,  pussy ,  large insertion , deep penetration, (  female orgasm,  ecstasy:1.5), 
 
 
 ### 気分で付与
-<lora:FComic_HardCore_Pony_V1:0.6:stop=40>
+<!-- <lora:FComic_HardCore_Pony_V1:0.6:stop=40> -->
 
 
 # 全部入り
@@ -483,3 +518,40 @@ lying,  on bed ,  motion lines,  skirt lift,  lifted by self,   (dildo riding:1.
 ## レイプ目
 spread pussy,  cum on breasts,  cum on body,  cum in mouth , cum in throat ,  bukkake,  facial,  <lora:extreme_bukkake_v0.1-pony:1>  lying,   spread legs,  spread pussy,  female ejaculation,  (trembling:1.3),  from below ,  (multiple views,  close-up pussy:1.2), 
 
+## ランダム
+
+### 縦
+
+cowgirl position,suspend in air, bukkake, irrumatio,deepthroat,cum in mouth ,deep penetration, {1-3$$ legs wrap tentacles }, tentacles in vaginal ,tentacles sex, arms wrap tentacles , legs wrap tentacles ,bukkake,facial, spread legs,{arms up | spread arms } , x-ray , restrained, 
+tentacles fucking vagina, vaginal penetration, tentacle deep insertion , tentacles sex , tentacles handjob,tentacles tweak nipples,spread legs,heavy breathing,female ejaculation,gangbang,oral , handjob , 
+sweat, restrained by tentacles,suspend in air , tentacles fucking vagina
+doggy style ,from behind , ass ,bukkake, deep penetration, {1-3$$ legs wrap tentacles }, tentacles in vaginal ,tentacles sex, arms wrap tentacles , legs wrap tentacles ,bukkake,facial, uterus,arms wrap tentacles , (uterus:1.2)
+{ 2::reverse cowgirl position , ass , from behind | cowgirl position ,squatting } ,missionary , motion lines,motion blur
+standing , leaning forward, { front |close-up breasts , close-up face,(from behind , ass:1.2)}, sex, motion lines,motion blur,breast suckingnipples, motion lines,motion blur,{ 1-3$$sweat |(uterus:1.2) | female ejaculation | breast milk | (trembling:1.3) }irrumatio ,{ arms up | spread arms | arms behind back }, restrained, 
+<lora:crotch_rub_tentacles_v1_Illustrious:1> crotch rub,tentacles , trembling,spread arms, female ejaculation,female orgasm , female ejaculation,arms up ,wariza ,breast sucking nipples,
+from side , irrumatio,sex, all fours,doggystyle,motion lines,motion blur,uterus, arms up , restrained,
+spread arms,spread legs,legs up ,motion lines,motion blur,{ 1-3$$sweat |(uterus:1.2) | female ejaculation | breast milk | (trembling:1.3) }
+, { arms up | spread arms } , ass, from behind,suspended in air ,vaginal ,motion lines,motion blur
+all fours,doggystyle,ass, from behind , sex ,spread arms,breast sucking,
+standing , arms up , leaning forward,restrained, { front |from behind } , ass ,deep penetration, heavy breathing,bukkake,
+restrained,{ arms up | spread arms } ,standing , sex , leaning forward,{2::(breast sucking:1.1),| milking tentacle },trembling,heavy breathing,tentacle on breast , irrumatio
+top-down bottom-up,from behind, ass, double penetration , anal penetration , (uterus:1.2) , multiple views,
+close-up,breasts , breast sucking,restrained,m legs , spread arms, legs up 
+legs up , m legs, tentacles sex , cum in throat , motion lines,motion blur,bukkake,cowboy shot,gangbang,handjob, oral , full body
+restrained,{ arms up | spread arms } ,standing , sex , leaning forward,{2::(breast sucking:1.1),| milking tentacle },trembling,heavy breathing,tentacle on breast , irrumatio, upper body,close-up breasts , cum in mouth , motion lines, 
+standing , arms up , leaning forward,restrained, { front |from behind } , ass ,deep penetration, heavy breathing,bukkake,
+
+### 横
+
+<!-- ,{{doggystyle,all fours , { from behind , ass | close-up face }, { sweat | (multiple views) } } | {spread legs, (directly below:1.1) , (trembling, motion lines:1.5),ass focus } , { arms up | spread arms } , arms wrap tentacles | {(reverse upright straddle:1.3), spread legs} , { arms up | spread arms } , arms wrap tentacles| { cowgirl position,{ squatting | straddling }}} ,{ large penetration | deep penetration } ,{ arms up | spread arms } , arms wrap tentacles ,{ cum in pussy,bukkake,cum on breasts,facial | (sound effects:1.2)| (multiple views,uterus in cum:1.2)| (from below:1.1) }, {1-3$$ legs wrap tentacles | torso wrap tentacles | tentacles wrap breasts }, tentacles in vaginal ,tentacles sex, (tentacles in pussy:1.2), motion lines,motion blur,(trembling, motion lines:1.5),{ 2::sweat | ejaculation , (orgasm,trembling,ecstasy:1.3) } -->
+reverse upright straddle,legs up , clitoris
+suspended in the air, tentacles , tentacle deep fucking mouth, spread legs,missionary,tentacles sex , spread arms,spread legs
+tentacle sex , spread arms ,spread legs,legs up ,missionary,oral 
+{ doggy style |all fours,doggystyle } , { arms wrap tentacles | spread arms } ,{ front| from side | from behind , ass}, close-up face ,{ sweat| irrumatio,deepthroat , cum in mouth } , large insertion , {1-3$$ legs wrap tentacles }, tentacles in vaginal ,tentacles sex, arms wrap tentacles , legs wrap tentacles ,bukkake,facial,from below , spread legs
+restrained,{ arms up | spread arms } ,standing , sex , leaning forward,{2::(breast sucking:1.1),| milking tentacle },trembling,heavy breathing,tentacle on breast , irrumatio
+top-down bottom-up, (from behind, ass:1.2) , pussy , restrained,large penetration ,,(uterus:1.2)
+{ front | from side }irrumatio,sex, all fours,doggystyle,motion lines,motion blur,uterus, arms up , restrained
+front , irrumatio,sex , standing ,motion lines,motion blur,uterus, arms up , restrained
+{ arms up | spread arms } , tentacles breast sucking,trembling, heavy breathing,standing , leaning forward,full body,{ sweat |multiple views }
+reverse suspended congress,arms up ,pussy, suspend in air , (orgasm, ecstasy:1.3),motion lines,motion blur,from below , low angle ,restrained legs, tentacle sex
+leaning forward,legs wrap tentacles,standing , motion lines, motion blur, uterus, arms behind back, split view , pussy , ass , border,comic, pussy juice, restrained

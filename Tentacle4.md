@@ -11,6 +11,8 @@ ${openType=!{open clothes , open own clothes}}
 ${openOnly=!{open clothes}} 
 ${braColor=!{white ribbon bra , (white:1.3)}} 
 ${pantyColor=!{(white:1.1)}} 
+${dMouth=!{open mouth | open mouth , wavy mouth |clenched teeth}} 
+${eMouth=!{drooling , open mouth | open mouth }} 
 in purple tentacle pit , mucus
 1girl , solo ,
 [X]
@@ -28,21 +30,29 @@ in purple tentacle pit , mucus
 [X]
 ```
 
+<!-- ```
+from below , on ground, sitting , knees together feet apart, ${pantyColor} panties, surprised , tearing up , arms up , (tentacles restrained:1.1), head tilt , ? 
+from below , on ground, sitting , knees together feet apart, ${pantyColor} panties, legs wrap tentacles, restrained, tearing up, torn clothes, streaming tears, clenched teeth, frown , arms up , tentacles restrained , sobbing , 
+surprised , sobbing , ${dMouth} , tearing up , from below , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, arms up , tentacles restrained , streaming tears, ${dMouth}, spread legs , clenched teeth, 
+sobbing , ${dMouth} , tearing up , from below , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, arms up , tentacles restrained , tearing up, streaming tears, clenched teeth, frown , spread legs , legs up
+${dMouth} , from below , close-up crotch , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, arms up , tentacles restrained , tearing up, ${dMouth}, spread legs , legs up , pussy juice , crotch rub , , clenched teeth, motion blur, (trembling:1.3), (japanese sound effects:1.2) , head tilt
+${dMouth} , from below , close-up crotch , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, arms up , tentacles restrained , tearing up, ${dMouth}, spread legs , legs up , pussy juice , crotch rub , motion lines, motion blur, ( trembling, ecstasy:1.3), heavy breathing,(trembling:1.2), (japanese sound effects:1.2)
+${dMouth} , from below , close-up crotch , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, arms up , tentacles restrained , tearing up, ${dMouth}, spread legs , legs up , pussy juice , crotch rub , motion lines, motion blur, ( trembling, ecstasy:1.3), heavy breathing, (trembling:1.2), (japanese sound effects:1.2) , half-clossed eyes
+from above , close-up crotch , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, restrained, tearing up, torn clothes, streaming tears, m legs , (pussy juice:1.2) , trembling, covering crotch, heavy breathing, half-clossed eyes , clenched teeth
+``` -->
+
+
 ```
-from below , on ground, sitting , knees together feet apart, white panties, surprised , tearing up 
-from below , on ground, sitting , knees together feet apart, white panties, legs wrap tentacles, surprised , tearing up , open mouth , spoken exclamation mark, 
-from below , on ground, sitting , knees together feet apart, white panties, legs wrap tentacles, surprised , tearing up , arms up , tentacles restrained , , restrained, tearing up, open mouth , spoken exclamation mark, 
-from below , on ground, sitting , knees together feet apart, white panties, legs wrap tentacles, spread arms up , tentacles restrained , , restrained, tearing up, torn clothes, nipples, surprised, streaming tears, open mouth, 
-from below , on ground, sitting , knees together feet apart, white panties, legs wrap tentacles, restrained, tearing up, torn clothes, nipples, streaming tears, clenched teeth, frown , arms up , tentacles restrained , , sobbing , 
-surprised , sobbing , open mouth , tearing up , from below , on ground, sitting , white panties, legs wrap tentacles, arms up , tentacles restrained , , restrained, tearing up, torn clothes, nipples, streaming tears, open mouth, spread legs , clenched teeth, 
-sobbing , open mouth , tearing up , from below , on ground, sitting , white panties, legs wrap tentacles, spread arms up , tentacles restrained , , restrained, tearing up, torn clothes, nipples, streaming tears, clenched teeth, frown , spread legs , legs up
-streaming tears , open mouth , tearing up , from below , on ground, sitting , white panties, legs wrap tentacles, spread arms up , tentacles restrained , , restrained, tearing up, torn clothes, nipples, streaming tears, open mouth, spread legs , legs up , pussy juice , crotch rub , motion lines, motion blur, ( trembling, orgasm, ecstasy:1.3), heavy breathing, open mouth, (trembling:1.2), (japanese sound effects:1.2)
-streaming tears ,disgust , frown , tearing up , from below , on ground, sitting , white panties, legs wrap tentacles, restrained, tearing up, torn clothes, nipples, streaming tears, open mouth, knees together feet apart , (pussy juice:1.2) , trembling, covering crotch, covering breasts, heavy breathing
+from below , on ground, sitting , knees together feet apart, ${pantyColor} panties, legs wrap tentacles, restrained, tearing up, torn clothes, streaming tears, clenched teeth, frown , arms up , tentacles restrained , sobbing , 
+surprised , sobbing , ${dMouth} , tearing up , from below , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, arms up , tentacles restrained , streaming tears, ${dMouth}, spread legs , clenched teeth, 
+sobbing , ${dMouth} , tearing up , from below , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, arms up , tentacles restrained , tearing up, streaming tears, clenched teeth, frown , spread legs , legs up
+${dMouth} , from below , close-up crotch , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, arms up , tentacles restrained , tearing up, ${dMouth}, spread legs , legs up , pussy juice , crotch rub , motion lines, motion blur, ( trembling, ecstasy:1.3), heavy breathing,(trembling:1.2), (japanese sound effects:1.2)
+${dMouth} , from below , close-up crotch , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, arms up , tentacles restrained , tearing up, ${dMouth}, spread legs , legs up , pussy juice , crotch rub , motion lines, motion blur, ( trembling, ecstasy:1.3), heavy breathing, (trembling:1.2), (japanese sound effects:1.2) , half-clossed eyes
+from above , close-up crotch , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, restrained, tearing up, torn clothes, streaming tears, m legs , (pussy juice:1.2) , trembling, covering crotch, heavy breathing, half-clossed eyes , clenched teeth
 ```
 
 
-
-## パンチラ2
+## パンチラ後ろから
 ```
 
 ```
@@ -51,20 +61,11 @@ streaming tears ,disgust , frown , tearing up , from below , on ground, sitting 
 in purple tentacle pit , mucus
 [X]
 ```
-
-tearing up, close-up pussy , trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , tearing up, arms behind back , tentacles restrained, ${pantyColor} panties, from below , (surprised:1.2) , looking at viewer , scared , open mouth , shouting ,  (pussy juice:1.1)
-tearing up, close-up pussy , trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , tearing up, arms behind back , tentacles restrained, ${pantyColor} panties, from below, looking at viewer , scared , open mouth , crotch rub
-tearing up, close-up pussy , trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , tearing up, arms behind back , tentacles restrained, ${pantyColor} panties, from below, looking at viewer , open mouth , crotch rub , motion lines, (ecstasy:1.3) , half-closed eyes , heavy breathing , 
-tearing up, close-up pussy , trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , tearing up, arms behind back , tentacles restrained, ${pantyColor} panties, from below, looking at viewer , open mouth , crotch rub , motion lines, (ecstasy:1.3) , half-closed eyes , heavy breathing , female ejajucation ,
-tearing up, close-up pussy , trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , tearing up, arms behind back , tentacles restrained, (${pantyColor} panties:1.2), from below, looking at viewer , open mouth , motion lines, (ecstasy:1.3) , half-closed eyes , heavy breathing , (pussy juice:1.2), 
-tearing up, close-up pussy , trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , tearing up, arms behind back , tentacles restrained, ${pantyColor} panties, from below, panties aside, pussy , surprised, pussy juice, looking at viewer,  (pussy juice:1.1)
-tearing up, close-up pussy , trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , tearing up, arms behind back , tentacles restrained,  ${pantyColor} panties, from below, panties aside, pussy , (surprised:1.2) , open mouth , shouting ,  tearing up , (pussy juice:1.1), looking at viewer, tentacles spread pussy, trembling,
-tearing up, close-up pussy , half-closed eyes ,  trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , arms behind back , tentacles restrained,  ${pantyColor} panties, from below, panties aside, pussy , surprised, pussy juice, looking at viewer, large insertion , (japanese sound effects:1.2), (trembling:1.3)
-tearing up, close-up pussy , half-closed eyes ,  trembling,tearing up, close-up pussy , half-closed eyes ,  trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , arms behind back , tentacles restrained,  ${pantyColor} panties, from below, panties aside, pussy , pussy juice, looking at viewer, large insertion , (orgasm, ecstasy:1.2), (japanese sound effects:1.2), looking at viewer , shouting , open mouth
- top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , arms behind back , tentacles restrained,  ${pantyColor} panties, from below, panties aside, pussy , pussy juice, looking at viewer, large insertion , (ecstasy:1.3), (motion lines, motion blur:1.1), (japanese sound effects:1.2), looking at viewer , shouting , open mouth
-tearing up, close-up pussy , half-closed eyes ,  trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , arms behind back ,tentacles restrained,  ${pantyColor} panties, from below, panties aside, pussy , pussy juice, looking at viewer, large insertion , (ecstasy:1.3), (motion lines, motion blur:1.2), (japanese sound effects:1.2), looking at viewer , open mouth , drooling , 
-tearing up, close-up pussy , (surprised , open mouth:1.2)  trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2), arms behind back , tentacles restrained,  ${pantyColor} panties, from below, panties aside, pussy , pussy juice, looking at viewer, large insertion , (ecstasy:1.3), (motion lines, motion blur:1.1), cum in pussy , cum drip (japanese sound effects:1.2), drooling , 
-tearing up, close-up pussy , half-closed eyes ,  trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , arms behind back , tentacles restrained,  ${pantyColor} panties, from below, panties aside, pussy , pussy juice, looking at viewer, cumdrip, (trembling ecstasy:1.4), trembling, cum in pussy , cum drip , (japanese sound effects:1.2) , drooling  , heavy breathing
+tearing up, close-up pussy , trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , tearing up, arms behind back , tentacles restrained, (${pantyColor} panties:1.2), from below, looking at viewer , open mouth , motion lines, (ecstasy:1.3) , half-closed eyes , heavy breathing , (pussy juice:1.2), nose blush , 
+tearing up, close-up pussy , trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , tearing up, arms behind back , tentacles restrained,${pantyColor} panties, from below, panties aside, pussy , (surprised:1.2) , open mouth , shouting ,tearing up , (pussy juice:1.1), looking at viewer, tentacles spread pussy, trembling,
+tearing up, close-up pussy , half-closed eyes ,trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , arms behind back ,tentacles restrained,${pantyColor} panties, from below, panties aside, pussy , pussy juice, looking at viewer, large insertion , (female orgasm,ecstasy:1.3), (motion lines, motion blur:1.2), (japanese sound effects:1.2), looking at viewer , open mouth , drooling , 
+tearing up, close-up pussy , (female orgasm ,ecstasy:1.3) , drooling ,  trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2), arms behind back , tentacles restrained,${pantyColor} panties, from below, panties aside, pussy , pussy juice, looking at viewer, large insertion ,  (motion lines, motion blur:1.1), cum in pussy , cum drip (japanese sound effects:1.2), drooling ,  (japanese speech bubble:1.2) , half-closed eyes, 
+tearing up, close-up pussy , half-closed eyes ,trembling, top-down bottom-up, legs wrap tentacles, (from behind , ass:1.2) , arms behind back , tentacles restrained,${pantyColor} panties, from below, panties aside, pussy , pussy juice, looking at viewer, cumdrip, (trembling ecstasy:1.4), trembling, cum in pussy , (cum drip:1.2) , (japanese sound effects:1.2) , drooling, heavy breathing
 ```
 ### パンチラ ~ 覚醒
 
@@ -103,22 +104,50 @@ lying , on tentacles pit , on back , legs up , spread legs, legs wrap tentacles,
 ```
 crying ,tearing , open mouth , trembling, cum on body , facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed ,arms up , arms wrap tentacles , bukkake, cum on breasts, facial , tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , knees together feet apart, pussy , from below, 
 crying ,tearing , open mouth , trembling, cum on body , facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , arms up , arms wrap tentacles , bukkake, cum on breasts, facial , tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, 
-clenched teeth, frown , disgust, looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , surprised, arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, imminent penetration, tearing up, 
-streaming tears, looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, 
-streaming tears, looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , one eye closed, frown 
-streaming tears, looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , one eye closed, frown , heavy breathing, (orgasm, ecstasy:1.1), open mouth, 
-streaming tears, looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , one eye closed, frown , heavy breathing, (orgasm, ecstasy:1.1), open mouth, breast sucking, 
-streaming tears, looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , one eye closed, frown , heavy breathing, (orgasm, ecstasy:1.1), open mouth, breast sucking, anal insertion, anal, 
-looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.2), (uterus:1.2)
-looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.2), motion lines , motion blur, tearing up, clenched teeth, 
-looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.2), motion lines , motion blur, tearing up, open mouth, from above , cum in pussy , (uterus:1.2)
-looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.4), motion lines , motion blur, tearing up, open mouth, from below , cum in pussy , (uterus:1.2)
-looking at viewer, , trembling, facial , cum on breasts , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, spread legs, legs up , tearing up, large insertion , tentacle sex , vaginal , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.4), motion lines , motion blur, open mouth, from below , cum in pussy , (uterus:1.2)
-looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.4), motion lines , motion blur, tearing up, open mouth, from below , cum in pussy , (uterus:1.2) , ahegao, 
-looking at viewer, , trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.4), motion lines , motion blur, tearing up, open mouth, from below , cum in pussy , (uterus:1.2) , ahegao, pink eyes, heart-shaped pupils, 
+clenched teeth, frown , disgust, looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , surprised, arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, imminent penetration, tearing up, 
+streaming tears, looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, 
+streaming tears, looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , one eye closed, frown 
+streaming tears, looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , one eye closed, frown , heavy breathing, (orgasm, ecstasy:1.1), open mouth, 
+streaming tears, looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , one eye closed, frown , heavy breathing, (orgasm, ecstasy:1.1), open mouth, breast sucking, 
+streaming tears, looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,sobbing ,(trembling:1.3) ,embarrassed , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , one eye closed, frown , heavy breathing, (orgasm, ecstasy:1.1), open mouth, breast sucking, anal insertion, anal, 
+looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.2), (uterus:1.2)
+looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.2), motion lines , motion blur, tearing up, clenched teeth, 
+looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.2), motion lines , motion blur, tearing up, open mouth, from above , cum in pussy , (uterus:1.2)
+looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.4), motion lines , motion blur, tearing up, open mouth, from below , cum in pussy , (uterus:1.2)
+looking at viewer, trembling, facial , cum on breasts , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, spread legs, legs up , tearing up, large insertion , tentacle sex , vaginal , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.4), motion lines , motion blur, open mouth, from below , cum in pussy , (uterus:1.2)
+looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.4), motion lines , motion blur, tearing up, open mouth, from below , cum in pussy , (uterus:1.2) , ahegao, 
+looking at viewer, trembling, facial , cum on breasts ,tearing up ,streaming tears ,(trembling:1.3) , arms up , arms wrap tentacles , bukkake, cum on breasts, tentacles wrap breasts ,legs wrap tentacles ,torso wrap tentacles , pussy , from below, legs up , tearing up, large insertion , tentacle sex , vaginal , frown , heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, anal insertion, anal, (japanese sound effects:1.4), motion lines , motion blur, tearing up, open mouth, from below , cum in pussy , (uterus:1.2) , ahegao, pink eyes, heart-shaped pupils, 
 ```
 
+### フェラ→快楽落ち
 
+```
+from side , tearing up, torn clothes, heavy breathing, tired , ( spread arms:1.2), arms wrap tentacles , restrained, tentacles fellatio, upper body, close-up face , (tentacles breast sucking:1.2) , trembling, leaning forward , open mouth ,
+from side , tearing up, torn clothes, heavy breathing, tired , ( spread arms:1.2), arms wrap tentacles , restrained, tentacles fellatio, upper body, close-up face , (tentacles breast sucking:1.2) , trembling, leaning forward , open mouth , motion lines, motion blue , (empty eyes:0.9), 
+from side , tearing up, torn clothes, heavy breathing, tired , ( spread arms:1.2), arms wrap tentacles , restrained, tentacles fellatio, upper body, close-up face , (tentacles breast sucking:1.2) , trembling, leaning forward , open mouth , motion lines, motion blue , (empty eyes:0.9), cum in pussy, lactation, trembling, (ecstasy:1.3), 
+from side , tearing up, torn clothes, heavy breathing, tired , ( spread arms:1.2), arms wrap tentacles , restrained, tentacles fellatio, upper body, close-up face , (tentacles breast sucking:1.2) , trembling, leaning forward , open mouth , motion lines, motion blue , cum in pussy, lactation, trembling, (ecstasy:1.3), pink eyes, 
+wariza , on ground, from above , fellatio,  looking at viewer,  heavy breathing,   pink eyes, tentacles  handjob,   light smile , open mouth,  heavy breathing, 
+wariza , on ground, from above , fellatio,  looking at viewer,  heavy breathing,   pink eyes, tentacles  licking , tentacles handjob,  motion lines, light smile , open mouth,  heavy breathing, 
+wariza , on ground, from above , fellatio,  looking at viewer,  heavy breathing,   pink eyes, tentacles  licking , tentacles fellatio ,  motion lines, light smile , open mouth,  heavy breathing,  half-closed eyes ng , on ground, from above , fellatio, looking at viewer, heavy breathing, pink eyes, 
+wariza , on ground,  from above , fellatio,  looking at viewer,  heavy breathing,   pink eyes, tentacles fellatio , handjob,  motion lines,    light smile , open mouth,  heavy breathing,  half-closed eyes, 
+wariza , on ground,  from above , irrumatio , deepthroat,   looking at viewer,  heavy breathing,   pink eyes, tentacles fellatio , handjob,  motion lines,  light smile , open mouth,  heavy breathing,  half-closed eyes,  
+wariza , on ground,  from above , irrumatio , deepthroat,   looking at viewer,  heavy breathing,   pink eyes, tentacles fellatio , gangbang,   motion lines,  light smile , open mouth,  heavy breathing,  half-closed eyes,  
+wariza , on ground,  from above , irrumatio , deepthroat,   looking at viewer,  heavy breathing,   pink eyes, tentacles fellatio , cum in mouth ,  motion lines,  light smile , open mouth,  heavy breathing,  half-closed eyes,  
+wariza , on ground, from above , fellatio, looking at viewer, heavy breathing,  motion lines, motion blur, surprised, pink eyes, tentacles hand job ,
+wariza , on ground, from above , looking at viewer, heavy breathing,  motion lines, motion blur,  cum in mouth , half-closed eyes, pink eyes, close-up face,  facial , bukkake 
+wariza , on ground, from above , looking at viewer, heavy breathing,  motion lines, motion blur,  cum in mouth , pink eyes, (japanese sound effects:1.2), tentacles hand job ,  licking tentacle ,  ejajucation , close-up face,   half-closed eyes, facial , bukkake ,  (japanese sound effect:1.2)
+wariza , on ground,  from above ,  looking at viewer,   pink eyes,  (cum in throat:1.1) ,   cum in mouth ,  motion lines,  light smile , open mouth,  heavy breathing,  half-closed eyes,  cupping hands,  cum on tongue , close-up face, facial, bukkake  ,  (japanese sound effect:1.2)
+wariza , on ground,  from above ,  looking at viewer,   pink eyes,  (cum in throat:1.1) ,  (trembling,  ecstasy:1.4), heart-shaped pupils,  close-up face,   cum in mouth ,  motion lines,  light smile , open mouth,  heavy breathing,  half-closed eyes,  cupping hands,  cum on tongue, facial, bukkake  ,  (japanese sound effect:1.2)
+```
+
+```
+from side , tearing up, torn clothes, heavy breathing, tearing up , ( spread arms:1.2), arms wrap tentacles , restrained, tentacles fellatio, upper body, close-up face , (tentacles breast sucking:1.2) , trembling, leaning forward , open mouth , scared , streaming tears , surprised  , motion lines
+from above , looking at viewer, heavy breathing, arms behind back ,   oral,  deepthroat,  upper body,  pov,  disgust,  tearing up,  
+from above , looking at viewer, heavy breathing, arms behind back ,   oral,  deepthroat,  upper body,  pov,  surprised,  cum in mouth,   tearing up,  
+from above , looking at viewer, heavy breathing, arms behind back ,   oral,  deepthroat,  upper body,  pov,  surprised,  cum in mouth,   tearing up,   streaming tears,  sobbing, 
+from above , looking at viewer, heavy breathing, arms behind back ,   oral,  deepthroat,  upper body,  pov,  half-closed eyes,  pink eyes,  cum in mouth
+from above , looking at viewer, heavy breathing,  upper body,  pov,  half-closed eyes,  pink eyes,  cum in mouth , oral invitation,  heart-shaped pupils,  cupping hands, 
+```
 
 ### 連続_前かがみ
 
@@ -128,8 +157,8 @@ in purple tentacle pit , mucus
 ```
 
 ```
-doggystyle, front , tearing up, arms up , leaning forward, open mouth, (surprised:1.2) , shouting
-doggystyle, front , tearing up, arms up , leaning forward, open mouth, torn clothes, tentacles breast sucking, frown , orgasm , ecstacy , open mouth , heavy breathing , 
+ kneeing , on ground, , pov , from above , fellatio,  looking at viewer,  heavy breathing,   pink eyes, tentacles  handjob,   light smile , open mouth,  heavy breathing, 
+ doggystyle, front , tearing up, arms up , leaning forward, open mouth, torn clothes, tentacles breast sucking, frown , orgasm , ecstacy , open mouth , heavy breathing , 
 doggystyle, front , tearing up, arms up , leaning forward, open mouth, torn clothes, tentacles breast sucking, frown , orgasm , ecstacy , open mouth , heavy breathing , (trembling:1.2), (orgasm, ecstasy:1.1) 
 doggystyle, front , tearing up, arms up , leaning forward, open mouth, torn clothes, nipples, tentacle milking breasts , heavy breathing, (trembling:1.2), (orgasm, ecstasy:1.3) , shouting 
 doggystyle, from behind , ass , tearing up, arms up , leaning forward, torn clothes, nipples, heavy breathing, orgasm, ecstasy, (trembling:1.2), pussy , ass , (orgasm, ecstasy:1.2), open mouth , 
@@ -143,7 +172,9 @@ doggystyle, from behind , ass , tearing up, arms up , leaning forward, torn clot
 doggystyle, from behind , ass , tearing up, arms up , leaning forward, torn clothes, heavy breathing, orgasm, ecstasy, (trembling:1.2), pussy , ass , (pussy juice:1.2), large insertion , (orgasm, ecstasy:1.3), open mouth , (japanese sound effects:1.2), motion lines, tentacles breast sucking, large insertion, anal sex , vaginal , motion lines, motion blur, 
 doggystyle, from behind , ass , tearing up, arms up , leaning forward, torn clothes, heavy breathing, orgasm, ecstasy, (trembling:1.2), pussy , ass , (pussy juice:1.2), large insertion , (orgasm, ecstasy:1.3), open mouth , (japanese sound effects:1.2), motion lines, tentacles breast sucking, large insertion, anal sex , vaginal , motion lines, motion blur, cum in pussy, cum explosion, anal in cum , (japanese speech bubble:1.2), sweat
 doggystyle, from behind , ass , tearing up, arms up , leaning forward, torn clothes, nipples, heavy breathing, orgasm, ecstasy, (trembling:1.2), pussy , ass , (pussy juice:1.2), tentacles spread pussy , cum in pussy , cumdrip, heavy breathing, (orgasm, ecstasy:1.3), open mouth , (japanese sound effects:1.2), lactation, 
-from side , tearing up, streaming tears, torn clothes, heavy breathing, tired , ( spread arms:1.2), arms wrap tentacles , restrained, tentacles fellatio, upper body, close-up face , (tentacles breast sucking:1.2) , trembling, leaning forward, , (orgasm, ecstasy:1.3), open mouth ,
+```
+
+```
 ```
 
 ### 手コキ 縦推奨
@@ -197,16 +228,16 @@ pink eyes , heart-shaped pupils, squatting , (orgasm, ecstasy:1.3), ( tentacles 
 pink eyes , heart-shaped pupils, straddling , (orgasm, ecstasy:1.3), ( tentacles dido:1.2) , skirt lift, pussy , open clothes, nipples, heavy breathing, from below, (japanese sound effects:1.2), motion lines, motion blur, own nipple tweak, pussy juice, female ejaculation, (uterus, x-ray:1.1) , cum in pussy, 
 pink eyes , heart-shaped pupils, straddling , (orgasm, ecstasy:1.3), ( tentacles dido:1.2) , skirt lift, pussy , open clothes, nipples, heavy breathing, from below, (japanese sound effects:1.2), motion lines, motion blur, own clitoris tweak, pussy juice, female ejaculation, (uterus, x-ray:1.1) , cum in pussy, 
 pink eyes , heart-shaped pupils, straddling , (orgasm, ecstasy:1.3), ( tentacles dido:1.2) , skirt lift, pussy , open clothes, nipples, heavy breathing, from above , (japanese sound effects:1.2), motion lines, motion blur, own clitoris tweak, pussy juice, female ejaculation, (uterus, x-ray:1.1) , cum in pussy, 
-pink eyes , heart-shaped pupils, lying , m legs , cumdrip, (orgasm, ecstasy:1.3),  pussy , open clothes, nipples, heavy breathing, from below , (japanese sound effects:1.2), pussy juice, female ejaculation, 
-pink eyes , heart-shaped pupils, lying , m legs , cumdrip, (orgasm, ecstasy:1.3),  pussy , open clothes, nipples, heavy breathing, from below , (japanese sound effects:1.2), pussy juice, female ejaculation, spread pussy, looking at viewer, tweaking own nipple, 
+pink eyes , heart-shaped pupils, lying , m legs , cumdrip, (orgasm, ecstasy:1.3),pussy , open clothes, nipples, heavy breathing, from below , (japanese sound effects:1.2), pussy juice, female ejaculation, 
+pink eyes , heart-shaped pupils, lying , m legs , cumdrip, (orgasm, ecstasy:1.3),pussy , open clothes, nipples, heavy breathing, from below , (japanese sound effects:1.2), pussy juice, female ejaculation, spread pussy, looking at viewer, tweaking own nipple, 
 ```
 
 ### くぱぁ
 ```
-m legs , (pink eyes , heart-shaped pupils:1.1), heavy breathing, open mouth, looking at viewer, (pussy juice:1.2), knees together feet apart, (ecstasy:1.3), 
-m legs , (pink eyes , heart-shaped pupils:1.1), heavy breathing, open mouth, looking at viewer, (pussy juice:1.2), knees together feet apart, m legs , pussy juice, (ecstasy:1.3), 
-m legs , (pink eyes , heart-shaped pupils:1.1), heavy breathing, open mouth, looking at viewer, (pussy juice:1.2), knees together feet apart, m legs , pussy juice, spread pussy , (ecstasy:1.3), (japanese speech bubble:1.2)
-m legs , (pink eyes , heart-shaped pupils:1.1), heavy breathing, open mouth, looking at viewer, (pussy juice:1.2), knees together feet apart, m legs , pussy juice, spread pussy, cervix, (ecstasy:1.3), (japanese speech bubble:1.2)
+(pink eyes , heart-shaped pupils:1.1), heavy breathing, open mouth, looking at viewer, (pussy juice:1.2), , female masturbation,  grabbing own breast,   (ecstasy:1.3),  pussy , cum drip ,  (japanese speech bubble:1.2)
+m legs , (pink eyes , heart-shaped pupils:1.1), heavy breathing, open mouth, looking at viewer, (pussy juice:1.2), m legs , pussy juice, (ecstasy:1.3), 
+m legs , (pink eyes , heart-shaped pupils:1.1), heavy breathing, open mouth, looking at viewer, (pussy juice:1.2), m legs , legs up , pussy juice, spread pussy , (ecstasy:1.3), (japanese speech bubble:1.2)
+m legs , (pink eyes , heart-shaped pupils:1.1), heavy breathing, open mouth, looking at viewer, (pussy juice:1.2), m legs , legs up ,  pussy juice, spread pussy, cervix, (ecstasy:1.3), (japanese speech bubble:1.2)
 ```
 
 ### 尻上げメス堕ち
@@ -214,21 +245,18 @@ m legs , (pink eyes , heart-shaped pupils:1.1), heavy breathing, open mouth, loo
 ```
 seed: 3423432798
 
+{ 3::half-closed eyes | half-closed eyes , female orgasm }
+[X]
 ```
 
 ```
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.2) , looking at viewer, heavy breathing, open mouth, drooling, 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.2) , looking at viewer, heavy breathing, open mouth, drooling, (tentacles spread pussy:1.2), pussy juice, 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.4) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), smile , 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.4) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.4) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.2), trembling, female ejaculation, 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.4) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, female ejaculation, 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.4) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, female ejaculation, (uterus:1.2)
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.4) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, female ejaculation, (uterus:1.2) , cum in pussy, ahegao, 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.4) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, (female ejaculation:1.2), (uterus:1.2) , cum in pussy, ahegao, sweat, 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.4) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, (female ejaculation:1.2), (uterus:1.2) , cum in pussy, ahegao, sweat, large insertion , 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.4) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, (female ejaculation:1.2), (uterus:1.2) , cum in pussy, ahegao, sweat, large insertion , projectile cum, bukkake, cum on body, facial , 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.4) , looking at viewer, heavy breathing, open mouth, drooling, (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, (female ejaculation:1.2), cumdrip, cum explosion
+pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, open mouth, drooling, (spread pussy:1.2), pussy juice, 
+pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), smile , 
+pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, female ejaculation, (uterus:1.2) ,
+pink eyes , heart-shaped pupils, top-down bottom-up, front , close-up face ,  looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, (female ejaculation:1.2), (uterus:1.2) , cum in pussy, sweat, 
+pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, (female ejaculation:1.2), (uterus:1.2) , cum in pussy, sweat, large insertion , projectile cum, bukkake, cum on body, facial , 
+pink eyes , heart-shaped pupils, top-down bottom-up,  front , close-up face  , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, (female ejaculation:1.2), (uterus:1.2) , cum in pussy, sweat, large insertion , projectile cum, bukkake, cum on body, facial , 
+pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, open mouth, drooling, (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, cum drip, 
 ```
 
 
@@ -245,6 +273,13 @@ pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.4) , l
 
 ### 終わり
 ```
-
 lying , on ground , on back , (empty eyes:1.1), spread arms, restrained, m legs , gangbang, heavy breathing, open mouth, drooling, (ecstasy, orgasm:1.3), trembling, full body, torn clothes, nipples, (japanese sound effects:1.2) , cumdrip, drooling, bukkake, tongue out, drooling, bukkake, facial , pregnant
 ```
+
+`
+ground , on back , (empty eyes:1.1), all fours,  doggystyle,  from behind,  ass ,  heavy breathing, open mouth, drooling, (ecstasy, orgasm:1.3), trembling,  (japanese sound effects:1.2) , cumdrip, drooling, bukkake, drooling, bukkake, facial , cum on body,   female ejaculation,  legs wrap tentacles ,  from below , close-up pussy , 
+`
+
+`
+{ (ecstasy , trembling :1.2) | ( female orgasm,  ecstasy:1.3) , drooling  | (trembling:1.2), female ejaculation , drooling }  ,  pink eyes , heart-shaped pupils , half-closed eyes, lying , on ground , on back , (empty eyes:1.1), top-down bottom-up,  from behind,  ass ,  heavy breathing, open mouth, drooling, (ecstasy, orgasm:1.3), trembling,  (japanese sound effects:1.2) , cumdrip, drooling, bukkake, drooling, bukkake, facial , cum on body,   female ejaculation,  legs wrap tentacles ,  from below , close-up pussy , 
+`
