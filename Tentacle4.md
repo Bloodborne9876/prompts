@@ -188,12 +188,17 @@ from side , tearing up, torn clothes, heavy breathing, ( spread arms:1.2), arms 
 ```
 
 ### メス堕ち後手コキ
+<!-- ```
+from above , on floor, cum on body, cum on breasts, facial , heart-shaped pupils, wariza , paizuri , grabbing own breast, open mouth, motion lines, motion lines, head tilt, torn clothes, nipples, heavy breathing, tentacles penis, 
+from above , on floor, cum on body, cum on breasts, facial , heart-shaped pupils, wariza , paizuri , grabbing own breast, open mouth, motion lines, motion lines, head tilt, torn clothes, nipples, heavy breathing, tentacles penis, cum ejaculation, light smile , 
+from above , pov , on floor, cum on body, cum on breasts, facial , heart-shaped pupils, wariza , double handjob , open mouth, motion lines, motion lines, head tilt, torn clothes, nipples, heavy breathing, cum ejaculation, 
+from above , pov , on floor, cum on body, cum on breasts, facial , heart-shaped pupils, wariza , double handjob , open mouth, motion lines, motion lines, head tilt, torn clothes, nipples, heavy breathing, 
+``` -->
 ```
-pink eyes , from above , on floor, cum on body, cum on breasts, facial , heart-shaped pupils, wariza , paizuri , grabbing own breast, open mouth, motion lines, motion lines, head tilt, torn clothes, nipples, heavy breathing, tentacles penis, 
-pink eyes , from above , on floor, cum on body, cum on breasts, facial , heart-shaped pupils, wariza , paizuri , grabbing own breast, open mouth, motion lines, motion lines, head tilt, torn clothes, nipples, heavy breathing, tentacles penis, cum ejaculation, light smile , 
-pink eyes , from above , pov , on floor, cum on body, cum on breasts, facial , heart-shaped pupils, wariza , double handjob , open mouth, motion lines, motion lines, head tilt, torn clothes, nipples, heavy breathing, cum ejaculation, 
-pink eyes , from above , pov , on floor, cum on body, cum on breasts, facial , heart-shaped pupils, wariza , double handjob , open mouth, motion lines, motion lines, head tilt, torn clothes, nipples, heavy breathing, 
-
+from above , cum on body, cum on breasts,(tentacles handjob:1.2) , , open mouth, motion lines, motion lines, head tilt, nipples, heavy breathing, looking at viewer
+from above , cum on body, cum on breasts,facial, (tentacles handjob:1.2) , , open mouth, motion lines, motion lines, head tilt, nipples, heavy breathing, looking at viewer , cum ejaculation,
+from above , cum on body, cum on breasts,facaial , double (tentacles handjob:1.2) , , open mouth, motion lines, motion lines, nipples, heavy breathing,
+from above , cum on body, cum on breasts,facial , double (tentacles handjob:1.2) , , open mouth, motion lines, motion lines, nipples, heavy breathing , cum ejaculation, 
 ```
 
 ### おまんこ覚醒
@@ -215,7 +220,7 @@ pink eyes , from above , pov , on floor, cum on body, cum on breasts, facial , h
 縦推奨
 negative : 1boy
 ```
-
+<!-- 
 ```
 pink eyes , heart-shaped pupils, spread arms, squatting, dido , open clothes, nipples, heavy breathing, from below, 
 pink eyes , heart-shaped pupils, straddling , (orgasm, ecstasy:1.2), ( tentacles dido:1.2) , skirt lift, lifted by self , pussy , open clothes, nipples, heavy breathing, from below, (japanese sound effects:1.2), 
@@ -230,6 +235,13 @@ pink eyes , heart-shaped pupils, straddling , (orgasm, ecstasy:1.3), ( tentacles
 pink eyes , heart-shaped pupils, straddling , (orgasm, ecstasy:1.3), ( tentacles dido:1.2) , skirt lift, pussy , open clothes, nipples, heavy breathing, from above , (japanese sound effects:1.2), motion lines, motion blur, own clitoris tweak, pussy juice, female ejaculation, (uterus, x-ray:1.1) , cum in pussy, 
 pink eyes , heart-shaped pupils, lying , m legs , cumdrip, (orgasm, ecstasy:1.3),pussy , open clothes, nipples, heavy breathing, from below , (japanese sound effects:1.2), pussy juice, female ejaculation, 
 pink eyes , heart-shaped pupils, lying , m legs , cumdrip, (orgasm, ecstasy:1.3),pussy , open clothes, nipples, heavy breathing, from below , (japanese sound effects:1.2), pussy juice, female ejaculation, spread pussy, looking at viewer, tweaking own nipple, 
+``` -->
+
+```
+squatting , pussy ,  nipples, heavy breathing, from below, motion lines, motion blur, own nipple tweak, 
+squatting , pussy ,  nipples, heavy breathing, from below, motion lines, motion blur, own nipple tweak, pussy juice, female ejaculation, 
+straddling , pussy ,  nipples, heavy breathing, from above,motion lines, motion blur, own clitoris tweak, pussy juice, female ejaculation, (uterus, x-ray:1.1) , cum in pussy, 
+lying , m legs , cumdrip, (orgasm, ecstasy:1.3),pussy ,  nipples, heavy breathing, from below , pussy juice, female ejaculation, spread pussy, looking at viewer, tweaking own nipple, 
 ```
 
 ### くぱぁ
@@ -250,13 +262,11 @@ seed: 3423432798
 ```
 
 ```
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, open mouth, drooling, (spread pussy:1.2), pussy juice, 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), smile , 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, female ejaculation, (uterus:1.2) ,
-pink eyes , heart-shaped pupils, top-down bottom-up, front , close-up face ,  looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, (female ejaculation:1.2), (uterus:1.2) , cum in pussy, sweat, 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, (female ejaculation:1.2), (uterus:1.2) , cum in pussy, sweat, large insertion , projectile cum, bukkake, cum on body, facial , 
-pink eyes , heart-shaped pupils, top-down bottom-up,  front , close-up face  , looking at viewer, heavy breathing, open mouth, drooling, tentacle sex , vaginal , (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, (female ejaculation:1.2), (uterus:1.2) , cum in pussy, sweat, large insertion , projectile cum, bukkake, cum on body, facial , 
-pink eyes , heart-shaped pupils, top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, open mouth, drooling, (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, cum drip, 
+top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, drooling, tentacle sex , vaginal , (ecstasy, orgasm:1.1), trembling,  (uterus:1.2) ,
+top-down bottom-up, front , close-up face ,  looking at viewer, heavy breathing, rooling, tentacle sex , vaginal , (ecstasy, orgasm:1.2), trembling, (uterus:1.2) , cum in pussy, sweat, 
+top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, drooling, tentacle sex , vaginal , (ecstasy, orgasm:1.1), trembling, (uterus:1.2) , cum in pussy, sweat, large insertion , projectile cum, bukkake, cum on body, facial , 
+top-down bottom-up,  front , close-up face  , looking at viewer, heavy breathing, drooling, tentacle sex , vaginal , (ecstasy, orgasm:1.3), trembling, (uterus:1.2) , cum in pussy, sweat, large insertion , projectile cum, bukkake, cum on body, facial , 
+top-down bottom-up, (from behind , ass:1.1) , looking at viewer, heavy breathing, drooling, (japanese sound effects:1.2), (ecstasy, orgasm:1.3), trembling, cum drip, 
 ```
 
 
