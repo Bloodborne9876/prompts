@@ -28,6 +28,12 @@ in  purple tentacle pit , mucus,
 in  purple tentacle pit , mucus
 { 2-3$$ sweat | frown | tearing | crying  | surprised } ,  { 2::open mouth | clenched teeth } , trembling, 
 
+standing , coil tentacles, surprised,   , from below,  white panties  ,  spread arms,  restrained,   tearing up,  lingerie,  lace trim panties , arms wrap tentacles
+
+```
+__face/emberassed__,
+__tentacle/91_panties_base__ , { 1-3$$sweat | crotch rub | pussy juice }  , white panties , legs wrap tentacles, { arms up | spread arms } , restrained, 
+```
 
 ### 苦悶
 in purple tentacle pit , mucus
@@ -35,18 +41,47 @@ in purple tentacle pit , mucus
 { __tentacle/10_sex_horizon__ | __tentacle/11_sex_vertical__  } , close-up pussy , { 1-2$$from below |  (uterus:1.2) | sweat  }  , large insertion  ,  { 1-2$$sweat |  (japanese sound effect:1.2) | (japanese speech bubble:1.2) } 
 
 
+```__face/disgust_tenacle__ ,   { __tentacle/90_base__  | __tentacle/10_sex_horizon__ | __tentacle/11_sex_vertical__ | tentacles sex } , __tentacle/95_topping__ ,  { arms up | spread arms } , restrained, 
+```
+
+```
+large insertion ,  cross-section,  cum in pussy , (heavy breathing,  female orgasm,  female ejaculation,  trembling:1.3),  nose blush, 
+```
+
+
 #### 苦悶　搾乳
 { 1-3$$ sweat |  tearing | crying | half-closed eyes } , clenched teeth , { closed eyes |  one eye closed |  3::half-closed eyes , drooling  } ,   , trembling,  { 2-3$$ (ecstasy:1.2) | heavy breathing, |cum on body , facial , cum on breasts | tearing up |  embarrassed | (trembling:1.3) }  ,    { sweat | pink eyes } ,  { arms up | spread arms | legs wrap tentacles }  , { tentacles breast sucking | tentacles milking  } ,  heavy breathing,  close-up breasts, faceless female,   { arms up | arms arms behind back } 
 
 #### メス堕ちショートカット
+
+```
+__face/mesu__ ,   { __tentacle/90_base__  | __tentacle/10_sex_horizon__ | __tentacle/11_sex_vertical__ | tentacles sex }
+__tentacle/95_topping__ , bukkake,  cum on breasts,  facial 
+```
+
 ```
 in purple tentacle pit , mucus
 { 1-3$$ sweat |  tearing | half-closed eyes } , open mouth, { closed eyes |  one eye closed |  half-closed eyes , drooling  } ,   , trembling,  { 2-3$$ (ecstasy:1.2) | heavy breathing, |cum on body , facial , cum on breasts | tearing up |  embarrassed | (trembling:1.3) }  , { 1-3$$pink eyes | sweat | female ejaculation | cum in pussy  } 
 { __tentacle/10_sex_horizon__ | __tentacle/11_sex_vertical__  } , close-up pussy , { 1-3$$from below |  (uterus:1.2) | sweat  }  , large insertion  ,  { 1-2$$sweat |  (japanese sound effect:1.2) | (japanese speech bubble:1.2) } 
 ```
 
+```
+__face/mesu__ ,  open clothes, , 
+__tentacle/90_base__ , __tentacle/95_topping__ , large insertion, (ecstasy, heavy breathing:1.2),  heart-shaped pupils, 
+```
+```
+__face/mesu__ ,  open clothes, , 
+__tentacle/10_sex_horizon__ , large insertion, (ecstasy, heavy breathing:1.2),  heart-shaped pupils,  cross-section,  cum in mouth , facial , cum on body,  cum on breasts,  bukkake,  
+```
+
+
 #### メス落ち上半身
 { 2-3$$ecstasy | female orgasm | female ejaculation,  | open mouth,  drooling }  , pink eyes , heart-shaped pupils , half-closed eyes,  upper body,  close-up breasts,  open mouth,  drooling, 
+
+#### 終わり
+
+__face/mesu__ ,  { 4::sweat |   { lying  , spread legs,  m legs  |  lying , legs up } }, spread pussy,  { 1-2$$female ejaculation | cum drip }    pink eyes,  heart-shaped pupils, ecstasy, trembling,  from below , close-up pussy , upper body ,  clitoris, 
+
 
 ##### 搾乳
 ```
@@ -75,9 +110,6 @@ in purple tentacle pit , mucus
 { 2-3$$ecstasy | female orgasm | female ejaculation,  | open mouth,  drooling }  , pink eyes , heart-shaped pupils , { half-closed eyes | ahegao | half-closed eyes }  , 
 upper body , faceless female,  close-up breasts, { tentacles breast sucking | lactation tentacles } , {sweat |  oral | irrumatio }  ,  { 1-2$$sweat |  (japanese sound effect:1.2) | (japanese speech bubble:1.2) } 
 ```
-
-
-
 
 ### 全体的に感じ
 { (orgasm, ecstasy:1.1) , light smile | (orgasm,  ecstasy:1.1) , drooling  | ahegao , drooling } ,   (pink eyes , heart-shaped pupils:1.1),  heavy breathing,  open mouth,  bukkake,  cum on body,  cum on breasts,  { 1-4$$multiple views | fertilization | uterus | x-ray }
@@ -123,6 +155,11 @@ __tentacle/00_start__
 sweat,  { 2-3$$ sweat | frown | tearing | crying  | surprised } ,  { open mouth | clenched teeth }
 { __tentacle/00_start__ | __tentacle/01_start_pussy__ }  ,  close-up crtoch ,  nipples  
 
+
+__face/emberassed__ , white panties, lace trim panties , open clothes,  { white bra | lift bra , nipples}  , { sweat | crotch rub } , 
+__tentacle/91_panties_base__ ,  close-up crotch, pussy juice,  trembling,  heavy breathing,  from below,  legs wrap tentacles, tentacles coil body
+
+
 ### まとめて
 <!-- 
 { 2::standing , from behind , ass |   sitting  | spread legs,  |  all all fours,  doggystyle,  from behind , ass  } , close-up crotch , { 2::__nsp/my/angle__ |  from below  ,ceiling  } , restrained,  legs wrap tentacles,  close-up crotch , { 2::white | pink  | blue  }  panties ,  { satin panties  |    (lace trim panties:1.2),  lace panties  } , tearing up,   (imminent penetration:1.4) , open mouth,  { crying |  (surprised:1.2) } ,  arms up,  restrained,  (sweat:1.2) , (speech bubble:1.2),  
@@ -151,8 +188,6 @@ multiple views,  frame, japanese speech bubble,  trembling,  comic expression , 
 legs up ,  tentacles reverse upright straddle,  leaning forward ass  , tentacles breast sucking,  ,  spitroast,  spitroast, sweat, gangbang, double penetration,  triple penetration,
 
 # 挿入
-
-
 
  ## フェラ
 <!-- 

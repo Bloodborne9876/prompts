@@ -19,7 +19,7 @@ in purple tentacle pit , mucus
 ```
 
 
-
+__face/disgust__
 
 ### 連続
 
@@ -50,6 +50,16 @@ ${dMouth} , from below , close-up crotch , on ground, sitting , ${pantyColor} pa
 ${dMouth} , from below , close-up crotch , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, arms up , tentacles restrained , tearing up, ${dMouth}, spread legs , legs up , pussy juice , crotch rub , motion lines, motion blur, ( trembling, ecstasy:1.3), heavy breathing, (trembling:1.2), (japanese sound effects:1.2) , half-clossed eyes
 from above , close-up crotch , on ground, sitting , ${pantyColor} panties, legs wrap tentacles, restrained, tearing up, torn clothes, streaming tears, m legs , (pussy juice:1.2) , trembling, covering crotch, heavy breathing, half-clossed eyes , clenched teeth
 ```
+
+
+from below , knees together feet apart, {standing , l} ${pantyColor} panties, pussy juice, 
+from below , knees together feet apart, white panties, 
+top-down bottom-up, legs wrap tentacles
+spread legs , legs up
+
+
+embarrassed, surprised, frown,tearing up,{clenched teeth|open mouth|closed mouth},lenched teeth,nose blush,open clothes, streaming tears,
+
 
 
 ## パンチラ後ろから
