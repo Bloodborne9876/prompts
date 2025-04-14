@@ -1,0 +1,218 @@
+﻿AI呪文06格闘技情報編
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+衣装
+〇〇〇_costume, 〇〇〇_uniform,
+
+格闘技：martial arts
+Karate, white karategi, pants, black belt, fingerless gloves, 空手
+Judo, white judogi, pants, black belt, 柔道
+sumo, mawashi, (long yukata:1.3), bare shoulders, bare chest, 相撲
+wrestling, wrestling outfits, shoes, bike shorts,  レスリング※衣装にsinglet,もある
+boxing,boxing_gloves, boxing_shorts, ボクシング
+kickboxing, boxing_gloves,barefoot,bike shorts, キックボクシング
+
+Ninja_uniform, ninja mask, fishnet inner, ninja cloth, ninja pants,
+Ninja, ninja mask, fishnet inner, ninja cloth, ninja pants, arm warmers, 忍者
+Kunoichi, ninja mask, fishnet inner, ninja cloth, ninja pants, arm warmers, くノ一
+Ninjutsu, ninja mask, fishnet inner, ninja cloth, ninja pants, 忍術（ポーズ違うのかな？？？わからん…
+
+Capoeira, Criss Cross Halter,Long Sweatpants,Shoes, カポエイラ
+muay thai,  ムエタイ
+taekwondo,  テコン道
+
+matador,sword, マタドール
+
+kung fu, kung fu clothes, kung fu pants, kung fu shoes, カンフー
+Drunken master, cheongsam clothes, cheongsam pants, cheongsam shoes, 酔拳士
+Tai Chi, 太極拳　
+Bajiquan, 八極拳
+
+martial monk, 武道僧
+
+タンクトップ　スポーツブラ
+tank top, sports bra,
+フィンガーレスグローブ
+partially fingerless gloves,
+エルボーパッド　ニーパッド
+elbow pads, knee pads,
+黒スパッツ、服の下のスパッツ、
+black bike shorts, bike shorts under clothes,
+黒いボディースーツ、服の下のボディースーツ
+black bodysuit, bodysuit under clothes, 
+
+チャイナ服：長袍（チャンパオ）？
+cheongsam clothes, cheongsam pants, cheongsam shoes,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+背景
+rubble ruins, 廃墟
+Rehearsal hall, 稽古場（リハーサルホール）
+practice room, 練習室
+yin yang background, 陰陽図の背景
+
+真剣な表情、
+serious expression,
+真剣な顔、
+serious face,
+
+ポーズ
+fighting stance,ファイティングスタンス
+stylish pose,スタイリッシュポーズ
+acrobatic pose,アクロバティックポーズ
+battle, バトル
+action pose,アクションポーズ
+(action pose, motion blur), モーションブラー付き
+kung fu pose, kung fu aciton, などもある
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「シンプル設定」
+masterpiece, best quality, ultra detailed, high resolution,
+cowboy shot, 1girl,solo, looking at viewer,
+aciton pose, ((motion blur)),serious face,
+Karate, white karategi, pants, black belt, fingerless gloves,
+black hair, messy hair, short hair, ahoge, brown eyes, tareme,
+city, outdoors, midnight, cinematic lighting, cinematic shadows, cinematic angle,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「酔拳ちゃん」
+masterpiece, best quality, ultra detailed, high resolution,
+cowboy_shot, 1girl,solo, contrapposto, drunken fist, ((kung fu aciton)),(((drunk, Stagger:1.4))),
+(motion blur, motion line, sense of speed, Battle Effects, sound effects:1.2),
+Drunken master, (grin, Sleepy face:1.1), blush,
+(Red Taoist costume),Long sleeves, (Pants under clothing:1.2), cheongsam pants, cheongsam shoes, (bottle of liquor:1.2),
+Middle hair, black hair, hair over one eye, eyes visible through hair, short ponytail, purple eyes, tareme, 
+Rehearsal hall, cinematic lighting, cinematic shadows, cinematic angle,
+
+酔拳の呪文に関して
+Drunken master, 酔拳
+drunken fist, 酔拳（手の形）
+contrapposto,片足に重心を置いて立つ
+standing on one leg, 片足立ちさせるときに使う
+leg lift, 片足を持ち上げる
+drunk, 酔っ払い、Stagger, よろめく、
+evil smile, grin, Sleepy face, などの表情がいいかな
+spiral eyes,ぐるぐる目
+
+酒瓶
+sake cup, 猪口
+bottle of liquor, リキュールボトル
+wine bottle in hand, ワインボトルを手に
+gourd-shaped sake container, 瓢箪型の酒入れ、
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「カンフー少女（気功系）」
+masterpiece, best quality, ultra detailed, high resolution,
+cowboy shot, 1girl,solo, looking at viewer,
+(motion blur,sense of speed,Battle Effects,Magical Effects:1.2),
+kung fu attack, kung fu pose, kung fu action, standing,
+(swirling energy,energy magic,energy:1.4),
+(kung fu), cheongsam clothes, pants, shoes,
+messy hair,short hair,brown hair,ahoge,brown eyes, tareme, serious face, shout,
+Rehearsal hall, cinematic lighting, cinematic shadows, cinematic angle,
+
+※気功系として使えるエフェクト
+(swirling energy,energy magic,energy:1.4), 光魔法（エナジー系
+(swirling fireball,fire magic:1.4), 火魔法
+
+透明なエネルギーが自分の手の周りで渦巻く
+(transparent energy swirls around own hands:1.3),
+
+指先から電撃？
+(electricity:1.5), (point finger:1.2),
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「カンフーマスター（男性）」
+masterpiece, best quality, ultra detailed, high resolution,
+cowboy shot, 1boy,solo,Mature Men looking at viewer, 
+(motion blur,sense of speed,Battle Effects,Magical Effects:1.2),
+kung fu attack, kung fu pose, kung fu action, standing,
+(swirling energy,energy magic,energy:1.4),
+(kung fu), cheongsam clothes, pants, shoes,
+hair slicked back, long hair, black hair, single braid, bow braid, hair bow, mustache, 
+cinematic lighting, cinematic shadows, cinematic angle,
+
+※カンフー映画とかに出る裾の長いチャイナ服は長袍（チャンパオ）というらしい
+代替え案として cheongsam costume, cheongsam clothes, 形違うけどなっ！
+
+cheongsam clothes, cheongsam pants, cheongsam shoes,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「相撲レスラー」※背景は練習ホール
+masterpiece, best quality, ultra detailed, high resolution,
+cowboy shot, 1boy, solo, Mature Men, looking at viewer,
+action battle pose,(motion blur),(sense of speed),(Battle Effects),
+chonmage, middle hair, brown hair, black eyes, mustache,
+sumo, mawashi, long yukata, muscular, (muscular man),(fat),
+Rehearsal hall, cinematic lighting, cinematic shadows,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「女性レスラー」※背景が廃墟になっています
+masterpiece, best quality, ultra detailed, high resolution,
+cowboy shot, 1girl, solo, Mature Woman, looking at viewer,
+action battle pose,(motion blur),(sense of speed),(Battle Effects),
+mohawk, middle hair, blonde hair, aqua eyes, muscular, (dark skin), serious face,
+wrestling, black Tank top, bike shorts, elbow pads, knee pads, shoes, fingerless gloves,
+ruins of wasteland, cinematic lighting, cinematic shadows,
+
+※ネガティブに追加、リングを出さない場合
+(wrestling ring:1.4),
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「レスラー系女子高生」※背景は街のサイバーパンクストリート
+masterpiece, best quality, ultra detailed, high resolution,
+cowboy_shot, 1girl,solo, looking at viewer, standing, stylish pose, clothes,
+(wrestling woman), mohawk, middle hair, blonde hair, aqua eyes, (fat:0.9), (toned, muscular woman:1.2), (dark skin), 
+(school uniform, serafuku:1.3),white blouse,dark blue pleated skirt,red neckerchief,white ankle socks, brown loafers,
+cyberpunk city,street,outdoors, cinematic lighting, cinematic shadows, cinematic angle,
+
+fat, toned, muscular, 太っている、引き締まった、筋肉質、
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「カポエイラ」※背景は練習ホール
+masterpiece, best quality, ultra detailed, high resolution,
+cowboy_shot, 1girl,solo, (Breakdancing), Kicking,
+(motion line, sense of speed, Battle Effects:1.2),
+(Capoeira Fighter), Yellow Criss Cross Halter, Black long sweatpants with Brazilian flag motif, shoes,
+Middle hair, black hair, hair over one eye, eyes visible through hair, short ponytail, purple eyes, tareme, (dark skin,tanned:1.2), 
+Rehearsal_hall, cinematic lighting, cinematic shadows, cinematic angle,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「男性レスラー」※背景が廃墟になっています
+masterpiece, best quality, ultra detailed, high resolution,
+cowboy shot, 1boy,solo,Mature Men, looking at viewer,
+action battle pose,(motion blur),(sense of speed),(Battle Effects),
+mohawk, middle hair, brown hair, red eyes, mustache, (dark skin), chest hair, muscular, muscular man, serious face,
+wrestling, wrestling pants, elbow pads, knee pads, wrestling shoes, fingerless gloves, brown leather jacket,
+ruins of wasteland, cinematic lighting, cinematic shadows,
+
+※ネガティブに追加、リングを出さない場合
+(wrestling ring:1.4),
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+◎番外編◎※複数人構図、プロンプトだけなので完全に描き分けることはできない。
+
+「プロレス試合」※illustrious系モデルでSTEP:25～ CFG:7～ 推奨
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution, 8K,
+cowboy shot, 2 girls, (Girls are fighting with Professional wrestling:1.4),
+(motion line, sense of speed, Battle Effects:1.2),
+BREAK 
+1girl, mohawk, middle hair, blonde hair, aqua eyes, muscular, (dark skin), serious face, wrestling, black Tank top, bike shorts, elbow pads, knee pads, shoes,
+BREAK 
+1girl, middle hair, blonde hair, black eyes, muscular, serious face, wrestling, red Tank top, bike shorts, elbow pads, knee pads, shoes, fingerless gloves,
+BREAK 
+Professional wrestling ring, cinematic lighting, cinematic shadows, cinematic angle,
+
+「異種格闘技戦」※illustrious系モデルでSTEP:25～ CFG:7～ 推奨
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution, 8K, detailed beautiful face and eyes,
+cowboy shot, 2 girls, (Girls are fighting:1.4),
+(motion line, sense of speed, Battle Effects:1.2),
+BREAK 
+1girl,(kung fu Fighter), short hair, messy hair, ahoge, brown hair, brown eyes, v-shaped_eyebrows, cheongsam red clothes, pants, shoes,(kung fu action),
+BREAK 
+1girl,(Capoeira Fighter),Middle hair, black hair, hair over one eye, eyes visible through hair, short ponytail, purple eyes, v-shaped_eyebrows, (dark skin,tanned), Yellow Criss Cross Halter, Black long sweatpants with Brazilian flag motif, shoes, (Breakdancing), Kicking,
+BREAK 
+Professional wrestling ring, cinematic lighting, cinematic shadows, cinematic angle,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+

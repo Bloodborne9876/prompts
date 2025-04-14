@@ -1,0 +1,144 @@
+☆☆☆AI生成サイト覚え書き☆☆☆
+再配布、改編も可ですご自由に
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+☆☆AI絵サイト☆☆
+◎モデルの更新とか早すぎてわからんチン。スレで最新のおすすめを聞きましょう！
+スレの流行りは…
+WAI-NSFW-illustrious-SDXL V9
+Illustrious XL personal merge
+copycat-noob
+なのかなぁ？
+animagine-xl-4.0も来たね
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+☆☆おすすめAIイラストWEBサイト☆☆
+登録は必要ですGoogleメアドとかで登録しましょう
+
+「PixAI」
+https://pixai.art/
+※よく聞くサイト・エロい生成OK（投稿はNG）・モデルやLoRAが豊富
+PixAI使ってる人へクレジット節約術
+△VXP_XL v2.2 (Hyper) (Low cost generation!!)、WAI-ANI-NSFW-PONYXL v7.0 [Hyper SD]　モデルを使うとクレジット節約になる（Step:7,CFG:1.6
+◎LoRAで低ステップ化してクレジット節約　DMD2の場合はSteps:4 CFG:1.1 ／ Hyper-SDXLの場合Steps:8～10 CFG:2～2.5
+〇高速チェック外すのもあり
+※DMD2を利用してsteps4で生成した場合一回の生成（４枚）200クレジット※ログインボーナス一日10,000クレジット
+※ある程度構図とか決まったらDMD2使っていてもSteps:8 CFG:1.5～1.8ぐらいにするのもよい（この場合一回の生成は1,200クレジット
+
+※※※CFGは高すぎるとガビガビのテカテカになるから調整しよう
+
+
+「Tensor.art」
+https://tensor.art/
+※エロい生成OK（投稿はしないほうが良い）・使いやすい・モデルやLoRAが豊富
+Tensor使ってる人へクレジット節約術
+◎LoRAで低ステップ化してクレジット節約　DMD2の場合Steps:4～5 CFG:1～1.3 ／ Hyper-SDXLの場合Steps:8～10 CFG:2～2.5
+〇LoRA使ってディティールアップもしちゃおう　Extra Detailer XL（Tensorオリジナル？）／ Detailed Anime Style XL
+※上記LoRAは　WAI-NSFW-illustrious-SDXL V7、copycat-noob V1.0、Illustrious XL personal merge v3.0で使えるよ
+※DMD2を利用してsteps5で生成した場合一回の生成（１枚）0.2クレジット※ログインボーナス一日50クレジット
+※ある程度構図とか決まったらDMD2使っていてもSteps:10 CFG:1.5～1.8ぐらいにするのもよい（この場合一回の生成は0.4クレジット
+
+※※※CFGは高すぎるとガビガビのテカテカになるから調整しよう
+
+Tensorで投稿した画像が反映されてない時（Win&WEBに場合で）一度ブラウザを変更して見てみましょう
+表示されたり反映されればヨシですな
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+・ログインなしでお試しできる
+https://huggingface.co/spaces/AngelBottomless/Illustrious-XL-v0.1-demo
+https://huggingface.co/spaces/cagliostrolab/animagine-xl-4.0
+https://huggingface.co/spaces/cagliostrolab/animagine-xl-3.1
+
+https://huggingface.co/spaces/stabilityai/stable-diffusion-3.5-large
+https://huggingface.co/spaces/stabilityai/stable-diffusion-3.5-medium
+
+https://aitestkitchen.withgoogle.com/ja/tools/image-fx
+
+・画像からタグを作成（WaifuDiffusion Tagger）
+https://huggingface.co/spaces/SmilingWolf/wd-tagger
+※モデルをSmilingWolf/wd-eva02-large-tagger-v3にして使うと良いよ
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+☆☆☆AI絵の為の参考にしたサイト☆☆☆
+https://hikari-aiart.com/
+ひかりのAIことば＠AIイラスト専門ブログ
+色々まとまっている
+
+https://sorenuts.jp/
+SoreNuts　沢山のプロンプト一覧がある
+
+https://illustrationaiart.com/
+画像がいっぱいあって参考になる
+AIイラストの探究
+エロいのいっぱい
+
+https://aieroi.com/
+画像がいっぱいあって服とかの参考になる
+エロいのもある
+
+https://iosworld.blog.2nt.com/
+このサイトのプロンプト辞典が参考役立ちます
+エロいのも多くある
+
+https://dskjal.com/deeplearning/lora.html
+LoRA の学習方法
+各パラメータの解説（妥当な数値とかは無いけどこのパラメータは何？みたいな
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+☆☆AI音楽サイト☆☆
+☆Suno（AIで音楽作れるサイト…GoogleIDとかで登録しましょう
+https://suno.com/
+☆Sunoで歌（曲）作成
+・Custom ModeをON　かつ　V3.5になってることを確認　※V3.5で最大4分の作成可能　最新はV4だけど有料
+・Lyricsのところに歌詞を書くかwrite with Sunoボタンを押して
+　「〇〇〇をイメージしたVerse,Bridge,Chorus,outroの歌詞を作成して」とか書いてWrite Lyricsを押す（SUNO_AIが歌詞を作成してくれる
+・最後のところに[End]を追加しておくとよい
+　[Intro] イントロ [Verse] Aメロ [Bridge] Bメロ [Chorus] サビ　
+　[Interlude] 間奏 [Solo] ソロ [outro] アウトロ [End]
+・Style of Musicにジャンルを指定　例）J-pop,Up-tempo,female vocals,
+　J-POP, hard rock, Enka, Folk song, Anime, Latin music, Mambo, Heavy Metal, Male Vocals, Female Vocals,
+　※これは一部他にもある　参）https://www.suno.wiki/faq/style-and-lyrics/styles-and-genres/
+・Titleに歌のタイトルを入れる ※SUNOに歌詞書かせてる場合はタイトルがついてる書き換えもOK
+・♫Createを押して生成　2曲作成されるはず。
+　出来た曲の横にある「縦…」を押してDownloadする（Videoで落とすMP4歌詞付きになる
+
+例）
+アニメJ-POP用
+Anime,J-pop,uptempo,Female Vocals,
+
+J-POP用
+J-POP,uptempo,Female Vocals,
+
+J-POPハードロック用
+J-POP,hard rock,metal,uptempo,Female Vocals,
+
+和ロック用
+Hard rock, Shamisen, shakuhachi, koto, taiko, uptempo, Female Vocals,
+※イントロ部分に入れるといい
+[instrumental interlude][Shamisen][shakuhachi][koto][Taiko]
+
+チャールストン用
+Swing 1920s oldies piano jazz, female vocals,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+DLしたMP4に画像を貼る※好きな画像にする
+https://online-video-cutter.com/ja/
+上のサイトでMP4開いて
+画像を追加のボタンを押して
+再生ボタンの横にある画像追加で画像読み込み
+画像のサイズを変更したり移動させたり
+あとは保存して完成
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+☆☆☆AI音楽の為の参考にしたサイト☆☆☆
+https://note.com/office441/n/n5c78b8e4eff5
+sunoのプロンプト、メタタグ、コマンド
+
+https://note.com/baron_marmarade/n/naaab3c03bda1
+Suno AI の音楽ジャンルを調べてみる
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
+

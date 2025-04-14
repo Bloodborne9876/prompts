@@ -1,0 +1,132 @@
+﻿AI呪文05魔法使い編
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「女魔法使い（読書用）」
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution, elaborately designed clothes,
+upper_body, 1girl,solo, looking at viewer, stylish pose, smile, 
+A wizard reading at his desk,
+grey hair, middle hair, hair over one eye, eyes visible through hair, aqua eyes, [[[tsurime]]],
+wizard_costume, (Sexy clothing), green witch hat, green robe, green cape, shoes, hoop earrings, pendant, 
+Fantasy, inside the witch's house, cinematic lighting, cinematic shadows,
+
+「女魔法使い（魔法攻撃用）」
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution, elaborately designed clothes,
+cowboy_shot, 1girl, looking at viewer, stylish pose, smile,
+wizard using magic, (swirling Fire and swirling ice, both hands:1.4),
+(motion blur, motion line, sense of speed, Magical Effects:1.2),
+grey hair, middle hair, hair over one eye, eyes visible through hair, aqua eyes, [[[tsurime]]],
+wizard_costume, (Sexy clothing), green witch hat, green robe, green cape, shoes, hoop earrings, pendant, 
+Fantasy, forest, cinematic lighting, cinematic shadows,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+※なぜエルフ耳が付く？とかの対処ネガティブ
+(animal ears, fake animal ears, pointy ears, devil ears:1.4),
+
+以下必要に応じて
+bad anatomy, bad hands, bad arms, extra fingers,
+multiple angle, multiple views, 
+mouth mask, glasses,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+魔法使いが魔法を使っている、
+Wizard using magic,
+魔法使いが自室の机で執筆している、
+Wizard writing at his desk,
+魔法使いが自室の机で読書している、
+Wizard reading at his desk,
+シチューは錬金術の大釜で煮込まれている、おたまを持って、
+(((Stew is simmering in an alchemy cauldron))), Holding a ladle,
+
+大きな魔法の円、地上
+(large_magic_circle, on ground:1.4),
+
+☆魔法エフェクト☆　※エフェクトはモデルによってかなり違います　下記はWAI-NSFW-illustrious-SDXL V8でチェックしたものです
+基礎
+magic effect, magic aura, 〇〇〇 effcet, 魔法効果、魔法オーラ、〇〇〇効果、
+
+属性
+magic effect, magic aura, wind effcet, ウィンド
+magic effect, Shining aura, Shining Energy effcet, エナジー
+magic effect, Fire_aura, Fireball effcet, ファイヤーボール
+magic effect, Water_aura, Waterball effcet, ウォーター
+magic effect, cold_aura, ice effcet, アイス
+magic effect, Lightning_aura, Lightning_Bolt effcet, ライトニングボルト
+
+magic effect, Fire_aura, burning explosion, みんな大好き爆発魔法
+(meteor_shower, from sky, motion_line:1.4), 流星群 ※流れ星にしても綺麗 shooting_star,
+magic effect, (large_golem, magic circle:1.4), ゴーレム※魔法陣の上になかなか出ない
+
+magic effect, (Plant grows, vines grows:1.4), magic circle, 植物魔法
+
+magic effect, (scary ghosts, spirits:1.4), 死霊系 ※可愛くないゴースト(wraiths, spirits, spectres:1.4),
+
+特殊
+magic effect, (swirling Fire and swirling ice, both hands:1.4), メドローア風
+magic effect, (Thunderclouds in the sky, huge lightning strikes), ライデイン風
+magic effect, (girl human and dragon_spirit), (action, (flaming dragon_spirit) at the Viewer:1.4), 燃える竜
+
+燃焼爆発背景（黒い煙付き）
+(burning explosion background:1.4),(black smoke background:1.2),
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+☆Bing編☆
+植物魔法(Bing版)
+※魔法使いの目の前の地面に描かれた魔法陣からジャックと豆の木の大きな植物が生えてくる。
+masterpiece, best quality, ultra detailed, high resolution, 
+Anime Screencap,1girl, solo, 
+A large Jack and the Beanstalk plant grows from a magic circle drawn on the ground in front of the wizard,
+wizard_costume, green witch hat, green robe, green cape, shoes, hoop earrings, pendant, 
+middle hair, hair over one eye, eyes visible through hair, grey hair, aqua eyes,
+forest, cinematic lighting, cinematic shadows,
+
+隕石魔法(Bing版)
+※魔法使いは魔法を唱え、空から落ちてくる巨大な隕石、
+masterpiece, best quality, ultra detailed, high resolution,
+Anime Screencap, 1girl, solo,
+Wizard casts a spell, huge meteorite to fall from the sky,
+wizard_costume, green witch hat, green robe, green cape, shoes, hoop earrings, pendant,
+middle hair, hair over one eye, eyes visible through hair, grey hair, aqua eyes, 
+forest, cinematic lighting, cinematic shadows,
+
+召喚魔法(Bing版)
+※魔法陣の上に石のゴーレムを召喚、ゴーレムへの命令、
+masterpiece, best quality, ultra detailed, high resolution,
+Anime Screencap, 1girl, solo,
+Summon huge Stone golem on the magic circle, orders to golem,
+wizard_costume, green witch hat, green robe, green cape, shoes, hoop earrings, pendant,
+middle hair, hair over one eye, eyes visible through hair, grey hair, aqua eyes, 
+Ancient ruins, cinematic lighting, cinematic shadows,
+
+魔女料理(Bing版)
+※大鍋でシチューを煮る
+masterpiece, best quality, ultra detailed, high resolution,
+Anime Screencap, 1girl, solo, 
+Simmer the stew in a large pot, 
+wizard_costume, green witch hat, green robe, green cape, shoes, hoop earrings, pendant, 
+middle hair, hair over one eye, eyes visible through hair, grey hair, aqua eyes,
+witch's house, cinematic lighting, cinematic shadows,
+
+
+Bingで建物を爆発させるには…（Bing君、建物爆破をブロックしやすい気がする
+※アニメのキャプチャ風、架空の、魔法で城が爆発している　あくまで回避の一例
+Anime Screencap,(Fictional, The castle is explosion with magic), 
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+☆☆☆番外編☆☆☆
+魔法使い（お髭のおじいちゃん）
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution,
+cowboy_shot, 1guy, solo, stylish pose, 
+An old wizard using magic, (fireball at enemies:1.4),
+wizard_costume, green witch hat, green robe, green cape, pants, shoes, hoop earrings, pendant, hold a book,
+70yo, middle hair, hair over one eye, grey hair, aqua eyes, (beard:1.3),
+Isekai, fantasy, forest, cinematic lighting, cinematic shadows, 
+
+オプション
+老いた魔法使いが魔法を使っている、
+An old wizard using magic,
+老いた魔法使いが自室の机で執筆している、
+An old wizard writing at his desk,
+老いた魔法使いが自室の机で読書している、
+An old wizard reading at his desk,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+

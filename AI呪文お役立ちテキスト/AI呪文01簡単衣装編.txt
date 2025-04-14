@@ -2,314 +2,267 @@ AI呪文01簡単衣装編
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 ☆☆☆キャラ衣装☆☆☆
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「女子高生（ブレザー）」
-masterpiece, best quality, ultra detailed,
-1girl, solo,
-smile, contrapposto,
-16yo girl,side ponytail,volumey, brown hair,purple eyes,
-dark blue school uniform, white blouse, dark blue blazer,dark blue leated skirt,red neck ribbon,
-black ankle socks, white bra, white panties, brown loafers, bracelet, blue nails, earrings,
-classroom, full body, cinematic shadows, cinematic angle, anime colored,
+品質：部分的に使える（おまじない程度、なくてもよい、
+elaborately designed clothes,（凝ったデザインの服に
+
+◎女子高生用◎
+「女子高ブレザー」
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution,
+cowboy shot, 1girl,solo, looking at viewer, stylish pose, smile,
+side ponytail,volumey, brown hair,purple eyes,
+dark blue school uniform, white blouse, dark blue blazer,dark blue pleated skirt,red neck ribbon, black ankle socks, brown loafers, 
+bracelet, blue nails, earrings,
+classroom, cinematic lighting, cinematic shadows, cinematic angle,
 
 ※black pantyhose, パンスト
 ※ankle socks, アンクルソックス
 
-※セーラー服
-16yo girl,side ponytail,volumey, brown hair,purple eyes,
-(serafuku:1.3), white blouse, dark blue pleated skirt, red neckerchief, 
-pink hair bobbles, white bra, white panties, white ankle socks, brown loafers, watch, 
+「女子高ブレザー冬Ver」
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution,
+cowboy shot, 1girl,solo, looking at viewer, stylish pose, smile,
+side ponytail,volumey, brown hair,purple eyes,
+((oversized) Wool coat:1.2), blue checkered scarf, Wool coat under school uniform,
+dark blue school uniform, dark blue blazer, brown cardigan, sleeves past wrists cardigan, dark blue pleated skirt, black pantyhose, brown loafers,
+Winter, outside school, cinematic lighting, cinematic shadows, cinematic angle, 
 
-「１８歳女子高生（超ミニスカート）」
-18yo,messy hair,short hair,brown hair,ahoge,brown eyes, tareme, 
-dark blue school uniform, white blouse, dark blue blazer, 
-dark blue very short pleated miniskirt, red neck ribbon,
+「セーラー服」
+(serafuku:1.3), white blouse, dark blue pleated skirt, red neckerchief, 
+pink hair bobbles, white ankle socks, brown loafers, watch, 
+
+「女子高超ミニスカート」Bing君でダメ
+dark blue school uniform, white blouse, dark blue blazer, dark blue very short pleated miniskirt, red neck ribbon,
 black lace bra, black side-tie panties, ankle socks, brown loafers, bracelet, blue nails, earrings,
 
-※普段着（夏）
-18yo,messy hair,short hair,brown hair,ahoge,brown eyes, tareme, 
-white t-shirt, bule denim shorts, white bra, white panties, white socks, 
-pink sneakers, blonde bracelet, pink nails, yellow star earrings,
+※衣服の下に着せる
+black side-tie panties, Panties under clothes,
 
-※普段着（秋もの3種）※頂き物
-long sleeves, beret hat, brown dress, polo-neck sweater, skirt, ribbon, pantyhose, strap shoes,
 
-bare shoulders, collarbone, off shoulder, off shoulder sweater,pencil skirt, pantyhose, higheels,
+◎普段着◎
+「春物」※Spring Fashion,外してもよい
+シースルースリーブ
+Spring Fashion, casual, white shirt, long sleeves, see-through sleeves, sleeves past wrists, belt, red skirt, buttons, black pantyhose, ankle boots,
+デニムジャケット
+Spring Fashion, casual, Dark Blue denim jacket, white dress, long sleeves, open clothes, open jacket, Jeans, sneakers,
+ふわふわフリル
+Spring Fashion, puffy short sleeves, bare shoulders, off-shoulder shirt, collarbone, pink shirt, frills, red skirt, plaid skirt, pleated skirt, mary janes,
 
-polo-neck seeater, long sleeves, clothing cutout, cleavage cutout, cleavage, corset, belt, mini skirt, pantyhose, lace up shoes, hair ornamen,
+
+「夏物」
+Tシャツに短パン
+white t-shirt, bule denim shorts, white bra, white panties, white socks, pink sneakers, blonde bracelet, pink nails, yellow star earrings,
+
+貝ビキニ、真珠Tバック、
+shell bikini, Pearl_Thong, 
+
+「秋物」※Autumn Fashion,は外してもよい　貰い物を変更
+普段着１
+Autumn Fashion, long sleeves, beret hat, brown dress, polo-neck sweater, skirt, ribbon, pantyhose, strap shoes,
+普段着２
+Autumn Fashion, bare shoulders, collarbone, off shoulder, off shoulder sweater, denim skirt, pantyhose, sneakers,
+普段着３
+Autumn Fashion, polo-neck sweater, long sleeves, cleavage cutout, belt, mini skirt, pantyhose, lace up shoes, hair ornament,
+普段着４
+Autumn Fashion, yellow_hoodie,red_checkered skirt, white_pantyhose, mary janes,
+普段着５
+Autumn Fashion, white_shirt,long_sleeves,round_neck_shirt,blue_pinafore_dress,o-ring_belt,strap shoes,
+
+「冬物」※winter fashion,外してもよい
+普段着１
+winter fashion, wool sweater, oversized quilted jacket, denim skirt, leggings, knee-high boots, Handbag,
+普段着２
+winter fashion, long cardigan, one piece, double coat, frill long skirt, velvet, pantyhose, sneakers, 
+普段着３
+brown double coat, long sleeves, red beret hat, brown polo-neck sweater, black skirt, thighhight, strap shoes, Shoulder pouch,
+
+秋物に合わせればいい気がしてきた
+quilted jacket,キルティングジャケット
+double coat,ボタンが2列になっているコート
+camel coat,キャメルコート
+Duffle coat,ダッフルコート
+loose cardigan,大き目なカーディガン
+scarf,スカーフ
+satchel hat, サッチェルハット
+
+超寒い時用防寒具
+防寒具、ズボン、毛皮の手袋、毛皮のブーツ、毛皮のコート、フードを着用、
+Cold weather gear, pants, Fur gloves, Fur boots, Fur coat, wear a hood,
+
+可愛い防寒具
+毛皮のトリム、赤いフード付きコート、赤いケープレット、ボタン、ベル、黒いズボン、シャツ、手袋、ブーツ、ベルト、
+fur trim,red hooded coat,red capelet,buttons,bell,black pants,shirts,gloves,boots,belt,
+
+振袖※髪型に single hair bun, を入れてみるとか
+Japanese clothes, Long-sleeved kimono, Fur Shawls, Furisode, Obi, Tabi, zori, holding a bag,
+Japanese shrine, torii gate, stone pavement, outdoors, People, cinematic lighting, cinematic shadows,
+
+※オプション
+crowd, 群衆
+People, 人々
+
+◎その他◎
+「ローソンの店員（とりあえず鹿島）」※相手の手を握る（お釣りを渡す時）ガチャになります
+masterpiece, best quality, amazing quality, ultra detailed, 8K, newest, scenery, 
+cowboy_shot, 1girl, solo, looking at viewer, stylish pose, smile,
+kashima \(kantai_collection\),
+bluish-grey eyes,tsurime, wavy grey hair,short hair, twintails, sidelocks, large_breasts, clothed,
+(cashier:1.4), Lawson uniform, striped_clothes, striped_shirt, pleated_skirt,name_tag,
+Handing change, holding the other person's hand with both hands,
+convenience_store, (((Inside the cash_register:1.4))),from_below indoors,convenience_store donation_box,money,coin,
+
+
+「アイドル系衣装」
+Idol costume, The costume is white with (red) and blue lines as accents,with collar, tied shirt bikini, mini layered skirt, wristband, Blue belt with gold buckle, knee boots,
+
+
+「ピンクの地雷系衣装」
+pink frilled shirt, pink Long sleeved shirt, frills, black skirt, black thighhighs, shoes, neck ribbon,
+city, street, outdoors, People passing by,
+
+
+「ゴシックパンク系衣装」
+girls band, black musician, black t-shirt, "SUGOKU DEKAI" print t-shirt, cropped jacket, dark red skirt, layered skirt, 
+black ankle boots, heart choker, garter belt, black torn fishnet thighhighs, 
+spiked bracelet, scrunchie, lip piercing, navel piercing, black nails,
+new york city, street, outdoors, night, People,
+
+
+「なんかエロイセーター」※Bing君でダメ
+leaning forward, looking at viewer, looking back, 
+closed eyes, (=_=), (heaven condition:1.3), blush, (upset:0.5), head back, ecstasy, :3, open mouth, sparkle, 
+(vertical-striped background:1.4),
+twintails,middle hair,blonde hair,blue eyes,
+(aran sweater, virgin killer sweater, sweater dress:1.2), hair bobbles, strapless bra, thong, pumps, 
 
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「２７歳リクルートスーツ」
-masterpiece, best quality, ultra detailed,
-1girl, solo,
-smile, contrapposto,
-27yo, ponytail,volumey, black hair,brown eyes,
-(office lady:1.3), white blouse, dark blue jacket, dark blue pencil skirt,
-black lace bra, black side-tie panties, black pantyhose,brown loafers, 
-red semi rimless eyewear,
-office, full body, cinematic shadows, cinematic angle, anime colored,
+「バーテンダー、カクテルシェイク」※カクテルシェイクは要ガチャ
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution,
+cowboy shot, 1girl, solo, 
+medium hair, messy hair, black hair, single_braid, purple eyes, tareme,
+wearing a bartender costume, (Holding the cocktail shaker in both hands, shake a cocktail shaker briskly),
+(motion blur, motion line, sense of speed, sound effects:1.2),
+bar, bar counter, cinematic lighting, cinematic shadows, dutch angle,
 
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「メスガキちゃん（最初期設定」
-masterpiece, best quality, 
-1girl, solo, 10yo,twintails,middle hair,blonde hair,blue eyes,
-(lollipop, candy), long tongue,open mouth,
+「カクテルウェイトレス（逆バニー）」※Bing君でダメ
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution,
+cowboy shot, 1girl,solo, looking at viewer, stylish pose, smile,
+medium hair, bob cut, volumey, black hair,brown eyes,
+Cocktail Waitress, Wearing a black (reverse_bunnysuit \(meme_attire\)), Heart Nipple Cover, Heart maebari, latex legwear, fake rabbit ears, wrist cuffs, detached collar with a bowtie, 
+Playboy Club, inside, crowd, cinematic lighting, cinematic shadows, cinematic angle,
+
+※網タイツハイヒール版
+Cocktail Waitress, Wearing a black (reverse_bunnysuit \(meme_attire\)), Heart Nipple Cover, Heart maebari, Black fishnet stockings, black high heels, fake rabbit ears, wrist cuffs, detached collar with a bowtie,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「花魁」
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution, elaborately designed clothes,
+cowboy_shot, 1girl, stylish pose, smile, 
+black hair, tsurime, black eyes, 
+Japanese clothes, Oiran, luxurious furisode, Bare Shoulder, obi, Tabi, Oiran geta, Japanese-style hairpins, japanese smoke pipe,
+stone pavement, outdoors, People, cinematic lighting, cinematic shadows, dutch angle,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「エルフ婦警」
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution,
+cowboy shot, 1girl, solo, standing, stylish pose,
+looking at viewer, smile, open mouth, contrapposto,
+elf girl, straight hair, long hair,silver hair,blue eyes,(very dark skin),pointy ears,bright red lipstick,
+american policewoman, police cap, functional black boots, police uniform, skirt, 
+soft blue top, black leather belt, pendants, black pantyhose, 
+functional black boots, police badge, watch, 
+new york city, cityscape, outdoors, cinematic lighting, cinematic shadows, cinematic angle, 
+
+「エルフ水着（水着と浜辺）」
+white Slingshot swimsuit, Criss Cross Halter, White high heels, white lace arm covers, (Choker with huge lock:1.4), Golden Ear Cuffs,
+ocean, sunlight, cinematic lighting, cinematic shadows, cinematic angle, 
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「アマゾン奥地の原住民の女の子」
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution, elaborately designed clothes,
+cowboy_shot, 1girl, solo, looking at viewer, fighting pose, smile,
+Natives, dark-skined female, tan, red hair, black eyes, holding a spear,
+Wearing animal skulls helmet, Tattoos all over the body, loincloths, corruption,
+Deep in the Amazon, forest, ivy, cinematic lighting, cinematic shadows, dutch angle,
+
+原住民、肌の黒い女性、日焼け、日焼け跡、
+Natives, dark skinned female, tan, tanlines,
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「メスガキちゃん（最初期設定」※Bing君でダメ
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution,
+cowboy shot, 1girl, solo, standing, stylish pose, smile,
+10yo,twintails,middle hair,blonde hair,blue eyes,
+holding lollipop,
 camisole, long sleeves, pink dress, pink sneakers, heart choker,
-street, full body,
+city street, Daytime, cinematic angle,
 
-「メスガキちゃん本人はパンクを目指しているのかｗ」
-masterpiece, best quality, ultra detailed,
-full body, anime colored,
-1girl, solo,
-smile, (long tongue), open mouth,  playing a electric guitar,
+「メスガキちゃん本人はパンクを目指しているのか」※Bing君でダメ
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution,
+cowboy shot, 1girl, solo, standing, stylish pose, evil smile, tongue, open mouth, playing a electric guitar,
 10yo,twintails,middle hair,blonde hair,Iridescence and rainbow_hair, blue eyes,
 black musician,black t-shirt, idol print t-shirt, cropped jacket, dark red skirt, layered skirt, black ankle boots, heart choker,
 black g-string, garter belt, black strapless bra,  black torn fishnet thighhighs, 
 spiked bracelet, scrunchie, lip piercing, navel piercing, black nails,
-
-「なんかエロイセーター」※試行回数運次第
-1girl, solo, 10yo,
-leaning forward, looking at viewer, 
-twintails,middle hair,blonde hair,blue eyes, evil smile,
-(aran sweater, virgin killer sweater, sweater dress:1.2), hair bobbles, strapless bra, thong, pumps, 
-street, looking back,
+Live Stage, cinematic lighting, cinematic shadows, cinematic angle,
 
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「幼い見た目のダークエルフプリースト」
-masterpiece, best quality, ultra detailed,
-1girl, solo,
-standing, (own hands clasped),
-(cassock:1.3), black priest cap, black kneehighs, black ankle boots,cross necklace,
-10yo,straight hair, long hair,silver hair,blue eyes,((dark skin)),pointy ears, 
-church,cowboy shot,cinematic shadows, cinematic angle, anime colored,
+「女教師」
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution,
+cowboy shot, 1girl,solo, looking at viewer, stylish pose,
+Teacher is teaching a lesson, English_Text, ("Do you understand?" in speech bubble:1.4), 
+woman teacher, ponytail, volumey, black hair, brown eyes,
+white blouse, dark blue jacket, dark blue pencil skirt, pantyhose, brown loafers, red semi rimless eyewear, 
+Classrooms, podiums, cinematic lighting, cinematic shadows, cinematic angle,
 
-聖書：bible,
-
-「幼い見た目のダークエルフクレリック」
-masterpiece, best quality, ultra detailed,
-1girl, solo,
-stylish pose,
-(cleric:1.3),paladin robe,crown,gloves,boots,buddha rosary,bracelet,(hold a wand),
-10yo,straight hair, long hair,silver hair,blue eyes,((dark skin)),pointy ears, 
-cinematic lighting, cinematic shadows, cinematic angle,
-
-「幼い見た目のダークエルフ巫女」
-masterpiece, best quality, ultra detailed,
-1girl, solo,
-((standing)),stylish pose,
-10yo,straight hair, long hair,silver hair,blue eyes,((dark skin)),pointy ears, 
-hakama, hakama_skirt, japanese_clothes, kimono, long_sleeves, tabi, zouri, miko, red_hakama,skirt, sleeves_past_wrists, torii, white_kimono, wide_sleeves, shrine, japan
-
-※ネガティブに追加
-bare shoulders
+※オプション
+English_Text, ("Do you understand?" \(phrase\):1.4),
 
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「侍武者」
-masterpiece, best quality, ultra detailed,
-1girl, solo,
-18yo, short hair, bob cut, black hair, purple eyes, 
-(samurai armor:1.4), helmet, chest protector, japanese sword,
-Edo period townscape, moon right, midnight sky, cinematic lighting, cinematic shadows,
+「オフィスレディ」
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution,
+cowboy shot, 1girl,solo, looking at viewer, stylish pose,
+office woman, medium hair, bob cut, volumey, black hair,brown eyes,
+wearing Black knitted turtleneck sweater, Long sleeve, white casual pants, pumps, semi rimless eyewear, Handbag,
+(((((not wearing, unworn jacket, holding jacket on arm:1.4))))),
+Office district, outside, People, cinematic lighting, cinematic shadows, cinematic angle,
 
-「くノ一」
-masterpiece, best quality, ultra detailed,
-1girl, solo, 
-smile, standing,
-18yo, short hair, bob cut, black hair, purple eyes, 
-(Kunoichi_uniform:1.3), (black and violet kimono pattern), (short kimono),
-(dark red Scarf:1.2), sleeveless tops, purple hakama skirt, obi,
-black fishnet thighhighs, geta,
-Edo period townscape, moon right, midnight sky, cinematic lighting, cinematic shadows,
-
-※くノ一衣装シンプル（頂き物　忍者寄り
-(Ninja_uniform:1.4), ninja mask, fishnet inner, ninja cloth, ninja pants,
-
-「忍者シンプル」
-masterpiece, best quality, ultra detailed,
-1girl, solo, 
-smile, standing,
-18yo, short hair, bob cut, black hair, purple eyes, 
-(Ninja_uniform:1.4), fishnet inner, tabi, zouri, 
-shrine, moon right, cinematic lighting, cinematic shadows,
-
-※網タイツ、網タイツで作られた服、
-fishnet tights, clothes made of fishnet,
-
-手裏剣
-((black big shuriken:1.3)),
+※腕にジャケット持つのはガチャ
 
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「魔女」
-masterpiece, best quality, ultra detailed,
-forest, moon right, cinematic shadows, cinematic angle, anime colored,
-1girl, solo,
-smile, standing, stylish pose,
-20 years old, curly hair, hair over one eye,middle hair, grey hair, aqua eyes,
-witch, black witch hat, off-shoulder slit dress, detached sleeves, corset, cape, 
-g-string, garter belt, lace legwear, (((high-low skirt))), black ankle boots, thighhighs, hoop earrings, pendant, (magic staff:1.4), zettai ryouiki,
-
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「ハロウィン衣装」
-masterpiece, best quality, ultra detailed,
-1girl, solo, stylish pose,
-(halloween costume:1.3), witch hat, off-shoulder slit dress, detached sleeves, corset, cape, overskirt, 
-g-string, garter belt, lace legwear, black ankle boots, thighhighs, hoop earrings,
-18yo,messy hair,short hair,brown hair,ahoge,brown eyes, tareme, 
-new york city, outdoors, midnight,
-
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「女騎士」
-masterpiece, best quality, ultra detailed,
-standing, stylish pose,
-1girl, solo,
-blonde hair, Drill hair, middle hair, blue eyes, 
-knight, altyn helmet, armor knight, chest protector, gauntlets, greaves, knee pads, elbow pads, pauldrons, faulds, skirt, cape, (hold a sword), (hold a shield),
-Anime Screencap,
-
-Bingで縦ロール出すには…難しい
-Drill hair, ドリルヘアー(Bingでは出ない
-vertical spiral curly hair for Twintail, 縦スパイラルカーリーヘアーツインテール
-spirally wound shape for twin-tails hair, 螺旋状に巻いた形状のツインテールの髪
-
-「女騎士ビキニアーマー」
-(knight:1.3), winged helmet, bikini armor, gauntlets, greaves, knee pads, elbow pads, pauldrons, faulds, pelvic curtain, loincloth, cape,
-
-「革の服」※冒険者ぽく
-(warrior:1.3), leather clothes, shirt, pants, belt, gloves, boots, cloak,holding a sword, has a shield,
-
-
-異世界、ファンタジー、中世都市のメインストリート、
-isekai,fantasy,medieval city main street,
-
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「弓使い」
-masterpiece, best quality, ultra detailed, 
-1girl, solo,
-action pose,carrying a bow, aiming,
-(Archer:1.3), leather_armor, cloak, pants, gloves, shoes, (longbow and arrow:1.3),
-medium hair, big hair, short ponytail, messy floating pink hair, blue eyes,
-Isekai, fantasy, forest,upper body,
-
-「エルフバージョン」
-masterpiece, best quality, ultra detailed, 
-1girl, solo,
-action pose,carrying a bow, aiming,
-(Archer:1.3), Archer_costume, leather_armor, cloak, pants, gloves, shoes,  holding a longbow, arrow,
-elf girl, blonde hair, middle hair, single braid, aqua eyes, pointy ears,
-Isekai, fantasy, forest,upper body,
-
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「錬金術師」
-masterpiece, best quality, ultra detailed,
-1girl, solo, 
-(alchemist_costume:1.3), belt pouch,flask, holding test tube,
-20yo, short hair, braided bangs, messy floating blond hair, blue eyes,
-fantasy,indoors, cinematic lighting, cinematic shadows,
-
-※爆発して驚く
-(explosion:1.2),(surprised:1.4),
-
-※(爆雷:1.4)、(輝き背景:1.4)、(稲妻背景:1.4)、(魔法陣:1.2)、(輝き:1.4)、※頂き物気に入ってます
-(Explosive lightning:1.4),(glint background:1.4), (lightning background:1.4), (magic circle:1.2), (sparkle:1.4),
-
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「吟遊詩人」
-masterpiece, best quality, ultra detailed,
-1girl, solo, fantasy,
-(Bard:1.3),  playing classical guitar, smile,
-27yo, medium hair, big hair, short ponytail, messy floating pink hair, blue eyes,
-cape, puffy_sleeves, thigh_boots, boots, green Clothes,
-medieval european city, cowboy shot, cinematic lighting, cinematic shadows,
-
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「赤頭巾ちゃんlittle_red_riding_hood,」
-masterpiece, best quality, ultra detailed,
-Anime Screencap,
-1girl, solo, little_red_riding_hood,
-red hooded cape, (wear a hood), red_dress, bowtie, white drawers, brown loafers, white maid apron,
-blonde_hair, blue_eyes, 
-holding a basket, wine_bottle,
-
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「道士・タオイスト」
-masterpiece, best quality, ultra detailed,
-1girl, solo,
-22yo, medium hair, hair over one eye, braided bun, silver hair, thick_eyebrows, dragon eyes,
-(Taoist:1.3), (Red Taoist costume:1.4), 
-
-yin and yang diagram background, 
-cowboy shot, cinematic shadows, cinematic angle,
-
-☆オプション☆
-太眉毛, 龍の瞳
-thick_eyebrows, dragon eyes,
-
-服装
-(Taoist:1.3), (Taoist costume:1.3), 派手だが一番良いかな
-Taoist clothes, Taoist pants, Taoist shoes, タオイストにしてるが下とあまり変わらない
-cheongsam clothes, cheongsam pants, cheongsam shoes, 中国服
-
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-「エルフ婦警」
-masterpiece, best quality, ultra detailed,
-1girl, solo,
-looking at viewer, smile, open mouth, contrapposto,
-24yo, straight hair, long hair,silver hair,blue eyes,(very dark skin),pointy ears,bright red lipstick,
-american policewoman, police cap, functional black boots, police uniform, skirt, 
-camouflage shorts, soft blue top, black leather belt with pendants, black pantyhose, 
-functional black boots, police badge, watch, 
-cityscape, cowboy shot, cinematic shadows, cinematic angle, anime colored,
-
-「エルフ水着」
-masterpiece, best quality, ultra detailed,
-1girl, solo, nsfw, 
-looking at viewer, smile, open mouth, contrapposto,
-24yo, straight hair, long hair,silver hair,blue eyes, very dark skin,pointy ears,bright red lipstick,
-white slingshot swimsuit, sandals,
-ocean, sunlight, cowboy shot, anime colored,
+「特殊チャイナドレス」※Bing君でダメ（当たり前だ
+性的興奮の雰囲気、誘惑的な笑顔、内部への誘い、
+1 人の女の子の中国服、脚を上げたシースルーの中国ドレス、
+乳首がはっきり、肩がむき出し、肩が離れている、細い太もも、胸の谷間、
+Masterpiece, best quality, amazing quality, extremely detailed, high resolution,
+aroused sexual atmosphere, seductive smile, inviting inside,
+1girl chinese_clothes, leg_up see-through_china_dress, 
+defined nipple, bare shoulders, off shoulders, thin_thighs,cleavage,
 
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 ☆☆☆簡単ポーズとか☆☆☆
 
-キュートカワイイ・ちびキャラにする呪文
-ultra cute kawaii, (chibi:1.4),
+かわいいちび化
+cute kawaii, (chibi:1.4),
 
-立つ(片足に重心)
-1girl, solo,
-looking at viewer, smile, open mouth, contrapposto,
+絶対領域※プロンプトが邪魔になることもある
+zettai ryouiki,
 
-女の子座り招き猫
-1girl, solo,
-open mouth, long tongue, paw pose, wariza,
+カメラ目線、立つ(片足に重心)
+looking at viewer, contrapposto,
 
-ロリポップ・キャンディを舐める
-1girl, solo,
-licking lollipop candy, lollipop candy,
+よそ見
+looking away, 
 
-イルカに乗る（ビキニこみ
-sea, full body,
-10 years old, twintails,middle hair,blonde hair,blue eyes, evil smile, ;d, frilled bikini,
-1girl,solo,(wet:1.5), girl on top, straddling,(rideing dolphin:1.4),
+招き猫、女の子座り
+paw pose, wariza,
+ガオー、女の子座り
+claw pose, wariza,
 
-キス顔アップ（あんまり意味ない…カメラ設定要検証
-1girl, solo,
-((incoming kiss,closed eyes)), blush,
+ロリポップ・キャンディ
+holding lollipop,
 
-嫌な顔しながらスカートをたくし上げる
-1girl, solo,
-angry,standing,skirt lift,   
-
-ダブルピース
-1girl, solo,
-afterglow,long tongue,open mouth,double peace sign,wariza,
-
-「温泉（タオルで隠してる）」
-masterpiece, best quality, ultra detailed,
-onsen, full body, cinematic shadows, cinematic angle, anime colored,
-1girl, solo,
-smile, (long tongue:1.2), open mouth, 
-10 years old,twintails,middle hair,blonde hair,blue eyes,
-naked towel,sweat,
-
+イルカに乗る
+(wet:1.5), girl on top, straddling,(rideing dolphin:1.4),sea,
 
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 

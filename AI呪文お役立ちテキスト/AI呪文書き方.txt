@@ -1,0 +1,62 @@
+☆AI呪文書き方☆
+プロンプトの順番というか一例（正解ではないです）
+自分なりの順番があるならばそのほうが良いです
+分割して考えておくほうがわかりやすい
+以下、派生形モデルを前提に書いています
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+WAI-NSFW-illustrious-SDXLの場合一例
+masterpiece,best quality,amazing quality,	←品質系呪文※モデルの公式サンプル見て確認してね
+anime style,					←画風
+cowboy_shot, 1girl, solo,			←カメラ、人数
+side ponytail,volumey, brown hair,purple eyes,	←キャラ（頭部属性、身体属性、表情）
+long sleeves, beret hat, brown dress, polo-neck sweater, skirt, ribbon, pantyhose, strap shoes,	←キャラ（服装）
+running,(holding toast in mouth:1.4),sweat,late for school,	←行動(ポーズ等)※スレで上がる行動呪文などはここ
+(motion blur, motion line, sense of speed, sound effects:1.1),	←行動(モーションブラー、エフェクト)
+School route,city,outdoors,street, cinematic lighting, cinematic shadows, cinematic angle,←背景、ライティング
+
+Ebara pony XLの場合一例（基本的には上と一緒　※筆者Pony系は使ってないので詳しくありません
+masterpiece, best quality, score_9, score_8_up, score_7_up,source_anime,←品質系呪文（スコアが入る※モデルの公式サンプル見て確認してね
+anime style,					←画風
+cowboy_shot, 1girl, solo,			←カメラ、人数
+side ponytail,volumey, brown hair,purple eyes,	←キャラ（頭部属性、身体属性、表情）
+long sleeves, beret hat, brown dress, polo-neck sweater, skirt, ribbon, pantyhose, strap shoes,	←キャラ（服装）
+running,(holding toast in mouth:1.4),sweat,late for school,	←行動(ポーズ等)※スレで上がる行動呪文などはここ
+(motion blur, motion line, sense of speed, sound effects:1.1),	←行動(モーションブラー、エフェクト)
+School route,city,outdoors,street, cinematic lighting, cinematic shadows, cinematic angle,←背景、ライティング
+
+筆者の場合（お役立ちテキスト）※行動を先にしてる…しっ、しまった💦
+masterpiece,best quality,amazing quality,	←品質系呪文
+anime style, cowboy_shot, 1girl, solo,		←画風、カメラ、人数
+running,(holding toast in mouth:1.4),sweat,late for school,	←行動(ポーズ等)※スレで上がる行動呪文などはここ
+(motion blur, motion line, sense of speed, sound effects:1.1),	←行動(モーションブラー、エフェクト)
+side ponytail,volumey, brown hair,purple eyes,	←キャラ（頭部属性、身体属性、表情）
+long sleeves, beret hat, brown dress, polo-neck sweater, skirt, ribbon, pantyhose, strap shoes,	←キャラ（服装）
+School route,city,outdoors,street, cinematic lighting, cinematic shadows, cinematic angle,←背景、ライティング
+
+※余談
+当然ではあるが一応、行動系呪文を入れる位置（先か後か）によって結果は異なります。
+思ってたのと違う結果になる場合呪文の位置を変えるのも手です
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+「二人出す時」※サンプル　完全ではない混ざることも多々
+masterpiece, best quality, amazing quality, ultra detailed, 8K, newest, scenery,
+cowboy_shot, 2girls,
+BREAK
+takarada rikka \(ssss.gridman\), black-hair, blue_eyes, long_hair, thick thighs, small breasts, clothed,
+BREAK
+shinjou akane \(ssss.gridman\), light purple short hair, red eyes, large breasts, clothed,
+BREAK
+looking at viewer, stylish pose, smile,
+classroom, cinematic lighting, cinematic shadows, cinematic angle,
+
+
+※BREAKに関してWEBサービスでは効かないらしい
+
+※BREAKの効果は使用するAIモデルによって異なる場合があります。Stable Diffusionでは直接的なサポートは少ないものの、文脈の分割に役立つ場合があります。
+というご意見も頂きました
+
+正直どっちなのかわからないです、雰囲気で生成してるので…
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
