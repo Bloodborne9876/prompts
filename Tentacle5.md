@@ -100,10 +100,8 @@ __face/emberassed__, female orgasm, ecstasy, heavy breathing, half-closed eyes ,
 { 1.2::__face/emberassed__ | half-closed eyes , heavy breathing, open mouth } { 0.5::cross-section | sweat } , { sweat | __tentacle/92_bukkake__ | __tentacle/96_bukkake__ } , { __tentacle/90_base__ | __tentacle/10_sex_horizon__ | __tentacle/11_sex_vertical__ | tentacles sex } , { arms up | spread arms | sweat } , restrained, motion lines, motion blur, from below, close-up pussy, 
  { 0.8::sweat | 1.2::nipples | tentacles breast sucking | tentacles milking tentacles } , { sweat | comic, multiple view, frame , text , speech bubble, focus line, vibrating line, comic expression } , trembling, female orgasm -->
 
-
-{ 1.2::__face/emberassed__ | half-closed eyes , heavy breathing, open mouth } { 0.5::cross-section | sweat } , heavy breathing,  trembling,  { __tentacle/90_base__ | __tentacle/10_sex_horizon__ | tentacles sex } , { arms up | spread arms | sweat } , restrained, motion lines, motion blur, from below, close-up pussy,  large insertion
- { 0.8::sweat | 1.2::nipples | tentacles breast sucking | tentacles milking tentacles } ,
- 
+{ 1.2::__face/emberassed__ | half-closed eyes , heavy breathing, open mouth } { 0.5::cross-section | sweat } , heavy breathing,  trembling,  { __tentacle/90_base__ | __tentacle/10_sex_horizon__ | tentacles sex } , { arms up | spread arms | sweat } , restrained, motion lines, motion blur, from below, close-up pussy,  large insertion , { sweat | (multiple views:1.1) } ,  tearing up ,  pussy juice,  
+ { 0.8::sweat | 1.2::nipples | tentacles breast sucking | tentacles milking tentacles } , 
 
 ```トロ顔
 ,(heavy breathing, female orgasm, trembling, ecstasy:1.3), (large insertion:1.2)
@@ -111,7 +109,48 @@ __face/emberassed__, female orgasm, ecstasy, heavy breathing, half-closed eyes ,
 
 ## メス堕ち
 
-## 快楽
+heart-shaped pupils,  pink eyes,  { 1.2::__face/mesu__  | half-closed eyes , heavy breathing, open mouth } { 0.5::cross-section | sweat } , heavy breathing,  trembling,  { __tentacle/21_female_advantage__ | __tentacle/10_sex_horizon__ | | tentacles sex } , motion lines, motion blur, from below, close-up pussy,  (large insertion:1.1) , { sweat | (multiple views:1.1) } ,  pussy juice,  
+ { 0.8::sweat | 1.2::nipples | tentacles breast sucking | tentacles milking tentacles } ,
 
+## 快楽
+heart-shaped pupils,  pink eyes,  __tentacle/96_bukkake__ ,   { 1.2::__face/mesu__  | half-closed eyes , heavy breathing, open mouth } { 0.5::cross-section | sweat } , heavy breathing,  trembling,  { __tentacle/21_female_advantage__ | __tentacle/10_sex_horizon__ |  __tentacle/21_female_vertical__  } , motion lines, motion blur,  close-up pussy,  (large insertion:1.1) , { sweat | (multiple views:1.1) } ,  pussy juice,  { sweat | comic, multiple view, frame , text , speech bubble, focus line, vibrating line, comic expression } , trembling, female orgasm
+
+
+## アヘ顔
+
+heart-shaped pupils,  pink eyes,  { 1.2::__face/mesu__  | 2::ahegao,  orgasm } , bukkake,  
+{ __tentacle/21_female_advantage__ | __tentacle/22_female_horizon__ | __tentacle/21_female_vertical__ } , __tentacle/96_bukkake__ ,  (cum on hair,  cum on body,  facial:1.1) , { 0.5::cross-section | sweat } , heavy breathing,  trembling, , motion lines, motion blur, from below, close-up pussy,  (large insertion:1.2) , double penetration , { sweat | (multiple views:1.1) } ,  pussy juice,  
+ { 0.8::sweat | 1.2::nipples | tentacles breast sucking | tentacles milking tentacles } ,
 
 ## レイプ目
+
+empty eyes, expressionless,  streaming tears,  open mouth, drooling,  orgasm,  (ecstasy:1.3),  bukkake,  
+
+
+## オプション系
+
+### 騎乗位
+
+heart-shaped pupils,  pink eyes,  __tentacle/96_bukkake__ ,   { 1.2::__face/mesu__  | half-closed eyes , heavy breathing, open mouth } , motion lines, motion blur,  close-up pussy,  (large insertion:1.1) ,  cowgirl position,  { squatting |  straddling |  leaning forward } ,  { sweat |  tweaking own nipple | cross-section,  } , 
+
+### レイプ
+
+heart-shaped pupils,  pink eyes,  { 1.2::__face/mesu__  | 2::ahegao,  orgasm } , bukkake,  __tentacle/96_bukkake__ ,  (cum on hair,  cum on body,  facial:1.1) , { 0.5::cross-section | sweat } , heavy breathing, { missionary,  leaning forward , cross-section | wariza |  lying , on ground , m legs , from below } ,  tentacles handjob , gangbang,  tentacles handjob,  tentacles irrumatio,  cross-section, cum ejaculation, 
+
+
+### ラスト
+
+- くぱぁ
+```
+empty eyes, expressionless,  streaming tears,  open mouth, drooling,  orgasm,  (ecstasy:1.3),  bukkake,  
+lying , on ground, m legs,  spread pussy,  female ejaculation,  trembling,  heavy breathing,  from below,  cum drip , after vaginal,  after gangbang,  cumdrip,  cum explosion, 
+```
+
+- 仰向け
+```
+lying , on back ,  on ground,  trembling,  heavy breathing,  from below,  cum drip , after vaginal,  cumdrip,  cum explosion, 
+```
+
+```腹ボテ
+lying , on back  ,  trembling,  heavy breathing,  from below,  cum drip , after vaginal,  cumdrip,  cum explosion,  pregnant woman, spread legs,  spread pussy, 
+```
