@@ -1,5 +1,0 @@
- {   __sell/clothed_ero__ , school uniform,  pleated skirt,  loafers  , smile , (spoken musical note:1.1)  | __sell/unclothed_ero__ 
- , surprised , blush ,  (spoken exclamation mark:1.1)  | (nude:1.1) , blush , sweat } , __sell/paizuri__ |  { smile | smile , embarrassed, open mouth, saliva, saliva trail} , __sell/missionary__ }
-
-
-{ __sell/ero_clothed__ , school uniform, blazer , blue plaid skirt,  pleated skirt,  loafers  , smile , (spoken musical note:1.1)  | __sell/ero_costumeed__ , surprised , blush ,  (spoken exclamation mark:1.1) | __sell/paizuri__ , (nude:1.1) , blush , sweat  | { smile | smile , embarrassed, open mouth, saliva, saliva trail} , __sell/missionary__ }
