@@ -40,9 +40,9 @@ __face/emberassed__, standing , coiling tentacles , from below, white panties, r
 ```
 ```
 __face/emberassed__, from below, restrained, { arms up | spread arms } , knees together feet apart, 
-from below , from below, restrained, { arms up | spread arms } , m legs , from below , pussy juice, nose blush
-tearing up , open mouth , heavy breathing, emberrassed , cleanched teeth , coiling tentacles , from below, restrained, { arms up | spread arms } , legs up , from ,below , pussy juice, nose blush, (crotch rub:1.2) 
-from below, white panties, restrained, { arms up | spread arms } , legs up , from below , pussy juice, nose blush, crotch rub , female ejaculation, open mouth , heavy breathing, emberrassed , (ecstasy , trembling:1.3)
+from below , from below, restrained, { arms up | spread arms } , m legs , from below , nose blush
+tearing up , open mouth , heavy breathing, emberrassed , cleanched teeth , coiling tentacles , from below, restrained, { arms up | spread arms } , legs up , from ,below , pussy juice, nose blush, crotch rub 
+from below, white panties, restrained, { arms up | spread arms } , legs up , from below , pussy juice, nose blush, crotch rub , female ejaculation, open mouth , heavy breathing, emberrassed , (ecstasy , trembling:1.3) , drooling , half-closed eyes , japanese sound effects  ,  <lora:sound_effects-000015:1> sound effects
 ```
 
 ```
