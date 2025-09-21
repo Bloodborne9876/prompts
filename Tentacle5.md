@@ -334,11 +334,13 @@ upper body , close-up face , irrumatio , facial , bukkake , cum in mouth { from 
 - [X] , spread arms , restrained,bukkake
 
 clenched teeth,  heavy breathing,  sound effects,  { lying | doggy style , from behind , ass } ,  white panties  , trembling,  heavy breathing,  breast sucking,  (open eyes:1.2)
-open mouth , tearing up, looking at viewer, heavy breathing, sweat , heavy breathing,  sweat ,  pussy juice , embarrassed, spread pussy , heavy breathing , sound effects, cervix
-open mouth , tearing up, looking at viewer, ( female orgasm , trembling , heavy breathing:1.0), sweat , heavy breathing,  sweat ,  pussy juice , embarrassed,   large insertion , pussy juice , ecstasy , (sound effects:1.2),  legs up ,  female orgasm , trembling ,  from below,  { lying | doggy style } , shouting , 
-open mouth , tearing up, looking at viewer, ( female orgasm , trembling , heavy breathing:1.2), sweat , heavy breathing,  sweat ,  pussy juice , embarrassed,   large insertion , pussy juice , ecstasy , arched back , (sound effects:1.2),  legs up ,  female orgasm , trembling , ahegao ,  from below,  { lying | doggy style } , shouting , speech bubble
-open mouth , tearing up, looking at viewer,( female orgasm , trembling , heavy breathing:1.3),  sweat , heavy breathing,  sweat ,  pussy juice , large insertion , pussy juice , ecstasy , arched back ,  (sound effects:1.5) ,  cum in pussy , cum explosion ,  bukkake , facial , empty eyes , cross-section ,streaming tears, shouting , 
+clenched teeth, half-closed eyes , drooling , heavy breathing,  sound effects,  { lying | doggy style , from behind , ass } ,  white panties  , trembling,  heavy breathing,  breast sucking,  (open eyes:1.2) , crotch rub , heavy breathing , trembling , 
 
+close-up face,  heavy breathing, arms up , restrained, trembling, heavy breathing, tearing up, irrumatio, deepthroat, (surprised:1.2), tearing up , streaming tears, frown , sound effect , frown , 
+looking away , upper body , heavy breathing, arms up , restrained, trembling, heavy breathing, tearing up, irrumatio, deepthroat, tearing up ,front , motion lines , motion blur , from side ,sound effect , 
+looking away , upper body , heavy breathing, arms up , restrained, trembling, heavy breathing, tearing up, irrumatio, deepthroat, tearing up ,front , motion lines , motion blur , sound effect ,  cum in mouth , tearing up , streaming tears ,(surprised:1.2),
+comic ,multiple views, frame ,  heart, trembling, focus line,  trembling,  sound effects,  heavy breathing,  close-up face ,  irrumatio,  cum in mouth , deepthroat,  streaming tears , sobbing , drooling ,  open eyes , looking at viewer , cum in throat , bukkake , 
+cum in mouth , open mouth, heavy breathing, spread arms , trembling, cum in mouth , restrained , (trembling:1.3), half-closed eyes , drooling , heavy breathing , upper body , from above , facial, bukkake , cum on breasts , close-up face ,sound effect , tearing up , streaming tears ,
 
 ```bak
 clenched teeth,  heavy breathing,  sound effects,  { lying | doggy style , from behind , ass } ,  white panties  , trembling,  heavy breathing,  breast sucking,  (open eyes:1.2)
