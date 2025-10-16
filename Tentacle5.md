@@ -31,7 +31,7 @@ __face/emberassed__ , [X] , white panties, torn clothes,
 
 ```
 from below , knees together feet apart, legs wrap tearing up,
-surprised , sobbing , tearing up , from below , legs wrap arms up , restrained , streaming tears, full nelson , restrained, clenched teeth,  knees together feet apart, 
+surprised , sobbing , tearing up , from below , legs wrap arms up , restrained , streaming tears,  restrained, clenched teeth,  knees together feet apart, 
 sobbing , tearing up , from below , legs wrap arms up , restrained , tearing up, streaming tears, clenched teeth, frown , spread legs , legs up
 from below , close-up crotch , restrained , tearing up, full nelson , clenched teeth, pussy juice , tentacle rub crotch , motion lines, motion blur, ( trembling, ecstasy:1.3), heavy breathing,  (trembling:1.2),half-clossed eyes ,sound effects
 ```
@@ -56,7 +56,7 @@ restrained, (from behind , ass:1.2) , from below, looking at viewer , arms up , 
 ### パンツの上から刺激
 ```
 { embarrassed | ecstasy , embarrassed } , { open mouth | clenched teeth } , trembling, heavy breathing, { open eyes | one eye closed | closed eyes } 
-restrained, {2$$crotch rub } , { leaning forward | legs up , { spread legs | knees together feet apart, } | from behind , ass , doggy style } , { spread arms | arms up } , { from behind , ass | front } , white panties ,sound effects , close-up crotch , from below, pussy juice, 
+restrained, {2$$crotch rub } , { leaning forward | legs up , { spread legs | knees together feet apart, } | from behind , ass , doggy style } , { spread arms | arms up } , { from behind , ass | front } , white panties ,sound effects , close-up crotch , from below, pussy juice,  wavy mouth,  open mouth,  trembling,  heavy breathing, 
 ```
 
 ## 前かがみ
@@ -348,4 +348,36 @@ open mouth , tearing up, looking at viewer, heavy breathing, sweat , heavy breat
 open mouth , tearing up, looking at viewer, ( female orgasm , trembling , heavy breathing:1.0), sweat , heavy breathing,  sweat ,  pussy juice , embarrassed,   large insertion , pussy juice , ecstasy , (sound effects:1.2),  legs up ,  female orgasm , trembling ,  from below,  { lying | doggy style } , shouting , 
 open mouth , tearing up, looking at viewer, ( female orgasm , trembling , heavy breathing:1.2), sweat , heavy breathing,  sweat ,  pussy juice , embarrassed,   large insertion , pussy juice , ecstasy , arched back , (sound effects:1.2),  legs up ,  female orgasm , trembling , ahegao ,  from below,  { lying | doggy style } , shouting , speech bubble
 open mouth , tearing up, looking at viewer,( female orgasm , trembling , heavy breathing:1.3),  sweat , heavy breathing,  sweat ,  pussy juice , large insertion , pussy juice , ecstasy , arched back ,  (sound effects:1.5) ,  cum in pussy , cum explosion ,  bukkake , facial , empty eyes , cross-section ,streaming tears, shouting
+```
+
+
+```
+tentacle sex , spread arms ,spread legs,legs up ,missionary, oral 
+restrained,{ arms up | spread arms } , leaning forward,{2::(breast sucking:1.1),| milking tentacle },trembling,heavy breathing,tentacle on breast , irrumatio
+top-down bottom-up, (from behind, ass:1.2) , pussy , restrained,large penetration ,,(uterus:1.2)
+{ front | from side }irrumatio, all fours,doggystyle,motion lines,motion blur,uterus, arms up , restrained
+front , irrumatio, standing ,motion lines,motion blur,uterus, arms up , restrained
+{ arms up | spread arms } , tentacles breast sucking,trembling, heavy breathing,standing , leaning forward,full body,{ sweat |multiple views }
+leaning forward,legs wrap tentacles,standing , motion lines, motion blur, uterus, arms behind back, split view , pussy , ass , border,comic, pussy juice, restrained
+{ dildo insertion , leaning forward | dildo insertion ,  ass , from behiind | squatting  } , open mouth,  drooling,   { 1-3$$from below |  (uterus:1.2) | sweat  }  , large insertion  ,  { 1-2$$sweat |  (japanese sound effect:1.2) | (japanese speech bubble:1.2) } , clitoris tweak,
+spitroast, doggystyle,  oral ,  tentacles sex,
+```
+
+- [X] ,  trembling , ecstasy , heavy breathing , sweat , sound effects , half-closed eyes,  open mouth,  motion lines,  motion blur,  
+from above , cross-section
+from side , doggy style , from behind ass , pussy juice 
+bent over,  from behind , ass, pussy , pussy juice 
+from side , spitroast , breast sucking, x-ray
+leaning forward , cross-section , breast sucking
+spread legs,  legs up , pussy , from below,  x-ray
+reverse cowgirl position
+from behind , ass , from below , pussy , cross-section , pussy juice
+squatting,  spread legs, from below, pussy , pussy juice
+from below, pussy , cross-section , pussy juice , spread legs , restrained 
+reverse cowgirl,  lower body, from below, pussy , cross-section , from behind , ass , 
+lower body, from below, pussy ,  spread legs ,   
+spread arms , spread legs ,  legs up , pussy , pussy juice
+
+```
+tentacles sex , { from above , cross-section | from side , doggy style , from behind ass  | bent over,  from behind , ass |  from side , spitroast , breast sucking, x-ray |  leaning forward , cross-section , breast sucking | spread legs,  legs up , pussy , from below,  x-ray,  | reverse cowgirl position , from behind , ass , from below , pussy , x-ray,  | reverse upright straddle , from below, pussy , cross-section } , trembling , ecstasy , heavy breathing , sweat , sound effects , half-closed eyes,  open mouth,  motion lines,  motion blur
 ```
