@@ -53,12 +53,12 @@ from above , close-up crotch , on ground, sitting , ${pantyColor} panties, legs 
 
 __face/emberassed__ , [X] , white panties, torn clothes, 
 ```
-from below , on ground, sitting , knees together feet apart, legs wrap tearing up, arms up ,  , 
+from below , on ground, sitting , knees together feet apart, legs wrap tearing up,
 surprised , sobbing ,  , tearing up , from below , on ground, sitting , legs wrap arms up , restrained , streaming tears, , spread legs , clenched teeth, 
-sobbing ,  , tearing up , from below , on ground, sitting , legs wrap arms up ,  restrained , tearing up, streaming tears, clenched teeth, frown , spread legs , legs up
+sobbing ,  , tearing up , from below , on ground, legs wrap arms up ,  restrained , tearing up, streaming tears, clenched teeth, frown , spread legs , legs up
 from below , close-up crotch , on ground, sitting , legs wrap arms up ,  restrained , tearing up, , spread legs , legs up , pussy juice , crotch rub , motion lines, motion blur, ( trembling, ecstasy:1.3), heavy breathing, (trembling:1.2),
-from below , close-up crotch , on ground, sitting , legs wrap arms up ,  restrained , tearing up, , spread legs , legs up , pussy juice , crotch rub , motion lines, motion blur, ( trembling, ecstasy:1.3), heavy breathing, (trembling:1.2),half-clossed eyes
-from below , close-up crotch , on ground, sitting , legs wrap restrained, tearing up, covering crotch , pussy juice,   embarrassed,  nose blush, 
+from below , close-up crotch , on ground, sitting , legs wrap arms up ,  restrained , tearing up, , spread legs , legs up , pussy juice , crotch rub , motion lines, motion blur, ( trembling, ecstasy:1.3), heavy breathing, (trembling:1.2),half-clossed eyes , (japanese sound effect , japanese speech bubble:1.1)
+from below , close-up crotch , on ground, sitting , legs wrap restrained, tearing up, covering crotch , pussy juice,   embarrassed,  nose blush,  looking away , swet , 
 ```
 
 
@@ -135,6 +135,18 @@ lying , on tentacles pit , on back , legs up , spread legs, legs wrap tentacles,
 lying , on tentacles pit , on back , tearing up, legs up , spread legs, tearing up, legs wrap tentacles, open mouth, white panties , open clothes, nipples , spread arms, tentacles coil body , tentacles grabbing breasts , trembling, pussy juice, panties aside, open mouth, heavy breathing, (orgasm, ecstasy:1.4), (japanese sound effects:1.2) , from below, close-up pussy , (cum in pussy , streaming tears :1.1), open mouth , sobbing, 
 lying , on tentacles pit , on back , legs up , spread legs, legs wrap tentacles, open mouth, white panties , open clothes, nipples , spread arms, tentacles coil body , tentacles grabbing breasts , trembling, pussy juice, panties aside, open mouth, heavy breathing, (orgasm, ecstasy:1.4), (japanese sound effects:1.2) , from below, close-up pussy , cumdrip, open mouth , sobbing, 
 ```
+
+### 乳首
+
+```
+embarrassed,  tearing up,  heavy breathing, clenched teeth,  , arms up , restrained,  (upper body:1.2),   
+embarrassed,  tearing up,  heavy breathing, clenched teeth,  , arms up , restrained,  (upper body:1.2),    tentacles breast sucking, close-up breasts ,  ecstasy,  (trembling:1.2),  open mouth, 
+embarrassed,  tearing up,  heavy breathing, clenched teeth,  , arms up , restrained,  (upper body:1.2),    tentacles breast sucking, close-up breasts ,  ecstasy,  (trembling:1.2),  open mouth,  (japanese sound effect , japanese speech bubble:1.2)
+embarrassed,  tearing up,  heavy breathing, open mouth , half-closed eyes,  , arms up , restrained,  (upper body:1.2),    tentacles breast sucking, close-up breasts ,  ecstasy,  (trembling:1.2),  open mouth,  (japanese sound effect , japanese speech bubble:1.2)
+
+```
+
+
 ### 足開苦悶
 
 __face/emberassed__ , [X] , torn clothes , facial , (trembling:1.3)
@@ -180,12 +192,44 @@ wariza , on ground,  from above ,  looking at viewer,   pink eyes,  (cum in thro
 ``` -->
 
 ```
-from above , looking at viewer, heavy breathing, spread arms  , irrumatio , deep throat , oral,  deepthroat,  upper body,  pov,  frown ,  tearing up,  
-from above , looking at viewer, heavy breathing, spread arms  ,  irrumatio , deep throat ,  oral,  deepthroat,  upper body,  pov,  surprised,  cum in mouth,   tearing up,  
-from above , looking at viewer, heavy breathing, spread arms  ,   irrumatio , deep throat , oral,  deepthroat,  upper body,  pov,  surprised,  cum in mouth,   tearing up,   streaming tears,  sobbing, 
-from above , looking at viewer, heavy breathing, spread arms  ,  irrumatio , deep throat ,  oral,  deepthroat,  upper body,  pov,  ahegao , heavy breathing , (orgasm , trembling:1.3) pink eyes,  cum in mouth , (japanese sound effect:1.3) ,  (pink eyes),  half closed-eyes
-from above , looking at viewer, heavy breathing,  upper body,  pov,  half-closed eyes,  pink eyes,  cum in mouth , oral invitation,  heart-shaped pupils,  cupping hands, 
+upper body , looking at viewer, heavy breathing, spread arms  , irrumatio , deep throat , oral,  deepthroat,  upper body,    frown ,  tearing up,  
+upper body , looking at viewer, heavy breathing, spread arms  , irrumatio , deep throat ,  oral,  deepthroat,  upper body,    surprised,  cum in mouth,   tearing up,  
+upper body , looking at viewer, heavy breathing, spread arms  ,  irrumatio , deep throat ,  oral,  deepthroat,  upper body,   heavy breathing , (orgasm , trembling:1.3) pink eyes,  cum in mouth ,  (pink eyes:1.2), heart-shaped pupils,  (surprised:1.2)
+upper body , looking at viewer, heavy breathing, spread arms  ,  irrumatio , deep throat ,  oral,  deepthroat,  upper body,   heavy breathing , (heavy breathing:1.2), cum in mouth ,  (pink eyes:1.2), heart-shaped pupils,  half-closed eyes, 
+upper body , looking at viewer, heavy breathing,  upper body,   half-closed eyes,  pink eyes,  cum in mouth , cum in throat ,  oral invitation,  heart-shaped pupils,  cupping hands, 
 ```
+
+
+### 四つん這いメス堕ち
+
+```
+from side ,  doggystyle,  restrained,  scared,  looking away , clenched teeth,  trembling,  heavy breathing, 
+from side ,  doggystyle,  restrained,  scared, from behind , split view, multiple views,  from behind , ass , anal penetration , double penetration ,  motion lines,  motion blur,  pussy ,  clenched teeth,  trembling,  heavy breathing, 
+from side ,  doggystyle,  restrained,  scared, from behind , split view, multiple views,  from behind , ass , anal penetration , double penetration ,  motion lines,  motion blur,  pussy ,  (closed eyes:1.2),  clenched teeth,  trembling,  heavy breathing,  (ecstasy:1.3),  
+from side ,  doggystyle,  restrained, from behind ,  from behind , ass , anal penetration , double penetration ,  motion lines,  motion blur,  pussy ,   trembling,  heavy breathing,  (ecstasy:1.3),  cross-section,  cum in pussy,  surprised,  (pink eyes:1.2),  drooling,  open mouth,  half-closed eyes,  shouting,
+from side ,  doggystyle,  restrained,front ,  (heart-shaped pupils,  pink eyes:1.2), motion lines,  motion blur,  pussy , trembling,  heavy breathing,  (ecstasy:1.3),  cross-section,  cum in pussy,  surprised,  (pink eyes:1.2),  drooling,  open mouth,  half-closed eyes,  shouting,  cumdrip, 
+doggystyle,   front ,  (heart-shaped pupils,  pink eyes:1.2),  heavy breathing,  (ecstasy:1.3),  cum in pussy,   (pink eyes:1.2),  drooling,  open mouth,  half-closed eyes,  looking at viewer,  (trembling:1.3), 
+```
+### 正常位メス堕ち
+restrained,  [X] , nipples,  bukkake,  on ground 
+```
+lying , on back , spread arms ,  restrained, (japanese sound effect:1.1)  (trembling:1.2),  from below, close-up pussy ,  motion lines,  motion blur,   tearing up,   (japanese sound effect , 1.2),  large insertion ,  clenched teeth,   cross-section,  ecstasy,  heavy breathing,  open mouth, 
+lying , on back , spread arms ,  restrained,  (japanese sound effect:1.1)    from below, close-up pussy ,  motion lines,  motion blur,   tearing up,   (japanese sound effect , 1.2),  large insertion , open mouth,  cross-section,  ecstasy,  heavy breathing,  open mouth,
+lying , on back ,  legs up ,  spread arms ,  restrained,    from below, close-up pussy ,  motion lines,  motion blur,   tearing up,   (japanese sound effect , japanese  speech bubble:1.2),  large insertion , open mouth,  cross-section, (trembling,   ecstasy,  heavy breathing:1.3),  open mouth,  cross-section,  cum in pussy , 
+lying , on back ,  legs up ,  spread arms ,  restrained,   from below, close-up pussy ,  motion lines,  motion blur,   tearing up,  (heavy breathing,  female orgasm,  ecstasy,  trembling:1.3) , (japanese sound effect , japanese  speech bubble:1.3),  large insertion , open mouth,  cross-section, open mouth,  cross-section,  cum in pussy ,  ahegao,  (heart-shaped pupils,  pink eyes:1.1),  cum explosion , __tentacle/96_bukkake__
+lying , on back ,   from below, close-up pussy ,   (heavy breathing,  female orgasm,  ecstasy,  trembling:1.3) , (japanese sound effect , japanese  speech bubble:1.3),  open mouth,  cumdrip,  spread pussy,  (heart-shaped pupils,  pink eyes:1.1),   __tentacle/96_bukkake__ , looking at viewer, 
+lying , on back ,   from below, close-up pussy ,   (heavy breathing,  female orgasm,  ecstasy,  trembling:1.3) , (japanese sound effect , japanese  speech bubble:1.3),  open mouth,  cumdrip,  spread pussy,  (heart-shaped pupils,  pink eyes:1.1),   __tentacle/96_bukkake__ , looking at viewer, 
+```
+
+### オナニー
+
+```
+__face/mesu__ , wariza , masturbation,  fingering,  
+__face/mesu__ , wariza , masturbation,  fingering,   from below, pussy , (trembling:1.3),  heavy breathing, 
+__face/mesu__ , wariza , masturbation,  tweak own clitoris ,   from below, pussy , (trembling:1.3),  heavy breathing, 
+__face/mesu__ , wariza ,  from below, pussy , spread pussy , female ejaculation,  (trembling:1.3),  heavy breathing, 
+```
+
 
 ### 連続_前かがみ
 

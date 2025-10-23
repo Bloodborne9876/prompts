@@ -18,14 +18,14 @@ full nelson , restrained,
 ## 連続
 
 - 恥ずかし顔
-  - [X] ,   { embarrassed , shouting | clenched teeth } ,  heavy breathing,  motion lines,  motion blur,  large insertion ,  sound effects,  tearing up,  bukkake,  facial  , (trembling:1.2),  heavy breathing,
+  - [X] ,   { embarrassed , shouting | clenched teeth } ,  heavy breathing,  motion lines,  motion blur,  large insertion ,  sound effects,  tearing up,  bukkake,  facial  , (trembling:1.2),  heavy breathing, (shouting:1.2)
 
 
 from above , cross-section
 from side , doggy style , from behind ass , pussy juice 
 bent over,  from behind , ass, pussy , pussy juice 
 from side , spitroast , x-ray
-leaning forward , cross-section , 
+leaning forward , cross-section , breast sucking , spread arms , 
 spread legs,  legs up , pussy , from below,  x-ray
 reverse cowgirl position
 from behind , ass , from below , pussy , cross-section , pussy juice
@@ -34,12 +34,13 @@ from below, pussy , cross-section , pussy juice , spread legs , restrained
 reverse cowgirl,  lower body, from below, pussy , cross-section , from behind , ass , 
 lower body, from below, pussy ,  spread legs ,   
 spread arms , spread legs ,  legs up , pussy , pussy juice
-
+leaning forward , cross-section , breast sucking,  milking tentacles, 
 
 - メス堕ち
 
- heart-shaped pupils,  shouting ,  heavy breathing,  motion lines,  motion blur,  large insertion ,  sound effects,  tearing up,  bukkake,  facial  ,  { sweat | female ejaculation,  female orgasm } , (trembling:1.2),  heavy breathing,
+[X] , {  heart-shaped pupils,  |  ahegao } , drooling,   heavy breathing,  motion lines,  motion blur,  large insertion ,   tearing up,  bukkake,  facial  ,  { sweat | 2::female ejaculation,  female orgasm } , (trembling:1.2),  heavy breathing, (shouting:1.2)  ,   <lora:sound effects_illustrious_V1.0:0.8> sound effect , speech bubble,  cum in pussy 
 
+spread arms,  restrained, legs up ,  from below,   { nipples | breast sucking }  
 from below,  straddling,  cross-section, 
 spread legs, legs up, from below, pussy , close-up pussy ,  arched back cross-section, 
 doggystyle, from behind , ass  , from below,  arched back cross-section, 
@@ -51,3 +52,4 @@ straddling,  from below, pussy
 m legs , oral , hand job , cross-section, 
 reverse cowgirl position, from behind , ass , hand job , oral ,  ,  arched back 
 oral , doggystyle, cross-section
+m legs , spread pussy  ,  pussy,  cross-section , 
