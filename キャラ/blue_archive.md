@@ -18,6 +18,7 @@ seia \(blue archive\) , loli, flat chest
 arona \(blue archive\) , loli, flat chest
 plana \(blue archive\)
 aru \(blue archive\)
+reisa \(blue archive\), 
 hanako \(blue archive\)
 midori \(blue archive\) , loli 
 mutsuki \(blue archive\) , loli , 
@@ -48,3 +49,11 @@ maki \(blue archive\)
 kirara \(blue archive\)
 ayane \(blue archive\)
 shigure \(blue archive\)
+
+
+## アビドス
+
+yuuka \(blue archive\)
+hoshino \(blue archive\), loli,
+nonomi \(blue archive\), 
+serika \(blue archive\), 

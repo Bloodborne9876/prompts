@@ -108,13 +108,15 @@ wariza , breathing, tearing up, tentacles (irrumatio, deepthroat:1.3), tearing u
 ```
 
 <details><summary>フェラ</summary>
- [X] , close-up face , looking at viewer,  torn clothes,  nipples, 
+ [X] , close-up face , looking at viewer,  nipples, 
 
 ```
 heavy breathing, arms up , restrained, clenched teeth, trembling, heavy breathing, tearing up, 
-upper body , heavy breathing, arms up , restrained, trembling, heavy breathing, tearing up, irrumatio, deepthroat, (surprised:1.2), tearing up , streaming tears, frown , from side ,sound effect , 
-looking away , upper body , heavy breathing, arms up , restrained, trembling, heavy breathing, tearing up, irrumatio, deepthroat, tearing up ,front , motion lines , motion blur , from side ,sound effect , 
-upper body , heavy breathing, arms up , tentacles restrained, tearing up, tentacle irrumatio, deepthroat, (surprised:1.3) trembling, (, cum in mouth , (trembling:1.3), streaming tears, frown , irrumatio , close-up face , cowboy shot ,sound effect , 
+upper body , heavy breathing, arms up , restrained,   grabbing breasts , frown , clenched teeth, 
+
+upper body , heavy breathing, arms up , restrained, trembling, heavy breathing, tearing up, tentacle deepthroat, (surprised:1.2), tearing up , streaming tears, frown , from side ,sound effect , 
+looking away , upper body , heavy breathing, arms up , restrained, trembling, heavy breathing, tearing up, tentacle deepthroat, tearing up ,front , motion lines , motion blur , from side ,sound effect , 
+upper body , heavy breathing, arms up , restrained, trembling, heavy breathing, tearing up, tentacle deepthroat,   motion lines , motion blur , sound effect ,  cum in mouth , (surprised:1.2) , streaming tears , frown ,  { spread arms | arms up }
 cum in mouth , open mouth, heavy breathing, spread arms , trembling, cum in mouth , restrained , (trembling:1.3), half-closed eyes , drooling , heavy breathing , upper body , from above , facial, bukkake , cum on breasts , close-up face ,sound effect , 
 ```　
 </details>
@@ -135,15 +137,17 @@ irrumatio, deepthroat, motion lines, drooling , { spread arms | arms up } , rest
 torn clothes, nipples, [X] , from below, facial , from below , facial , bukkake, 
 - 前から
 ```
-covering crotch , from below, clenched teeth, pussy juice, frown ,   knees together feet apart, 
+covering crotch , from below, clenched teeth, pussy juice, frown ,  
+spread arms , restrained,  clenched teeth ,  pussy juice ,  streaming tears ,  pussy ,  knees together feet apart,  crotch rub 
 spread arms , restrained, close-up crotch,  open mouth, surprised, nose blush, spread pussy , m legs , close-up pussy , pussy juice ,  streaming tears , surprised
-arms up , restrained, close-up crotch , open mouth, streaming tears, pussy juice, imminent penetration , pussy , legs up , 
-spread arms , restrained,  open mouth, tearing up , ecstasy , heavy breathing ,  pussy juice, deep penetration, cross-section , motion lines,  legs up , spread legs ,sound effect , close-up pussy , closed-eyes , clenched teeth, 
+spread arms , restrained,  open mouth, tearing up , ecstasy , heavy breathing ,  pussy juice, deep penetration, cross-section , motion lines,  legs up , spread legs ,sound effect , close-up pussy , closed-eyes , clenched teeth, cum in pussy ,  sound effects 
  ```
 - 後ろから
 ```
-streaming tears, open mouth, embarrassed, from behind , ass , imminent penetration, covering crotch, 
-streaming tears, open mouth, embarrassed, from behind , ass , imminent penetration, bent over, (large insertion:1.1) , from below, restrained, sound effects
+streaming tears, open mouth,  from behind , ass , imminent penetration, covering crotch, 
+streaming tears, open mouth,  from behind , ass , spread pussy , bent over,  restrained, sound effects,  clenched teeth,  , { spread arms | arms up } 
+streaming tears, open mouth,  from behind , ass , imminent penetration, bent over, (large insertion:1.1) , from below, restrained, sound effects , { spread arms | arms up } 
+streaming tears, open mouth,  from behind , ass , spread pussy , bent over,  restrained, sound effects,  clenched teeth,  (large insertion:1.2) , trembling,  heavy breathing,  cross-section,  sound effects , frown , heavy breathing , ecstasy , cum in pussy , { spread arms | arms up } 
 ```
 
 - 見せつけ
