@@ -1,0 +1,98 @@
+{
+  "_comment": "story_gen.py の設定ファイル。このJSONを編集して動作を制御する。",
+
+  "title": "触手の迷宮",
+  "webui_url": "http://localhost:7860",
+  "output_dir": "./story_output",
+
+  "base": {
+    "_comment": "全シーン共通のベース設定。steps/cfg_scaleはここだけで設定する。",
+    "steps": 32,
+    "cfg_scale": 5.5,
+    "sampler_name": "Euler a",
+    "scheduler": "Simple",
+    "width": 1536,
+    "height": 1152,
+    "restore_faces": false,
+    "tiling": false
+  },
+
+  "hires": {
+    "enabled": false,
+    "_comment_enabled": "true にすると Hires.fix が有効になる。時間が大幅に増加する。",
+
+    "upscaler": "R-ESRGAN 4x+ Anime6B",
+    "_comment_upscaler": "選択肢: 'R-ESRGAN 4x+ Anime6B' / '4x-UltraSharp' / 'Latent' / 'Latent (nearest)' / 'ESRGAN_4x' / 'SwinIR 4x'",
+
+    "hr_scale": 1.5,
+    "_comment_hr_scale": "アップスケール倍率。1.5 = 512x768 → 768x1152。2.0だと重い。",
+
+    "hr_steps": 5,
+    "_comment_hr_steps": "Hires.fix のステップ数。0にすると1stパスと同じ値を使用。推奨: 10〜20",
+
+    "denoising_strength": 0.3,
+    "_comment_denoising": "0.3〜0.5が自然。低いほど元画像を維持。高いほど再描画される。"
+  },
+
+  "quality": "lazypos , masterpiece, best quality, absurdres, very aesthetic, general,lineart ,  perfect anatomy",
+
+  "negative": "lazyneg , worst quality, bad quality, low quality, lowres, scan artifacts, jpeg artifacts, sketch, light particles, watermark , anime screenshot,  anime coloring,  flat color,  same legs , three legs , fix fingers , english text,  chinese text,  korean text, old_man , ugly_bastard , sentence , narration , bar censor, monochrome,  greyscale",
+
+  "character": "fate/kaleid liner prisma illya,  illyasviel von einzbern, loli , red eyes , nude",
+
+  "scenes": [
+    {
+      "name":  "act1_prologue",
+      "label": "序章 - 日常",
+      "count": 2,
+      "seed":  -1,
+      "_comment_seed": "seed: -1=ランダム, 正の整数=固定 (例: 12345)。CLIの --seed はこれより優先される。",
+      "tone":  "",
+      "prompt_dp": "penis , { nursing handjob | handjob }  , heavy breathing"
+    }//,
+    // {
+    //   "name":  "act2_encounter",
+    //   "label": "遭遇 - 異変",
+    //   "count": 2,
+    //   "seed":  -1,
+    //   "tone":  "",
+    //   "prompt_dp": "penis , licking penis  , heavy breathing"
+    // },
+    // {
+    //   "name":  "act3_entangle",
+    //   "label": "絡み - 捕縛",
+    //   "count": 2,
+    //   "seed":  -1,
+    //   "tone":  "",
+    //   "prompt_dp": "penis , spread pussy , white panties, spread legs , from below, black thighhighs, heavy breathing"
+    // },
+    // {
+    //   "name":  "act4_climax",
+    //   "label": "クライマックス",
+    //   "count": 2,
+    //   "seed":  -1,
+    //   "tone":  "",
+    //   "prompt_dp": "penis , open mouth , drooling , sex , missionary , rape , motion lines , pov , sound effects , trembling , ecstasy , black thighhighs"
+    // },
+    // {
+    //   "name":  "act5_epilogue",
+    //   "label": "後日談",
+    //   "count": 2,
+    //   "seed":  -1,
+    //   "tone":  "",
+    //   "prompt_dp": "after rape , on bed , pussy , lying , full body , looking away , cum drip , empty eyes , trembling , drooling"
+    // }
+  ],
+
+  "samplers": {
+    "_comment": "参考: よく使うサンプラーと相性の良いスケジューラーの組み合わせ",
+    "_options": {
+      "DPM++ 2M":        ["Karras", "Exponential", "Uniform"],
+      "DPM++ SDE":       ["Karras", "Exponential"],
+      "DPM++ 2M SDE":    ["Karras", "Exponential"],
+      "Euler a":         ["Automatic"],
+      "DDIM":            ["Uniform"],
+      "UniPC":           ["Karras"]
+    }
+  }
+}

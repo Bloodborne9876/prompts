@@ -2,13 +2,13 @@
 # 触手プロンプト
 
 <details><summary>パンチラ 前から</summary>
-__face/emberassed__ , [X] , white panties, torn clothes,  tentacles , tentacles pit , 
+__face/emberassed__ , [X] , white panties, tentacles , tentacles nest , restrained ,  tearing up ,from below , arms up
 
 ```
-from below , knees together feet apart, legs wrap tearing up,
-surprised , sobbing , tearing up , from below , legs wrap arms up , restrained , streaming tears,  restrained, clenched teeth,  knees together feet apart, 
-sobbing , tearing up , from below , legs wrap arms up , restrained , tearing up, streaming tears, clenched teeth, frown , spread legs , legs up
-from below , restrained , tearing up,  clenched teeth, pussy juice , tentacle rub crotch , motion lines, motion blur,  heavy breathing, sound effects , white panties  
+tearing up, streaming tears, clenched teeth, frown , spread legs , legs up
+clenched teeth, pussy juice , tentacle rub crotch , motion lines, motion blur, spread legs , legs up, heavy breathing, sound effects , 
+one eye closed , frown , open mouth , shouting , sound effects , spread legs , legs up , trembling , pussy juice , motion lines, motion blur,  heavy breathing, sound effects , panties aside,  large insertion ,  ecstasy,  motion lines 
+
 ```
 
 full nelson , restrained, 
@@ -30,11 +30,18 @@ spread arms , restrained, close-up crotch,  open mouth, surprised, nose blush, s
 spread arms , restrained,  open mouth, tearing up , ecstasy , heavy breathing ,  pussy juice, deep penetration, cross-section , motion lines,  legs up , spread legs ,sound effect , close-up pussy , closed-eyes , clenched teeth, cum in pussy ,  sound effects 
  ```
 - 後ろから
+
+
+- large insertion , multiple views , streaming tears, open mouth,from behind , ass ,  top-down bottom-up ,  female ejaculation,  lower body,  cum in pussy ,  sound effects 
+- large insertion , streaming tears, open mouth , close-up pussy ,  from behind , ass ,  top-down bottom-up ,  female ejaculation,  cum in pussy ,  sound effects  , heavy breathing,  half-closed eyes,  saliva,  ecstasy,  female orgasm , hetero ,  shouting , speech bubble, 
+
+[X] , streaming tears, open mouth,from behind , ass ,  
+
 ```
-streaming tears, open mouth,  from behind , ass , imminent penetration, covering crotch, 
-streaming tears, open mouth,  from behind , ass , spread pussy , bent over,  restrained, sound effects,  clenched teeth,  , { spread arms | arms up } 
-streaming tears, open mouth,  from behind , ass , imminent penetration, bent over, (large insertion:1.1) , from below, restrained, sound effects , { spread arms | arms up } 
-streaming tears, open mouth,  from behind , ass , spread pussy , bent over,  restrained, sound effects,  clenched teeth,  (large insertion:1.2) , trembling,  heavy breathing,  cross-section,  sound effects , frown , heavy breathing , ecstasy , cum in pussy , { spread arms | arms up } 
+imminent penetration, covering crotch, 
+spread pussy , bent over,  restrained, sound effects,  clenched teeth,  , { spread arms | arms up } 
+imminent penetration, bent over, (large insertion:1.1) , from below, restrained, sound effects , { spread arms | arms up } 
+spread pussy , bent over,  restrained, sound effects,  clenched teeth,  (large insertion:1.2) , trembling,  heavy breathing,  cross-section,  sound effects , frown , heavy breathing , ecstasy , cum in pussy , { spread arms | arms up } 
 ```
 ## 挿入
 
@@ -80,7 +87,7 @@ spread arms , spread legs,  restrained,  trembling,  from below, close-up pussy 
 
 - メス堕ち
 
-[X] , {  heart-shaped pupils,  |  ahegao } , drooling,   heavy breathing,  motion lines,  motion blur,  large insertion ,   tearing up,  bukkake,  facial  ,  { sweat | 2::female ejaculation,  female orgasm } , (trembling:1.2),  heavy breathing, (shouting:1.2)  ,   <lora:sound effects_illustrious_V1.0:0.8> sound effect , cum in pussy 
+[X] , {  heart-shaped pupils,  |  ahegao } , drooling,   heavy breathing,  motion lines,  motion blur,  large insertion ,   tearing up,  bukkake,  facial  ,  { sweat | 2::female ejaculation,  female orgasm } , (trembling:1.2),  heavy breathing, (shouting:1.2)  ,sound effects , cum in pussy 
 
 spread arms,  restrained, legs up ,  from below,   { nipples | breast sucking }  
 from below,  straddling,  cross-section, 
@@ -142,3 +149,47 @@ from below, spread pussy , pussy juice , spread pussy , { clenched teeth | open 
 tentacles oral  , from side , looking away , sound effects , heavy breathing , tearing up , close-up face ,  streaming tears , 
 tentacles oral ,  sound effects , cum in mouth , trembling , streaming tears ,  from side ,  upper body , surprised 
 
+## 漫画風
+
+ comic, multiple views, frame ,   frame, heart, trembling, focus line, trembling,  heavy breathing,   heavy breathing,  streaming tears,  
+BREAK
+light pink tentacles , 
+restrained ,   
+
+vaginal,  tentacle sex, tentacle insertion , double penetration, triple penetration, large insertion, double penetration,  oral,  ,  ,  , spread legs,  , sweat, 
+body grab, 
+
+1girl, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes,
+spread legs,  ,  oral , sweat,  , double penetration, bangs,  , 
+spread legs, close up pussy, pussy juice  , pussy juice  ,
+from front, from side, from back,
+
+blush, disgusted, tear flow, scream, sweat, 
+full body, cowboy shot, upper body, face, sound effects, 
+
+1girl,  solo , <lora:sena_juo-idolmaster_gakuen-ixl-game-soralz:0.7>, sena juo (idolmaster gakuen), long hair, blonde hair, multicolored hair, pink hair, parted bangs, purple eyes , completely nude,  heavy breathing,  half-closed eyes,  streaming tears,  sobbing, 
+
+
+## カオナシ
+
+faceless,  top-down bottom-up,  restrained,  lower body,  pussy , pussy juice,  from behind , ass  panty pull,   shouting , sound effects, 
+reverse upright straddle , restrained, lower body,  pussy , pussy juice,  panties around one leg,   shouting , sound effects,  from below ,  faceless, 
+cowgirl position,  female orgasm,  restrained, lower body,  pussy , pussy juice,  panties around one leg,   shouting , sound effects,  from below ,  faceless,  arched back,  cum in pussy,  x-ray, 
+
+
+## TIPO
+
+1girl,  loli ,    ,  { x-ray | cross-section } , completely nude,  tentacles sex , in tentacles nest , 
+  nsfw , ecstasy,  sound effects,    insertion ,  { doggystyle |  missionary |  squatting | spitroast | from behind , ass } , 1boy , sex , 
+
+## TIPO用 Negative
+
+slime , fang , monster ,  monochrome , line art , greyscale , 1boy , penis , white back ground , simple back ground , english  , sex from behind , cowgirl position , reverse cowgirl position , 
+hetero , man , boy , navel , another's , blush , animal , oversize , ^_^ , laugh , 
+
+## 連続
+
+frown , teeth , 
+streaming tears , shouting , crotch rub , heavy breathing , trembling , ecstasy, white panties , 
+half-closed eyes , torn clothes,   crotch rub , white bra , sound effects,  heavy breathing,  drooling,  ecstasy,  pussy juice,  trembling, grabbing breasts ,  nipples
+half-closed eyes , torn clothes,    white bra , sound effects,  heavy breathing,  drooling,  ecstasy,  pussy juice,  trembling, grabbing breasts ,  nipples ,  panties aside,  female ejaculation,  suspended in air ,  arched back ,  shouting ,  
