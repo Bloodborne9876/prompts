@@ -7,12 +7,13 @@
 
   "base": {
     "_comment": "全シーン共通のベース設定。steps/cfg_scaleはここだけで設定する。",
-    "steps": 32,
-    "cfg_scale": 5.5,
-    "sampler_name": "Euler a",
+    "steps": 40,
+    "cfg_scale": 4.5,
+    "sampler_name": "Res Multistep",
     "scheduler": "Simple",
-    "width": 1536,
-    "height": 1152,
+    "width": 1152,
+    "height": 896,
+    "clip_skip": 2,
     "restore_faces": false,
     "tiling": false
   },
@@ -24,19 +25,19 @@
     "upscaler": "R-ESRGAN 4x+ Anime6B",
     "_comment_upscaler": "選択肢: 'R-ESRGAN 4x+ Anime6B' / '4x-UltraSharp' / 'Latent' / 'Latent (nearest)' / 'ESRGAN_4x' / 'SwinIR 4x'",
 
-    "hr_scale": 1.5,
+    "hr_scale": 1.4,
     "_comment_hr_scale": "アップスケール倍率。1.5 = 512x768 → 768x1152。2.0だと重い。",
 
     "hr_steps": 5,
     "_comment_hr_steps": "Hires.fix のステップ数。0にすると1stパスと同じ値を使用。推奨: 10〜20",
 
-    "denoising_strength": 0.3,
+    "denoising_strength": 0.25,
     "_comment_denoising": "0.3〜0.5が自然。低いほど元画像を維持。高いほど再描画される。"
   },
 
-  "quality": "lazypos , masterpiece, best quality, absurdres, very aesthetic, general,lineart ,  perfect anatomy",
+  "quality": "year 2025 , latest, best quality, highres, absurdres, score_8, score_9, (thin and delicate lineart:0.5), @yuugen, (@eightman:0.9), @toi8, (@sos adult:0.7), @ie , @herio, (@yabuki kentarou:0.7), (the hand-drawn artisan feel. sharp focus on facial expressions:0.9) , (thin and delicate lineart:0.6)",
 
-  "negative": "lazyneg , worst quality, bad quality, low quality, lowres, scan artifacts, jpeg artifacts, sketch, light particles, watermark , anime screenshot,  anime coloring,  flat color,  same legs , three legs , fix fingers , english text,  chinese text,  korean text, old_man , ugly_bastard , sentence , narration , bar censor, monochrome,  greyscale",
+  "negative": "worst quality, lowres, low quality, score_1, score_2, score_3, western comics style, 1970s, 1980s, 1990s , 2000s , 2010s , shiny skin, shiny hair , shiny clothes, blurry, jpeg artifacts, signature, sepia, unfinished, work-in-progress, disembodied, dark theme, (saturated:1.1), anime screenshot, cel rendering, nose blush, painting , monochrome, greyscale, thick lineart, partially colored, outside border, messy lines, blurry background, chibi, wide mouth, no nose, extra fingers, fused fingers, missing fingers , bad anatomy, disfigured, mutated , muddy colors , flat color, shiny skin, shiny clothes, shiny swimsuit, shiny legwear, shiny hair , high contrast, normal quality, lowres, 3d, realistic, photorealistic, watermark, bad hands, deformed hands, extra fingers, mutated hands, malformed limbs, too many fingers",
 
   "character": "fate/kaleid liner prisma illya,  illyasviel von einzbern, loli , red eyes , nude",
 
@@ -44,11 +45,11 @@
     {
       "name":  "act1_prologue",
       "label": "序章 - 日常",
-      "count": 2,
+      "count": 4,
       "seed":  -1,
       "_comment_seed": "seed: -1=ランダム, 正の整数=固定 (例: 12345)。CLIの --seed はこれより優先される。",
       "tone":  "",
-      "prompt_dp": "penis , { nursing handjob | handjob }  , heavy breathing"
+      "prompt_dp": "penis , { handjob | licking penis | irrumatio } , from above , pov ,  , motion lines , half-closed eyes , heavy breathing , heavy breathing , looking at viewer , head tilt , pov "
     }//,
     // {
     //   "name":  "act2_encounter",

@@ -14,6 +14,7 @@
 
 import argparse
 import base64
+import io
 import json
 import random
 import time
@@ -21,6 +22,7 @@ from datetime import datetime
 from pathlib import Path
 
 import requests
+from PIL import Image, PngImagePlugin
 
 # ============================================================
 # CLI 引数
@@ -170,6 +172,9 @@ def generate_image(
         "batch_size":      1,
         "restore_faces":   BASE["restore_faces"],
         "tiling":          BASE["tiling"],
+        "override_settings": {
+            "CLIP_stop_at_last_layers": BASE.get("clip_skip", 1),
+        },
     }
 
     # Hires.fix オプション
@@ -203,28 +208,46 @@ def generate_image(
         return None
 
     img_path = scene_dir / f"{base_name}.png"
-    with open(img_path, "wb") as f:
-        f.write(base64.b64decode(images[0]))
 
-    # 使用されたseedを記録
+    # WebUI info から実際の生成パラメータを取得
     try:
-        used_seed = json.loads(result.get("info", "{}")).get("seed", seed)
+        info_json = json.loads(result.get("info", "{}"))
     except Exception:
-        used_seed = seed
+        info_json = {}
 
-    meta_path = scene_dir / f"{base_name}_meta.json"
-    with open(meta_path, "w", encoding="utf-8") as f:
-        json.dump({
-            "title": TITLE,
-            "index": index,
-            "scene": scene_name,
-            "seed": used_seed,
-            "prompt": prompt,
-            "steps": BASE["steps"],
-            "cfg_scale": BASE["cfg_scale"],
-            "hires_enabled": HIRES["enabled"],
-            "hires_settings": HIRES if HIRES["enabled"] else {},
-        }, f, ensure_ascii=False, indent=2)
+    used_seed  = info_json.get("seed", seed)
+    model_name = info_json.get("sd_model_name", "")
+    model_hash = info_json.get("sd_model_hash", "")
+    out_w      = info_json.get("width",  BASE["width"])
+    out_h      = info_json.get("height", BASE["height"])
+
+    # WebUI互換の parameters テキストを組み立て
+    param_line = (
+        f"Steps: {BASE['steps']}, "
+        f"Sampler: {BASE['sampler_name']}, "
+        f"Schedule type: {BASE['scheduler']}, "
+        f"CFG scale: {BASE['cfg_scale']}, "
+        f"Seed: {used_seed}, "
+        f"Size: {out_w}x{out_h}"
+    )
+    if model_hash:
+        param_line += f", Model hash: {model_hash}"
+    if model_name:
+        param_line += f", Model: {model_name}"
+    if HIRES["enabled"]:
+        param_line += (
+            f", Denoising strength: {HIRES['denoising_strength']}"
+            f", Hires upscale: {HIRES['hr_scale']}"
+            f", Hires steps: {HIRES['hr_steps']}"
+            f", Hires upscaler: {HIRES['upscaler']}"
+        )
+    parameters_text = f"{prompt}\nNegative prompt: {NEGATIVE}\n{param_line}"
+
+    # PNG の tEXt チャンク "parameters" に埋め込んで保存
+    img = Image.open(io.BytesIO(base64.b64decode(images[0])))
+    png_info = PngImagePlugin.PngInfo()
+    png_info.add_text("parameters", parameters_text)
+    img.save(img_path, pnginfo=png_info)
 
     return img_path
 
