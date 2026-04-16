@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python \"c:\\\\temp\\\\sell\\\\Export\\\\extract_prompts.py\" \"C:\\\\イラスト関係\\\\成果\\\\002_販売\\\\patreon\\\\202506\\\\イリヤちゃん\\\\0_base\" --output \"c:\\\\temp\\\\sell\\\\Export\\\\output\")",
+      "Bash(python -c \":*)",
+      "Bash(cmd /c \"extract_prompts.bat\" \"C:\\\\イラスト関係\\\\成果\\\\002_販売\\\\patreon\\\\202506\\\\イリヤちゃん\\\\0_base\" 2)",
+      "Bash(1:*)",
+      "Bash(cmd /c \"extract_prompts.bat \"\"C:\\\\イラスト関係\\\\成果\\\\002_販売\\\\patreon\\\\202506\\\\イリヤちゃん\\\\0_base\"\"\")"
+    ]
+  }
+}

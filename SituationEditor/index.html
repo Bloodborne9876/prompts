@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SituationEditor</title>
+<style>
+:root {
+  --bg-page:     #0f0f0f;
+  --bg-card:     #1a1a1a;
+  --bg-input:    #2a2a2a;
+  --bg-hover:    #333;
+  --bg-selected: #1e3a5f;
+  --border:      #3a3a3a;
+  --border-focus:#4a9eff;
+  --text:        #e0e0e0;
+  --text-muted:  #888;
+  --accent:      #4a9eff;
+  --danger:      #c0392b;
+  --danger-hover:#e74c3c;
+  --success:     #27ae60;
+  --warn:        #e67e22;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg-page);
+  color: var(--text);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+}
+
+/* ── Topbar ── */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #111;
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.app-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: var(--accent);
+  white-space: nowrap;
+  margin-right: 8px;
+}
+
+#path-input {
+  flex: 1;
+  min-width: 200px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+#path-input:focus {
+  outline: none;
+  border-color: var(--border-focus);
+}
+
+.btn {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s;
+  display: inline-block;
+}
+.btn:hover { background: var(--bg-hover); border-color: var(--accent); }
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  font-weight: bold;
+}
+.btn-primary:hover { background: #3a8ee8; border-color: #3a8ee8; }
+.btn-primary.dirty { box-shadow: 0 0 8px var(--warn); border-color: var(--warn); }
+
+.btn-danger { border-color: var(--danger); color: var(--danger); }
+.btn-danger:hover { background: var(--danger); color: #fff; border-color: var(--danger); }
+
+#status-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+#status-label.loading { color: var(--warn); }
+#status-label.ready   { color: var(--success); }
+#status-label.error   { color: var(--danger); }
+
+/* ── Main content ── */
+#main {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ── Category card ── */
+.category-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  background: #1f1f1f;
+  border-bottom: 1px solid var(--border);
+}
+
+.cat-name-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  font-size: 1em;
+  font-weight: bold;
+  padding: 2px 4px;
+  outline: none;
+}
+.cat-name-input:focus { border-bottom-color: var(--accent); }
+
+.type-select {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.type-select:focus { outline: none; border-color: var(--accent); }
+
+/* ── Prompts list ── */
+.prompts-list {
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.prompt-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.prompt-textarea {
+  flex: 1;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-family: 'Cascadia Code', 'Consolas', monospace;
+  font-size: 13px;
+  resize: vertical;
+  min-height: 56px;
+  line-height: 1.5;
+  transition: border-color 0.15s;
+}
+.prompt-textarea:focus {
+  outline: none;
+  border-color: var(--border-focus);
+}
+
+.btn-del-prompt {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-muted);
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  margin-top: 4px;
+  transition: color 0.15s, border-color 0.15s;
+}
+.btn-del-prompt:hover { color: var(--danger); border-color: var(--danger); }
+
+.card-footer {
+  padding: 8px 12px;
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid var(--border);
+}
+
+/* ── Add category button ── */
+#add-category-btn {
+  align-self: center;
+  font-size: 14px;
+  padding: 10px 24px;
+}
+
+/* ── Autocomplete dropdown ── */
+#autocomplete-dropdown {
+  position: fixed;
+  z-index: 9999;
+  background: #1a1a2e;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.6);
+  max-height: 220px;
+  overflow-y: auto;
+  font-family: 'Cascadia Code', 'Consolas', monospace;
+  font-size: 13px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+#autocomplete-dropdown[hidden] { display: none; }
+
+.ac-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 12px;
+  cursor: pointer;
+  color: var(--text);
+  gap: 12px;
+}
+.ac-item:hover { background: var(--bg-hover); }
+.ac-item.ac-selected { background: var(--bg-selected); color: #fff; }
+
+.ac-count {
+  color: var(--text-muted);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+/* ── Empty state ── */
+#empty-state {
+  text-align: center;
+  padding: 60px 0;
+  color: var(--text-muted);
+  font-size: 1.1em;
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <span class="app-title">SituationEditor</span>
+  <input type="text" id="path-input" placeholder="C:\path\to\file.json  (Load Pathで読み込み)" />
+  <button class="btn" id="btn-load-path">Load Path</button>
+  <label class="btn" for="file-picker">Load File</label>
+  <input type="file" id="file-picker" accept=".json" hidden />
+  <button class="btn btn-primary" id="btn-export">Export JSON</button>
+  <span id="status-label" class="loading">Loading tags...</span>
+</header>
+
+<main id="main">
+  <div id="empty-state">JSONファイルを読み込んでください</div>
+</main>
+
+<div id="autocomplete-dropdown" hidden></div>
+
+<script>
+'use strict';
+
+// ── State ────────────────────────────────────────────────────────────────────
+const state = {
+  filePath: null,
+  data: [],        // [{category, prompt:[], type}]
+  dirty: false,
+};
+
+// ── Tag database ─────────────────────────────────────────────────────────────
+let tagList = [];   // [{name, count}] sorted by popularity (CSV order)
+let tagsLoaded = false;
+
+async function loadCSV() {
+  setStatus('タグDB読み込み中...', 'loading');
+  try {
+    const resp = await fetch('/danbooru.csv');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const text = await resp.text();
+    const lines = text.split('\n');
+    tagList = [];
+
+    for (const line of lines) {
+      if (!line.trim()) continue;
+      // CSV: name, category_id, post_count, aliases
+      // Parse only up to 3rd comma to avoid issues with quoted aliases
+      const c1 = line.indexOf(',');
+      if (c1 < 0) continue;
+      const c2 = line.indexOf(',', c1 + 1);
+      const c3 = c2 >= 0 ? line.indexOf(',', c2 + 1) : -1;
+
+      const name  = line.slice(0, c1).trim();
+      const count = c3 >= 0
+        ? parseInt(line.slice(c2 + 1, c3), 10) || 0
+        : parseInt(line.slice(c2 + 1), 10) || 0;
+
+      if (name) tagList.push({ name, count });
+    }
+
+    tagsLoaded = true;
+    setStatus(`Ready. ${tagList.length.toLocaleString()} tags loaded.`, 'ready');
+  } catch (e) {
+    setStatus('タグDB読み込み失敗: ' + e.message, 'error');
+  }
+}
+
+function searchTags(prefix, limit = 12) {
+  if (!prefix || !tagsLoaded) return [];
+  const lower = prefix.toLowerCase().replace(/ /g, '_');
+  const results = [];
+  for (const tag of tagList) {
+    if (tag.name.startsWith(lower)) {
+      results.push(tag);
+      if (results.length >= limit) break;
+    }
+  }
+  return results;
+}
+
+function formatCount(n) {
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
+  if (n >= 1_000)     return Math.round(n / 1_000) + 'k';
+  return String(n);
+}
+
+// ── Autocomplete UI ──────────────────────────────────────────────────────────
+let activeTextarea = null;
+let selectedIndex = 0;
+let dropdownItems = [];
+let debounceTimer = null;
+
+const dropdown = document.getElementById('autocomplete-dropdown');
+
+function extractCurrentTag(ta) {
+  const before = ta.value.slice(0, ta.selectionStart);
+  const lastComma = before.lastIndexOf(',');
+  return before.slice(lastComma + 1).trimStart();
+}
+
+function showDropdown(ta) {
+  const partial = extractCurrentTag(ta);
+  if (partial.length < 1) { hideDropdown(); return; }
+
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => {
+    const matches = searchTags(partial);
+    if (!matches.length) { hideDropdown(); return; }
+
+    renderDropdown(matches);
+
+    const rect = ta.getBoundingClientRect();
+    dropdown.style.left  = rect.left + 'px';
+    dropdown.style.top   = (rect.bottom + 2) + 'px';
+    dropdown.style.width = rect.width + 'px';
+    dropdown.style.maxWidth = '600px';
+    dropdown.removeAttribute('hidden');
+  }, 80);
+}
+
+function renderDropdown(matches) {
+  dropdown.innerHTML = '';
+  dropdownItems = matches;
+  selectedIndex = 0;
+
+  matches.forEach((tag, i) => {
+    const item = document.createElement('div');
+    item.className = 'ac-item' + (i === 0 ? ' ac-selected' : '');
+    item.dataset.tag = tag.name;
+
+    const nameSpan = document.createElement('span');
+    nameSpan.textContent = tag.name;
+
+    const countSpan = document.createElement('span');
+    countSpan.className = 'ac-count';
+    countSpan.textContent = formatCount(tag.count);
+
+    item.appendChild(nameSpan);
+    item.appendChild(countSpan);
+
+    item.addEventListener('mousedown', e => {
+      e.preventDefault();
+      insertTag(tag.name);
+    });
+
+    dropdown.appendChild(item);
+  });
+}
+
+function hideDropdown() {
+  clearTimeout(debounceTimer);
+  dropdown.setAttribute('hidden', '');
+  dropdownItems = [];
+  selectedIndex = 0;
+}
+
+function moveSelection(dir) {
+  const items = dropdown.querySelectorAll('.ac-item');
+  if (!items.length) return;
+  items[selectedIndex].classList.remove('ac-selected');
+  selectedIndex = (selectedIndex + dir + items.length) % items.length;
+  items[selectedIndex].classList.add('ac-selected');
+  items[selectedIndex].scrollIntoView({ block: 'nearest' });
+}
+
+function insertTag(tagName) {
+  if (!activeTextarea) return;
+  const ta = activeTextarea;
+  const val    = ta.value;
+  const caret  = ta.selectionStart;
+  const before = val.slice(0, caret);
+  const after  = val.slice(caret);
+  const lastComma = before.lastIndexOf(',');
+
+  const prefix = lastComma >= 0 ? before.slice(0, lastComma + 1) : '';
+  const space  = lastComma >= 0 ? ' ' : '';
+  const newVal = prefix + space + tagName + ', ' + after.trimStart();
+  ta.value = newVal;
+
+  const newCaret = (prefix + space + tagName + ', ').length;
+  ta.setSelectionRange(newCaret, newCaret);
+
+  // sync state
+  const catIdx    = parseInt(ta.dataset.catIdx, 10);
+  const promptIdx = parseInt(ta.dataset.promptIdx, 10);
+  state.data[catIdx].prompt[promptIdx] = newVal;
+  setDirty();
+
+  hideDropdown();
+  ta.focus();
+}
+
+// ── Rendering ────────────────────────────────────────────────────────────────
+function render() {
+  const main = document.getElementById('main');
+  main.innerHTML = '';
+
+  if (!state.data.length) {
+    const empty = document.createElement('div');
+    empty.id = 'empty-state';
+    empty.textContent = 'JSONファイルを読み込んでください';
+    main.appendChild(empty);
+    return;
+  }
+
+  state.data.forEach((cat, catIdx) => {
+    main.appendChild(createCard(cat, catIdx));
+  });
+
+  const addBtn = document.createElement('button');
+  addBtn.className = 'btn';
+  addBtn.id = 'add-category-btn';
+  addBtn.textContent = '+ Add Category';
+  addBtn.addEventListener('click', () => {
+    state.data.push({ category: 'New Category', prompt: [''], type: 'full' });
+    setDirty();
+    render();
+  });
+  main.appendChild(addBtn);
+}
+
+function createCard(cat, catIdx) {
+  const card = document.createElement('div');
+  card.className = 'category-card';
+
+  // Header
+  const header = document.createElement('div');
+  header.className = 'card-header';
+
+  const nameInput = document.createElement('input');
+  nameInput.type = 'text';
+  nameInput.className = 'cat-name-input';
+  nameInput.value = cat.category;
+  nameInput.addEventListener('input', () => {
+    state.data[catIdx].category = nameInput.value;
+    setDirty();
+  });
+
+  const typeSelect = document.createElement('select');
+  typeSelect.className = 'type-select';
+  ['full', 'partial', 'prefix'].forEach(v => {
+    const opt = document.createElement('option');
+    opt.value = v;
+    opt.textContent = v;
+    if (v === cat.type) opt.selected = true;
+    typeSelect.appendChild(opt);
+  });
+  typeSelect.addEventListener('change', () => {
+    state.data[catIdx].type = typeSelect.value;
+    setDirty();
+  });
+
+  const delCatBtn = document.createElement('button');
+  delCatBtn.className = 'btn btn-danger';
+  delCatBtn.textContent = '✕ Delete';
+  delCatBtn.addEventListener('click', () => {
+    if (!confirm(`カテゴリ "${cat.category}" を削除しますか？`)) return;
+    state.data.splice(catIdx, 1);
+    setDirty();
+    render();
+  });
+
+  header.appendChild(nameInput);
+  header.appendChild(typeSelect);
+  header.appendChild(delCatBtn);
+
+  // Prompts
+  const promptsList = document.createElement('div');
+  promptsList.className = 'prompts-list';
+
+  cat.prompt.forEach((p, promptIdx) => {
+    promptsList.appendChild(createPromptRow(p, catIdx, promptIdx));
+  });
+
+  // Footer
+  const footer = document.createElement('div');
+  footer.className = 'card-footer';
+
+  const addPromptBtn = document.createElement('button');
+  addPromptBtn.className = 'btn';
+  addPromptBtn.textContent = '+ Add Prompt';
+  addPromptBtn.addEventListener('click', () => {
+    state.data[catIdx].prompt.push('');
+    setDirty();
+    render();
+  });
+
+  footer.appendChild(addPromptBtn);
+  card.appendChild(header);
+  card.appendChild(promptsList);
+  card.appendChild(footer);
+  return card;
+}
+
+function createPromptRow(promptText, catIdx, promptIdx) {
+  const row = document.createElement('div');
+  row.className = 'prompt-row';
+
+  const ta = document.createElement('textarea');
+  ta.className = 'prompt-textarea';
+  ta.value = promptText;
+  ta.dataset.catIdx    = catIdx;
+  ta.dataset.promptIdx = promptIdx;
+  ta.rows = Math.max(2, Math.ceil(promptText.length / 60));
+
+  ta.addEventListener('input', () => {
+    state.data[catIdx].prompt[promptIdx] = ta.value;
+    setDirty();
+    if (!dropdown.hasAttribute('hidden')) showDropdown(ta);
+  });
+
+  ta.addEventListener('keydown', e => {
+    if (dropdown.hasAttribute('hidden')) return;
+    if (e.key === 'ArrowDown')  { e.preventDefault(); moveSelection(1); }
+    else if (e.key === 'ArrowUp')   { e.preventDefault(); moveSelection(-1); }
+    else if (e.key === 'Enter' || e.key === 'Tab') {
+      if (dropdownItems.length) {
+        e.preventDefault();
+        insertTag(dropdownItems[selectedIndex].name);
+      }
+    } else if (e.key === 'Escape') { hideDropdown(); }
+  });
+
+  ta.addEventListener('focus', () => { activeTextarea = ta; });
+  ta.addEventListener('input', () => { showDropdown(ta); });
+  ta.addEventListener('click', () => { showDropdown(ta); });
+  ta.addEventListener('blur', () => {
+    // Small delay so mousedown on dropdown item fires first
+    setTimeout(() => {
+      if (activeTextarea === ta) hideDropdown();
+    }, 150);
+  });
+
+  const delBtn = document.createElement('button');
+  delBtn.className = 'btn-del-prompt';
+  delBtn.title = 'Delete prompt';
+  delBtn.textContent = '✕';
+  delBtn.addEventListener('click', () => {
+    if (state.data[catIdx].prompt.length <= 1) {
+      state.data[catIdx].prompt[promptIdx] = '';
+      setDirty();
+      render();
+      return;
+    }
+    state.data[catIdx].prompt.splice(promptIdx, 1);
+    setDirty();
+    render();
+  });
+
+  row.appendChild(ta);
+  row.appendChild(delBtn);
+  return row;
+}
+
+// ── State helpers ─────────────────────────────────────────────────────────────
+function setDirty() {
+  state.dirty = true;
+  const btn = document.getElementById('btn-export');
+  btn.classList.add('dirty');
+}
+
+function clearDirty() {
+  state.dirty = false;
+  document.getElementById('btn-export').classList.remove('dirty');
+}
+
+function setStatus(msg, cls) {
+  const el = document.getElementById('status-label');
+  el.textContent = msg;
+  el.className = cls || '';
+}
+
+// ── JSON load / export ───────────────────────────────────────────────────────
+function loadJSON(text, filePath) {
+  try {
+    state.data = JSON.parse(text);
+    state.filePath = filePath;
+    clearDirty();
+    render();
+    setStatus(`Loaded: ${filePath}`, 'ready');
+  } catch (e) {
+    setStatus('JSON parse error: ' + e.message, 'error');
+    alert('JSONのパースに失敗しました:\n' + e.message);
+  }
+}
+
+document.getElementById('file-picker').addEventListener('change', e => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => loadJSON(ev.target.result, file.name);
+  reader.readAsText(file, 'utf-8');
+  e.target.value = '';
+});
+
+document.getElementById('btn-load-path').addEventListener('click', async () => {
+  const path = document.getElementById('path-input').value.trim();
+  if (!path) return;
+  setStatus('読み込み中...', 'loading');
+  try {
+    const resp = await fetch('/load?path=' + encodeURIComponent(path));
+    if (!resp.ok) {
+      setStatus('読み込み失敗 (HTTP ' + resp.status + ')', 'error');
+      return;
+    }
+    const text = await resp.text();
+    loadJSON(text, path);
+  } catch (e) {
+    setStatus('読み込みエラー: ' + e.message, 'error');
+  }
+});
+
+document.getElementById('btn-export').addEventListener('click', () => {
+  const json = JSON.stringify(state.data, null, 2);
+  const blob = new Blob([json], { type: 'application/json' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url;
+  const baseName = state.filePath
+    ? state.filePath.split(/[\\/]/).pop()
+    : 'situations.json';
+  a.download = baseName;
+  a.click();
+  URL.revokeObjectURL(url);
+  clearDirty();
+  setStatus(`Exported: ${baseName}`, 'ready');
+});
+
+// Close dropdown when clicking outside
+document.addEventListener('mousedown', e => {
+  if (!dropdown.contains(e.target) && e.target !== activeTextarea) {
+    hideDropdown();
+  }
+});
+
+// Warn on close with unsaved changes
+window.addEventListener('beforeunload', e => {
+  if (state.dirty) {
+    e.preventDefault();
+    e.returnValue = '';
+  }
+});
+
+// Path input: Enter key to load
+document.getElementById('path-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') document.getElementById('btn-load-path').click();
+});
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+(async function init() {
+  // Auto-load if ?path= param in URL
+  const urlPath = new URLSearchParams(location.search).get('path');
+  if (urlPath) {
+    document.getElementById('path-input').value = urlPath;
+  }
+
+  await loadCSV();
+
+  if (urlPath) {
+    document.getElementById('btn-load-path').click();
+  }
+})();
+</script>
+</body>
+</html>
