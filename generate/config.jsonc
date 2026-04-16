@@ -39,50 +39,106 @@
 
   "negative": "worst quality, lowres, low quality, score_1, score_2, score_3, western comics style, 1970s, 1980s, 1990s , 2000s , 2010s , shiny skin, shiny hair , shiny clothes, blurry, jpeg artifacts, signature, sepia, unfinished, work-in-progress, disembodied, dark theme, (saturated:1.1), anime screenshot, cel rendering, nose blush, painting , monochrome, greyscale, thick lineart, partially colored, outside border, messy lines, blurry background, chibi, wide mouth, no nose, extra fingers, fused fingers, missing fingers , bad anatomy, disfigured, mutated , muddy colors , flat color, shiny skin, shiny clothes, shiny swimsuit, shiny legwear, shiny hair , high contrast, normal quality, lowres, 3d, realistic, photorealistic, watermark, bad hands, deformed hands, extra fingers, mutated hands, malformed limbs, too many fingers",
 
-  "character": "fate/kaleid liner prisma illya,  illyasviel von einzbern, loli , red eyes , nude",
+  // character_variants: 全身/上半身/後ろ の3バリアント
+  // シーンの char_type で使用するバリアント名（文字列 or リスト）を指定する
+  // リスト指定の場合は1枚ごとにランダム選択される
+  "character_variants": {
+    "full":  "TODO: キャラプロンプト, full body",
+    "upper": "TODO: キャラプロンプト, upper body",
+    "back":  "TODO: キャラプロンプト, from behind, ass"
+  },
+
+  // expressions: 表情プロンプト集
+  // シーンの expressions リストで使用する表情名を指定する
+  // 1枚ごとにリストの中からランダム選択される
+  "expressions": {
+    "normal":    "closed mouth",
+    "surprised": "open mouth, surprised, wide eyes",
+    "scared":    "tearing up, scared expression, trembling",
+    "resist":    "clenched teeth, tears, glaring",
+    "pleasure":  "half-closed eyes, blush, heavy breathing",
+    "ahegao":    "ahegao, rolled eyes, drooling, tongue out",
+    "broken":    "empty eyes, blank stare, drooling"
+  },
 
   "scenes": [
     {
-      "name":  "act1_prologue",
-      "label": "序章 - 日常",
-      "count": 4,
-      "seed":  -1,
-      "_comment_seed": "seed: -1=ランダム, 正の整数=固定 (例: 12345)。CLIの --seed はこれより優先される。",
-      "tone":  "",
-      "prompt_dp": "penis , { handjob | licking penis | irrumatio } , from above , pov ,  , motion lines , half-closed eyes , heavy breathing , heavy breathing , looking at viewer , head tilt , pov "
-    }//,
-    // {
-    //   "name":  "act2_encounter",
-    //   "label": "遭遇 - 異変",
-    //   "count": 2,
-    //   "seed":  -1,
-    //   "tone":  "",
-    //   "prompt_dp": "penis , licking penis  , heavy breathing"
-    // },
-    // {
-    //   "name":  "act3_entangle",
-    //   "label": "絡み - 捕縛",
-    //   "count": 2,
-    //   "seed":  -1,
-    //   "tone":  "",
-    //   "prompt_dp": "penis , spread pussy , white panties, spread legs , from below, black thighhighs, heavy breathing"
-    // },
-    // {
-    //   "name":  "act4_climax",
-    //   "label": "クライマックス",
-    //   "count": 2,
-    //   "seed":  -1,
-    //   "tone":  "",
-    //   "prompt_dp": "penis , open mouth , drooling , sex , missionary , rape , motion lines , pov , sound effects , trembling , ecstasy , black thighhighs"
-    // },
-    // {
-    //   "name":  "act5_epilogue",
-    //   "label": "後日談",
-    //   "count": 2,
-    //   "seed":  -1,
-    //   "tone":  "",
-    //   "prompt_dp": "after rape , on bed , pussy , lying , full body , looking away , cum drip , empty eyes , trembling , drooling"
-    // }
+      "name":       "act0_cover",
+      "label":      "表紙",
+      "folder":     "cover",
+      "count":      3,
+      "seed":       -1,
+      "char_type":  ["full", "upper"],
+      "expressions": ["scared", "resist"],
+      "tone":       "",
+      "prompt_dp":  "TODO: 表紙用プロンプト"
+    },
+    {
+      "name":       "act1_intro",
+      "label":      "導入 - 日常→発見",
+      "folder":     "main",
+      "count":      13,
+      "seed":       -1,
+      "char_type":  ["full", "upper"],
+      "expressions": ["normal", "surprised", "scared"],
+      "tone":       "",
+      "prompt_dp":  "TODO: 導入プロンプト"
+    },
+    {
+      "name":       "act2_wrap",
+      "label":      "軽い拘束・絡まり",
+      "folder":     "main",
+      "count":      22,
+      "seed":       -1,
+      "char_type":  ["full", "upper", "back"],
+      "expressions": ["scared", "resist", "surprised"],
+      "tone":       "",
+      "prompt_dp":  "TODO: 軽拘束プロンプト"
+    },
+    {
+      "name":       "act3_bind",
+      "label":      "本格拘束・固定",
+      "folder":     "main",
+      "count":      27,
+      "seed":       -1,
+      "char_type":  ["full", "upper", "back"],
+      "expressions": ["resist", "scared", "pleasure"],
+      "tone":       "",
+      "prompt_dp":  "TODO: 本格拘束プロンプト"
+    },
+    {
+      "name":       "act4_assault",
+      "label":      "責め・挿入本番",
+      "folder":     "main",
+      "count":      27,
+      "seed":       -1,
+      "char_type":  ["full", "upper", "back"],
+      "expressions": ["pleasure", "ahegao", "resist"],
+      "tone":       "",
+      "prompt_dp":  "TODO: 責めプロンプト"
+    },
+    {
+      "name":       "act5_climax",
+      "label":      "絶頂・堕ち",
+      "folder":     "main",
+      "count":      12,
+      "seed":       -1,
+      "char_type":  ["full", "upper"],
+      "expressions": ["ahegao", "broken", "pleasure"],
+      "tone":       "",
+      "prompt_dp":  "TODO: 絶頂プロンプト"
+    },
+    {
+      "name":       "act6_diff",
+      "label":      "表情差分",
+      "folder":     "diff",
+      "count":      7,
+      "seed":       -1,
+      "char_type":  "upper",
+      "expressions": ["normal", "surprised", "scared", "resist", "pleasure", "ahegao", "broken"],
+      "tone":       "",
+      "prompt_dp":  "TODO: 差分プロンプト"
+    }
   ],
 
   "samplers": {

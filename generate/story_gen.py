@@ -88,15 +88,17 @@ def _load_jsonc(path: Path) -> dict:
 
 CFG = _load_jsonc(config_path)
 
-WEBUI_URL   = CFG["webui_url"]
-OUTPUT_DIR  = Path(CFG["output_dir"])
-TITLE       = CFG["title"]
-BASE        = CFG["base"]
-HIRES       = CFG["hires"]
-STORY_SCENES = CFG["scenes"]
-QUALITY     = CFG["quality"]
-NEGATIVE    = CFG["negative"]
-CHARACTER   = CFG["character"]
+WEBUI_URL        = CFG["webui_url"]
+OUTPUT_DIR       = Path(CFG["output_dir"])
+TITLE            = CFG["title"]
+BASE             = CFG["base"]
+HIRES            = CFG["hires"]
+STORY_SCENES     = CFG["scenes"]
+QUALITY          = CFG["quality"]
+NEGATIVE         = CFG["negative"]
+CHARACTER        = CFG.get("character", "")
+CHAR_VARIANTS    = CFG.get("character_variants", {})
+EXPRESSIONS      = CFG.get("expressions", {})
 
 TOTAL = sum(s["count"] for s in STORY_SCENES)
 
@@ -120,8 +122,32 @@ def check_connection() -> bool:
         return False
 
 
-def build_prompt(scene: dict) -> str:
-    return ", ".join([QUALITY, CHARACTER, scene["tone"], scene["prompt_dp"]])
+def resolve_char(scene: dict) -> tuple[str, str]:
+    """char_type を解決してキャラプロンプトと選択名を返す"""
+    if CHAR_VARIANTS:
+        types = scene.get("char_type", list(CHAR_VARIANTS.keys())[:1])
+        if isinstance(types, str):
+            types = [types]
+        chosen = random.choice(types)
+        return CHAR_VARIANTS.get(chosen, CHARACTER), chosen
+    return CHARACTER, "default"
+
+
+def resolve_expression(scene: dict) -> tuple[str, str]:
+    """表情プロンプトをランダム選択して返す"""
+    names = scene.get("expressions", [])
+    if not names or not EXPRESSIONS:
+        return "", ""
+    chosen = random.choice(names)
+    return EXPRESSIONS.get(chosen, ""), chosen
+
+
+def build_prompt(scene: dict) -> tuple[str, str, str]:
+    """プロンプト文字列、選択されたchar_type名、選択された表情名を返す"""
+    char_prompt, char_label   = resolve_char(scene)
+    expr_prompt, expr_label   = resolve_expression(scene)
+    parts = [p for p in [QUALITY, char_prompt, scene.get("tone", ""), expr_prompt, scene["prompt_dp"]] if p]
+    return ", ".join(parts), char_label, expr_label
 
 
 def print_config_summary():
@@ -150,14 +176,18 @@ def generate_image(
     scene_name: str,
     index: int,
     seed: int,
+    folder: str = "main",
+    overall_index: int = 0,
 ) -> Path | None:
 
-    date_str = datetime.now().strftime("%Y%m%d")
-    scene_dir = OUTPUT_DIR / TITLE / scene_name / date_str
-    scene_dir.mkdir(parents=True, exist_ok=True)
+    out_dir = OUTPUT_DIR / TITLE / folder
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    ts = datetime.now().strftime("%H%M%S")
-    base_name = f"{TITLE}_{scene_name}_{index:02d}_{ts}"
+    if folder == "main" and overall_index > 0:
+        base_name = f"{overall_index:03d}"
+    else:
+        ts = datetime.now().strftime("%H%M%S")
+        base_name = f"{scene_name}_{index:02d}_{ts}"
 
     payload = {
         "prompt":          prompt,
@@ -207,7 +237,7 @@ def generate_image(
         print("    ⚠️  画像なし")
         return None
 
-    img_path = scene_dir / f"{base_name}.png"
+    img_path = out_dir / f"{base_name}.png"
 
     # WebUI info から実際の生成パラメータを取得
     try:
@@ -266,8 +296,8 @@ def main():
     if args.dry_run:
         print("\n🔍 Dry-run: プロンプト確認のみ")
         for s in STORY_SCENES:
-            p = build_prompt(s)
-            print(f"\n[{s['label']}]\n  {p[:200]}...")
+            p, char_label, expr_label = build_prompt(s)
+            print(f"\n[{s['label']}]  char={char_label}  expr={expr_label}\n  {p[:200]}...")
         return
 
     if not check_connection():
@@ -293,8 +323,6 @@ def main():
         print(f"   steps={BASE['steps']}  cfg={BASE['cfg_scale']}")
         print(f"{'='*52}")
 
-        prompt = build_prompt(scene)
-
         # シーン個別seed: CLIの--seedが指定されていれば優先、なければシーン設定、それもなければランダム
         scene_seed = scene.get("seed", -1)
 
@@ -307,14 +335,17 @@ def main():
             else:
                 seed = random.randint(1, 2**31)
 
+            prompt, char_label, expr_label = build_prompt(scene)
             seed_label = f"{seed} (固定)" if (args.seed != -1 or scene_seed != -1) else f"{seed} (ランダム)"
-            print(f"  [{i:2d}/{scene['count']}] 全体 {overall}/{TOTAL}  seed={seed_label}")
+            print(f"  [{i:2d}/{scene['count']}] 全体 {overall}/{TOTAL}  char={char_label}  expr={expr_label}  seed={seed_label}")
 
             path = generate_image(
                 prompt=prompt,
                 scene_name=scene["name"],
                 index=i,
                 seed=seed,
+                folder=scene.get("folder", "main"),
+                overall_index=overall,
             )
             if path:
                 print(f"    💾 {path.name}")
