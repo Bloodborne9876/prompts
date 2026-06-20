@@ -1,0 +1,8 @@
+===== 01_new_39321\yuuka_01_001.png  [1536x1152]
+best quality, score_7
+1girl, solo, yuuka \(blue archive\), black jacket , white collared shirt , black pleated skirt , black thighhighs,
+sitting , looking at viewer,  head tilt,  white panties , squatting,  knees together feet apart,, {sigh,jitome |light smile}
+
+===== negative (ライト)
+worst quality, lowres, low quality, score_1, score_2, score_3, western comics style, 1970s, 1980s, 1990s, 2000s, 2010s, shiny skin, shiny hair, shiny clothes, blurry, jpeg artifacts
+

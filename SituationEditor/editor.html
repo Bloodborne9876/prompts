@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>シチュエーションエディター</title>
+<style>
+  :root {
+    --bg: #1a1b1e; --bg2: #232529; --bg3: #2c2e33; --fg: #d6d8dc; --fg-dim: #8a8d93;
+    --accent: #4f8cff; --accent2: #2a4a80; --ok: #4caf7d; --warn: #e0a23c; --danger: #d05858;
+    --border: #3a3d42;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: "Segoe UI", "Yu Gothic UI", sans-serif; font-size: 14px; }
+  header { display: flex; align-items: center; gap: 12px; padding: 8px 16px; background: var(--bg2); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 10; }
+  header h1 { font-size: 16px; margin: 0 12px 0 0; }
+  .tabs { display: flex; gap: 4px; }
+  .tabs button { background: var(--bg3); color: var(--fg-dim); border: 1px solid var(--border); border-radius: 6px 6px 0 0; padding: 6px 18px; cursor: pointer; font-size: 14px; }
+  .tabs button.active { background: var(--accent2); color: #fff; border-color: var(--accent); }
+  #status { margin-left: auto; color: var(--fg-dim); font-size: 12px; }
+  button.primary { background: var(--accent); color: #fff; border: none; border-radius: 6px; padding: 6px 14px; cursor: pointer; }
+  button.ghost { background: var(--bg3); color: var(--fg); border: 1px solid var(--border); border-radius: 6px; padding: 5px 12px; cursor: pointer; }
+  button.danger { background: transparent; color: var(--danger); border: 1px solid var(--danger); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+  button:disabled { opacity: .4; cursor: default; }
+  main { display: none; padding: 12px 16px; }
+  main.active { display: block; }
+  .split { display: flex; gap: 16px; height: calc(100vh - 110px); }
+  .list-pane { width: 300px; flex-shrink: 0; display: flex; flex-direction: column; gap: 8px; }
+  .list-pane input[type=text] { width: 100%; }
+  .item-list { flex: 1; overflow-y: auto; border: 1px solid var(--border); border-radius: 6px; background: var(--bg2); }
+  .item-list div { padding: 6px 10px; cursor: pointer; border-bottom: 1px solid var(--bg3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .item-list div:hover { background: var(--bg3); }
+  .item-list div.sel { background: var(--accent2); color: #fff; }
+  .detail-pane { flex: 1; overflow-y: auto; padding-right: 8px; }
+  label { display: block; margin: 10px 0 4px; color: var(--fg-dim); font-size: 12px; }
+  input[type=text], input[type=number], select, textarea {
+    background: var(--bg2); color: var(--fg); border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; font-size: 13px; font-family: Consolas, monospace;
+  }
+  input[type=text], textarea { width: 100%; }
+  textarea { resize: vertical; line-height: 1.5; }
+  .row { display: flex; gap: 12px; align-items: end; flex-wrap: wrap; }
+  .row > div { flex: 1; min-width: 140px; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border-bottom: 1px solid var(--border); padding: 6px 6px; text-align: left; vertical-align: middle; }
+  th { color: var(--fg-dim); font-size: 12px; font-weight: normal; }
+  tr.dragging { opacity: .4; }
+  tr.step-row { cursor: default; }
+  .drag-handle { cursor: grab; color: var(--fg-dim); user-select: none; padding: 0 6px; }
+  .total-bar { display: flex; gap: 16px; align-items: center; margin: 12px 0; padding: 10px 14px; background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; }
+  .total-bar .num { font-size: 22px; font-weight: bold; color: var(--accent); }
+  .total-bar .ok { color: var(--ok); } .total-bar .warn { color: var(--warn); }
+  pre.preview { background: var(--bg2); border: 1px solid var(--border); border-radius: 6px; padding: 10px; white-space: pre-wrap; word-break: break-all; font-size: 12px; color: #b9d4a3; max-height: 260px; overflow-y: auto; }
+  .toolbar { display: flex; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; align-items: center; }
+  .hint { color: var(--fg-dim); font-size: 12px; }
+  #welcome { padding: 60px; text-align: center; }
+  .badge { background: var(--bg3); border-radius: 10px; padding: 1px 8px; font-size: 11px; color: var(--fg-dim); margin-left: 6px; }
+  code.cmd { background: var(--bg3); padding: 2px 8px; border-radius: 4px; user-select: all; }
+</style>
+</head>
+<body>
+<header>
+  <h1>シチュエーションエディター</h1>
+  <div class="tabs">
+    <button data-tab="recipes" class="active">レシピ</button>
+    <button data-tab="situations">シチュエーション</button>
+    <button data-tab="faces">表情</button>
+    <button data-tab="characters">キャラ</button>
+    <button data-tab="settings">設定</button>
+  </div>
+  <span id="status">接続中...</span>
+</header>
+
+<div id="welcome">
+  <p>サーバーからデータを読み込んでいます…</p>
+  <p class="hint">表示されない場合は start_editor.bat でサーバーが起動しているか確認してください</p>
+</div>
+
+<!-- ============ レシピ ============ -->
+<main id="tab-recipes">
+  <div class="toolbar">
+    <select id="recipeSelect" style="min-width:220px"></select>
+    <button class="ghost" id="recipeNew">新規</button>
+    <button class="ghost" id="recipeDup">複製</button>
+    <button class="primary" id="recipeSave">保存</button>
+    <button class="danger" id="recipeDel">削除</button>
+    <span style="border-left:1px solid var(--border);height:24px;margin:0 4px"></span>
+    <button class="ghost" id="genPlan" title="合成プロンプト一覧をプレビュー欄に表示">📄 DryRun</button>
+    <button class="ghost" id="genLastReq" title="直近にAPIへ送った生リクエストJSONを表示（全履歴は output\作品名\api_log.jsonl）">🔍 API生データ</button>
+    <button class="primary" id="genFull" title="レシピを保存して全step生成">▶ 本生成</button>
+    <button class="ghost" id="genResume" title="既存ファイルをスキップして再開">⏩ 再開</button>
+    <button class="danger" id="genStop">⏹ 停止</button>
+    <span class="hint" id="recipeHint"></span>
+  </div>
+  <div class="row" style="max-width:1200px">
+    <div><label>タイトル（=出力フォルダ名 / ファイル名）</label><input type="text" id="rTitle"></div>
+    <div><label>キャラ</label><input type="text" id="rChar" list="charList" placeholder="id を入力"><datalist id="charList"></datalist></div>
+    <div><label>ネガティブプリセット</label><select id="rNeg"></select></div>
+    <div style="flex:0 0 170px"><label>シード（一括）</label><select id="rSeedMode" title="行ごとに上書きも可能（stepの seed 列）">
+      <option value="random">ランダム</option>
+      <option value="fixed">固定（全画像同一）</option>
+      <option value="increment">インクリメント（+1）</option>
+    </select></div>
+    <div style="flex:0 0 130px"><label>シード値</label><input type="number" id="rSeed" value="-1"></div>
+    <div style="flex:0 0 130px"><label>HiresFix</label>
+      <span style="display:inline-flex;align-items:center;gap:6px;padding:6px 0">
+        <input type="checkbox" id="rHires" style="width:16px;height:16px"> <span class="hint" id="rHiresHint">使用する</span>
+      </span>
+    </div>
+    <div style="flex:0 0 150px"><label>Calibrated Spectrum</label>
+      <span style="display:inline-flex;align-items:center;gap:6px;padding:6px 0" title="拡張機能 sd-webui-forge-spectrum。パラメータは settings.json の generation.spectrum">
+        <input type="checkbox" id="rSpectrum" checked style="width:16px;height:16px"> <span class="hint">有効</span>
+      </span>
+    </div>
+  </div>
+  <div class="total-bar">
+    <span>合計 <span class="num" id="rTotal">0</span> 枚</span>
+    <span id="rTotalNote"></span>
+    <span class="hint" style="margin-left:auto">生成: <code class="cmd" id="rCmd"></code></span>
+  </div>
+  <table id="stepTable">
+    <thead><tr><th></th><th>#</th><th>シチュエーション</th><th>服装</th><th>表情</th><th>枚数</th><th>サイズ</th><th>variation</th><th>シード</th><th>テスト</th><th></th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <div class="toolbar" style="margin-top:8px">
+    <button class="ghost" id="stepAdd">＋ step 追加</button>
+    <span class="hint">行をドラッグで並び替え（並び順 = ストーリー進行 = カテゴリ連番）</span>
+  </div>
+  <label>プロンプトプレビュー（選択中 step の先頭 variation で合成）</label>
+  <pre class="preview" id="rPreview">step の行をクリックすると合成結果を表示します</pre>
+  <div style="display:flex;align-items:center;gap:10px;margin-top:10px">
+    <label style="margin:0">生成結果（行の 🧪 = その行を枚数ぶんテスト生成 → output\タイトル\_test\ に保存しつつ表示）</label>
+    <button class="ghost" id="testClear" style="padding:2px 10px">表示クリア</button>
+  </div>
+  <div id="testStatus" class="hint" style="margin:4px 0"></div>
+  <div style="height:6px;background:var(--bg3);border-radius:3px;overflow:hidden;margin:4px 0;max-width:700px">
+    <div id="genBar" style="height:100%;width:0%;background:var(--accent);transition:width .4s"></div>
+  </div>
+  <div id="testResults" style="display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 24px"></div>
+</main>
+
+<!-- ============ シチュエーション ============ -->
+<main id="tab-situations">
+  <div class="split">
+    <div class="list-pane">
+      <input type="text" id="sFilter" placeholder="検索（名前 / id / タグ）">
+      <div class="toolbar">
+        <button class="ghost" id="sNew">新規</button>
+        <button class="ghost" id="sDup">複製</button>
+        <button class="primary" id="sSave">保存</button>
+      </div>
+      <div class="item-list" id="sList"></div>
+    </div>
+    <div class="detail-pane" id="sDetail">
+      <div class="row">
+        <div><label>id（ファイル名に使用 / 半角英数）</label><input type="text" id="sId"></div>
+        <div><label>表示名</label><input type="text" id="sName"></div>
+        <div><label>フェーズ（ストーリー進行）</label><select id="sPhase"></select></div>
+        <div><label>タグ（カンマ区切り / フィルタ用）</label><input type="text" id="sTags"></div>
+      </div>
+      <label>base（このシチュエーション共通のタグ）</label>
+      <textarea id="sBase" rows="3" class="tagcomp"></textarea>
+      <label>variations（1行 = 1バリエーション。{a|b} / __wildcard__ 可）<span class="badge" id="sVarCount"></span></label>
+      <textarea id="sVars" rows="14" spellcheck="false" class="tagcomp"></textarea>
+      <div class="row">
+        <div><label>メモ（運用ノート / 生成には使われない）</label><input type="text" id="sNotes"></div>
+        <div style="flex:0 0 280px"><label>追加ネガティブ（このシチュエーションのみ）</label><input type="text" id="sNegExtra" placeholder="例: 1boy, penis" class="tagcomp"></div>
+      </div>
+      <div class="row">
+        <div><label>既定の服装</label><select id="sOutfit"></select></div>
+        <div><label>既定の表情</label><select id="sFace"></select></div>
+        <div><label>既定サイズ</label><select id="sSize"></select></div>
+        <div><button class="danger" id="sDel">このシチュエーションを削除</button></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- ============ 表情 ============ -->
+<main id="tab-faces">
+  <div class="split">
+    <div class="list-pane">
+      <input type="text" id="fFilter" placeholder="検索（名前 / id）">
+      <div class="toolbar">
+        <button class="ghost" id="fNew">新規</button>
+        <button class="ghost" id="fDup">複製</button>
+        <button class="primary" id="fSave">保存</button>
+      </div>
+      <div class="item-list" id="fList"></div>
+    </div>
+    <div class="detail-pane">
+      <div class="row">
+        <div><label>id（半角英数）</label><input type="text" id="fId"></div>
+        <div><label>表示名</label><input type="text" id="fName"></div>
+      </div>
+      <label>タグ（__face/xxx__ などの wildcard も可）</label>
+      <textarea id="fTags" rows="4" class="tagcomp"></textarea>
+      <div class="toolbar"><button class="danger" id="fDel">この表情を削除</button></div>
+      <p class="hint">使われ方: シチュエーションの「既定の表情」または レシピ step の「表情」列で選択。
+        プロンプトではシチュエーションブロックの先頭に挿入される。</p>
+    </div>
+  </div>
+</main>
+
+<!-- ============ キャラ ============ -->
+<main id="tab-characters">
+  <div class="split">
+    <div class="list-pane">
+      <input type="text" id="cFilter" placeholder="検索（id / 作品名）">
+      <div class="toolbar">
+        <button class="ghost" id="cNew">新規</button>
+        <button class="ghost" id="cDup">複製</button>
+        <button class="primary" id="cSave">保存</button>
+      </div>
+      <div class="item-list" id="cList"></div>
+    </div>
+    <div class="detail-pane" id="cDetail">
+      <div class="row">
+        <div><label>id（ファイル名に使用 / 半角英数）</label><input type="text" id="cId"></div>
+        <div><label>表示名</label><input type="text" id="cName"></div>
+        <div><label>作品</label><input type="text" id="cSeries"></div>
+      </div>
+      <label>base（1girl, solo, LoRA, キャラタグ, 髪・目など固定タグ）</label>
+      <textarea id="cBase" rows="4" class="tagcomp"></textarea>
+      <label>服装パターン（key = レシピで指定する名前）</label>
+      <div id="cOutfits"></div>
+      <div class="toolbar">
+        <button class="ghost" id="cOutfitAdd">＋ 服装パターン追加</button>
+        <button class="danger" id="cDel">このキャラを削除</button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- ============ 設定 ============ -->
+<main id="tab-settings">
+  <p class="hint">settings.json を直接編集します（品質ヘッダ / ネガティブプリセット / サイズ / 生成パラメータ）。</p>
+  <div class="toolbar"><button class="primary" id="setSave">保存</button><span class="hint" id="setHint"></span></div>
+  <textarea id="setJson" rows="30" spellcheck="false" style="font-size:12px"></textarea>
+</main>
+
+<script>
+'use strict';
+// ===== 状態 =====
+let settings = null, characters = [], situations = [], faces = [];
+let recipes = {};            // name(拡張子なし) -> object
+let curRecipeName = null;
+let curSitu = null, curChar = null, selStepIdx = -1;
+
+const $ = id => document.getElementById(id);
+const status = msg => { $('status').textContent = msg; };
+
+// ===== サーバーIO =====
+const api = {
+  get: async p => { const r = await fetch(p); if (!r.ok) throw new Error((await r.text()).slice(0, 300)); return r.json(); },
+  text: async (p, body) => { const r = await fetch(p, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }); if (!r.ok) throw new Error((await r.text()).slice(0, 300)); return r.text(); },
+  put: async (p, body) => { const r = await fetch(p, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }); if (!r.ok) throw new Error((await r.text()).slice(0, 300)); },
+  post: async (p, body) => { const r = await fetch(p, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body ?? {}) }); if (!r.ok) throw new Error((await r.text()).slice(0, 300)); return r.json(); },
+  del: async p => { await fetch(p, { method: 'DELETE' }); }
+};
+
+async function loadAll() {
+  settings = await api.get('/api/data/settings');
+  characters = (await api.get('/api/data/characters')).characters;
+  situations = (await api.get('/api/data/situations')).situations;
+  faces = (await api.get('/api/data/faces')).faces;
+  recipes = await api.get('/api/recipes');
+  $('welcome').style.display = 'none';
+  status(`読込完了: キャラ ${characters.length} / シチュエーション ${situations.length} / 表情 ${faces.length} / レシピ ${Object.keys(recipes).length}`);
+  initAll();
+}
+loadAll().catch(e => { status('読込エラー'); $('welcome').innerHTML = `<p>読込エラー: ${e.message}</p>`; });
+
+// ===== タブ =====
+document.querySelectorAll('.tabs button').forEach(b => b.onclick = async () => {
+  document.querySelectorAll('.tabs button').forEach(x => x.classList.toggle('active', x === b));
+  document.querySelectorAll('main').forEach(m => m.classList.toggle('active', m.id === 'tab-' + b.dataset.tab));
+  // 設定タブは開くたびにディスクの最新を読み直す（外部エディタでの変更を上書きしないため）
+  if (b.dataset.tab === 'settings' && settings) {
+    try {
+      settings = await api.get('/api/data/settings');
+      $('setJson').value = JSON.stringify(settings, null, 2);
+      $('setHint').textContent = 'ディスクから再読込しました';
+      renderSituList(); renderSteps();
+    } catch (e) { $('setHint').textContent = '再読込エラー: ' + e.message; }
+  }
+});
+document.querySelector('.tabs button').click();
+
+function initAll() {
+  renderSituList(); renderFaceList(); renderCharList(); initRecipeTab();
+  $('setJson').value = JSON.stringify(settings, null, 2);
+}
+
+// 表情select用の選択肢 (既定/なし + 表情一覧)
+function faceOptions(selected, withInherit) {
+  let html = withInherit ? `<option value="inherit" ${(!selected || selected === 'inherit') ? 'selected' : ''}>既定</option>` : '';
+  html += `<option value="none" ${selected === 'none' ? 'selected' : ''}>なし</option>`;
+  html += faces.map(f => `<option value="${f.id}" ${f.id === selected ? 'selected' : ''}>${f.name}</option>`).join('');
+  return html;
+}
+
+// ===== 共通ヘルパ =====
+const joinTags = (...parts) => parts.filter(p => p && p.trim()).join(', ');
+function composePrompt(char, outfitKey, situ, variation, faceTags) {
+  const outfit = char ? (char.outfits[outfitKey] ?? '') : '(キャラ未選択)';
+  const sep = settings.useBreak ? '\nBREAK\n' : '\n';   // server.py と同一仕様
+  return [
+    settings.qualityHeader,
+    joinTags(char ? char.base : '(キャラ未選択)', outfit),
+    joinTags(faceTags || '', situ.base, variation, settings.commonTail)
+  ].filter(b => b && b.trim()).join(sep);
+}
+// step の表情を解決してタグ文字列を返す (server.py と同一仕様)
+function resolveFaceTags(st, situ) {
+  let key = st.face || 'inherit';
+  if (key === 'inherit') key = situ.defaultFace || 'none';
+  if (key === 'none') return '';
+  return faces.find(f => f.id === key)?.tags || '';
+}
+const slugOk = s => /^[a-z0-9_]+$/.test(s);
+const PHASES = ['導入', '序盤', '中盤', '終盤', 'アフター', '演出', 'その他'];
+const phaseOf = s => PHASES.includes(s.phase) ? s.phase : 'その他';
+
+// ============================================================
+// シチュエーションタブ
+// ============================================================
+function renderSituList() {
+  const q = $('sFilter').value.toLowerCase();
+  const list = $('sList'); list.innerHTML = '';
+  PHASES.forEach(ph => {
+    const items = situations.filter(s => phaseOf(s) === ph)
+      .filter(s => !q || `${s.name} ${s.id} ${(s.tags || []).join(' ')}`.toLowerCase().includes(q));
+    if (!items.length) return;
+    const h = document.createElement('div');
+    h.textContent = `― ${ph} ―`;
+    h.style.cssText = 'color:var(--fg-dim);font-size:11px;cursor:default;background:var(--bg3);text-align:center';
+    list.appendChild(h);
+    items.forEach(s => {
+      const d = document.createElement('div');
+      d.textContent = `${s.name}（${s.variations.length}）`;
+      d.title = s.id + (s.notes ? `\n${s.notes}` : '');
+      if (s === curSitu) d.classList.add('sel');
+      d.onclick = () => { saveSituForm(); curSitu = s; renderSituList(); renderSituDetail(); };
+      list.appendChild(d);
+    });
+  });
+  // 服装/サイズ/フェーズ select の選択肢
+  const outfitKeys = new Set(['normal']);
+  Object.keys(settings.outfitTemplates || {}).forEach(k => outfitKeys.add(k));
+  characters.forEach(c => Object.keys(c.outfits || {}).forEach(k => outfitKeys.add(k)));
+  $('sOutfit').innerHTML = [...outfitKeys].map(k => `<option>${k}</option>`).join('');
+  $('sFace').innerHTML = faceOptions(null, false);
+  $('sSize').innerHTML = Object.keys(settings.sizes).map(k => `<option>${k}</option>`).join('');
+  $('sPhase').innerHTML = PHASES.map(p => `<option>${p}</option>`).join('');
+}
+$('sFilter').oninput = renderSituList;
+
+function renderSituDetail() {
+  const s = curSitu; if (!s) return;
+  $('sId').value = s.id; $('sName').value = s.name;
+  $('sPhase').value = phaseOf(s);
+  $('sTags').value = (s.tags || []).join(', ');
+  $('sBase').value = s.base || '';
+  $('sVars').value = s.variations.join('\n');
+  $('sVarCount').textContent = s.variations.length + ' 件';
+  $('sNotes').value = s.notes || '';
+  $('sNegExtra').value = s.negativeExtra || '';
+  $('sOutfit').value = s.defaultOutfit || 'normal';
+  $('sFace').value = s.defaultFace || 'none';
+  $('sSize').value = s.defaultSize || 'portrait';
+}
+function saveSituForm() {   // フォーム → オブジェクト反映
+  const s = curSitu; if (!s) return;
+  const id = $('sId').value.trim();
+  if (id && slugOk(id)) s.id = id;
+  s.name = $('sName').value.trim() || s.name;
+  s.phase = $('sPhase').value;
+  s.tags = $('sTags').value.split(',').map(t => t.trim()).filter(Boolean);
+  s.base = $('sBase').value.trim();
+  s.variations = $('sVars').value.split('\n').map(v => v.trim()).filter(Boolean);
+  s.notes = $('sNotes').value.trim();
+  s.negativeExtra = $('sNegExtra').value.trim();
+  s.defaultOutfit = $('sOutfit').value; s.defaultFace = $('sFace').value; s.defaultSize = $('sSize').value;
+}
+['sId','sName','sPhase','sTags','sBase','sVars','sNotes','sNegExtra','sOutfit','sFace','sSize'].forEach(id => $(id).addEventListener('change', () => { saveSituForm(); renderSituList(); }));
+
+$('sNew').onclick = () => {
+  const s = { id: 'new_' + Date.now() % 100000, name: '新規シチュエーション', phase: 'その他', tags: [], base: '', variations: [], notes: '', negativeExtra: '', defaultOutfit: 'normal', defaultFace: 'none', defaultSize: 'portrait_v' };
+  situations.unshift(s); curSitu = s; renderSituList(); renderSituDetail();
+};
+$('sDup').onclick = () => {
+  if (!curSitu) return; saveSituForm();
+  const s = JSON.parse(JSON.stringify(curSitu)); s.id += '_copy'; s.name += ' (複製)';
+  situations.splice(situations.indexOf(curSitu) + 1, 0, s); curSitu = s; renderSituList(); renderSituDetail();
+};
+$('sDel').onclick = () => {
+  if (!curSitu || !confirm(`「${curSitu.name}」を削除しますか？`)) return;
+  situations = situations.filter(x => x !== curSitu); curSitu = null; renderSituList();
+};
+$('sSave').onclick = async () => {
+  saveSituForm();
+  const ids = situations.map(s => s.id);
+  const dup = ids.find((v, i) => ids.indexOf(v) !== i);
+  if (dup) { alert(`id が重複しています: ${dup}`); return; }
+  await api.put('/api/data/situations', { situations });
+  status('situations.json を保存しました'); renderSituList();
+};
+
+// ============================================================
+// 表情タブ
+// ============================================================
+let curFace = null;
+function renderFaceList() {
+  const q = $('fFilter').value.toLowerCase();
+  const list = $('fList'); list.innerHTML = '';
+  faces.forEach(f => {
+    if (q && !`${f.name} ${f.id}`.toLowerCase().includes(q)) return;
+    const d = document.createElement('div');
+    d.textContent = f.name; d.title = `${f.id}\n${f.tags}`;
+    if (f === curFace) d.classList.add('sel');
+    d.onclick = () => { saveFaceForm(); curFace = f; renderFaceList(); renderFaceDetail(); };
+    list.appendChild(d);
+  });
+}
+$('fFilter').oninput = renderFaceList;
+
+function renderFaceDetail() {
+  const f = curFace; if (!f) return;
+  $('fId').value = f.id; $('fName').value = f.name || ''; $('fTags').value = f.tags || '';
+}
+function saveFaceForm() {
+  const f = curFace; if (!f) return;
+  const id = $('fId').value.trim();
+  if (id && slugOk(id)) f.id = id;
+  f.name = $('fName').value.trim() || f.name;
+  f.tags = $('fTags').value.trim();
+}
+['fId','fName','fTags'].forEach(id => $(id).addEventListener('change', () => { saveFaceForm(); renderFaceList(); }));
+
+$('fNew').onclick = () => {
+  const f = { id: 'face_' + Date.now() % 100000, name: '新規表情', tags: '' };
+  faces.unshift(f); curFace = f; renderFaceList(); renderFaceDetail();
+};
+$('fDup').onclick = () => {
+  if (!curFace) return; saveFaceForm();
+  const f = JSON.parse(JSON.stringify(curFace)); f.id += '_copy'; f.name += ' (複製)';
+  faces.splice(faces.indexOf(curFace) + 1, 0, f); curFace = f; renderFaceList(); renderFaceDetail();
+};
+$('fDel').onclick = () => {
+  if (!curFace || !confirm(`表情「${curFace.name}」を削除しますか？`)) return;
+  faces = faces.filter(x => x !== curFace); curFace = null; renderFaceList();
+};
+$('fSave').onclick = async () => {
+  saveFaceForm();
+  const ids = faces.map(f => f.id);
+  const dup = ids.find((v, i) => ids.indexOf(v) !== i);
+  if (dup) { alert(`id が重複しています: ${dup}`); return; }
+  await api.put('/api/data/faces', { faces });
+  status('faces.json を保存しました');
+  renderFaceList(); renderSituList(); renderSteps();   // 各selectの選択肢を更新
+};
+
+// ============================================================
+// キャラタブ
+// ============================================================
+function renderCharList() {
+  const q = $('cFilter').value.toLowerCase();
+  const list = $('cList'); list.innerHTML = '';
+  characters.forEach(c => {
+    const text = `${c.id} ${c.name} ${c.series || ''}`.toLowerCase();
+    if (q && !text.includes(q)) return;
+    const d = document.createElement('div');
+    d.textContent = `${c.id}（${c.series || '-'}）`;
+    if (c === curChar) d.classList.add('sel');
+    d.onclick = () => { saveCharForm(); curChar = c; renderCharList(); renderCharDetail(); };
+    list.appendChild(d);
+  });
+  $('charList').innerHTML = characters.map(c => `<option value="${c.id}">${c.name}（${c.series || ''}）</option>`).join('');
+}
+$('cFilter').oninput = renderCharList;
+
+function renderCharDetail() {
+  const c = curChar; if (!c) return;
+  $('cId').value = c.id; $('cName').value = c.name || ''; $('cSeries').value = c.series || '';
+  $('cBase').value = c.base || '';
+  const box = $('cOutfits'); box.innerHTML = '';
+  Object.entries(c.outfits || {}).forEach(([k, v]) => {
+    const row = document.createElement('div'); row.className = 'row'; row.style.marginBottom = '6px';
+    row.innerHTML = `<div style="flex:0 0 130px"><input type="text" value="${k}" data-okey></div>
+                     <div style="flex:1"><input type="text" value="${v.replace(/"/g,'&quot;')}" data-oval class="tagcomp"></div>
+                     <div style="flex:0 0 40px"><button class="danger" data-odel>×</button></div>`;
+    row.querySelector('[data-odel]').onclick = () => { saveCharForm(); delete c.outfits[row.querySelector('[data-okey]').value]; renderCharDetail(); };
+    box.appendChild(row);
+  });
+}
+function saveCharForm() {
+  const c = curChar; if (!c) return;
+  const id = $('cId').value.trim();
+  if (id && slugOk(id)) c.id = id;
+  c.name = $('cName').value.trim(); c.series = $('cSeries').value.trim();
+  c.base = $('cBase').value.trim();
+  const outfits = {};
+  $('cOutfits').querySelectorAll('.row').forEach(row => {
+    const k = row.querySelector('[data-okey]').value.trim();
+    if (k) outfits[k] = row.querySelector('[data-oval]').value.trim();
+  });
+  c.outfits = outfits;
+}
+['cId','cName','cSeries','cBase'].forEach(id => $(id).addEventListener('change', () => { saveCharForm(); renderCharList(); }));
+$('cOutfits').addEventListener('change', saveCharForm);
+
+$('cNew').onclick = () => {
+  const c = { id: 'new_' + Date.now() % 100000, name: '', series: '', base: '1girl, solo, ', outfits: { ...settings.outfitTemplates } };
+  characters.unshift(c); curChar = c; renderCharList(); renderCharDetail();
+};
+$('cDup').onclick = () => {
+  if (!curChar) return; saveCharForm();
+  const c = JSON.parse(JSON.stringify(curChar)); c.id += '_copy';
+  characters.splice(characters.indexOf(curChar) + 1, 0, c); curChar = c; renderCharList(); renderCharDetail();
+};
+$('cDel').onclick = () => {
+  if (!curChar || !confirm(`「${curChar.id}」を削除しますか？`)) return;
+  characters = characters.filter(x => x !== curChar); curChar = null; renderCharList();
+};
+$('cSave').onclick = async () => {
+  saveCharForm();
+  await api.put('/api/data/characters', { characters });
+  status('characters.json を保存しました'); renderCharList();
+};
+$('cOutfitAdd').onclick = () => {
+  if (!curChar) return; saveCharForm();
+  let k = 'outfit2', n = 2;
+  while (curChar.outfits[k]) { n++; k = 'outfit' + n; }
+  curChar.outfits[k] = ''; renderCharDetail();
+};
+
+// ============================================================
+// レシピタブ
+// ============================================================
+function initRecipeTab() {
+  $('rNeg').innerHTML = Object.keys(settings.negativePresets).map(k => `<option>${k}</option>`).join('');
+  refreshRecipeSelect();
+  const names = Object.keys(recipes);
+  if (names.length) selectRecipe(names[0]); else newRecipe();
+}
+function refreshRecipeSelect() {
+  $('recipeSelect').innerHTML = Object.keys(recipes).map(n => `<option ${n === curRecipeName ? 'selected' : ''}>${n}</option>`).join('');
+}
+function selectRecipe(name) {
+  curRecipeName = name; selStepIdx = -1;
+  const r = recipes[name];
+  $('rTitle').value = r.title || name;
+  $('rChar').value = r.character || '';
+  $('rNeg').value = r.negative || settings.defaultNegative;
+  $('rSeedMode').value = r.seedMode || ((r.seed ?? -1) >= 0 ? 'increment' : 'random');  // 旧形式互換
+  $('rSeed').value = (r.seed ?? -1);
+  $('rHires').checked = !!r.hiresFix;
+  $('rSpectrum').checked = (r.spectrum ?? true);   // 未指定は有効
+  syncSeedUi();
+  renderSteps();
+}
+$('recipeSelect').onchange = e => { saveRecipeForm(); selectRecipe(e.target.value); };
+
+function newRecipe() {
+  const name = 'recipe_' + new Date().toISOString().slice(0, 10).replace(/-/g, '');
+  let n = name, i = 2; while (recipes[n]) { n = name + '_' + i++; }
+  recipes[n] = { title: n, character: '', negative: settings.defaultNegative, seedMode: 'random', seed: -1, hiresFix: false, spectrum: true, steps: [] };
+  curRecipeName = n; refreshRecipeSelect(); selectRecipe(n);
+}
+$('recipeNew').onclick = () => { saveRecipeForm(); newRecipe(); };
+$('recipeDup').onclick = () => {
+  if (!curRecipeName) return; saveRecipeForm();
+  let n = curRecipeName + '_copy', i = 2; while (recipes[n]) { n = curRecipeName + '_copy' + i++; }
+  recipes[n] = JSON.parse(JSON.stringify(recipes[curRecipeName])); recipes[n].title = n;
+  curRecipeName = n; refreshRecipeSelect(); selectRecipe(n);
+};
+$('recipeDel').onclick = async () => {
+  if (!curRecipeName || !confirm(`レシピ「${curRecipeName}」を削除しますか？`)) return;
+  await api.del(`/api/recipes/${encodeURIComponent(curRecipeName)}`);
+  delete recipes[curRecipeName]; curRecipeName = null;
+  initRecipeTab();
+};
+async function persistRecipe() {
+  const r = recipes[curRecipeName];
+  const newName = r.title.trim();
+  if (!newName) { alert('タイトルを入力してください'); return false; }
+  if (newName !== curRecipeName) {
+    await api.del(`/api/recipes/${encodeURIComponent(curRecipeName)}`);
+    delete recipes[curRecipeName];
+    recipes[newName] = r; curRecipeName = newName;
+  }
+  await api.put(`/api/recipes/${encodeURIComponent(newName)}`, r);
+  refreshRecipeSelect();
+  return true;
+}
+$('recipeSave').onclick = async () => {
+  saveRecipeForm();
+  const r = recipes[curRecipeName];
+  if (!characters.some(c => c.id === r.character)) { if (!confirm(`キャラ id「${r.character}」が characters.json にありません。このまま保存しますか？`)) return; }
+  if (await persistRecipe()) status(`recipes/${curRecipeName}.json を保存しました`);
+};
+
+function syncSeedUi() {
+  $('rSeed').disabled = $('rSeedMode').value === 'random';
+  const hr = settings.generation;
+  $('rHiresHint').textContent = $('rHires').checked ? `x${hr.hr_scale} ${hr.hr_upscaler}` : '使用する';
+}
+function saveRecipeForm() {
+  const r = recipes[curRecipeName]; if (!r) return;
+  r.title = $('rTitle').value.trim();
+  r.character = $('rChar').value.trim();
+  r.negative = $('rNeg').value;
+  r.seedMode = $('rSeedMode').value;
+  const seed = parseInt($('rSeed').value, 10);
+  r.seed = Number.isFinite(seed) ? seed : -1;
+  r.hiresFix = $('rHires').checked;
+  r.spectrum = $('rSpectrum').checked;
+  syncSeedUi();
+}
+['rTitle','rChar','rNeg','rSeedMode','rSeed','rHires','rSpectrum'].forEach(id => $(id).addEventListener('change', () => { saveRecipeForm(); renderSteps(); }));
+
+function renderSteps() {
+  const r = recipes[curRecipeName]; if (!r) return;
+  const tbody = $('stepTable').querySelector('tbody'); tbody.innerHTML = '';
+  const char = characters.find(c => c.id === r.character);
+  const outfitKeys = char ? Object.keys(char.outfits) : Object.keys(settings.outfitTemplates);
+  const sizeKeys = Object.keys(settings.sizes);
+
+  r.steps.forEach((st, i) => {
+    const situ = situations.find(s => s.id === st.situation);
+    const tr = document.createElement('tr');
+    tr.className = 'step-row'; tr.draggable = false; tr.dataset.idx = i;
+    const situOpts = PHASES.map(ph => {
+      const items = situations.filter(s => phaseOf(s) === ph);
+      if (!items.length) return '';
+      return `<optgroup label="${ph}">` + items.map(s => `<option value="${s.id}" ${s.id === st.situation ? 'selected' : ''}>${s.name}（${s.variations.length}）</option>`).join('') + '</optgroup>';
+    }).join('');
+    tr.innerHTML = `
+      <td><span class="drag-handle" draggable="true">⠿</span></td>
+      <td>${String(i + 1).padStart(2, '0')}</td>
+      <td><select data-f="situation" style="max-width:320px">${situ ? '' : `<option value="${st.situation}" selected>⚠ ${st.situation}</option>`}${situOpts}</select></td>
+      <td><select data-f="outfit">${outfitKeys.map(k => `<option ${k === st.outfit ? 'selected' : ''}>${k}</option>`).join('')}</select></td>
+      <td><select data-f="face" title="既定 = シチュエーションの既定の表情">${faceOptions(st.face, true)}</select></td>
+      <td><input type="number" data-f="count" value="${st.count}" min="1" style="width:64px"></td>
+      <td><select data-f="size">${sizeKeys.map(k => `<option ${k === st.size ? 'selected' : ''}>${k}</option>`).join('')}</select></td>
+      <td><select data-f="variationMode"><option ${st.variationMode !== 'random' ? 'selected' : ''}>cycle</option><option ${st.variationMode === 'random' ? 'selected' : ''}>random</option></select></td>
+      <td style="white-space:nowrap">
+        <select data-f="seedMode" title="一括 = 上の設定に従う">
+          <option value="inherit" ${(!st.seedMode || st.seedMode === 'inherit') ? 'selected' : ''}>一括</option>
+          <option value="fixed" ${st.seedMode === 'fixed' ? 'selected' : ''}>固定</option>
+          <option value="increment" ${st.seedMode === 'increment' ? 'selected' : ''}>INC</option>
+          <option value="random" ${st.seedMode === 'random' ? 'selected' : ''}>乱</option>
+        </select><input type="number" data-f="seed" value="${Number.isFinite(st.seed) ? st.seed : ''}" placeholder="seed" style="width:92px;margin-left:4px;display:${(st.seedMode === 'fixed' || st.seedMode === 'increment') ? 'inline-block' : 'none'}">
+      </td>
+      <td><button class="ghost" data-stest title="この行だけ1枚テスト生成（未保存・下に表示）">🧪</button></td>
+      <td><button class="danger" data-sdel>×</button></td>`;
+    tr.querySelectorAll('[data-f]').forEach(el => el.onchange = () => {
+      if (el.dataset.f === 'count') st.count = Math.max(1, parseInt(el.value) || 1);
+      else if (el.dataset.f === 'seed') { const n = parseInt(el.value, 10); if (Number.isFinite(n)) st.seed = n; else delete st.seed; }
+      else st[el.dataset.f] = el.value;
+      renderSteps();
+    });
+    tr.querySelector('[data-stest]').onclick = e => { e.stopPropagation(); selStepIdx = i; testStep(i); };
+    tr.querySelector('[data-sdel]').onclick = () => { r.steps.splice(i, 1); selStepIdx = -1; renderSteps(); };
+    tr.onclick = e => { if (e.target.closest('select,input,button')) { selStepIdx = i; updatePreview(); return; } selStepIdx = i; renderSteps(); };
+    if (i === selStepIdx) tr.style.background = 'var(--accent2)';
+    // ドラッグ並び替え
+    const handle = tr.querySelector('.drag-handle');
+    handle.ondragstart = e => { e.dataTransfer.setData('text/plain', i); tr.classList.add('dragging'); };
+    handle.ondragend = () => tr.classList.remove('dragging');
+    tr.ondragover = e => e.preventDefault();
+    tr.ondrop = e => {
+      e.preventDefault();
+      const from = parseInt(e.dataTransfer.getData('text/plain'));
+      if (isNaN(from) || from === i) return;
+      const [moved] = r.steps.splice(from, 1);
+      r.steps.splice(i, 0, moved);
+      selStepIdx = i; renderSteps();
+    };
+    tbody.appendChild(tr);
+  });
+
+  const total = r.steps.reduce((a, s) => a + (s.count || 0), 0);
+  $('rTotal').textContent = total;
+  $('rTotalNote').textContent = total >= 100 ? '✓ 100枚以上（選別の余裕あり）' : `あと ${100 - total} 枚で 100`;
+  $('rTotalNote').className = total >= 100 ? 'ok' : 'warn';
+  $('rCmd').textContent = `.\\Invoke-Generate.ps1 -Recipe ..\\recipes\\${r.title || '(タイトル)'}.json`;
+  updatePreview();
+}
+$('stepAdd').onclick = () => {
+  const r = recipes[curRecipeName]; if (!r) return;
+  const last = r.steps[r.steps.length - 1];
+  const firstSitu = situations[0];
+  r.steps.push({
+    situation: firstSitu ? firstSitu.id : '',
+    outfit: last ? last.outfit : 'normal',
+    count: 10,
+    size: last ? last.size : 'portrait',
+    variationMode: 'cycle'
+  });
+  selStepIdx = r.steps.length - 1; renderSteps();
+};
+
+function updatePreview() {
+  const r = recipes[curRecipeName];
+  if (!r || selStepIdx < 0 || !r.steps[selStepIdx]) { $('rPreview').textContent = 'step の行をクリックすると合成結果を表示します'; return; }
+  const st = r.steps[selStepIdx];
+  const situ = situations.find(s => s.id === st.situation);
+  const char = characters.find(c => c.id === r.character);
+  if (!situ) { $('rPreview').textContent = '⚠ シチュエーションが見つかりません: ' + st.situation; return; }
+  const v = situ.variations[0] || '';
+  const negExtra = situ.negativeExtra ? `, ${situ.negativeExtra}` : '';
+  $('rPreview').textContent = composePrompt(char, st.outfit, situ, v, resolveFaceTags(st, situ))
+    + (situ.notes ? `\n\n※ ${situ.notes}` : '')
+    + `\n\n--- negative (${r.negative}${situ.negativeExtra ? ' + 追加: ' + situ.negativeExtra : ''}) ---\n`
+    + (settings.negativePresets[r.negative] || r.negative) + negExtra;
+}
+
+// ============================================================
+// テスト生成（API直接呼び出し → 画面内に表示）
+// ============================================================
+function showLightbox(src) {
+  const ov = document.createElement('div');
+  ov.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:100;display:flex;align-items:center;justify-content:center;cursor:zoom-out';
+  const im = document.createElement('img');
+  im.src = src; im.style.cssText = 'max-width:95vw;max-height:95vh;border-radius:6px';
+  ov.appendChild(im); ov.onclick = () => ov.remove();
+  document.body.appendChild(ov);
+}
+
+// シード解決・プロンプト合成はサーバー側 (server.py) が行う
+
+// サーバーへ生成を依頼し、進捗をポーリングして結果カードを表示する
+const fmtEta = s => s == null ? '' : ` 残り目安 ${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
+
+function addResultCard(img, anchor) {
+  // 同名ファイルへの上書き保存でもブラウザキャッシュの古い絵を出さないようURLにタイムスタンプを付ける
+  const bustUrl = img.url + '?t=' + Date.now();
+  const card = document.createElement('div');
+  card.style.cssText = 'width:230px;background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:6px';
+  const im = document.createElement('img');
+  im.src = bustUrl; im.loading = 'lazy';
+  im.style.cssText = 'width:100%;border-radius:4px;cursor:zoom-in;display:block';
+  im.onclick = () => showLightbox(bustUrl);
+  const cap = document.createElement('div');
+  cap.className = 'hint';
+  cap.style.cssText = 'display:flex;justify-content:space-between;align-items:center;margin-top:4px;gap:6px';
+  const open = document.createElement('a');
+  open.textContent = '開く'; open.href = bustUrl; open.target = '_blank';
+  open.style.cssText = 'color:var(--accent);text-decoration:none;border:1px solid var(--accent);border-radius:4px;padding:1px 8px';
+  const del = document.createElement('button');
+  del.textContent = '×'; del.className = 'danger'; del.style.padding = '0 7px';
+  del.onclick = () => card.remove();
+  cap.append(Object.assign(document.createElement('span'), { textContent: `${img.label} / seed ${img.seed}` }), open, del);
+  card.append(im, cap);
+  if (anchor.el) anchor.el.after(card); else $('testResults').prepend(card);
+  anchor.el = card;
+}
+
+let polling = false;
+async function pollProgress() {
+  if (polling) return;
+  polling = true;
+  const anchor = { el: null };
+  let shown = 0;
+  try {
+    while (true) {
+      const p = await api.get('/api/progress');
+      $('genBar').style.width = p.total ? (100 * p.done / p.total) + '%' : '0%';
+      while (shown < p.images.length) addResultCard(p.images[shown++], anchor);
+      if (p.running) {
+        $('testStatus').textContent = `生成中 ${p.done}/${p.total}: ${p.current}${fmtEta(p.eta_sec)}（${p.title} / ${p.mode}）`;
+      } else {
+        $('testStatus').textContent = p.error
+          ? `エラー: ${p.error}`
+          : (p.total ? `完了: ${p.done}/${p.total} 枚（output\\${p.title}${p.mode !== 'full' ? '\\_test' : ''} に保存済み）` : '');
+        break;
+      }
+      await new Promise(res => setTimeout(res, 800));
+    }
+  } catch (e) {
+    $('testStatus').textContent = `進捗取得エラー: ${e.message}`;
+  } finally {
+    polling = false;
+  }
+}
+
+async function startGeneration(body, confirmMsg) {
+  saveRecipeForm();
+  const r = recipes[curRecipeName]; if (!r) return;
+  if (!characters.some(c => c.id === r.character)) { alert(`キャラ id「${r.character}」が見つかりません`); return; }
+  if (confirmMsg && !confirm(confirmMsg)) return;
+  try {
+    await api.post('/api/generate', { recipe: r, ...body });
+    pollProgress();
+  } catch (e) {
+    $('testStatus').textContent = `エラー: ${e.message}`;
+  }
+}
+
+async function testStep(i) {
+  await startGeneration({ mode: 'step', stepIndex: i });
+}
+$('genFull').onclick = async () => {
+  saveRecipeForm();
+  const r = recipes[curRecipeName]; if (!r) return;
+  const total = r.steps.reduce((a, s) => a + (s.count || 0), 0);
+  if (!await persistRecipe()) return;   // 本生成前にレシピを保存
+  startGeneration({ mode: 'full' }, `「${r.title}」を ${total} 枚生成します。よろしいですか？`);
+};
+$('genResume').onclick = () => startGeneration({ mode: 'full', resume: true });
+$('genStop').onclick = async () => { await api.post('/api/stop'); $('testStatus').textContent = '停止要求を送信しました（実行中の1枚が終わり次第停止）'; };
+$('genPlan').onclick = async () => {
+  saveRecipeForm();
+  const r = recipes[curRecipeName]; if (!r) return;
+  try { $('rPreview').textContent = await api.text('/api/plan', { recipe: r }); }
+  catch (e) { $('rPreview').textContent = 'エラー: ' + e.message; }
+};
+$('genLastReq').onclick = async () => {
+  try {
+    const lr = await api.get('/api/last_request');
+    if (!lr.payload) { $('rPreview').textContent = 'まだAPIリクエストを送っていません（生成後に押してください）'; return; }
+    $('rPreview').textContent =
+      `# ${lr.time}  ${lr.file}\n\n## 送信ペイロード (POST /sdapi/v1/txt2img)\n`
+      + JSON.stringify(lr.payload, null, 2)
+      + `\n\n## WebUI側が返した infotext\n${lr.infotext || '(なし)'}`
+      + `\n\n※ 全履歴: output\\<作品名>\\api_log.jsonl`;
+  } catch (e) { $('rPreview').textContent = 'エラー: ' + e.message; }
+};
+$('testClear').onclick = () => { $('testResults').innerHTML = ''; $('testStatus').textContent = ''; $('genBar').style.width = '0%'; };
+
+// 画面リロード時に実行中ジョブがあれば進捗表示を再開
+api.get('/api/progress').then(p => { if (p.running) pollProgress(); }).catch(() => {});
+
+// ============================================================
+// タグ補完 (tagcomplete の辞書をサーバー経由で検索)
+// 対象: class="tagcomp" の textarea / input
+// ============================================================
+const TC = { box: null, items: [], sel: 0, target: null, tokenStart: 0, tokenEnd: 0, timer: null };
+
+function tcToken(el) {
+  const pos = el.selectionStart ?? el.value.length;
+  const m = el.value.slice(0, pos).match(/[^,\n{}|()]*$/);
+  return { start: pos - m[0].length, end: pos, text: m[0].trim() };
+}
+
+const TC_KAOMOJI = /^[\^><o0;:@x+=._\-~]+$/i;
+function tcFormat(tag) {
+  const t = TC_KAOMOJI.test(tag) ? tag : tag.replace(/_/g, ' ');
+  return t.replace(/([()])/g, '\\$1');   // WebUI流: 括弧はエスケープ
+}
+
+const tcCount = n => n >= 1e6 ? (n / 1e6).toFixed(1) + 'M' : n >= 1e3 ? Math.round(n / 1e3) + 'k' : String(n);
+
+function tcRender() {
+  TC.box.innerHTML = TC.items.map((it, i) =>
+    `<div data-i="${i}" style="padding:4px 10px;cursor:pointer;display:flex;justify-content:space-between;gap:14px;${i === TC.sel ? 'background:var(--accent2);color:#fff' : ''}">
+       <span>${it.tag}${it.jp ? ` <span style="color:var(--fg-dim);font-size:11px">${it.jp.split(',')[0]}</span>` : ''}</span>
+       <span style="color:var(--fg-dim);font-size:11px">${tcCount(it.count)}</span></div>`).join('');
+  TC.box.querySelectorAll('[data-i]').forEach(d => {
+    d.onmousedown = e => { e.preventDefault(); TC.sel = +d.dataset.i; tcAccept(); };
+  });
+  TC.box.style.display = 'block';
+}
+
+function tcPosition(el) {
+  // ミラー要素でキャレットの画面座標を求める
+  const rect = el.getBoundingClientRect();
+  const stl = getComputedStyle(el);
+  const div = document.createElement('div');
+  for (const p of ['fontFamily', 'fontSize', 'fontWeight', 'lineHeight', 'letterSpacing', 'padding', 'borderWidth', 'boxSizing']) div.style[p] = stl[p];
+  div.style.position = 'fixed'; div.style.visibility = 'hidden';
+  div.style.whiteSpace = el.tagName === 'INPUT' ? 'pre' : 'pre-wrap';
+  div.style.width = rect.width + 'px';
+  div.textContent = el.value.slice(0, el.selectionStart ?? 0);
+  const span = document.createElement('span'); span.textContent = '​';
+  div.appendChild(span);
+  document.body.appendChild(div);
+  const lh = parseInt(stl.lineHeight, 10) || 20;
+  const x = rect.left + span.offsetLeft - el.scrollLeft;
+  const y = rect.top + span.offsetTop - el.scrollTop + lh;
+  div.remove();
+  TC.box.style.left = Math.max(8, Math.min(x, window.innerWidth - 320)) + 'px';
+  TC.box.style.top = Math.min(y, window.innerHeight - 330) + 'px';
+}
+
+function tcQuery(el) {
+  clearTimeout(TC.timer);
+  const tok = tcToken(el);
+  const q = tok.text;
+  const min = /[^\x00-\x7F]/.test(q) ? 1 : 2;
+  if (q.length < min) { tcHide(); return; }
+  TC.timer = setTimeout(async () => {
+    try {
+      const items = await api.get(`/api/tags?q=${encodeURIComponent(q)}&limit=10`);
+      if (!items.length || document.activeElement !== el) { tcHide(); return; }
+      const t2 = tcToken(el);
+      TC.items = items; TC.sel = 0; TC.target = el;
+      TC.tokenStart = t2.start; TC.tokenEnd = t2.end;
+      tcRender(); tcPosition(el);
+    } catch (e) { tcHide(); }
+  }, 150);
+}
+
+function tcAccept() {
+  const el = TC.target, it = TC.items[TC.sel];
+  if (!el || !it) { tcHide(); return; }
+  const v = el.value;
+  const leading = v.slice(TC.tokenStart, TC.tokenEnd).match(/^\s*/)[0];
+  const ins = leading + tcFormat(it.tag) + ', ';
+  el.value = v.slice(0, TC.tokenStart) + ins + v.slice(TC.tokenEnd);
+  const np = TC.tokenStart + ins.length;
+  el.setSelectionRange(np, np);
+  el.dispatchEvent(new Event('change', { bubbles: true }));   // 既存のフォーム反映を発火
+  tcHide(); el.focus();
+}
+
+function tcHide() { if (TC.box) TC.box.style.display = 'none'; TC.target = null; }
+
+(function tcInit() {
+  TC.box = document.createElement('div');
+  TC.box.style.cssText = 'position:fixed;z-index:200;background:var(--bg2);border:1px solid var(--accent);border-radius:6px;display:none;min-width:280px;max-height:310px;overflow-y:auto;font-size:13px;font-family:Consolas,monospace;box-shadow:0 4px 16px rgba(0,0,0,.5)';
+  document.body.appendChild(TC.box);
+  document.addEventListener('input', e => {
+    if (e.target.matches?.('textarea.tagcomp, input.tagcomp')) tcQuery(e.target);
+  });
+  document.addEventListener('keydown', e => {
+    if (TC.box.style.display === 'none') return;
+    if (e.key === 'ArrowDown') { TC.sel = Math.min(TC.sel + 1, TC.items.length - 1); tcRender(); e.preventDefault(); }
+    else if (e.key === 'ArrowUp') { TC.sel = Math.max(TC.sel - 1, 0); tcRender(); e.preventDefault(); }
+    else if (e.key === 'Tab' || e.key === 'Enter') { tcAccept(); e.preventDefault(); }
+    else if (e.key === 'Escape') { tcHide(); e.stopPropagation(); }
+  }, true);
+  document.addEventListener('click', e => { if (!TC.box.contains(e.target)) tcHide(); });
+  document.addEventListener('scroll', () => tcHide(), true);
+})();
+
+// ============================================================
+// 設定タブ
+// ============================================================
+$('setSave').onclick = async () => {
+  try { settings = JSON.parse($('setJson').value); }
+  catch (e) { $('setHint').textContent = 'JSON エラー: ' + e.message; return; }
+  await api.put('/api/data/settings', settings);
+  $('setHint').textContent = '保存しました';
+  status('settings.json を保存しました');
+  renderSituList(); renderSteps();
+};
+</script>
+</body>
+</html>

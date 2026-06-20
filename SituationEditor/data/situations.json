@@ -1,0 +1,670 @@
+{
+  "situations": [
+    {
+      "id": "new_39321",
+      "name": "しゃがみ",
+      "phase": "導入",
+      "tags": [],
+      "base": "sitting , looking at viewer,  head tilt,  white panties , squatting,  knees together feet apart,",
+      "variations": [
+        "{sigh,jitome |light smile}"
+      ],
+      "notes": "",
+      "negativeExtra": "",
+      "defaultOutfit": "normal",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "intro_capture",
+      "name": "導入・捕縛",
+      "phase": "導入",
+      "tags": [
+        "tentacle5",
+        "ネタ帳"
+      ],
+      "base": "in tentacles pit, coiling tentacles",
+      "variations": [
+        "standing, restrained, from below, { arms up | spread arms }",
+        "leaning forward, legs wrap tentacles, bound",
+        "spread arms, m legs, attacked",
+        "crouching, restrained, legs up",
+        "restrained, spread arms, spread legs",
+        "kneeling, captured, restrained",
+        "floating, lifted, spread arms, suspended from tentacles",
+        "upside down, grabbed ankles, legs up",
+        "sitting, surrounded, restrained",
+        "lying, entangled, legs wrap tentacles",
+        "sitting, knees together feet apart, restrained"
+      ],
+      "notes": "捕縛ポーズ集。困惑顔は __face/emberassed__ で毎回ランダム",
+      "defaultOutfit": "normal",
+      "defaultSize": "portrait_v",
+      "defaultFace": "haji_rand"
+    },
+    {
+      "id": "panchira_sit",
+      "name": "しゃがみパンチラ（触手なし）",
+      "phase": "導入",
+      "tags": [
+        "ネタ帳"
+      ],
+      "base": "embarrassed, white panties",
+      "variations": [
+        "wariza, skirt tug",
+        "knees together feet apart, sitting, skirt tug",
+        "knees together feet apart, hugging own legs",
+        "knees together feet apart, hugging own legs, open mouth, from below, surprised",
+        "knees together feet apart, hugging own legs, open mouth, from below, nose blush",
+        "m legs, open mouth, from below",
+        "m legs, open mouth, from below, pussy juice, heavy breathing",
+        "m legs, open mouth, from below, pussy juice, heavy breathing, panties aside, pussy",
+        "m legs, open mouth, from below, pussy juice, heavy breathing, panties aside, spread pussy, cervix, nose blush"
+      ],
+      "notes": "捕縛前の導入用。触手を出す場合は base に in tentacles pit を追加",
+      "defaultOutfit": "normal",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "panchira_front",
+      "name": "パンチラ 前から",
+      "phase": "序盤",
+      "tags": [
+        "tentacle5",
+        "tentacle4"
+      ],
+      "base": "white panties, torn clothes, restrained",
+      "variations": [
+        "from below, knees together feet apart, legs wrap tentacles, tearing up, streaming tears, open mouth",
+        "from below, sitting, on ground, knees together feet apart, legs wrap tentacles, surprised, sobbing, tearing up, covering crotch",
+        "sobbing, tearing up, from below, legs wrap tentacles, spread arms, spread legs, streaming tears, open mouth, looking away",
+        "from below, on ground, legs wrap tentacles, arms up, tearing up, streaming tears, clenched teeth, frown, spread legs, legs up",
+        "from below, close-up crotch, arms up, tearing up, spread legs, legs up, pussy juice, crotch rub, motion lines, motion blur, (trembling, ecstasy:1.3), heavy breathing",
+        "from below, close-up crotch, full nelson, clenched teeth, pussy juice, tentacle rub crotch, motion lines, motion blur, (trembling, ecstasy:1.3), heavy breathing, half-closed eyes, sound effects",
+        "from below, close-up crotch, legs wrap tentacles, tearing up, covering crotch, pussy juice, embarrassed, nose blush, looking away, sweat"
+      ],
+      "defaultOutfit": "normal",
+      "defaultSize": "portrait_v",
+      "defaultFace": "haji_rand"
+    },
+    {
+      "id": "panchira_back",
+      "name": "パンチラ 後ろから",
+      "phase": "序盤",
+      "tags": [
+        "tentacle5",
+        "tentacle4"
+      ],
+      "base": "white panties, restrained",
+      "variations": [
+        "from below, from behind, tearing up, open mouth, frown",
+        "from below, from behind, tearing up, open mouth, frown, covering crotch",
+        "from below, from behind, tearing up, surprised, clenched teeth, arms behind back, bent over",
+        "from below, from behind, close-up crotch, clenched teeth, bent over, pussy juice, motion lines, arms behind back, sound effects, heavy breathing, spread pussy, panties aside, trembling",
+        "top-down bottom-up, legs wrap tentacles, (from behind, ass:1.2), from below, looking at viewer, open mouth, motion lines, frown, half-closed eyes, heavy breathing, (pussy juice:1.2), nose blush, (crotch rub:1.2), (japanese sound effects:1.2)",
+        "top-down bottom-up, legs wrap tentacles, (from behind, ass:1.2), from below, panties aside, pussy, (surprised:1.2), open mouth, shouting, (pussy juice:1.1), looking at viewer, tentacles spread pussy, trembling",
+        "top-down bottom-up, legs wrap tentacles, (from behind, ass:1.2), from below, panties aside, pussy, pussy juice, looking at viewer, large insertion, (female orgasm, ecstasy:1.3), (motion lines, motion blur:1.2), (japanese sound effects:1.2), open mouth, drooling"
+      ],
+      "defaultOutfit": "normal",
+      "defaultSize": "portrait_v",
+      "defaultFace": "haji_rand"
+    },
+    {
+      "id": "crotch_tease",
+      "name": "パンツの上から刺激",
+      "phase": "序盤",
+      "tags": [
+        "tentacle5",
+        "memo"
+      ],
+      "base": "white panties, restrained, sound effects, from below, pussy juice",
+      "variations": [
+        "{ embarrassed | ecstasy, embarrassed }, { open mouth | clenched teeth }, trembling, heavy breathing, { open eyes | one eye closed | closed eyes }, crotch rub, { leaning forward | legs up, { spread legs | knees together feet apart } | from behind, ass, doggystyle }, { spread arms | arms up }, close-up crotch, wavy mouth",
+        "tentacles restrained, spread arms, crotch rub, half-closed eyes, heavy breathing, trembling, (female orgasm, ecstasy:1.2), open mouth, drooling, torn clothes, spread legs, legs up",
+        "doggystyle, from behind, ass, tentacles restrained, crotch rub, half-closed eyes, heavy breathing, trembling, (female orgasm, ecstasy:1.2), open mouth, drooling"
+      ],
+      "defaultOutfit": "normal",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "breast_tease",
+      "name": "胸いじり・乳首",
+      "phase": "序盤",
+      "tags": [
+        "tentacle4",
+        "tentacle6"
+      ],
+      "base": "restrained, (upper body:1.2)",
+      "variations": [
+        "tearing up, heavy breathing, clenched teeth, arms up",
+        "tearing up, heavy breathing, clenched teeth, arms up, tentacles breast sucking, close-up breasts, ecstasy, (trembling:1.2), open mouth",
+        "tearing up, heavy breathing, clenched teeth, arms up, tentacles breast sucking, close-up breasts, ecstasy, (trembling:1.2), open mouth, (japanese sound effects, japanese speech bubble:1.2)",
+        "tearing up, heavy breathing, open mouth, half-closed eyes, arms up, tentacles breast sucking, close-up breasts, ecstasy, (trembling:1.2), (japanese sound effects, japanese speech bubble:1.2)",
+        "{ leaning forward, arms up | sweat }, { tentacles milking breasts | tentacles breast sucking }, { clenched teeth | (ecstasy:1.1) }, trembling, drooling, in tentacles nest, sound effects"
+      ],
+      "defaultOutfit": "torn",
+      "defaultSize": "portrait_v",
+      "defaultFace": "haji_rand"
+    },
+    {
+      "id": "zenkagami",
+      "name": "前かがみ・胸吸い",
+      "phase": "中盤",
+      "tags": [
+        "tentacle5"
+      ],
+      "base": "torn clothes, leaning forward, restrained",
+      "variations": [
+        "bent over, open mouth, { arms up | spread arms }, (upper body:1.2), tentacles under clothes, ecstasy, half-closed eyes",
+        "{ tentacles breast sucking | milking tentacles }, ({ clenched teeth | open mouth, drooling }, ecstasy:1.1), (heavy breathing, trembling:1.2), sound effects",
+        "(tentacles breast sucking:1.2), trembling, clenched teeth",
+        "looking away, (tentacles breast sucking:1.2), trembling, tearing up, irrumatio, motion lines, motion blur, open mouth",
+        "looking away, (tentacles breast sucking:1.2), trembling, tearing up, irrumatio, motion lines, motion blur, one eye closed",
+        "(tentacles breast sucking:1.2), trembling, tearing up, (irrumatio:1.2), deepthroat, motion lines, motion blur, surprised, half-closed eyes, drooling, frown",
+        "(tentacles breast sucking:1.2), trembling, tearing up, (irrumatio:1.2), deepthroat, motion lines, motion blur, surprised, drooling, cum in mouth",
+        "tearing up, (open mouth:1.2), cum in mouth, cum in throat, drooling, heavy breathing, streaming tears, cum on tongue"
+      ],
+      "defaultOutfit": "torn",
+      "defaultSize": "portrait_v",
+      "defaultFace": "haji_rand"
+    },
+    {
+      "id": "fellatio_resist",
+      "name": "フェラ（抵抗・涙目）",
+      "phase": "中盤",
+      "tags": [
+        "tentacle5",
+        "tentacle6"
+      ],
+      "base": "restrained, upper body, close-up face, heavy breathing, sound effects",
+      "variations": [
+        "looking away, arms up, trembling, tearing up, tentacle deepthroat, front, motion lines, motion blur, from side, imminent fellatio, arms behind back, frown",
+        "looking away, arms up, trembling, tearing up, tentacle deepthroat, front, motion lines, motion blur, from side, fellatio, arms behind back",
+        "looking away, arms up, trembling, tearing up, tentacle deepthroat, fellatio, arms behind back, cum in mouth, streaming tears, surprised",
+        "arms up, trembling, tearing up, irrumatio, deepthroat, (surprised:1.2), streaming tears, frown",
+        "tentacles oral, from side, looking away, tearing up, streaming tears",
+        "tentacles oral, from side, looking away, cum in mouth, trembling, streaming tears, surprised",
+        "frown, facial, { open eyes | one eye closed, frown | closed eyes }, streaming tears, { from above | from side }, looking at viewer, trembling, irrumatio, detail eyes, cum in mouth, bukkake",
+        "cum in mouth, open mouth, spread arms, (trembling:1.3), half-closed eyes, drooling, from above, facial, bukkake, cum on breasts, tearing up, streaming tears"
+      ],
+      "defaultOutfit": "torn",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "kupa_front",
+      "name": "クパァ→挿入 前から",
+      "phase": "中盤",
+      "tags": [
+        "tentacle5",
+        "tentacle6"
+      ],
+      "base": "restrained, from below",
+      "variations": [
+        "covering crotch, clenched teeth, pussy juice, frown, covering breasts",
+        "spread arms, clenched teeth, pussy juice, streaming tears, pussy, knees together feet apart, crotch rub",
+        "spread arms, close-up crotch, open mouth, surprised, nose blush, spread pussy, m legs, close-up pussy, pussy juice, streaming tears",
+        "spread arms, open mouth, tearing up, ecstasy, heavy breathing, pussy juice, deep penetration, cross-section, motion lines, legs up, spread legs, sound effects, close-up pussy, clenched teeth",
+        "spread arms, open mouth, tearing up, ecstasy, heavy breathing, pussy juice, deep penetration, cross-section, motion lines, legs up, spread legs, close-up pussy, closed eyes, clenched teeth, cum in pussy, sound effects"
+      ],
+      "defaultOutfit": "torn",
+      "defaultSize": "portrait_v",
+      "defaultFace": "haji_rand"
+    },
+    {
+      "id": "kupa_back",
+      "name": "クパァ→挿入 後ろから",
+      "phase": "中盤",
+      "tags": [
+        "tentacle5",
+        "tentacle6"
+      ],
+      "base": "streaming tears, open mouth, from behind, ass, restrained, sound effects",
+      "variations": [
+        "imminent penetration, covering crotch",
+        "spread pussy, bent over, clenched teeth, { spread arms | arms up }, pussy juice",
+        "imminent penetration, bent over, tentacles insertion, from below, (large insertion:1.1), { spread arms | arms up }, pussy juice",
+        "bent over, tentacles insertion, from below, { spread arms | arms up }, motion lines, pussy juice, heavy breathing, ecstasy, cross-section, tentacles sex",
+        "spread pussy, bent over, clenched teeth, (large insertion:1.2), trembling, heavy breathing, cross-section, frown, ecstasy, cum in pussy, { spread arms | arms up }",
+        "bent over, arched back, half-closed eyes, heavy breathing, ecstasy, trembling, cross-section, cum in pussy, { spread arms | arms up }, motion lines, pussy juice, tentacles sex, looking at viewer, heart-shaped pupils, drooling"
+      ],
+      "defaultOutfit": "torn",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "insertion_basic",
+      "name": "挿入（涙目・苦悶）",
+      "phase": "中盤",
+      "tags": [
+        "tentacle5",
+        "tentacle6"
+      ],
+      "base": "tentacles sex, restrained, heavy breathing, trembling, tearing up, pussy juice, sound effects, motion lines",
+      "variations": [
+        "{2-3$$frown | clenched teeth | embarrassed | open mouth | half-closed eyes | ecstasy }, { cross-section | sweat }, { arms up | spread arms }, nipples, bukkake, facial",
+        "from below, pussy, spread legs, legs up, x-ray",
+        "doggystyle, from behind, ass",
+        "bent over, from behind, ass, pussy",
+        "from side, spitroast, x-ray",
+        "leaning forward, cross-section, breast sucking, spread arms",
+        "from above, cross-section",
+        "reverse cowgirl position, lower body, from below, pussy, cross-section, from behind, ass",
+        "squatting, spread legs, from below, pussy",
+        "from below, pussy, cross-section, spread legs",
+        "legs up, pussy",
+        "spitroast, { oral | cum in mouth }",
+        "from below, standing sex, hands on wall, from behind, ass",
+        "spread arms, spread legs, from below, close-up pussy, x-ray"
+      ],
+      "notes": "大量挿入にする場合は base に (large insertion:1.2) を追加",
+      "defaultOutfit": "torn",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "awaken_lying",
+      "name": "仰向け絶頂（覚醒）",
+      "phase": "中盤",
+      "tags": [
+        "tentacle4",
+        "tentacle5"
+      ],
+      "base": "lying, on tentacles pit, on back, legs wrap tentacles, open mouth, white panties, open clothes, nipples, spread arms, tentacles coil body, tentacles grabbing breasts, trembling, pussy juice",
+      "variations": [
+        "tearing up, legs up, spread legs, panties aside, heavy breathing, (orgasm, ecstasy:1.4), (japanese sound effects:1.2), from below, close-up pussy, (cum in pussy, streaming tears:1.1), sobbing",
+        "legs up, spread legs, panties aside, heavy breathing, (orgasm, ecstasy:1.4), (japanese sound effects:1.2), from below, close-up pussy, cumdrip, sobbing",
+        "tearing up, looking at viewer, (female orgasm, trembling, heavy breathing:1.2), sweat, embarrassed, large insertion, ecstasy, arched back, (sound effects:1.2), legs up, ahegao, from below, shouting, speech bubble",
+        "tearing up, looking at viewer, (female orgasm, trembling, heavy breathing:1.3), sweat, large insertion, ecstasy, arched back, (sound effects:1.5), cum in pussy, cum explosion, bukkake, facial, empty eyes, cross-section, streaming tears, shouting"
+      ],
+      "defaultOutfit": "torn",
+      "defaultSize": "landscape",
+      "defaultFace": "none"
+    },
+    {
+      "id": "legs_open",
+      "name": "足開き苦悶（ぶっかけ）",
+      "phase": "中盤",
+      "tags": [
+        "tentacle4"
+      ],
+      "base": "(trembling:1.3), arms up, arms wrap tentacles, restrained, tentacles wrap breasts, legs wrap tentacles, torso wrap tentacles, from below",
+      "variations": [
+        "crying, open mouth, cum on body, facial, cum on breasts, tearing up, streaming tears, sobbing, bukkake, knees together feet apart, pussy",
+        "clenched teeth, frown, disgust, looking at viewer, bukkake, cum on breasts, pussy, imminent penetration, tearing up",
+        "streaming tears, looking at viewer, bukkake, cum on breasts, pussy, legs up, tearing up",
+        "streaming tears, looking at viewer, bukkake, cum on breasts, pussy, legs up, large insertion, one eye closed, frown",
+        "streaming tears, looking at viewer, bukkake, pussy, legs up, large insertion, tentacle sex, vaginal, one eye closed, frown, heavy breathing, (orgasm, ecstasy:1.1), open mouth, breast sucking",
+        "looking at viewer, bukkake, pussy, spread legs, legs up, large insertion, tentacle sex, vaginal, heavy breathing, (orgasm, trembling, ecstasy:1.3), open mouth, breast sucking, (japanese sound effects:1.4), motion lines, motion blur, cum in pussy, (uterus:1.2)"
+      ],
+      "defaultOutfit": "torn",
+      "defaultSize": "portrait_v",
+      "defaultFace": "haji_rand"
+    },
+    {
+      "id": "mesu_full_nelson",
+      "name": "メス堕ち full nelson",
+      "phase": "終盤",
+      "tags": [
+        "tentacle5",
+        "tentacle6"
+      ],
+      "base": "full nelson, restrained, pussy, pussy juice, tentacles sex, large insertion, from below, arms up",
+      "variations": [
+        "half-closed eyes, clenched teeth",
+        "x-ray, open mouth, drooling, empty eyes, half-closed eyes, ecstasy, (trembling:1.3), spread legs, legs up",
+        "x-ray, cum in pussy, arched back, pink eyes, heart-shaped pupils, open mouth, speech bubble, female orgasm, female ejaculation, spread legs, legs up"
+      ],
+      "defaultOutfit": "nude",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "mesu_renzoku",
+      "name": "連続絶頂（構図ランダム）",
+      "phase": "終盤",
+      "tags": [
+        "tentacle6"
+      ],
+      "base": "in tentacles pit, tentacles sex, { tearing up | streaming tears }, bukkake, facial, heavy breathing, trembling, { one eye closed | half-closed eyes | open eyes }, { shouting | open mouth | clenched teeth }, restrained, sound effects, { 2-3$$ecstasy | female ejaculation | ecstasy }",
+      "variations": [
+        "from below, pussy",
+        "doggy style, from behind, ass, pussy juice",
+        "bent over, from behind, ass, pussy, pussy juice",
+        "from side, spitroast, x-ray",
+        "leaning forward, cross-section, breast sucking, spread arms",
+        "spread legs, legs up, pussy, from below, x-ray",
+        "from behind, ass",
+        "from below, clitoris, close-up pussy, cum in pussy, cross-section",
+        "from behind, ass, from below, pussy, cross-section, pussy juice",
+        "from below, pussy, cross-section, pussy juice, spread legs, restrained",
+        "reverse cowgirl position, lower body, from below, pussy, cross-section, from behind, ass",
+        "lower body, from below, pussy, spread legs",
+        "legs up, pussy, pussy juice",
+        "leaning forward, cross-section, breast sucking, milking tentacles",
+        "cowgirl position, squatting",
+        "spitroast, { oral | cum in mouth }",
+        "from below, standing sex, hands on wall, from behind, ass",
+        "spread arms, spread legs, restrained, trembling, from below, close-up pussy, x-ray"
+      ],
+      "notes": "base に表情・絶頂・ぶっかけが全部入り。variation は構図のみなので量産向き",
+      "defaultOutfit": "nude",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "mesu_otoshi",
+      "name": "メス堕ち（ハート目）",
+      "phase": "終盤",
+      "tags": [
+        "tentacle6"
+      ],
+      "base": "drooling, heavy breathing, motion lines, motion blur, large insertion, tearing up, bukkake, facial, { sweat | female ejaculation, female orgasm }, (trembling:1.2), (shouting:1.2), sound effects, cum in pussy",
+      "variations": [
+        "spread arms, restrained, legs up, from below, { nipples | breast sucking }",
+        "from below, straddling, cross-section",
+        "spread legs, legs up, from below, pussy, close-up pussy, arched back, cross-section",
+        "doggystyle, from behind, ass, from below, arched back, cross-section",
+        "top-down bottom-up, from behind, pussy, close-up pussy",
+        "upside down, restrained, close-up pussy, from behind, pussy",
+        "straddling, from behind, ass, pussy, from below, arched back, cross-section",
+        "squatting, from behind, ass, pussy, from below, pussy juice",
+        "straddling, from below, pussy",
+        "m legs, oral, handjob, cross-section",
+        "reverse cowgirl position, from behind, ass, handjob, oral, arched back",
+        "oral, doggystyle, cross-section",
+        "m legs, spread pussy, pussy, cross-section",
+        "gangbang, oral, tentacles sex, motion lines, torn clothes, arched back, close-up pussy, multiple views, legs up, spread arms"
+      ],
+      "defaultOutfit": "nude",
+      "defaultSize": "portrait_v",
+      "defaultFace": "mesu_rand"
+    },
+    {
+      "id": "mesu_fellatio",
+      "name": "メス堕ちフェラ",
+      "phase": "終盤",
+      "tags": [
+        "tentacle4",
+        "tentacle5",
+        "ネタ帳"
+      ],
+      "base": "upper body, close-up face, heavy breathing",
+      "variations": [
+        "looking at viewer, spread arms, irrumatio, deepthroat, oral, frown, tearing up",
+        "looking at viewer, spread arms, irrumatio, deepthroat, oral, surprised, cum in mouth, tearing up",
+        "looking at viewer, spread arms, irrumatio, deepthroat, oral, (orgasm, trembling:1.3), cum in mouth, (pink eyes:1.2), heart-shaped pupils, (surprised:1.2)",
+        "irrumatio, deepthroat, face only, holding tentacles, ecstasy, trembling, facial, bukkake, { handjob | sweat }, looking at viewer",
+        "half-closed eyes, pink eyes, cum in mouth, cum in throat, oral invitation, heart-shaped pupils, cupping hands",
+        "{ from above | from below | from side }, { wariza | squatting }, masturbation, { fingering | tweak own nipple }, tentacles gangbang, motion lines, cum in mouth, { irrumatio | deepthroat | oral invitation, cum in mouth }"
+      ],
+      "defaultOutfit": "nude",
+      "defaultSize": "portrait_v",
+      "defaultFace": "mesu_rand"
+    },
+    {
+      "id": "mesu_tekoki",
+      "name": "手コキ・ご奉仕",
+      "phase": "終盤",
+      "tags": [
+        "tentacle4",
+        "tentacle5"
+      ],
+      "base": "heavy breathing, motion lines, looking at viewer",
+      "variations": [
+        "fellatio, handjob, wariza, sound effects, bukkake, facial, ecstasy, half-closed eyes",
+        "motion blur, from above, handjob",
+        "from above, cum on body, cum on breasts, (tentacles handjob:1.2), open mouth, head tilt, nipples, oral invitation",
+        "from above, cum on body, cum on breasts, facial, (tentacles handjob:1.2), open mouth, head tilt, nipples, cum ejaculation, oral invitation",
+        "from above, cum on body, cum on breasts, facial, double (tentacles handjob:1.2), open mouth, nipples, oral invitation, cum in mouth"
+      ],
+      "defaultOutfit": "nude",
+      "defaultSize": "portrait_v",
+      "defaultFace": "mesu_rand"
+    },
+    {
+      "id": "mesu_paizuri",
+      "name": "パイズリ",
+      "phase": "終盤",
+      "tags": [
+        "ネタ帳",
+        "連続"
+      ],
+      "base": "heavy breathing, pink eyes, heart-shaped pupils, upper body, pov, open clothes, nipples, motion lines",
+      "variations": [
+        "paizuri, looking at viewer, precum",
+        "paizuri, licking penis, looking at viewer, precum",
+        "paizuri, (deepthroat:1.2), looking at viewer, cum in mouth",
+        "paizuri, from above, sound effects, half-closed eyes",
+        "paizuri, from above, (motion lines:1.2), motion blur, sound effects, half-closed eyes, irrumatio, deepthroat",
+        "paizuri, from above, sound effects, ejaculation, facial, cum in mouth, bukkake, deepthroat",
+        "half-closed eyes, facial, cum in mouth, bukkake, heart-shaped pupils, after paizuri, grabbing own breasts, cum in throat, open mouth"
+      ],
+      "notes": "連続.md には <lora:kougo paizuri_noobai_V1.0:1> 使用版あり。効きが悪ければ variation に追記",
+      "defaultOutfit": "torn",
+      "defaultSize": "portrait_v",
+      "defaultFace": "fera_smile_rand"
+    },
+    {
+      "id": "mesu_kijoui",
+      "name": "騎乗位",
+      "phase": "終盤",
+      "tags": [
+        "tentacle4",
+        "tentacle5"
+      ],
+      "base": "heavy breathing, from below, motion lines, motion blur, nipples",
+      "negativeExtra": "1boy, penis",
+      "variations": [
+        "squatting, pussy, own nipple tweak",
+        "squatting, pussy, own nipple tweak, pussy juice, female ejaculation",
+        "straddling, pussy, from above, own clitoris tweak, pussy juice, female ejaculation, (uterus, x-ray:1.1), cum in pussy",
+        "cowgirl position, { squatting | straddling | leaning forward }, close-up pussy, (large insertion:1.1), { sweat | tweaking own nipple | cross-section }",
+        "lying, m legs, cumdrip, (orgasm, ecstasy:1.3), pussy, pussy juice, female ejaculation, spread pussy, looking at viewer, tweaking own nipple"
+      ],
+      "notes": "Tentacle4 メモ「negative: 1boy」→ negativeExtra に設定済み",
+      "defaultOutfit": "nude",
+      "defaultSize": "portrait_v",
+      "defaultFace": "mesu_rand"
+    },
+    {
+      "id": "mesu_doggy",
+      "name": "四つん這い・尻上げ",
+      "phase": "終盤",
+      "tags": [
+        "tentacle4"
+      ],
+      "base": "doggystyle, restrained, trembling, heavy breathing",
+      "variations": [
+        "from side, scared, looking away, clenched teeth",
+        "from side, scared, from behind, split view, multiple views, ass, anal penetration, double penetration, motion lines, motion blur, pussy, clenched teeth",
+        "from side, from behind, ass, anal penetration, double penetration, motion lines, motion blur, pussy, (ecstasy:1.3), cross-section, cum in pussy, surprised, (pink eyes:1.2), drooling, open mouth, half-closed eyes, shouting",
+        "front, (heart-shaped pupils, pink eyes:1.2), (ecstasy:1.3), cum in pussy, drooling, open mouth, half-closed eyes, looking at viewer, (trembling:1.3)",
+        "top-down bottom-up, (from behind, ass:1.1), looking at viewer, drooling, tentacle sex, vaginal, (ecstasy, orgasm:1.1), (uterus:1.2)",
+        "top-down bottom-up, (from behind, ass:1.1), looking at viewer, drooling, tentacle sex, vaginal, (ecstasy, orgasm:1.3), cum in pussy, sweat, large insertion, projectile cum, bukkake, cum on body, facial",
+        "(pink eyes, heart-shaped pupils:1.1), open mouth, top-down bottom-up, (from behind, pussy, ass:1.4), torn clothes, looking at viewer, (pussy juice:1.2), (spread pussy:1.2), cervix"
+      ],
+      "defaultOutfit": "torn",
+      "defaultSize": "landscape",
+      "defaultFace": "none"
+    },
+    {
+      "id": "mesu_missionary",
+      "name": "正常位メス堕ち",
+      "phase": "終盤",
+      "tags": [
+        "tentacle4"
+      ],
+      "base": "lying, on back, restrained, from below, close-up pussy, motion lines, motion blur, large insertion, cross-section, ecstasy, heavy breathing, open mouth",
+      "variations": [
+        "spread arms, (japanese sound effects:1.1), (trembling:1.2), tearing up, clenched teeth",
+        "spread arms, legs up, tearing up, (japanese sound effects, japanese speech bubble:1.2), (trembling, ecstasy, heavy breathing:1.3), cum in pussy",
+        "spread arms, legs up, tearing up, (heavy breathing, female orgasm, ecstasy, trembling:1.3), (japanese sound effects, japanese speech bubble:1.3), ahegao, (heart-shaped pupils, pink eyes:1.1), cum explosion, bukkake, cum on body, facial",
+        "(heavy breathing, female orgasm, ecstasy, trembling:1.3), cumdrip, spread pussy, (heart-shaped pupils, pink eyes:1.1), bukkake, cum on body, facial, looking at viewer"
+      ],
+      "defaultOutfit": "nude",
+      "defaultSize": "landscape",
+      "defaultFace": "none"
+    },
+    {
+      "id": "mesu_kupa",
+      "name": "くぱぁ・おねだり",
+      "phase": "終盤",
+      "tags": [
+        "tentacle4",
+        "tentacle5",
+        "連続"
+      ],
+      "base": "(pink eyes, heart-shaped pupils:1.1), heavy breathing, open mouth, looking at viewer, (pussy juice:1.2)",
+      "variations": [
+        "from behind, ass, spread pussy, half-closed eyes, close-up pussy, light smile, drooling",
+        "tentacles sex, spread pussy, half-closed eyes, from below, m legs, light smile, cervix, cum in pussy, bukkake",
+        "m legs, legs up, pussy juice, spread pussy, (ecstasy:1.3), (japanese speech bubble:1.2)",
+        "m legs, legs up, pussy juice, spread pussy, cervix, (ecstasy:1.3), (japanese speech bubble:1.2)",
+        "female masturbation, grabbing own breast, (ecstasy:1.3), pussy, cum drip, (japanese speech bubble:1.2)",
+        "from below, { spread legs | m legs, sitting | from behind, ass }, spread pussy, tweak own nipple, trembling",
+        "spread pussy, close-up pussy, cervix, female ejaculation, arched back, half-closed eyes, (ecstasy, female orgasm:1.1), (speech bubble:1.1)"
+      ],
+      "defaultOutfit": "nude",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "mesu_milking",
+      "name": "搾乳（横から）",
+      "phase": "終盤",
+      "tags": [
+        "tentacle4"
+      ],
+      "base": "(empty eyes:1.1), pink eyes, heart-shaped pupils, spread arms, restrained, heavy breathing, open mouth, drooling, trembling, open clothes, (japanese sound effects:1.2)",
+      "variations": [
+        "portrait, tentacles breast sucking, (ecstasy, orgasm:1.1), close-up breasts",
+        "portrait, (milking breasts:1.2), (ecstasy, orgasm:1.3), close-up breasts",
+        "portrait, (milking breasts:1.2), (ecstasy, orgasm:1.3), close-up breasts, oral, from side, irrumatio, tongue out",
+        "portrait, (milking breasts:1.2), (ecstasy, orgasm:1.3), close-up breasts, oral, from side, irrumatio, tongue out, cum in mouth, deepthroat",
+        "portrait, (milking breasts:1.2), (ecstasy, orgasm:1.3), close-up breasts, oral, from side, cum on tongue, tongue out, bukkake, facial"
+      ],
+      "defaultOutfit": "torn",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "mesu_onani",
+      "name": "オナニー",
+      "phase": "終盤",
+      "tags": [
+        "tentacle4",
+        "tentacle5",
+        "ネタ帳"
+      ],
+      "base": "trembling, heavy breathing",
+      "variations": [
+        "wariza, masturbation, fingering",
+        "wariza, masturbation, fingering, from below, pussy, (trembling:1.3)",
+        "wariza, masturbation, tweak own clitoris, from below, pussy, (trembling:1.3)",
+        "wariza, from below, pussy, spread pussy, female ejaculation, (trembling:1.3)",
+        "half-closed eyes, masturbation, nipple tweak, fingering, female ejaculation, m legs",
+        "m legs, spread pussy, from below, close-up pussy, female ejaculation, cervix",
+        "white panties around one leg, on floor, m legs, masturbation, { 2-3$$spread pussy | clitoris tweak | fingering | (nipple tweak through clothes:1.1) }, { orgasm | female orgasm }, ecstasy, from below, close-up crotch"
+      ],
+      "defaultOutfit": "nude",
+      "defaultSize": "portrait_v",
+      "defaultFace": "mesu_rand"
+    },
+    {
+      "id": "dildo",
+      "name": "ディルド騎乗",
+      "phase": "終盤",
+      "tags": [
+        "連続"
+      ],
+      "base": "from below, pussy, pussy juice, heavy breathing, trembling, japanese sound effects",
+      "negativeExtra": "1boy, penis",
+      "variations": [
+        "squatting, imminent penetration, dildo insertion, spread pussy",
+        "squatting, dildo sex, clenched teeth",
+        "dildo riding, wariza, motion lines, dildo insertion, clenched teeth",
+        "dildo riding, wariza, motion lines, dildo insertion, half-closed eyes, open mouth, drooling, tweak own nipples, ecstasy, female orgasm, (trembling:1.2)",
+        "dildo riding, wariza, motion lines, dildo insertion, half-closed eyes, open mouth, drooling, shouting, female ejaculation, ecstasy, arched back, female orgasm, (trembling:1.2), speech bubble, text focus, tweak own clitoris"
+      ],
+      "defaultOutfit": "nude",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "ahegao",
+      "name": "アヘ顔",
+      "phase": "終盤",
+      "tags": [
+        "tentacle5"
+      ],
+      "base": "tentacles sex, (cum on hair, cum on body, facial:1.1), bukkake, heavy breathing, trembling, motion lines, motion blur, close-up pussy, (large insertion:1.2), double penetration, pussy juice",
+      "variations": [
+        "{ sweat | cross-section }, { sweat | (multiple views:1.1) }, { 2-3$$sweat | nipples | tentacles breast sucking | tentacles milking tentacles | handjob | gangbang | restrained | from below }",
+        "heart-shaped pupils, pink eyes, { __face/mesu__ | ahegao, orgasm }, from below, { sweat | nipples | tentacles breast sucking }"
+      ],
+      "defaultOutfit": "nude",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "rape_eyes",
+      "name": "レイプ目・放心",
+      "phase": "終盤",
+      "tags": [
+        "tentacle5"
+      ],
+      "base": "empty eyes, expressionless, streaming tears, open mouth, drooling, orgasm, (ecstasy:1.3), bukkake",
+      "variations": [
+        "restrained, tentacles sex, from below, trembling, heavy breathing",
+        "upper body, close-up face, cum on body, facial, looking at viewer",
+        "lying, on back, m legs, cum on body, spread pussy, from below"
+      ],
+      "defaultOutfit": "nude",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
+      "id": "last_finish",
+      "name": "ラスト（くぱぁ・事後）",
+      "phase": "アフター",
+      "tags": [
+        "tentacle4",
+        "tentacle5"
+      ],
+      "base": "lying, trembling, heavy breathing, from below",
+      "variations": [
+        "empty eyes, expressionless, heart-shaped pupils, pink eyes, streaming tears, open mouth, drooling, orgasm, (ecstasy:1.3), bukkake, cum on body, facial, female orgasm, female ejaculation, m legs, spread arms, restrained, (large insertion:1.2), motion lines, motion blur",
+        "empty eyes, heart-shaped pupils, streaming tears, open mouth, drooling, (ecstasy:1.3), female ejaculation, m legs, cum in pussy, cross-section",
+        "torn clothes, nipples, empty eyes, streaming tears, open mouth, drooling, female orgasm, cum on body, m legs, (trembling:1.3), spread pussy, cervix",
+        "on back, cum drip, after vaginal, cumdrip, cum explosion",
+        "on ground, on back, (empty eyes:1.1), spread arms, restrained, m legs, gangbang, open mouth, drooling, (ecstasy, orgasm:1.3), full body, torn clothes, nipples, (japanese sound effects:1.2), cumdrip, bukkake, tongue out, facial",
+        "{ (ecstasy, trembling:1.2) | (female orgasm, ecstasy:1.3), drooling | (trembling:1.2), female ejaculation, drooling }, pink eyes, heart-shaped pupils, half-closed eyes, on ground, on back, (empty eyes:1.1), top-down bottom-up, from behind, ass, open mouth, drooling, cumdrip, bukkake, facial, cum on body, female ejaculation, legs wrap tentacles, close-up pussy"
+      ],
+      "defaultOutfit": "nude",
+      "defaultSize": "landscape",
+      "defaultFace": "none"
+    },
+    {
+      "id": "comic_style",
+      "name": "漫画風",
+      "phase": "演出",
+      "tags": [
+        "tentacle6",
+        "tentacle5"
+      ],
+      "base": "comic, multiple views, frame, trembling, focus line, heavy breathing, sound effects",
+      "variations": [
+        "tentacles sex, in tentacles pit, { tearing up | streaming tears }, restrained, bukkake, facial, torn clothes, (trembling, female orgasm, ecstasy:1.2), { one eye closed | half-closed eyes | closed eyes }, { open mouth | shouting | drooling }, from below, { x-ray | cross-section | sweat }, { sweat | cum in mouth }",
+        "heart, streaming tears, light pink tentacles, restrained, vaginal, tentacle sex, tentacle insertion, double penetration, large insertion, oral, spread legs, sweat, body grab",
+        "heart, close-up face, irrumatio, cum in mouth, deepthroat, streaming tears, sobbing, drooling, open eyes, looking at viewer, cum in throat, bukkake"
+      ],
+      "notes": "multiple views 系はネガティブの multiple views / comic を一時的に外すこと",
+      "defaultOutfit": "torn",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    }
+  ]
+}

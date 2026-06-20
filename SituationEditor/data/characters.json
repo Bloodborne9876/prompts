@@ -1,0 +1,3280 @@
+{
+  "characters": [
+    {
+      "id": "yuuka",
+      "name": "yuuka",
+      "series": "blue_archive",
+      "base": "1girl, solo, yuuka \\(blue archive\\)",
+      "outfits": {
+        "normal": "black jacket , white collared shirt , black pleated skirt , black thighhighs,",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "asuna",
+      "name": "asuna",
+      "series": "blue_archive",
+      "base": "1girl, solo, asuna \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hina",
+      "name": "hina",
+      "series": "blue_archive",
+      "base": "1girl, solo, hina \\(blue archive\\), flat chest",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mika",
+      "name": "mika",
+      "series": "blue_archive",
+      "base": "1girl, solo, mika \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hoshino",
+      "name": "hoshino",
+      "series": "blue_archive",
+      "base": "1girl, solo, hoshino \\(blue archive\\), flat chest",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "rio",
+      "name": "rio",
+      "series": "blue_archive",
+      "base": "1girl, solo, rio \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "toki",
+      "name": "toki",
+      "series": "blue_archive",
+      "base": "1girl, solo, toki \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "shiroko",
+      "name": "shiroko",
+      "series": "blue_archive",
+      "base": "1girl, solo, shiroko \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "kisaki",
+      "name": "kisaki",
+      "series": "blue_archive",
+      "base": "1girl, solo, kisaki \\(blue archive\\), flat chest",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mari",
+      "name": "mari",
+      "series": "blue_archive",
+      "base": "1girl, solo, mari \\(blue archive\\), flat chest",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "kazusa",
+      "name": "kazusa",
+      "series": "blue_archive",
+      "base": "1girl, solo, kazusa \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "koharu",
+      "name": "koharu",
+      "series": "blue_archive",
+      "base": "1girl, solo, koharu \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "yuzu",
+      "name": "yuzu",
+      "series": "blue_archive",
+      "base": "1girl, solo, yuzu \\(blue archive\\), flat chest",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "aris",
+      "name": "aris",
+      "series": "blue_archive",
+      "base": "1girl, solo, aris \\(blue archive\\), flat chest",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "kayoko",
+      "name": "kayoko",
+      "series": "blue_archive",
+      "base": "1girl, solo, kayoko \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "karin",
+      "name": "karin",
+      "series": "blue_archive",
+      "base": "1girl, solo, karin \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "seia",
+      "name": "seia",
+      "series": "blue_archive",
+      "base": "1girl, solo, seia \\(blue archive\\), flat chest",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "arona",
+      "name": "arona",
+      "series": "blue_archive",
+      "base": "1girl, solo, arona \\(blue archive\\), flat chest",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "plana",
+      "name": "plana",
+      "series": "blue_archive",
+      "base": "1girl, solo, plana \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "aru",
+      "name": "aru",
+      "series": "blue_archive",
+      "base": "1girl, solo, aru \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "reisa",
+      "name": "reisa",
+      "series": "blue_archive",
+      "base": "1girl, solo, reisa \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hanako",
+      "name": "hanako",
+      "series": "blue_archive",
+      "base": "1girl, solo, hanako \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "midori",
+      "name": "midori",
+      "series": "blue_archive",
+      "base": "1girl, solo, midori \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mutsuki",
+      "name": "mutsuki",
+      "series": "blue_archive",
+      "base": "1girl, solo, mutsuki \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "miyu",
+      "name": "miyu",
+      "series": "blue_archive",
+      "base": "1girl, solo, miyu \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hikari",
+      "name": "hikari",
+      "series": "blue_archive",
+      "base": "1girl, solo, hikari \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "nozomi",
+      "name": "nozomi",
+      "series": "blue_archive",
+      "base": "1girl, solo, nozomi \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "ui",
+      "name": "ui",
+      "series": "blue_archive",
+      "base": "1girl, solo, ui \\(blue archive\\), flat chest, hair band",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "miyako",
+      "name": "miyako",
+      "series": "blue_archive",
+      "base": "1girl, solo, miyako \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hifumi",
+      "name": "hifumi",
+      "series": "blue_archive",
+      "base": "1girl, solo, hifumi \\(blue archive\\), small breasts",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "ibuki",
+      "name": "ibuki",
+      "series": "blue_archive",
+      "base": "1girl, solo, ibuki \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "izuna",
+      "name": "izuna",
+      "series": "blue_archive",
+      "base": "1girl, solo, izuna \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "shiroko_terror",
+      "name": "shiroko terror",
+      "series": "blue_archive",
+      "base": "1girl, solo, shiroko terror \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "iori",
+      "name": "iori",
+      "series": "blue_archive",
+      "base": "1girl, solo, iori \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "ichika",
+      "name": "ichika",
+      "series": "blue_archive",
+      "base": "1girl, solo, ichika \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "serika",
+      "name": "serika",
+      "series": "blue_archive",
+      "base": "1girl, solo, serika \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "iroha",
+      "name": "iroha",
+      "series": "blue_archive",
+      "base": "1girl, solo, iroha \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "azusa",
+      "name": "azusa",
+      "series": "blue_archive",
+      "base": "1girl, solo, azusa \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "tsurugi",
+      "name": "tsurugi",
+      "series": "blue_archive",
+      "base": "1girl, solo, tsurugi \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "tsubaki",
+      "name": "tsubaki",
+      "series": "blue_archive",
+      "base": "1girl, solo, tsubaki \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "eimi",
+      "name": "eimi",
+      "series": "blue_archive",
+      "base": "1girl, solo, eimi \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "airi",
+      "name": "airi",
+      "series": "blue_archive",
+      "base": "1girl, solo, airi \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "fubuki",
+      "name": "fubuki",
+      "series": "blue_archive",
+      "base": "1girl, solo, fubuki \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "moe",
+      "name": "moe",
+      "series": "blue_archive",
+      "base": "1girl, solo, moe \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "koyuki",
+      "name": "koyuki",
+      "series": "blue_archive",
+      "base": "1girl, solo, koyuki \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "sakurako",
+      "name": "sakurako",
+      "series": "blue_archive",
+      "base": "1girl, solo, sakurako \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "maki",
+      "name": "maki",
+      "series": "blue_archive",
+      "base": "1girl, solo, maki \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "kirara",
+      "name": "kirara",
+      "series": "blue_archive",
+      "base": "1girl, solo, kirara \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "ayane",
+      "name": "ayane",
+      "series": "blue_archive",
+      "base": "1girl, solo, ayane \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "shigure",
+      "name": "shigure",
+      "series": "blue_archive",
+      "base": "1girl, solo, shigure \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "nonomi",
+      "name": "nonomi",
+      "series": "blue_archive",
+      "base": "1girl, solo, nonomi \\(blue archive\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "trailblazer",
+      "name": "trailblazer",
+      "series": "star_rail",
+      "base": "1girl, solo, trailblazer ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "firefly",
+      "name": "firefly",
+      "series": "star_rail",
+      "base": "1girl, solo, firefly ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "stelle",
+      "name": "stelle",
+      "series": "star_rail",
+      "base": "1girl, solo, stelle ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "kafka",
+      "name": "kafka",
+      "series": "star_rail",
+      "base": "1girl, solo, kafka ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "march",
+      "name": "march",
+      "series": "star_rail",
+      "base": "1girl, solo, march (7th (honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "acheron",
+      "name": "acheron",
+      "series": "star_rail",
+      "base": "1girl, solo, acheron ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "caelus",
+      "name": "caelus",
+      "series": "star_rail",
+      "base": "1girl, solo, caelus ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "phainon",
+      "name": "phainon",
+      "series": "star_rail",
+      "base": "1girl, solo, phainon ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "sparkle",
+      "name": "sparkle",
+      "series": "star_rail",
+      "base": "1girl, solo, sparkle ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "robin",
+      "name": "robin",
+      "series": "star_rail",
+      "base": "1girl, solo, robin ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "silver",
+      "name": "silver",
+      "series": "star_rail",
+      "base": "1girl, solo, silver (wolf (honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "aventurine",
+      "name": "aventurine",
+      "series": "star_rail",
+      "base": "1girl, solo, aventurine ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "dan",
+      "name": "dan",
+      "series": "star_rail",
+      "base": "1girl, solo, dan (heng (honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "herta",
+      "name": "herta",
+      "series": "star_rail",
+      "base": "1girl, solo, herta ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mydei",
+      "name": "mydei",
+      "series": "star_rail",
+      "base": "1girl, solo, mydei ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "castorice",
+      "name": "castorice",
+      "series": "star_rail",
+      "base": "1girl, solo, castorice ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "black",
+      "name": "black",
+      "series": "star_rail",
+      "base": "1girl, solo, black (swan (honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "blade",
+      "name": "blade",
+      "series": "star_rail",
+      "base": "1girl, solo, blade ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "the",
+      "name": "the",
+      "series": "star_rail",
+      "base": "1girl, solo, the (herta (honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "cyrene",
+      "name": "cyrene",
+      "series": "star_rail",
+      "base": "1girl, solo, cyrene ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "sunday",
+      "name": "sunday",
+      "series": "star_rail",
+      "base": "1girl, solo, sunday ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "dr",
+      "name": "dr.",
+      "series": "star_rail",
+      "base": "1girl, solo, dr. (ratio (honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "ruan",
+      "name": "ruan",
+      "series": "star_rail",
+      "base": "1girl, solo, ruan (mei (honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "topaz",
+      "name": "topaz",
+      "series": "star_rail",
+      "base": "1girl, solo, topaz ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "aglaea",
+      "name": "aglaea",
+      "series": "star_rail",
+      "base": "1girl, solo, aglaea ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "himeko",
+      "name": "himeko",
+      "series": "star_rail",
+      "base": "1girl, solo, himeko ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "anaxa",
+      "name": "anaxa",
+      "series": "star_rail",
+      "base": "1girl, solo, anaxa ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "cipher",
+      "name": "cipher",
+      "series": "star_rail",
+      "base": "1girl, solo, cipher ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "jingliu",
+      "name": "jingliu",
+      "series": "star_rail",
+      "base": "1girl, solo, jingliu ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "feixiao",
+      "name": "feixiao",
+      "series": "star_rail",
+      "base": "1girl, solo, feixiao ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hyacine",
+      "name": "hyacine",
+      "series": "star_rail",
+      "base": "1girl, solo, hyacine ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "fu",
+      "name": "fu",
+      "series": "star_rail",
+      "base": "1girl, solo, fu (xuan (honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "tingyun",
+      "name": "tingyun",
+      "series": "star_rail",
+      "base": "1girl, solo, tingyun ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "seele",
+      "name": "seele",
+      "series": "star_rail",
+      "base": "1girl, solo, seele ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "boothill",
+      "name": "boothill",
+      "series": "star_rail",
+      "base": "1girl, solo, boothill ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "pom_pom",
+      "name": "pom-pom",
+      "series": "star_rail",
+      "base": "1girl, solo, pom-pom ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "yunli",
+      "name": "yunli",
+      "series": "star_rail",
+      "base": "1girl, solo, yunli ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "sam",
+      "name": "sam",
+      "series": "star_rail",
+      "base": "1girl, solo, sam ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "huohuo",
+      "name": "huohuo",
+      "series": "star_rail",
+      "base": "1girl, solo, huohuo ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "lingsha",
+      "name": "lingsha",
+      "series": "star_rail",
+      "base": "1girl, solo, lingsha ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "tribbie",
+      "name": "tribbie",
+      "series": "star_rail",
+      "base": "1girl, solo, tribbie ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "jade",
+      "name": "jade",
+      "series": "star_rail",
+      "base": "1girl, solo, jade ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "jiaoqiu",
+      "name": "jiaoqiu",
+      "series": "star_rail",
+      "base": "1girl, solo, jiaoqiu ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "trotter",
+      "name": "trotter",
+      "series": "star_rail",
+      "base": "1girl, solo, trotter ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "yanqing",
+      "name": "yanqing",
+      "series": "star_rail",
+      "base": "1girl, solo, yanqing ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "qingque",
+      "name": "qingque",
+      "series": "star_rail",
+      "base": "1girl, solo, qingque ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "clara",
+      "name": "clara",
+      "series": "star_rail",
+      "base": "1girl, solo, clara ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "cerydra",
+      "name": "cerydra",
+      "series": "star_rail",
+      "base": "1girl, solo, cerydra ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "evernight",
+      "name": "evernight",
+      "series": "star_rail",
+      "base": "1girl, solo, evernight ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "numby",
+      "name": "numby",
+      "series": "star_rail",
+      "base": "1girl, solo, numby ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "bailu",
+      "name": "bailu",
+      "series": "star_rail",
+      "base": "1girl, solo, bailu ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hysilens",
+      "name": "hysilens",
+      "series": "star_rail",
+      "base": "1girl, solo, hysilens ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "fugue",
+      "name": "fugue",
+      "series": "star_rail",
+      "base": "1girl, solo, fugue ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "rappa",
+      "name": "rappa",
+      "series": "star_rail",
+      "base": "1girl, solo, rappa ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "little",
+      "name": "little",
+      "series": "star_rail",
+      "base": "1girl, solo, little (ica (honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "asta",
+      "name": "asta",
+      "series": "star_rail",
+      "base": "1girl, solo, asta ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "trianne",
+      "name": "trianne",
+      "series": "star_rail",
+      "base": "1girl, solo, trianne ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "argenti",
+      "name": "argenti",
+      "series": "star_rail",
+      "base": "1girl, solo, argenti ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "trinnon",
+      "name": "trinnon",
+      "series": "star_rail",
+      "base": "1girl, solo, trinnon ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "gallagher",
+      "name": "gallagher",
+      "series": "star_rail",
+      "base": "1girl, solo, gallagher ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "luocha",
+      "name": "luocha",
+      "series": "star_rail",
+      "base": "1girl, solo, luocha ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "moze",
+      "name": "moze",
+      "series": "star_rail",
+      "base": "1girl, solo, moze ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "sushang",
+      "name": "sushang",
+      "series": "star_rail",
+      "base": "1girl, solo, sushang ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "guinaifen",
+      "name": "guinaifen",
+      "series": "star_rail",
+      "base": "1girl, solo, guinaifen ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mem",
+      "name": "mem",
+      "series": "star_rail",
+      "base": "1girl, solo, mem ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "yukong",
+      "name": "yukong",
+      "series": "star_rail",
+      "base": "1girl, solo, yukong ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "kakavasha",
+      "name": "kakavasha",
+      "series": "star_rail",
+      "base": "1girl, solo, kakavasha ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "pela",
+      "name": "pela",
+      "series": "star_rail",
+      "base": "1girl, solo, pela ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "tail",
+      "name": "tail",
+      "series": "star_rail",
+      "base": "1girl, solo, tail ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "yingxing",
+      "name": "yingxing",
+      "series": "star_rail",
+      "base": "1girl, solo, yingxing ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "saber",
+      "name": "saber",
+      "series": "star_rail",
+      "base": "1girl, solo, saber ((fate))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "misha",
+      "name": "misha",
+      "series": "star_rail",
+      "base": "1girl, solo, misha ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hanya",
+      "name": "hanya",
+      "series": "star_rail",
+      "base": "1girl, solo, hanya ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "fuyuan",
+      "name": "fuyuan",
+      "series": "star_rail",
+      "base": "1girl, solo, fuyuan ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "clockie",
+      "name": "clockie",
+      "series": "star_rail",
+      "base": "1girl, solo, clockie ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "xueyi",
+      "name": "xueyi",
+      "series": "star_rail",
+      "base": "1girl, solo, xueyi ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "screwllum",
+      "name": "screwllum",
+      "series": "star_rail",
+      "base": "1girl, solo, screwllum ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "wubbaboo",
+      "name": "wubbaboo",
+      "series": "star_rail",
+      "base": "1girl, solo, wubbaboo ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "pollux",
+      "name": "pollux",
+      "series": "star_rail",
+      "base": "1girl, solo, pollux ((honkai: star rail))",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "agnes_tachyon",
+      "name": "agnes tachyon",
+      "series": "umamusume",
+      "base": "1girl, solo, agnes tachyon \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "manhattan_cafe",
+      "name": "manhattan cafe",
+      "series": "umamusume",
+      "base": "1girl, solo, manhattan cafe \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "gold_ship",
+      "name": "gold ship",
+      "series": "umamusume",
+      "base": "1girl, solo, gold ship \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "rice_shower",
+      "name": "rice shower",
+      "series": "umamusume",
+      "base": "1girl, solo, rice shower \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mejiro_mcqueen",
+      "name": "mejiro mcqueen",
+      "series": "umamusume",
+      "base": "1girl, solo, mejiro mcqueen \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "daiwa_scarlet",
+      "name": "daiwa scarlet",
+      "series": "umamusume",
+      "base": "1girl, solo, daiwa scarlet \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "tokai_teio",
+      "name": "tokai teio",
+      "series": "umamusume",
+      "base": "1girl, solo, tokai teio \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "silence_suzuka",
+      "name": "silence suzuka",
+      "series": "umamusume",
+      "base": "1girl, solo, silence suzuka \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "satono_diamond",
+      "name": "satono diamond",
+      "series": "umamusume",
+      "base": "1girl, solo, satono diamond \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "nice_nature",
+      "name": "nice nature",
+      "series": "umamusume",
+      "base": "1girl, solo, nice nature \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "kitasan_black",
+      "name": "kitasan black",
+      "series": "umamusume",
+      "base": "1girl, solo, kitasan black \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "oguri_cap",
+      "name": "oguri cap",
+      "series": "umamusume",
+      "base": "1girl, solo, oguri cap \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "special_week",
+      "name": "special week",
+      "series": "umamusume",
+      "base": "1girl, solo, special week \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "symboli_rudolf",
+      "name": "symboli rudolf",
+      "series": "umamusume",
+      "base": "1girl, solo, symboli rudolf \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "admire_vega",
+      "name": "admire vega",
+      "series": "umamusume",
+      "base": "1girl, solo, admire vega \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mihono_bourbon",
+      "name": "mihono bourbon",
+      "series": "umamusume",
+      "base": "1girl, solo, mihono bourbon \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "twin_turbo",
+      "name": "twin turbo",
+      "series": "umamusume",
+      "base": "1girl, solo, twin turbo \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "king_halo",
+      "name": "king halo",
+      "series": "umamusume",
+      "base": "1girl, solo, king halo \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "curren_chan",
+      "name": "curren chan",
+      "series": "umamusume",
+      "base": "1girl, solo, curren chan \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "haru_urara",
+      "name": "haru urara",
+      "series": "umamusume",
+      "base": "1girl, solo, haru urara \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "vodka",
+      "name": "vodka",
+      "series": "umamusume",
+      "base": "1girl, solo, vodka \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "t_head_trainer",
+      "name": "t-head trainer",
+      "series": "umamusume",
+      "base": "1girl, solo, t-head trainer \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mayano_top_gun",
+      "name": "mayano top gun",
+      "series": "umamusume",
+      "base": "1girl, solo, mayano top gun \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "tamamo_cross",
+      "name": "tamamo cross",
+      "series": "umamusume",
+      "base": "1girl, solo, tamamo cross \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "cheval_grand",
+      "name": "cheval grand",
+      "series": "umamusume",
+      "base": "1girl, solo, cheval grand \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "seiun_sky",
+      "name": "seiun sky",
+      "series": "umamusume",
+      "base": "1girl, solo, seiun sky \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "eishin_flash",
+      "name": "eishin flash",
+      "series": "umamusume",
+      "base": "1girl, solo, eishin flash \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "sirius_symboli",
+      "name": "sirius symboli",
+      "series": "umamusume",
+      "base": "1girl, solo, sirius symboli \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "matikanetannhauser",
+      "name": "matikanetannhauser",
+      "series": "umamusume",
+      "base": "1girl, solo, matikanetannhauser \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "agnes_digital",
+      "name": "agnes digital",
+      "series": "umamusume",
+      "base": "1girl, solo, agnes digital \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "grass_wonder",
+      "name": "grass wonder",
+      "series": "umamusume",
+      "base": "1girl, solo, grass wonder \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mr_c_b",
+      "name": "mr. c.b.",
+      "series": "umamusume",
+      "base": "1girl, solo, mr. c.b. \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "gentildonna",
+      "name": "gentildonna",
+      "series": "umamusume",
+      "base": "1girl, solo, gentildonna \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "narita_brian",
+      "name": "narita brian",
+      "series": "umamusume",
+      "base": "1girl, solo, narita brian \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "t_m_opera_o",
+      "name": "t.m. opera o",
+      "series": "umamusume",
+      "base": "1girl, solo, t.m. opera o \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "air_groove",
+      "name": "air groove",
+      "series": "umamusume",
+      "base": "1girl, solo, air groove \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "daitaku_helios",
+      "name": "daitaku helios",
+      "series": "umamusume",
+      "base": "1girl, solo, daitaku helios \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "jungle_pocket",
+      "name": "jungle pocket",
+      "series": "umamusume",
+      "base": "1girl, solo, jungle pocket \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "matikanefukukitaru",
+      "name": "matikanefukukitaru",
+      "series": "umamusume",
+      "base": "1girl, solo, matikanefukukitaru \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "narita_taishin",
+      "name": "narita taishin",
+      "series": "umamusume",
+      "base": "1girl, solo, narita taishin \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "meisho_doto",
+      "name": "meisho doto",
+      "series": "umamusume",
+      "base": "1girl, solo, meisho doto \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "katsuragi_ace",
+      "name": "katsuragi ace",
+      "series": "umamusume",
+      "base": "1girl, solo, katsuragi ace \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "super_creek",
+      "name": "super creek",
+      "series": "umamusume",
+      "base": "1girl, solo, super creek \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "smart_falcon",
+      "name": "smart falcon",
+      "series": "umamusume",
+      "base": "1girl, solo, smart falcon \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mejiro_ardan",
+      "name": "mejiro ardan",
+      "series": "umamusume",
+      "base": "1girl, solo, mejiro ardan \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "dantsu_flame",
+      "name": "dantsu flame",
+      "series": "umamusume",
+      "base": "1girl, solo, dantsu flame \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mejiro_dober",
+      "name": "mejiro dober",
+      "series": "umamusume",
+      "base": "1girl, solo, mejiro dober \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "biwa_hayahide",
+      "name": "biwa hayahide",
+      "series": "umamusume",
+      "base": "1girl, solo, biwa hayahide \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "fine_motion",
+      "name": "fine motion",
+      "series": "umamusume",
+      "base": "1girl, solo, fine motion \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "vivlos",
+      "name": "vivlos",
+      "series": "umamusume",
+      "base": "1girl, solo, vivlos \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "still_in_love",
+      "name": "still in love",
+      "series": "umamusume",
+      "base": "1girl, solo, still in love \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "verxina",
+      "name": "verxina",
+      "series": "umamusume",
+      "base": "1girl, solo, verxina \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "air_shakur",
+      "name": "air shakur",
+      "series": "umamusume",
+      "base": "1girl, solo, air shakur \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "narita_top_road",
+      "name": "narita top road",
+      "series": "umamusume",
+      "base": "1girl, solo, narita top road \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "sweep_tosho",
+      "name": "sweep tosho",
+      "series": "umamusume",
+      "base": "1girl, solo, sweep tosho \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mejiro_palmer",
+      "name": "mejiro palmer",
+      "series": "umamusume",
+      "base": "1girl, solo, mejiro palmer \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hokko_tarumae",
+      "name": "hokko tarumae",
+      "series": "umamusume",
+      "base": "1girl, solo, hokko tarumae \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hishi_miracle",
+      "name": "hishi miracle",
+      "series": "umamusume",
+      "base": "1girl, solo, hishi miracle \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "fuji_kiseki",
+      "name": "fuji kiseki",
+      "series": "umamusume",
+      "base": "1girl, solo, fuji kiseki \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "winning_ticket",
+      "name": "winning ticket",
+      "series": "umamusume",
+      "base": "1girl, solo, winning ticket \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "sakura_chiyono_o",
+      "name": "sakura chiyono o",
+      "series": "umamusume",
+      "base": "1girl, solo, sakura chiyono o \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "maruzensky",
+      "name": "maruzensky",
+      "series": "umamusume",
+      "base": "1girl, solo, maruzensky \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "nakayama_festa",
+      "name": "nakayama festa",
+      "series": "umamusume",
+      "base": "1girl, solo, nakayama festa \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "taiki_shuttle",
+      "name": "taiki shuttle",
+      "series": "umamusume",
+      "base": "1girl, solo, taiki shuttle \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "el_condor_pasa",
+      "name": "el condor pasa",
+      "series": "umamusume",
+      "base": "1girl, solo, el condor pasa \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "copano_rickey",
+      "name": "copano rickey",
+      "series": "umamusume",
+      "base": "1girl, solo, copano rickey \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "sakura_bakushin_o",
+      "name": "sakura bakushin o",
+      "series": "umamusume",
+      "base": "1girl, solo, sakura bakushin o \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "aston_machan",
+      "name": "aston machan",
+      "series": "umamusume",
+      "base": "1girl, solo, aston machan \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "gold_city",
+      "name": "gold city",
+      "series": "umamusume",
+      "base": "1girl, solo, gold city \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "orfevre",
+      "name": "orfevre",
+      "series": "umamusume",
+      "base": "1girl, solo, orfevre \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "ikuno_dictus",
+      "name": "ikuno dictus",
+      "series": "umamusume",
+      "base": "1girl, solo, ikuno dictus \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mejiro_ramonu",
+      "name": "mejiro ramonu",
+      "series": "umamusume",
+      "base": "1girl, solo, mejiro ramonu \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "tosen_jordan",
+      "name": "tosen jordan",
+      "series": "umamusume",
+      "base": "1girl, solo, tosen jordan \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hishi_amazon",
+      "name": "hishi amazon",
+      "series": "umamusume",
+      "base": "1girl, solo, hishi amazon \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "female_trainer",
+      "name": "female trainer",
+      "series": "umamusume",
+      "base": "1girl, solo, female trainer \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "neo_universe",
+      "name": "neo universe",
+      "series": "umamusume",
+      "base": "1girl, solo, neo universe \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "daring_tact",
+      "name": "daring tact",
+      "series": "umamusume",
+      "base": "1girl, solo, daring tact \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "tanino_gimlet",
+      "name": "tanino gimlet",
+      "series": "umamusume",
+      "base": "1girl, solo, tanino gimlet \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "symboli_kris_s",
+      "name": "symboli kris s",
+      "series": "umamusume",
+      "base": "1girl, solo, symboli kris s \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "nishino_flower",
+      "name": "nishino flower",
+      "series": "umamusume",
+      "base": "1girl, solo, nishino flower \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "dream_journey",
+      "name": "dream journey",
+      "series": "umamusume",
+      "base": "1girl, solo, dream journey \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mejiro_bright",
+      "name": "mejiro bright",
+      "series": "umamusume",
+      "base": "1girl, solo, mejiro bright \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "almond_eye",
+      "name": "almond eye",
+      "series": "umamusume",
+      "base": "1girl, solo, almond eye \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "transcend",
+      "name": "transcend",
+      "series": "umamusume",
+      "base": "1girl, solo, transcend \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "satono_crown",
+      "name": "satono crown",
+      "series": "umamusume",
+      "base": "1girl, solo, satono crown \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "sakura_laurel",
+      "name": "sakura laurel",
+      "series": "umamusume",
+      "base": "1girl, solo, sakura laurel \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "win_variation",
+      "name": "win variation",
+      "series": "umamusume",
+      "base": "1girl, solo, win variation \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "inari_one",
+      "name": "inari one",
+      "series": "umamusume",
+      "base": "1girl, solo, inari one \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "zenno_rob_roy",
+      "name": "zenno rob roy",
+      "series": "umamusume",
+      "base": "1girl, solo, zenno rob roy \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "wonder_acute",
+      "name": "wonder acute",
+      "series": "umamusume",
+      "base": "1girl, solo, wonder acute \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "daiichi_ruby",
+      "name": "daiichi ruby",
+      "series": "umamusume",
+      "base": "1girl, solo, daiichi ruby \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "cesario",
+      "name": "cesario",
+      "series": "umamusume",
+      "base": "1girl, solo, cesario \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "mejiro_ryan",
+      "name": "mejiro ryan",
+      "series": "umamusume",
+      "base": "1girl, solo, mejiro ryan \\(umamusume\\)",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hanami_ume",
+      "name": "hanami ume",
+      "series": "学マス",
+      "base": "1girl, solo, hanami ume",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "katsuragi_lilja",
+      "name": "katsuragi lilja",
+      "series": "学マス",
+      "base": "1girl, solo, katsuragi lilja",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hanami_saki",
+      "name": "hanami saki",
+      "series": "学マス",
+      "base": "1girl, solo, hanami saki",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "tsukimura_temari",
+      "name": "tsukimura temari",
+      "series": "学マス",
+      "base": "1girl, solo, tsukimura temari",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "fujita_kotone",
+      "name": "fujita kotone",
+      "series": "学マス",
+      "base": "1girl, solo, fujita kotone",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "shiun_sumika",
+      "name": "shiun sumika",
+      "series": "学マス",
+      "base": "1girl, solo, shiun sumika",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "himesaki_rinami",
+      "name": "himesaki rinami",
+      "series": "学マス",
+      "base": "1girl, solo, himesaki rinami, medium breasts",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "shinosawa_hiro",
+      "name": "shinosawa hiro",
+      "series": "学マス",
+      "base": "1girl, solo, shinosawa hiro, flat chest",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "kuramoto_china",
+      "name": "kuramoto china",
+      "series": "学マス",
+      "base": "1girl, solo, kuramoto china, flat chest",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "juo_sena",
+      "name": "juo sena",
+      "series": "学マス",
+      "base": "1girl, solo, juo sena, small breasts",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    },
+    {
+      "id": "hataya_misuzu",
+      "name": "hataya misuzu",
+      "series": "学マス",
+      "base": "1girl, solo, hataya misuzu, small breasts",
+      "outfits": {
+        "normal": "",
+        "torn": "(torn clothes:1.2)",
+        "underwear": "white bra, white panties, underwear only",
+        "nude": "completely nude",
+        "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+      }
+    }
+  ]
+}

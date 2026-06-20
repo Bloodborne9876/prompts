@@ -14,6 +14,10 @@ one eye closed , frown , open mouth , shouting , sound effects , spread legs , l
 full nelson , restrained, 
 </details>
 
+### ランダム胸いじり
+{ leaning forward,  arms up | sweat } ,   { tentacles milking breasts | tentacles breast sucking } ,  { clenched teeth |  (ecstasy:1.1) }  ,  trembling,  drooling,  in tentacles nest ,  sound effects, 
+
+
 ### フェラ
 
 [X] ,   frown ,  facial ,  {  open eyes | one eye closed frown | closed eyes }  , streaming tears,   {  from above | from side } ,   looking at viewer,   ,  (sound effects:1.2),  trembling,  heavy breathing,  irrumatio,  close-up face  , upper body,  detail eyes , close-up face , heavy breathing, restrained,  fill arms , cum in mouth , facial, bukkake, 
@@ -38,10 +42,11 @@ spread arms , restrained,  open mouth, tearing up , ecstasy , heavy breathing , 
 [X] , streaming tears, open mouth,from behind , ass ,  
 
 ```
-imminent penetration, covering crotch, 
-spread pussy , bent over,  restrained, sound effects,  clenched teeth,  , { spread arms | arms up } 
-imminent penetration, bent over, (large insertion:1.1) , from below, restrained, sound effects , { spread arms | arms up } 
-spread pussy , bent over,  restrained, sound effects,  clenched teeth,  (large insertion:1.2) , trembling,  heavy breathing,  cross-section,  sound effects , frown , heavy breathing , ecstasy , cum in pussy , { spread arms | arms up } 
+spread pussy , bent over,  restrained, sound effects,  clenched teeth,  , { spread arms | arms up } , pussy juice 
+imminent penetration, bent over, tentacles insertion , from below, restrained, sound effects , { spread arms | arms up }  , pussy juice 
+bent over, tentacles insertion , from below, restrained, sound effects , { spread arms | arms up }  , motion lines , pussy juice , heavy breathing , ecstasy , cross-section,  tentacles sex
+bent over, arched back ,   restrained, sound effects, half-closed eyes,  heavy breathing,  ecstasy, ,   , trembling,  heavy breathing,  cross-section,  sound effects , frown , heavy breathing , ecstasy , cum in pussy , { spread arms | arms up }  , motion lines , pussy juice , heavy breathing , ecstasy,  tentacles sex
+streaming tears, open mouth,from behind , ass ,  bent over, arched back ,   restrained, sound effects, half-closed eyes,  heavy breathing,  ecstasy, ,   , trembling,  heavy breathing,  cross-section,  sound effects , frown , heavy breathing , ecstasy , cum in pussy , { spread arms | arms up }  , motion lines , pussy juice , heavy breathing , ecstasy,  tentacles sex , looking at viewer,   heart-shaped pupils,  drooling, 
 ```
 ## 挿入
 
@@ -49,13 +54,10 @@ spread pussy , bent over,  restrained, sound effects,  clenched teeth,  (large i
 
 
 ```
-cowgirl position
-reverse upright straddle,  
-reverse suspended congress, 
 wariiza , 
 wariza , 
 squatting , 
-ass , from behind,  reverse cowgirl position, 
+ass , from behind, 
 heavy breathing,  ahegao , cowgial position 
 ```
 
@@ -65,21 +67,21 @@ heavy breathing,  ahegao , cowgial position
 
 in tentacles pit ,  , tentacles sex,  [X] , { tearing up | streaming tears } ,     bukkake,  facial , heavy breathing,  trembling,  { one eye closed | half-closed eyes | open eyes }  ,  { shouting | open mouth | clenched teeth } , { sweat |  comic, multiple views } , restrained,  trembling  , sound effects,  { 2-3$$ ecstasy |   female ejaculation | ecstasy } 
 
-from below, standing sex , pussy
+from below,  , pussy
 doggy style , from behind ass , pussy juice 
 bent over,  from behind , ass, pussy , pussy juice 
 from side , spitroast , x-ray
 leaning forward , cross-section , breast sucking , spread arms , 
 spread legs,  legs up , pussy , from below,  x-ray, 
-reverse cowgirl position , from behind , ass , 
-reverse upright straddle,  ,  from below, clitoris ,  close-up pussy , cum in pussy,  cross-section, 
+from behind , ass , 
+from below, clitoris ,  close-up pussy , cum in pussy,  cross-section, 
 from behind , ass , from below , pussy , cross-section , pussy juice
 from below, pussy , cross-section , pussy juice , spread legs , restrained 
-reverse cowgirl,  lower body, from below, pussy , cross-section , from behind , ass , 
+lower body, from below, pussy , cross-section , from behind , ass , 
 lower body, from below, pussy ,  spread legs ,   
 legs up , pussy , pussy juice
 leaning forward , cross-section , breast sucking,  milking tentacles, 
-cowgirl position, squatting , 
+squatting , 
 spitroast , { oral | cum in mouth } 
 from below, standing sex ,  hands on wall , from behind , ass
 spread arms , spread legs,  restrained,  trembling,  from below, close-up pussy ,  x-ray, 
@@ -99,7 +101,7 @@ straddling,  from behind , ass , pussy ,  from below,  ,  arched back , cross-se
 squatting , from behind , ass , pussy , from below, pussy juice ,  
 straddling,  from below, pussy
 m legs , oral , hand job , cross-section, 
-reverse cowgirl position, from behind , ass , hand job , oral ,  ,  arched back 
+from behind , ass , hand job , oral ,  ,  arched back 
 oral , doggystyle, cross-section
 m legs , spread pussy  ,  pussy,  cross-section , 
 gangbang,  rape ,  oral,   tentacles  sex ,  motion lines,  torn clothes,    arched back,     close-up pussy,  multiple views,  legs up , spread arms, 
@@ -174,7 +176,7 @@ full body, cowboy shot, upper body, face, sound effects,
 
 faceless,  top-down bottom-up,  restrained,  lower body,  pussy , pussy juice,  from behind , ass  panty pull,   shouting , sound effects, 
 reverse upright straddle , restrained, lower body,  pussy , pussy juice,  panties around one leg,   shouting , sound effects,  from below ,  faceless, 
-cowgirl position,  female orgasm,  restrained, lower body,  pussy , pussy juice,  panties around one leg,   shouting , sound effects,  from below ,  faceless,  arched back,  cum in pussy,  x-ray, 
+female orgasm,  restrained, lower body,  pussy , pussy juice,  panties around one leg,   shouting , sound effects,  from below ,  faceless,  arched back,  cum in pussy,  x-ray, 
 
 
 ## TIPO
