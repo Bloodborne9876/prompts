@@ -253,11 +253,13 @@ def resolve_jobs(recipe, settings, characters, situations, faces, mode="full", s
                 elif m == "increment":
                     seed = base + (i if step_own else len(jobs))
 
+            date_str = time.strftime("%Y%m%d")
+            plan_file = f"{date_str}_{seed}.png" if seed >= 0 else f"{date_str}_random.png"
             jobs.append({
                 "step": idx, "nn": nn, "situId": situ["id"], "seq": i + 1,
                 "width": size["width"], "height": size["height"],
                 "prompt": prompt, "negative": job_negative, "seed": seed,
-                "file": f"{char['id']}_{nn}_{i + 1:03d}.png",
+                "file": plan_file,
                 "folder": f"{nn}_{situ['id']}",
             })
     return jobs
@@ -316,23 +318,38 @@ def run_generation(recipe, settings, jobs, mode, resume):
     log_path = work_dir / "generation_log.jsonl"
     api = settings["apiUrl"].rstrip("/") + "/sdapi/v1/txt2img"
 
+    def make_out_file(folder: str, seed: int) -> Path:
+        """YYYYMMDD_<seed>.png、同名が存在する場合は YYYYMMDD_<seed>_N.png"""
+        date_str = time.strftime("%Y%m%d")
+        base = f"{date_str}_{seed}"
+        p = work_dir / folder / f"{base}.png"
+        n = 2
+        while p.exists():
+            p = work_dir / folder / f"{base}_{n}.png"
+            n += 1
+        return p
+
     t0 = time.time()
     generated = 0
     try:
         for j in jobs:
             if JOB["stop"]:
                 break
-            out_file = work_dir / j["folder"] / j["file"]
-            JOB["current"] = f"{j['folder']}/{j['file']}"
-            if resume and out_file.exists():
-                JOB["done"] += 1
-                continue
+            folder = j["folder"]
+            JOB["current"] = folder
+
+            # resume: seed が既知の場合のみ事前スキップ可能
+            if resume and j["seed"] >= 0:
+                candidate = make_out_file(folder, j["seed"])
+                if candidate.exists():
+                    JOB["done"] += 1
+                    continue
 
             payload = build_payload(j, recipe, settings)
-            LAST_REQUEST.update(time=time.strftime("%H:%M:%S"), file=f"{j['folder']}/{j['file']}",
+            LAST_REQUEST.update(time=time.strftime("%H:%M:%S"), file=folder,
                                 payload=payload, infotext="")
             with open(work_dir / "api_log.jsonl", "a", encoding="utf-8") as f:
-                f.write(json.dumps({"file": f"{j['folder']}/{j['file']}", "payload": payload},
+                f.write(json.dumps({"file": folder, "payload": payload},
                                    ensure_ascii=False) + "\n")
             resp = None
             for attempt in range(3):
@@ -347,20 +364,25 @@ def run_generation(recipe, settings, jobs, mode, resume):
                     time.sleep(10 * (attempt + 1))
 
             info = json.loads(resp.get("info") or "{}")
+            actual_seed = info.get("seed") if info.get("seed") is not None else j["seed"]
             infotext = (info.get("infotexts") or [""])[0]
             LAST_REQUEST["infotext"] = infotext
+
+            out_file = make_out_file(folder, actual_seed)
             save_png(out_file, resp["images"][0], infotext)
+            fname = out_file.name
 
             with open(log_path, "a", encoding="utf-8") as f:
                 f.write(json.dumps({
-                    "file": f"{j['folder']}/{j['file']}", "seed": info.get("seed"),
+                    "file": f"{folder}/{fname}", "seed": actual_seed,
                     "prompt": j["prompt"],
                 }, ensure_ascii=False) + "\n")
 
             generated += 1
             JOB["done"] += 1
             rel = out_file.relative_to(OUTPUT_DIR).as_posix()
-            JOB["images"].append({"url": f"/output/{rel}", "seed": info.get("seed"), "label": f"{j['nn']}-{j['seq']} {j['situId']}"})
+            JOB["current"] = f"{folder}/{fname}"
+            JOB["images"].append({"url": f"/output/{rel}", "seed": actual_seed, "label": f"{j['nn']}-{j['seq']} {j['situId']}"})
             if generated:
                 avg = (time.time() - t0) / generated
                 JOB["eta_sec"] = int(avg * (JOB["total"] - JOB["done"]))
@@ -416,6 +438,61 @@ def api_last_request():
     return LAST_REQUEST
 
 
+@app.get("/api/gallery")
+def api_gallery():
+    result = {}
+    for folder in sorted(OUTPUT_DIR.iterdir()):
+        if not folder.is_dir():
+            continue
+        entries = []
+        for p in sorted(folder.rglob("*.png")):
+            entries.append({
+                "path": p.relative_to(OUTPUT_DIR).as_posix(),
+                "mtime": int(p.stat().st_mtime),
+            })
+        if entries:
+            result[folder.name] = entries
+    return result
+
+
+@app.post("/api/delete-images")
+def api_delete_images(body: dict = Body(...)):
+    paths = body.get("paths", [])
+    deleted, errors = [], []
+    for rel in paths:
+        target = (OUTPUT_DIR / Path(rel)).resolve()
+        try:
+            if not str(target).startswith(str(OUTPUT_DIR.resolve())):
+                raise ValueError("禁止パス")
+            if target.exists():
+                target.unlink()
+            deleted.append(rel)
+        except Exception as e:
+            errors.append({"path": rel, "error": str(e)})
+    return {"deleted": deleted, "errors": errors}
+
+
+@app.get("/api/imageinfo")
+def api_imageinfo(path: str):
+    # path は output/ 以下の相対パス (例: "_free/20260621_081251/free_001.png")
+    target = OUTPUT_DIR / Path(path)
+    try:
+        target = target.resolve()
+        OUTPUT_DIR.resolve()
+    except Exception:
+        raise HTTPException(400, "パスが不正です")
+    if not str(target).startswith(str(OUTPUT_DIR.resolve())):
+        raise HTTPException(403, "アクセス禁止")
+    if not target.exists():
+        raise HTTPException(404, "ファイルが見つかりません")
+    img = Image.open(target)
+    info = img.info  # PNG テキストチャンク
+    return {
+        "parameters": info.get("parameters", ""),
+        "comment": info.get("comment", ""),
+    }
+
+
 @app.post("/api/plan")
 def api_plan(body: dict = Body(...)):
     recipe = body.get("recipe")
@@ -435,6 +512,50 @@ def api_plan(body: dict = Body(...)):
     return PlainTextResponse("\n".join(lines))
 
 
+@app.post("/api/generate-free")
+def api_generate_free(body: dict = Body(...)):
+    with JOB_LOCK:
+        if JOB["running"]:
+            raise HTTPException(409, "生成ジョブが実行中です")
+        prompt = (body.get("prompt") or "").strip()
+        if not prompt:
+            raise HTTPException(400, "prompt が必要です")
+        settings = load_settings()
+        neg_name = body.get("negative") or settings.get("defaultNegative", "")
+        negative = settings.get("negativePresets", {}).get(neg_name, neg_name)
+        default_size = next(iter(settings["sizes"].values()))
+        size_key = body.get("size") or next(iter(settings["sizes"]))
+        size = settings["sizes"].get(size_key, default_size)
+        seed_val = int(body.get("seed", -1) if body.get("seed") is not None else -1)
+        count = max(1, min(int(body.get("count", 1)), 50))
+        date_str = time.strftime("%Y%m%d")
+        jobs = []
+        for i in range(count):
+            seed = seed_val + i if seed_val >= 0 else -1
+            plan_file = f"{date_str}_{seed}.png" if seed >= 0 else f"{date_str}_random.png"
+            jobs.append({
+                "step": 1, "nn": "01", "situId": "free", "seq": i + 1,
+                "width": size["width"], "height": size["height"],
+                "prompt": prompt, "negative": negative,
+                "seed": seed,
+                "file": plan_file,
+                "folder": date_str,
+            })
+        recipe = {
+            "title": "_free",
+            "spectrum": bool(body.get("spectrum", True)),
+            "hiresFix": bool(body.get("hiresFix", False)),
+        }
+        JOB.update(running=True, mode="free", title="_free", done=0,
+                   total=len(jobs), current="", eta_sec=None, error="", images=[], stop=False)
+        threading.Thread(
+            target=run_generation,
+            args=(recipe, settings, jobs, "free", False),
+            daemon=True,
+        ).start()
+        return {"ok": True, "total": len(jobs)}
+
+
 # ---------------------------------------------------------------- 静的配信
 @app.get("/")
 def index():
@@ -446,15 +567,30 @@ app.mount("/output", StaticFiles(directory=OUTPUT_DIR), name="output")
 
 
 # ---------------------------------------------------------------- 起動
+def find_free_port(start: int, max_try: int = 20) -> int:
+    import socket
+    for p in range(start, start + max_try):
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            try:
+                s.bind(("127.0.0.1", p))
+                return p
+            except OSError:
+                continue
+    raise RuntimeError(f"ポート {start}〜{start + max_try - 1} がすべて使用中です")
+
+
 def main():
     global TAGS
     print("タグ辞書を読み込み中...")
     TAGS = load_tags()
     print(f"  タグ {len(TAGS)} 件")
     try:
-        port = int(load_settings().get("editorPort", 7861))
+        base_port = int(load_settings().get("editorPort", 7861))
     except Exception:
-        port = 7861
+        base_port = 7861
+    port = find_free_port(base_port)
+    if port != base_port:
+        print(f"  ポート {base_port} は使用中のため {port} で起動します")
     threading.Timer(1.0, lambda: webbrowser.open(f"http://127.0.0.1:{port}/")).start()
     uvicorn.run(app, host="127.0.0.1", port=port, log_level="warning")
 

@@ -65,6 +65,8 @@
     <button data-tab="faces">表情</button>
     <button data-tab="characters">キャラ</button>
     <button data-tab="settings">設定</button>
+    <button data-tab="free">フリー</button>
+    <button data-tab="gallery">ギャラリー</button>
   </div>
   <span id="status">接続中...</span>
 </header>
@@ -230,6 +232,61 @@
   </div>
 </main>
 
+<!-- ============ フリー ============ -->
+<main id="tab-free">
+  <div style="max-width:900px">
+    <label>プロンプト</label>
+    <textarea id="frPrompt" rows="6" class="tagcomp" placeholder="プロンプトを入力（タグ補完対応）"></textarea>
+    <label>ネガティブプロンプト</label>
+    <div class="row" style="align-items:end;gap:8px;margin-bottom:4px">
+      <div style="flex:0 0 180px"><label style="margin:0">プリセット</label><select id="frNegPreset"></select></div>
+    </div>
+    <textarea id="frNeg" rows="3" class="tagcomp"></textarea>
+    <div class="row" style="margin-top:8px">
+      <div style="flex:0 0 160px"><label>サイズ</label><select id="frSize"></select></div>
+      <div style="flex:0 0 100px"><label>枚数</label><input type="number" id="frCount" value="1" min="1" max="50" style="width:70px"></div>
+      <div style="flex:0 0 130px"><label>シード</label><input type="number" id="frSeed" value="-1" style="width:110px"></div>
+      <div style="flex:0 0 130px"><label>HiresFix</label>
+        <span style="display:inline-flex;align-items:center;gap:6px;padding:6px 0">
+          <input type="checkbox" id="frHires" style="width:16px;height:16px"> <span class="hint">使用する</span>
+        </span>
+      </div>
+      <div style="flex:0 0 150px"><label>Calibrated Spectrum</label>
+        <span style="display:inline-flex;align-items:center;gap:6px;padding:6px 0">
+          <input type="checkbox" id="frSpectrum" checked style="width:16px;height:16px"> <span class="hint">有効</span>
+        </span>
+      </div>
+    </div>
+    <div class="toolbar" style="margin-top:12px">
+      <button class="primary" id="frGenerate">▶ 生成</button>
+      <button class="danger" id="frStop">⏹ 停止</button>
+      <span class="hint" id="frHint"></span>
+    </div>
+    <div id="frStatus" class="hint" style="margin:4px 0"></div>
+    <div style="height:6px;background:var(--bg3);border-radius:3px;overflow:hidden;margin:4px 0;max-width:700px">
+      <div id="frBar" style="height:100%;width:0%;background:var(--accent);transition:width .4s"></div>
+    </div>
+    <div id="frResults" style="display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 24px"></div>
+  </div>
+</main>
+
+<!-- ============ ギャラリー ============ -->
+<main id="tab-gallery">
+  <div class="toolbar">
+    <select id="galFolder" style="min-width:220px"></select>
+    <input type="date" id="galDate" style="background:var(--bg2);color:var(--fg);border:1px solid var(--border);border-radius:6px;padding:5px 8px;font-size:13px">
+    <button class="ghost" id="galDateClear">全日付</button>
+    <button class="ghost" id="galRefresh">🔄 更新</button>
+    <input type="text" id="galSearch" placeholder="ファイル名で絞り込み" style="width:160px">
+    <span style="border-left:1px solid var(--border);height:24px;margin:0 4px"></span>
+    <button class="ghost" id="galCheckAll">全選択</button>
+    <button class="ghost" id="galCheckNone">選択解除</button>
+    <button class="danger" id="galDeleteSel">選択削除</button>
+    <span class="hint" id="galCount"></span>
+  </div>
+  <div id="galGrid" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:8px"></div>
+</main>
+
 <!-- ============ 設定 ============ -->
 <main id="tab-settings">
   <p class="hint">settings.json を直接編集します（品質ヘッダ / ネガティブプリセット / サイズ / 生成パラメータ）。</p>
@@ -274,6 +331,7 @@ document.querySelectorAll('.tabs button').forEach(b => b.onclick = async () => {
   document.querySelectorAll('.tabs button').forEach(x => x.classList.toggle('active', x === b));
   document.querySelectorAll('main').forEach(m => m.classList.toggle('active', m.id === 'tab-' + b.dataset.tab));
   // 設定タブは開くたびにディスクの最新を読み直す（外部エディタでの変更を上書きしないため）
+  if (b.dataset.tab === 'gallery') { loadGallery(); }
   if (b.dataset.tab === 'settings' && settings) {
     try {
       settings = await api.get('/api/data/settings');
@@ -286,7 +344,7 @@ document.querySelectorAll('.tabs button').forEach(b => b.onclick = async () => {
 document.querySelector('.tabs button').click();
 
 function initAll() {
-  renderSituList(); renderFaceList(); renderCharList(); initRecipeTab();
+  renderSituList(); renderFaceList(); renderCharList(); initRecipeTab(); initFreeTab();
   $('setJson').value = JSON.stringify(settings, null, 2);
 }
 
@@ -732,15 +790,95 @@ function showLightbox(src) {
 // サーバーへ生成を依頼し、進捗をポーリングして結果カードを表示する
 const fmtEta = s => s == null ? '' : ` 残り目安 ${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
 
-function addResultCard(img, anchor) {
-  // 同名ファイルへの上書き保存でもブラウザキャッシュの古い絵を出さないようURLにタイムスタンプを付ける
+function showParamsModal(imgUrl) {
+  // /output/... から output/ 以下の相対パスを取り出す
+  const path = imgUrl.replace(/^\/output\//, '').replace(/\?.*$/, '');
+  const ov = document.createElement('div');
+  ov.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.80);z-index:150;display:flex;align-items:center;justify-content:center';
+  ov.onclick = e => { if (e.target === ov) ov.remove(); };
+  const box = document.createElement('div');
+  box.style.cssText = 'background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:20px;max-width:760px;width:95vw;max-height:85vh;overflow-y:auto;position:relative';
+  box.innerHTML = '<p class="hint">読み込み中...</p>';
+  const closeBtn = document.createElement('button');
+  closeBtn.textContent = '✕'; closeBtn.className = 'ghost';
+  closeBtn.style.cssText = 'position:absolute;top:12px;right:12px;padding:2px 10px';
+  closeBtn.onclick = () => ov.remove();
+  box.appendChild(closeBtn);
+  ov.appendChild(box);
+  document.body.appendChild(ov);
+
+  api.get('/api/imageinfo?path=' + encodeURIComponent(path)).then(info => {
+    const params = info.parameters || '(パラメータなし)';
+    // "Negative prompt:" で分割して色分け表示
+    const posEnd = params.indexOf('\nNegative prompt:');
+    const stepsStart = params.lastIndexOf('\nSteps:');
+    const pos = posEnd >= 0 ? params.slice(0, posEnd) : (stepsStart >= 0 ? params.slice(0, stepsStart) : params);
+    const neg = posEnd >= 0 ? params.slice(posEnd + 1, stepsStart >= 0 ? stepsStart : undefined) : '';
+    const meta = stepsStart >= 0 ? params.slice(stepsStart + 1) : '';
+    box.innerHTML = '';
+    box.appendChild(closeBtn);
+
+    const section = (title, text, color) => {
+      if (!text.trim()) return;
+      const h = document.createElement('div');
+      h.style.cssText = `color:var(--fg-dim);font-size:11px;margin:12px 0 4px`;
+      h.textContent = title;
+      const pre = document.createElement('pre');
+      pre.style.cssText = `margin:0;white-space:pre-wrap;word-break:break-all;font-size:12px;color:${color};background:var(--bg3);border-radius:6px;padding:8px`;
+      pre.textContent = text.trim();
+      const copyBtn = document.createElement('button');
+      copyBtn.textContent = 'コピー'; copyBtn.className = 'ghost';
+      copyBtn.style.cssText = 'padding:1px 8px;font-size:11px;margin-top:4px';
+      copyBtn.onclick = () => { navigator.clipboard.writeText(text.trim()); copyBtn.textContent = '✓'; setTimeout(() => { copyBtn.textContent = 'コピー'; }, 1500); };
+      box.append(h, pre, copyBtn);
+    };
+    section('ポジティブプロンプト', pos, '#b9d4a3');
+    section(neg.startsWith('Negative prompt:') ? 'ネガティブプロンプト' : '', neg.replace(/^Negative prompt:\s*/, ''), '#d08080');
+    section('生成パラメータ', meta, 'var(--fg-dim)');
+    if (!pos && !neg && !meta) box.innerHTML += '<p class="hint">パラメータ情報が埋め込まれていません</p>';
+  }).catch(e => { box.innerHTML = `<p style="color:var(--danger)">エラー: ${e.message}</p>`; box.appendChild(closeBtn); });
+}
+
+// mode: 'recipe' | 'free'  — シード反映先を切り替える
+function addResultCard(img, anchor, mode) {
   const bustUrl = img.url + '?t=' + Date.now();
   const card = document.createElement('div');
-  card.style.cssText = 'width:230px;background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:6px';
+  card.style.cssText = 'width:230px;background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:6px;position:relative';
   const im = document.createElement('img');
   im.src = bustUrl; im.loading = 'lazy';
   im.style.cssText = 'width:100%;border-radius:4px;cursor:zoom-in;display:block';
   im.onclick = () => showLightbox(bustUrl);
+
+  // オーバーレイボタン群（右上: 🔍、右上-2: 🌱）
+  const btnBase = 'position:absolute;background:rgba(0,0,0,.65);border:none;border-radius:4px;padding:2px 6px;cursor:pointer;font-size:14px;line-height:1';
+
+  const infoBtn = document.createElement('button');
+  infoBtn.title = 'プロンプト・パラメータを表示';
+  infoBtn.textContent = '🔍';
+  infoBtn.style.cssText = btnBase + ';top:10px;right:10px';
+  infoBtn.onclick = () => showParamsModal(img.url);
+  card.appendChild(infoBtn);
+
+  // シード反映ボタン（サムネイル右上に重ねる）
+  if (img.seed != null) {
+    const seedBtn = document.createElement('button');
+    seedBtn.title = `seed ${img.seed} をフォームに反映`;
+    seedBtn.textContent = '🌱';
+    seedBtn.style.cssText = btnBase + ';top:10px;right:42px';
+    seedBtn.onclick = () => {
+      if (mode === 'free') {
+        $('frSeed').value = img.seed;
+      } else {
+        $('rSeed').value = img.seed;
+        $('rSeedMode').value = 'fixed';
+        saveRecipeForm();
+      }
+      seedBtn.textContent = '✓';
+      setTimeout(() => { seedBtn.textContent = '🌱'; }, 1500);
+    };
+    card.appendChild(seedBtn);
+  }
+
   const cap = document.createElement('div');
   cap.className = 'hint';
   cap.style.cssText = 'display:flex;justify-content:space-between;align-items:center;margin-top:4px;gap:6px';
@@ -750,9 +888,10 @@ function addResultCard(img, anchor) {
   const del = document.createElement('button');
   del.textContent = '×'; del.className = 'danger'; del.style.padding = '0 7px';
   del.onclick = () => card.remove();
-  cap.append(Object.assign(document.createElement('span'), { textContent: `${img.label} / seed ${img.seed}` }), open, del);
+  const label = mode === 'free' ? `seed ${img.seed}` : `${img.label} / seed ${img.seed}`;
+  cap.append(Object.assign(document.createElement('span'), { textContent: label }), open, del);
   card.append(im, cap);
-  if (anchor.el) anchor.el.after(card); else $('testResults').prepend(card);
+  if (anchor.el) anchor.el.after(card); else $(mode === 'free' ? 'frResults' : 'testResults').prepend(card);
   anchor.el = card;
 }
 
@@ -766,7 +905,7 @@ async function pollProgress() {
     while (true) {
       const p = await api.get('/api/progress');
       $('genBar').style.width = p.total ? (100 * p.done / p.total) + '%' : '0%';
-      while (shown < p.images.length) addResultCard(p.images[shown++], anchor);
+      while (shown < p.images.length) addResultCard(p.images[shown++], anchor, 'recipe');
       if (p.running) {
         $('testStatus').textContent = `生成中 ${p.done}/${p.total}: ${p.current}${fmtEta(p.eta_sec)}（${p.title} / ${p.mode}）`;
       } else {
@@ -933,6 +1072,230 @@ function tcHide() { if (TC.box) TC.box.style.display = 'none'; TC.target = null;
   document.addEventListener('click', e => { if (!TC.box.contains(e.target)) tcHide(); });
   document.addEventListener('scroll', () => tcHide(), true);
 })();
+
+// ============================================================
+// フリータブ
+// ============================================================
+function initFreeTab() {
+  $('frNegPreset').innerHTML = '<option value="">(直接入力)</option>' +
+    Object.keys(settings.negativePresets).map(k => `<option ${k === settings.defaultNegative ? 'selected' : ''}>${k}</option>`).join('');
+  $('frSize').innerHTML = Object.keys(settings.sizes).map(k => `<option>${k}</option>`).join('');
+  // プリセット選択時にネガティブ欄を書き換え
+  if (!$('frNeg').value) {
+    const def = settings.defaultNegative;
+    $('frNeg').value = settings.negativePresets[def] || '';
+  }
+}
+$('frNegPreset').onchange = () => {
+  const key = $('frNegPreset').value;
+  if (key && settings.negativePresets[key]) $('frNeg').value = settings.negativePresets[key];
+};
+
+let frPolling = false;
+async function frPollProgress() {
+  if (frPolling) return;
+  frPolling = true;
+  const anchor = { el: null };
+  let shown = 0;
+  try {
+    while (true) {
+      const p = await api.get('/api/progress');
+      $('frBar').style.width = p.total ? (100 * p.done / p.total) + '%' : '0%';
+      while (shown < p.images.length) addResultCard(p.images[shown++], anchor, 'free');
+      if (p.running) {
+        $('frStatus').textContent = `生成中 ${p.done}/${p.total}: ${p.current}${fmtEta(p.eta_sec)}`;
+      } else {
+        $('frStatus').textContent = p.error
+          ? `エラー: ${p.error}`
+          : (p.total ? `完了: ${p.done}/${p.total} 枚（output\\_free に保存済み）` : '');
+        break;
+      }
+      await new Promise(res => setTimeout(res, 800));
+    }
+  } catch (e) {
+    $('frStatus').textContent = `進捗取得エラー: ${e.message}`;
+  } finally {
+    frPolling = false;
+  }
+}
+
+document.getElementById('tab-free').addEventListener('keydown', e => {
+  if (e.ctrlKey && e.key === 'Enter') { e.preventDefault(); $('frGenerate').click(); }
+});
+
+$('frGenerate').onclick = async () => {
+  const prompt = $('frPrompt').value.trim();
+  if (!prompt) { alert('プロンプトを入力してください'); return; }
+  try {
+    await api.post('/api/generate-free', {
+      prompt,
+      negative: $('frNeg').value.trim(),
+      size: $('frSize').value,
+      count: parseInt($('frCount').value, 10) || 1,
+      seed: parseInt($('frSeed').value, 10) || -1,
+      hiresFix: $('frHires').checked,
+      spectrum: $('frSpectrum').checked,
+    });
+    frPollProgress();
+  } catch (e) {
+    $('frStatus').textContent = `エラー: ${e.message}`;
+  }
+};
+$('frStop').onclick = async () => { await api.post('/api/stop'); $('frStatus').textContent = '停止要求を送信しました'; };
+
+// ============================================================
+// ギャラリータブ
+// ============================================================
+let galleryData = {};  // { folderName: [{path, mtime}, ...] }
+
+// 今日の日付を YYYY-MM-DD で返す
+function todayStr() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+async function loadGallery() {
+  try {
+    galleryData = await api.get('/api/gallery');
+    const sel = $('galFolder');
+    const prev = sel.value;
+    sel.innerHTML = Object.keys(galleryData).map(k =>
+      `<option ${k === prev ? 'selected' : ''}>${k}</option>`
+    ).join('');
+    if (!sel.value && Object.keys(galleryData).length) sel.value = Object.keys(galleryData)[0];
+    renderGallery();
+  } catch (e) {
+    $('galCount').textContent = 'エラー: ' + e.message;
+  }
+}
+
+function renderGallery() {
+  const folder = $('galFolder').value;
+  const q = $('galSearch').value.toLowerCase();
+  const dateFilter = $('galDate').value;  // '' or 'YYYY-MM-DD'
+
+  const entries = (galleryData[folder] || []).filter(e => {
+    if (q && !e.path.toLowerCase().includes(q)) return false;
+    if (dateFilter) {
+      const d = new Date(e.mtime * 1000);
+      const ds = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+      if (ds !== dateFilter) return false;
+    }
+    return true;
+  });
+
+  const checked = galCheckedPaths();
+  $('galCount').textContent = `${entries.length} 枚`;
+  const grid = $('galGrid');
+  grid.innerHTML = '';
+
+  const btnBase = 'position:absolute;background:rgba(0,0,0,.65);border:none;border-radius:4px;padding:2px 6px;cursor:pointer;font-size:14px;line-height:1';
+
+  entries.forEach(({ path: relPath }) => {
+    const url = '/output/' + relPath;
+    const bustUrl = url + '?t=' + Date.now();
+
+    const card = document.createElement('div');
+    card.style.cssText = 'width:200px;background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:6px;position:relative;flex-shrink:0';
+    card.dataset.path = relPath;
+
+    const im = document.createElement('img');
+    im.src = bustUrl; im.loading = 'lazy';
+    im.style.cssText = 'width:100%;border-radius:4px;cursor:zoom-in;display:block';
+    im.onclick = () => showLightbox(bustUrl);
+
+    // チェックボックス（左上）
+    const cb = document.createElement('input');
+    cb.type = 'checkbox'; cb.checked = checked.has(relPath);
+    cb.style.cssText = 'position:absolute;top:10px;left:10px;width:18px;height:18px;cursor:pointer;accent-color:var(--accent)';
+    cb.onchange = () => card.style.outline = cb.checked ? '2px solid var(--accent)' : '';
+    if (cb.checked) card.style.outline = '2px solid var(--accent)';
+
+    // 🔍 パラメータ表示（右上）
+    const infoBtn = document.createElement('button');
+    infoBtn.title = 'プロンプト・パラメータを表示'; infoBtn.textContent = '🔍';
+    infoBtn.style.cssText = btnBase + ';top:10px;right:10px';
+    infoBtn.onclick = () => showParamsModal(url);
+
+    // ➕ フリータブに送る（🔍の左）
+    const sendBtn = document.createElement('button');
+    sendBtn.title = 'プロンプト・シードをフリータブにコピー'; sendBtn.textContent = '➕';
+    sendBtn.style.cssText = btnBase + ';top:10px;right:42px';
+    sendBtn.onclick = async () => {
+      sendBtn.textContent = '⏳';
+      try { await sendToFree(url); sendBtn.textContent = '✓'; setTimeout(() => { sendBtn.textContent = '➕'; }, 1500); }
+      catch (e) { sendBtn.textContent = '⚠'; setTimeout(() => { sendBtn.textContent = '➕'; }, 2000); }
+    };
+
+    const cap = document.createElement('div');
+    cap.className = 'hint';
+    cap.style.cssText = 'margin-top:4px;font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
+    cap.textContent = relPath.split('/').pop();
+    cap.title = relPath;
+
+    card.append(im, cb, infoBtn, sendBtn, cap);
+    grid.appendChild(card);
+  });
+}
+
+// 現在チェックされているパスの Set を返す
+function galCheckedPaths() {
+  const s = new Set();
+  $('galGrid').querySelectorAll('[data-path]').forEach(card => {
+    const cb = card.querySelector('input[type=checkbox]');
+    if (cb?.checked) s.add(card.dataset.path);
+  });
+  return s;
+}
+
+async function sendToFree(imgUrl) {
+  const path = imgUrl.replace(/^\/output\//, '').replace(/\?.*$/, '');
+  const info = await api.get('/api/imageinfo?path=' + encodeURIComponent(path));
+  const params = info.parameters || '';
+  const negIdx = params.indexOf('\nNegative prompt:');
+  const stepsIdx = params.lastIndexOf('\nSteps:');
+  const pos = (negIdx >= 0 ? params.slice(0, negIdx) : stepsIdx >= 0 ? params.slice(0, stepsIdx) : params).trim();
+  const neg = negIdx >= 0 ? params.slice(negIdx + 17, stepsIdx >= 0 ? stepsIdx : undefined).trim() : '';
+  const seedMatch = params.match(/\bSeed:\s*(\d+)/);
+  if (pos) $('frPrompt').value = pos;
+  if (neg) $('frNeg').value = neg;
+  if (seedMatch) $('frSeed').value = seedMatch[1];
+  document.querySelector('.tabs button[data-tab="free"]').click();
+}
+
+// デフォルトを今日に設定
+$('galDate').value = todayStr();
+
+$('galFolder').onchange = renderGallery;
+$('galSearch').oninput = renderGallery;
+$('galDate').onchange = renderGallery;
+$('galDateClear').onclick = () => { $('galDate').value = ''; renderGallery(); };
+$('galRefresh').onclick = loadGallery;
+
+$('galCheckAll').onclick = () => {
+  $('galGrid').querySelectorAll('[data-path]').forEach(card => {
+    const cb = card.querySelector('input[type=checkbox]');
+    cb.checked = true; card.style.outline = '2px solid var(--accent)';
+  });
+};
+$('galCheckNone').onclick = () => {
+  $('galGrid').querySelectorAll('[data-path]').forEach(card => {
+    const cb = card.querySelector('input[type=checkbox]');
+    cb.checked = false; card.style.outline = '';
+  });
+};
+$('galDeleteSel').onclick = async () => {
+  const paths = [...galCheckedPaths()];
+  if (!paths.length) { alert('削除する画像を選択してください'); return; }
+  if (!confirm(`選択中の ${paths.length} 枚を削除しますか？\n（元に戻せません）`)) return;
+  try {
+    const res = await api.post('/api/delete-images', { paths });
+    if (res.errors.length) alert(`${res.errors.length} 件の削除に失敗しました:\n` + res.errors.map(e => e.path).join('\n'));
+    await loadGallery();
+  } catch (e) {
+    alert('削除エラー: ' + e.message);
+  }
+};
 
 // ============================================================
 // 設定タブ
