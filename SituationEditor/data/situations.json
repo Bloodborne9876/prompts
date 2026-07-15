@@ -1,6 +1,26 @@
 {
   "situations": [
     {
+      "id": "new_79031",
+      "name": "触手開脚イジリ",
+      "phase": "導入",
+      "tags": [],
+      "base": "tentacles restrained, sweat, white panties, lying , spread legs , { open mouth | cleanched teeth} , in tentacles nest , embarrassed",
+      "variations": [
+        "spread legs , ,",
+        "tentacles crotch rub , motion lines , sound effects, pussy juice ,",
+        "tentacles spread pussy , panties aside,sound effects, ,",
+        "panties aside, pussy , tentacles imminent penetration, pussy juice, ,",
+        "panties aside, tentacles sex, tentacles insertion, trembling , panties aside,sound effects, ecstasy, female orgasm",
+        "panties aside, tentacles sex, tentacles insertion, trembling , panties aside,sound effects, ecstasy, female orgasm , cum in pussy , female orgasm , ecstasy, clenched teeth, female ejaculation,"
+      ],
+      "notes": "",
+      "negativeExtra": "",
+      "defaultOutfit": "normal",
+      "defaultSize": "portrait_v",
+      "defaultFace": "none"
+    },
+    {
       "id": "new_39321",
       "name": "しゃがみ",
       "phase": "導入",
@@ -64,7 +84,8 @@
       "notes": "捕縛前の導入用。触手を出す場合は base に in tentacles pit を追加",
       "defaultOutfit": "normal",
       "defaultSize": "portrait_v",
-      "defaultFace": "none"
+      "defaultFace": "none",
+      "negativeExtra": ""
     },
     {
       "id": "panchira_front",

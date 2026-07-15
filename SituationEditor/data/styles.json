@@ -1,0 +1,9 @@
+{
+  "styles": [
+    {
+      "name": "best_quality",
+      "prompt": "best quality,  score_7",
+      "negative": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "触手",
+  "character": "alisa",
+  "negative": "標準",
+  "seedMode": "fixed",
+  "seed": 5345345,
+  "hiresFix": true,
+  "steps": [
+    {
+      "situation": "new_79031",
+      "outfit": "normal",
+      "count": 6,
+      "size": "portrait_h",
+      "variationMode": "cycle",
+      "seedMode": "increment",
+      "seed": 4353435
+    }
+  ],
+  "spectrum": true
+}

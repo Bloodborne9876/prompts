@@ -1,3 +1,6 @@
 *.codegpt
 /generate/story_output
+\_free
 *.png
+*log.jsonl
+SituationEditor/output/_free/api_log.jsonl

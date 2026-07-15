@@ -54,6 +54,13 @@
   #welcome { padding: 60px; text-align: center; }
   .badge { background: var(--bg3); border-radius: 10px; padding: 1px 8px; font-size: 11px; color: var(--fg-dim); margin-left: 6px; }
   code.cmd { background: var(--bg3); padding: 2px 8px; border-radius: 4px; user-select: all; }
+  .help-modal h2 { font-size: 18px; margin: 0 0 10px; }
+  .help-modal h3 { font-size: 14px; margin: 16px 0 4px; color: var(--accent); }
+  .help-modal ul { margin: 4px 0; padding-left: 20px; }
+  .help-modal li { margin: 3px 0; }
+  .help-modal code { background: var(--bg3); padding: 1px 5px; border-radius: 3px; font-size: 12px; }
+  .help-modal pre { background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; white-space: pre-wrap; font-size: 12px; color: #b9d4a3; }
+  .help-btn { padding: 5px 10px; }
 </style>
 </head>
 <body>
@@ -90,6 +97,7 @@
     <button class="primary" id="genFull" title="レシピを保存して全step生成">▶ 本生成</button>
     <button class="ghost" id="genResume" title="既存ファイルをスキップして再開">⏩ 再開</button>
     <button class="danger" id="genStop">⏹ 停止</button>
+    <button class="ghost help-btn" data-help="recipes" title="使い方">❓</button>
     <span class="hint" id="recipeHint"></span>
   </div>
   <div class="row" style="max-width:1200px">
@@ -148,6 +156,7 @@
         <button class="ghost" id="sNew">新規</button>
         <button class="ghost" id="sDup">複製</button>
         <button class="primary" id="sSave">保存</button>
+        <button class="ghost help-btn" data-help="situations" title="使い方">❓</button>
       </div>
       <div class="item-list" id="sList"></div>
     </div>
@@ -160,7 +169,7 @@
       </div>
       <label>base（このシチュエーション共通のタグ）</label>
       <textarea id="sBase" rows="3" class="tagcomp"></textarea>
-      <label>variations（1行 = 1バリエーション。{a|b} / __wildcard__ 可）<span class="badge" id="sVarCount"></span></label>
+      <label>variations（1行 = 1バリエーション。{a|b} / __wildcard__ 可）<span class="badge" id="sVarCount"></span> <span class="help-btn" data-help="variations" title="variations の使われ方" style="cursor:pointer">❓</span></label>
       <textarea id="sVars" rows="14" spellcheck="false" class="tagcomp"></textarea>
       <div class="row">
         <div><label>メモ（運用ノート / 生成には使われない）</label><input type="text" id="sNotes"></div>
@@ -242,10 +251,32 @@
       <div style="flex:0 0 180px"><label style="margin:0">プリセット</label><select id="frNegPreset"></select></div>
     </div>
     <textarea id="frNeg" rows="3" class="tagcomp"></textarea>
+    <div class="row" style="margin-top:8px;align-items:end;gap:6px;background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:8px 10px">
+      <div style="flex:0 0 240px"><label style="margin:0">スタイル（よく使う）</label><select id="frStyleSel"></select></div>
+      <div style="flex:0 0 130px"><label style="margin:0">適用位置</label>
+        <select id="frStyleMode"><option value="tail">末尾に追記</option><option value="head">先頭に追記</option><option value="cursor">カーソル位置</option></select>
+      </div>
+      <button class="ghost" id="frStyleApply">適用</button>
+      <span style="border-left:1px solid var(--border);height:24px;margin:0 2px"></span>
+      <button class="ghost" id="frStyleSave" title="現在のプロンプト/ネガティブを名前を付けて保存">＋ 現在を保存</button>
+      <button class="danger" id="frStyleDel" title="選択中のスタイルを削除">削除</button>
+    </div>
     <div class="row" style="margin-top:8px">
       <div style="flex:0 0 160px"><label>サイズ</label><select id="frSize"></select></div>
       <div style="flex:0 0 100px"><label>枚数</label><input type="number" id="frCount" value="1" min="1" max="50" style="width:70px"></div>
-      <div style="flex:0 0 130px"><label>シード</label><input type="number" id="frSeed" value="-1" style="width:110px"></div>
+      <div style="flex:0 0 150px"><label>Step数（構図確認用に低めも可）</label>
+        <span style="display:inline-flex;align-items:center;gap:4px">
+          <input type="number" id="frSteps" min="1" max="150" style="width:70px">
+          <button class="ghost" id="frStepsReset" title="既定値に戻す" style="padding:4px 8px">↺</button>
+        </span>
+      </div>
+      <div style="flex:0 0 200px"><label>シード</label>
+        <span style="display:inline-flex;align-items:center;gap:4px">
+          <input type="number" id="frSeed" value="-1" style="width:110px">
+          <button class="ghost" id="frSeedRandom" title="-1（毎回ランダム）にする" style="padding:4px 8px">-1</button>
+          <button class="ghost" id="frSeedDice" title="ランダムなシード値を1つ設定（固定シードで再現可能）" style="padding:4px 8px">🎲</button>
+        </span>
+      </div>
       <div style="flex:0 0 130px"><label>HiresFix</label>
         <span style="display:inline-flex;align-items:center;gap:6px;padding:6px 0">
           <input type="checkbox" id="frHires" style="width:16px;height:16px"> <span class="hint">使用する</span>
@@ -260,6 +291,8 @@
     <div class="toolbar" style="margin-top:12px">
       <button class="primary" id="frGenerate">▶ 生成</button>
       <button class="danger" id="frStop">⏹ 停止</button>
+      <button class="ghost" id="frToSitu" title="このプロンプトをシチュエーションに追加（キャラ・品質タグを除外して登録）">📝 シチュエーション化</button>
+      <button class="ghost help-btn" data-help="free" title="使い方">❓</button>
       <span class="hint" id="frHint"></span>
     </div>
     <div id="frStatus" class="hint" style="margin:4px 0"></div>
@@ -282,6 +315,7 @@
     <button class="ghost" id="galCheckAll">全選択</button>
     <button class="ghost" id="galCheckNone">選択解除</button>
     <button class="danger" id="galDeleteSel">選択削除</button>
+    <button class="ghost help-btn" data-help="gallery" title="使い方">❓</button>
     <span class="hint" id="galCount"></span>
   </div>
   <div id="galGrid" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:8px"></div>
@@ -297,10 +331,11 @@
 <script>
 'use strict';
 // ===== 状態 =====
-let settings = null, characters = [], situations = [], faces = [];
+let settings = null, characters = [], situations = [], faces = [], styles = [];
 let recipes = {};            // name(拡張子なし) -> object
 let curRecipeName = null;
 let curSitu = null, curChar = null, selStepIdx = -1;
+let expandedSteps = new Set();   // 行指定パネルを開いている step の index
 
 const $ = id => document.getElementById(id);
 const status = msg => { $('status').textContent = msg; };
@@ -319,6 +354,7 @@ async function loadAll() {
   characters = (await api.get('/api/data/characters')).characters;
   situations = (await api.get('/api/data/situations')).situations;
   faces = (await api.get('/api/data/faces')).faces;
+  try { styles = (await api.get('/api/data/styles')).styles || []; } catch { styles = []; }
   recipes = await api.get('/api/recipes');
   $('welcome').style.display = 'none';
   status(`読込完了: キャラ ${characters.length} / シチュエーション ${situations.length} / 表情 ${faces.length} / レシピ ${Object.keys(recipes).length}`);
@@ -709,7 +745,7 @@ function renderSteps() {
           <option value="random" ${st.seedMode === 'random' ? 'selected' : ''}>乱</option>
         </select><input type="number" data-f="seed" value="${Number.isFinite(st.seed) ? st.seed : ''}" placeholder="seed" style="width:92px;margin-left:4px;display:${(st.seedMode === 'fixed' || st.seedMode === 'increment') ? 'inline-block' : 'none'}">
       </td>
-      <td><button class="ghost" data-stest title="この行だけ1枚テスト生成（未保存・下に表示）">🧪</button></td>
+      <td style="white-space:nowrap"><button class="ghost" data-stest title="この行だけ1枚テスト生成（未保存・下に表示）">🧪</button> <button class="ghost" data-svar title="variation を1行ずつ指定して生成／やり直し">🔬</button></td>
       <td><button class="danger" data-sdel>×</button></td>`;
     tr.querySelectorAll('[data-f]').forEach(el => el.onchange = () => {
       if (el.dataset.f === 'count') st.count = Math.max(1, parseInt(el.value) || 1);
@@ -718,7 +754,12 @@ function renderSteps() {
       renderSteps();
     });
     tr.querySelector('[data-stest]').onclick = e => { e.stopPropagation(); selStepIdx = i; testStep(i); };
-    tr.querySelector('[data-sdel]').onclick = () => { r.steps.splice(i, 1); selStepIdx = -1; renderSteps(); };
+    tr.querySelector('[data-svar]').onclick = e => {
+      e.stopPropagation();
+      if (expandedSteps.has(i)) expandedSteps.delete(i); else expandedSteps.add(i);
+      selStepIdx = i; renderSteps();
+    };
+    tr.querySelector('[data-sdel]').onclick = () => { r.steps.splice(i, 1); expandedSteps.delete(i); selStepIdx = -1; renderSteps(); };
     tr.onclick = e => { if (e.target.closest('select,input,button')) { selStepIdx = i; updatePreview(); return; } selStepIdx = i; renderSteps(); };
     if (i === selStepIdx) tr.style.background = 'var(--accent2)';
     // ドラッグ並び替え
@@ -735,6 +776,44 @@ function renderSteps() {
       selStepIdx = i; renderSteps();
     };
     tbody.appendChild(tr);
+
+    // 🔬 行指定パネル（展開時）
+    if (expandedSteps.has(i) && situ) {
+      const exTr = document.createElement('tr');
+      const td = document.createElement('td');
+      td.colSpan = 11;
+      td.style.cssText = 'background:var(--bg);padding:8px 12px';
+      const vars = situ.variations.length ? situ.variations : [''];
+      let html = `<div class="hint" style="margin-bottom:6px">「${situ.name}」の variation を1行ずつ生成（🧪=_test に確認用／▶=本番フォルダに反映）。シードは step のシード設定が使われます。</div>`;
+      html += '<table style="width:100%">';
+      vars.forEach((v, vi) => {
+        html += `<tr>
+          <td style="width:32px;color:var(--fg-dim)">${String(vi + 1).padStart(2, '0')}</td>
+          <td style="font-family:Consolas,monospace;font-size:12px;color:#b9d4a3">${(v || '(空)').replace(/</g, '&lt;')}</td>
+          <td style="width:80px"><input type="number" data-vcount value="1" min="1" style="width:60px" title="生成枚数"></td>
+          <td style="width:150px;white-space:nowrap">
+            <button class="ghost" data-vtest data-vi="${vi}" title="_test に確認用生成">🧪 テスト</button>
+            <button class="primary" data-vfull data-vi="${vi}" title="本番フォルダに生成（既存と同名は連番）" style="padding:5px 10px">▶ 本番</button>
+          </td>
+        </tr>`;
+      });
+      html += '</table>';
+      td.innerHTML = html;
+      td.querySelectorAll('[data-vtest]').forEach(btn => btn.onclick = ev => {
+        ev.stopPropagation();
+        const vi = +btn.dataset.vi;
+        const cnt = parseInt(btn.closest('tr').querySelector('[data-vcount]').value, 10) || 1;
+        generateVariation(i, vi, cnt, true);
+      });
+      td.querySelectorAll('[data-vfull]').forEach(btn => btn.onclick = ev => {
+        ev.stopPropagation();
+        const vi = +btn.dataset.vi;
+        const cnt = parseInt(btn.closest('tr').querySelector('[data-vcount]').value, 10) || 1;
+        generateVariation(i, vi, cnt, false);
+      });
+      exTr.appendChild(td);
+      tbody.appendChild(exTr);
+    }
   });
 
   const total = r.steps.reduce((a, s) => a + (s.count || 0), 0);
@@ -784,6 +863,116 @@ function showLightbox(src) {
   ov.appendChild(im); ov.onclick = () => ov.remove();
   document.body.appendChild(ov);
 }
+
+// ============================================================
+// ヘルプ（各画面の ❓ ボタン → モーダル）
+// ============================================================
+const HELP = {
+  variations: `<h2>variations の使われ方</h2>
+    <p><b>1行 = 1パターンのポーズ／差分</b>のリストです。シチュエーションの中で「変化する部分」を行ごとに列挙します。</p>
+    <h3>生成時の合成</h3>
+    <pre>品質ヘッダ
+キャラbase, 服装
+表情, base, ★variations の1行★, commonTail</pre>
+    <p><code>base</code>（全画像共通）＋ <code>variations の1行</code>（その画像固有）が合体して1枚分のプロンプトになります。</p>
+    <h3>どの行が選ばれるか（レシピ step の variation 列）</h3>
+    <ul>
+      <li><b>cycle</b>（既定）: 上から順に使い、末尾まで行くと先頭に戻る。<br>例) 3行・10枚 → 1,2,3,1,2,3,1,2,3,1</li>
+      <li><b>random</b>: 毎回ランダムに1行</li>
+    </ul>
+    <h3>base と variations の使い分け</h3>
+    <ul>
+      <li>全パターン共通にしたいタグ → <b>base</b></li>
+      <li>パターンごとに変えたいポーズ・構図 → <b>variations</b> の各行</li>
+    </ul>
+    <p>行内に <code>{a|b}</code> や <code>__wildcard__</code> を書くと、生成のたびにさらにランダム展開されます（同じ行でも絵が変わる）。</p>
+    <p class="hint">「📝 シチュエーション化」で追記すると、採用タグが variations の末尾に1行追加されます。育てるほど引き出しが増えます。</p>`,
+
+  situations: `<h2>シチュエーションタブ</h2>
+    <p>キャラ非依存の「シーン定義」を編集します。生成時に任意のキャラ・服装・品質ヘッダと再合成されます。</p>
+    <ul>
+      <li><b>base</b>: そのシチュ共通のタグ</li>
+      <li><b>variations</b>: パターン別のポーズ集（詳細は variations の ❓ 参照）</li>
+      <li><b>フェーズ</b>: ストーリー進行での分類（導入→…→演出）。一覧の並びにも使われる</li>
+      <li><b>既定の服装/表情/サイズ</b>: レシピ側で未指定のときに使われる初期値</li>
+      <li><b>追加ネガティブ</b>: このシチュだけに足すネガティブ（例: 騎乗位の <code>1boy, penis</code>）</li>
+      <li><b>メモ</b>: 運用ノート。生成には使われない</li>
+    </ul>
+    <p>保存で <code>data/situations.json</code> に書き込まれます。</p>`,
+
+  recipes: `<h2>レシピタブ</h2>
+    <p>「キャラ × step（シチュエーション）」で1作品ぶんを一括生成する設計図です。</p>
+    <h3>step 行</h3>
+    <ul>
+      <li><b>枚数</b>: その step で生成する枚数。variations から cycle/random で選ばれる</li>
+      <li><b>variation</b>: cycle（順番）/ random（毎回ランダム）</li>
+      <li><b>シード列</b>: 一括（上の設定に従う）/ 固定 / INC（行内+1）/ 乱</li>
+    </ul>
+    <h3>シード（一括）</h3>
+    <ul>
+      <li><b>ランダム</b>: 毎回バラバラ</li>
+      <li><b>固定</b>: 全画像同じシード</li>
+      <li><b>インクリメント</b>: 通しで +1（レシピ全体を再現可能）</li>
+    </ul>
+    <h3>ボタン</h3>
+    <ul>
+      <li><b>🧪</b>(行): その行だけ枚数ぶんテスト生成 → <code>output/作品名/_test/</code></li>
+      <li><b>📄 DryRun</b>: 全プロンプト＋シードをプレビュー表示（生成しない）</li>
+      <li><b>🔍 API生データ</b>: 直近にWebUIへ送った生リクエストJSON</li>
+      <li><b>▶ 本生成</b>: 保存して全 step 生成</li>
+      <li><b>⏩ 再開</b>: 既存ファイルをスキップして続行 / <b>⏹ 停止</b></li>
+    </ul>
+    <p class="hint">出力ファイル名は <code>YYYYMMDD_シード値.png</code> に統一されています。</p>`,
+
+  free: `<h2>フリータブ</h2>
+    <p>レシピを使わず、プロンプトを直接打って生成する WebUI 的なモードです。構図やタグの試行錯誤に使います。</p>
+    <ul>
+      <li><b>プロンプト/ネガティブ</b>: タグ補完対応（日本語1文字・英語2文字〜）</li>
+      <li><b>枚数</b>: シードを +1 しながら連番生成</li>
+      <li><b>Ctrl+Enter</b>: 生成を実行</li>
+      <li><b>📝 シチュエーション化</b>: 今のプロンプトをシチュエーションに登録（キャラ・品質・服装・表情タグは自動で除外候補に）</li>
+      <li><b>スタイル（よく使う）</b>: 名前付きの ポジ+ネガ を保存し、適用位置（末尾/先頭/カーソル）を選んで現在のプロンプトに追記。WebUI の style と同じ。<code>data/styles.json</code> に保存</li>
+    </ul>
+    <p>出力先は <code>output/_free/YYYYMMDD/</code>、ファイル名は <code>YYYYMMDD_シード値.png</code>。</p>
+    <h3>シチュエーション化の差分採用</h3>
+    <p>2回目以降は<b>前回プロンプトとの差分（今回追加・変更したタグ）だけを自動採用</b>します。ベースから数タグ足して育てる作業向け。モーダル上部の「全採用 / 全除外 / 差分のみ」で切替できます。</p>`,
+
+  gallery: `<h2>ギャラリータブ</h2>
+    <p><code>output/</code> 配下の生成画像をサムネイル一覧で確認します。</p>
+    <ul>
+      <li><b>フォルダ▼ / 日付</b>: 表示する作品フォルダと更新日で絞り込み（既定は当日）。「全日付」で解除</li>
+      <li><b>検索</b>: ファイル名で絞り込み</li>
+      <li>サムネイルクリック: 拡大表示</li>
+    </ul>
+    <h3>カードのボタン</h3>
+    <ul>
+      <li><b>🔍</b>: ポジ/ネガ/パラメータを表示（コピー可）</li>
+      <li><b>➕</b>: プロンプト・シードをフリータブにコピーして移動</li>
+      <li><b>📝</b>: そのプロンプトをシチュエーション化</li>
+      <li><b>⬇</b>: メタデータ（プロンプト等）を除去してダウンロード</li>
+      <li><b>左上チェック</b>: 選択して「選択削除」で一括削除（元に戻せません）</li>
+    </ul>`,
+};
+
+function showHelp(key) {
+  const body = HELP[key];
+  if (!body) return;
+  const ov = document.createElement('div');
+  ov.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.80);z-index:170;display:flex;align-items:center;justify-content:center';
+  ov.onclick = e => { if (e.target === ov) ov.remove(); };
+  const boxEl = document.createElement('div');
+  boxEl.className = 'help-modal';
+  boxEl.style.cssText = 'background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:24px 28px;max-width:680px;width:92vw;max-height:86vh;overflow-y:auto;position:relative;line-height:1.7';
+  boxEl.innerHTML = `<button class="ghost" style="position:absolute;top:12px;right:12px;padding:2px 10px">✕</button>` + body;
+  boxEl.querySelector('button').onclick = () => ov.remove();
+  ov.appendChild(boxEl);
+  document.body.appendChild(ov);
+}
+// 委譲: data-help を持つ要素のクリックでヘルプを開く
+document.addEventListener('click', e => {
+  const btn = e.target.closest('.help-btn');
+  if (btn) { e.preventDefault(); e.stopPropagation(); showHelp(btn.dataset.help); }
+});
 
 // シード解決・プロンプト合成はサーバー側 (server.py) が行う
 
@@ -839,6 +1028,26 @@ function showParamsModal(imgUrl) {
   }).catch(e => { box.innerHTML = `<p style="color:var(--danger)">エラー: ${e.message}</p>`; box.appendChild(closeBtn); });
 }
 
+// メタデータを除去してダウンロード（canvasで再エンコードするとPNGテキストチャンクが消える。PNGは可逆なので画素は保持）
+function downloadStripped(url, filename) {
+  const im = new Image();
+  im.onload = () => {
+    const cv = document.createElement('canvas');
+    cv.width = im.naturalWidth; cv.height = im.naturalHeight;
+    cv.getContext('2d').drawImage(im, 0, 0);
+    cv.toBlob(blob => {
+      if (!blob) { alert('画像の変換に失敗しました'); return; }
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = filename || 'image.png';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+    }, 'image/png');
+  };
+  im.onerror = () => alert('画像の読み込みに失敗しました');
+  im.src = url;
+}
+
 // mode: 'recipe' | 'free'  — シード反映先を切り替える
 function addResultCard(img, anchor, mode) {
   const bustUrl = img.url + '?t=' + Date.now();
@@ -879,6 +1088,14 @@ function addResultCard(img, anchor, mode) {
     card.appendChild(seedBtn);
   }
 
+  // ⬇ メタデータ除去ダウンロード（🌱の左）
+  const dlBtn = document.createElement('button');
+  dlBtn.title = 'メタデータを除去してダウンロード';
+  dlBtn.textContent = '⬇';
+  dlBtn.style.cssText = btnBase + ';top:10px;right:74px';
+  dlBtn.onclick = () => downloadStripped(bustUrl, img.url.split('/').pop());
+  card.appendChild(dlBtn);
+
   const cap = document.createElement('div');
   cap.className = 'hint';
   cap.style.cssText = 'display:flex;justify-content:space-between;align-items:center;margin-top:4px;gap:6px';
@@ -911,7 +1128,7 @@ async function pollProgress() {
       } else {
         $('testStatus').textContent = p.error
           ? `エラー: ${p.error}`
-          : (p.total ? `完了: ${p.done}/${p.total} 枚（output\\${p.title}${p.mode !== 'full' ? '\\_test' : ''} に保存済み）` : '');
+          : (p.total ? `完了: ${p.done}/${p.total} 枚（output\\${p.title}${p.toTest ? '\\_test' : ''} に保存済み）` : '');
         break;
       }
       await new Promise(res => setTimeout(res, 800));
@@ -938,6 +1155,13 @@ async function startGeneration(body, confirmMsg) {
 
 async function testStep(i) {
   await startGeneration({ mode: 'step', stepIndex: i });
+}
+// 特定 step の特定 variation 行だけを生成（toTest=true は _test、false は本番フォルダ）
+async function generateVariation(stepIdx, varIdx, count, toTest) {
+  const r = recipes[curRecipeName]; if (!r) return;
+  const confirmMsg = toTest ? null
+    : `step ${String(stepIdx + 1).padStart(2, '0')} の variation #${varIdx + 1} を ${count} 枚、本番フォルダに生成します。よろしいですか？`;
+  await startGeneration({ mode: 'variation', stepIndex: stepIdx, variationIndex: varIdx, count, toTest }, confirmMsg);
 }
 $('genFull').onclick = async () => {
   saveRecipeForm();
@@ -1080,15 +1304,79 @@ function initFreeTab() {
   $('frNegPreset').innerHTML = '<option value="">(直接入力)</option>' +
     Object.keys(settings.negativePresets).map(k => `<option ${k === settings.defaultNegative ? 'selected' : ''}>${k}</option>`).join('');
   $('frSize').innerHTML = Object.keys(settings.sizes).map(k => `<option>${k}</option>`).join('');
+  // Step数の既定値 = settings.generation.steps
+  $('frSteps').value = settings.generation.steps;
+  $('frStepsReset').title = `既定値 (${settings.generation.steps}) に戻す`;
   // プリセット選択時にネガティブ欄を書き換え
   if (!$('frNeg').value) {
     const def = settings.defaultNegative;
     $('frNeg').value = settings.negativePresets[def] || '';
   }
+  renderStyleSelect();
 }
 $('frNegPreset').onchange = () => {
   const key = $('frNegPreset').value;
   if (key && settings.negativePresets[key]) $('frNeg').value = settings.negativePresets[key];
+};
+$('frStepsReset').onclick = () => { $('frSteps').value = settings.generation.steps; };
+$('frSeedRandom').onclick = () => { $('frSeed').value = -1; };
+$('frSeedDice').onclick = () => { $('frSeed').value = Math.floor(Math.random() * 2 ** 32); };
+
+// ===== スタイル（よく使う） =====
+function renderStyleSelect() {
+  const sel = $('frStyleSel');
+  const prev = sel.value;
+  sel.innerHTML = styles.length
+    ? styles.map((s, i) => `<option value="${i}">${s.name}</option>`).join('')
+    : '<option value="">（スタイル未登録）</option>';
+  if (prev && styles[prev]) sel.value = prev;
+}
+// text を el に挿入（mode: tail=末尾 / head=先頭 / cursor=カーソル位置）
+function insertTag(el, text, mode) {
+  if (!text) return;
+  const cur = el.value;
+  if (mode === 'head') {
+    el.value = cur.trim() ? text + ', ' + cur : text;
+  } else if (mode === 'cursor') {
+    const p = el.selectionStart ?? cur.length;
+    const before = cur.slice(0, p), after = cur.slice(p);
+    const s1 = before.trim() && !/[,\s]$/.test(before) ? ', ' : (before && !/\s$/.test(before) ? ' ' : '');
+    const s2 = after.trim() && !/^[,\s]/.test(after) ? ', ' : '';
+    el.value = before + s1 + text + s2 + after;
+  } else {
+    el.value = cur.trim() ? cur.replace(/[,\s]*$/, '') + ', ' + text : text;
+  }
+}
+async function saveStyles() { await api.put('/api/data/styles', { styles }); }
+
+$('frStyleApply').onclick = () => {
+  const i = $('frStyleSel').value;
+  const s = styles[i];
+  if (!s) { alert('スタイルが登録されていません'); return; }
+  const mode = $('frStyleMode').value;
+  insertTag($('frPrompt'), s.prompt || '', mode);
+  // ネガティブは cursor 指定でも末尾追記（ネガはカーソル対象外）
+  insertTag($('frNeg'), s.negative || '', mode === 'cursor' ? 'tail' : mode);
+};
+$('frStyleSave').onclick = async () => {
+  const name = (prompt('スタイル名を入力') || '').trim();
+  if (!name) return;
+  const body = { name, prompt: $('frPrompt').value.trim(), negative: $('frNeg').value.trim() };
+  const exist = styles.findIndex(s => s.name === name);
+  if (exist >= 0) { if (!confirm(`「${name}」は既にあります。上書きしますか？`)) return; styles[exist] = body; }
+  else styles.push(body);
+  await saveStyles(); renderStyleSelect();
+  $('frStyleSel').value = String(exist >= 0 ? exist : styles.length - 1);
+  status(`スタイル「${name}」を保存しました`);
+};
+$('frStyleDel').onclick = async () => {
+  const i = $('frStyleSel').value;
+  const s = styles[i];
+  if (!s) return;
+  if (!confirm(`スタイル「${s.name}」を削除しますか？`)) return;
+  styles.splice(i, 1);
+  await saveStyles(); renderStyleSelect();
+  status('スタイルを削除しました');
 };
 
 let frPolling = false;
@@ -1132,6 +1420,7 @@ $('frGenerate').onclick = async () => {
       negative: $('frNeg').value.trim(),
       size: $('frSize').value,
       count: parseInt($('frCount').value, 10) || 1,
+      steps: parseInt($('frSteps').value, 10) || settings.generation.steps,
       seed: parseInt($('frSeed').value, 10) || -1,
       hiresFix: $('frHires').checked,
       spectrum: $('frSpectrum').checked,
@@ -1142,6 +1431,265 @@ $('frGenerate').onclick = async () => {
   }
 };
 $('frStop').onclick = async () => { await api.post('/api/stop'); $('frStatus').textContent = '停止要求を送信しました'; };
+$('frToSitu').onclick = () => {
+  const prompt = $('frPrompt').value.trim();
+  if (!prompt) { alert('プロンプトを入力してください'); return; }
+  const seedVal = parseInt($('frSeed').value, 10);
+  openSituWizard(prompt, { seed: Number.isFinite(seedVal) && seedVal >= 0 ? String(seedVal) : null, size: $('frSize').value });
+};
+
+// ============================================================
+// シチュエーション化ウィザード
+// ============================================================
+// プロンプト文字列をタグチップに分解（{a|b} / (tag:1.2) 内のカンマは割らない）
+function splitTags(str) {
+  const out = [];
+  let depth = 0, cur = '';
+  for (const ch of (str || '')) {
+    if (ch === '{' || ch === '(' || ch === '[') depth++;
+    else if (ch === '}' || ch === ')' || ch === ']') depth = Math.max(0, depth - 1);
+    if (ch === ',' && depth === 0) { if (cur.trim()) out.push(cur.trim()); cur = ''; }
+    else cur += ch;
+  }
+  if (cur.trim()) out.push(cur.trim());
+  return out;
+}
+// 比較用に正規化（小文字・_↔空白・weight構文 (tag:1.2)→tag・エスケープ除去）
+function normTag(t) {
+  return (t || '').toLowerCase()
+    .replace(/\\([()])/g, '$1')
+    .replace(/^\(+|\)+$/g, '')
+    .replace(/:\s*[\d.]+\s*$/, '')
+    .replace(/_/g, ' ')
+    .trim();
+}
+// 除外対象の正規化タグ集合（品質ヘッダ・commonTail・表情・服装テンプレ）
+function buildExcludeSet() {
+  const set = new Set();
+  const add = str => splitTags(str).forEach(t => { const n = normTag(t); if (n) set.add(n); });
+  add(settings.qualityHeader);
+  add(settings.commonTail);
+  faces.forEach(f => add(f.tags));
+  Object.values(settings.outfitTemplates || {}).forEach(v => add(v));
+  return set;
+}
+
+const SITU_PREV_KEY = 'situWizardPrevTags';
+function loadPrevTagSet() {
+  try { return new Set(JSON.parse(localStorage.getItem(SITU_PREV_KEY) || '[]')); }
+  catch { return new Set(); }
+}
+function savePrevTagSet(tags) {
+  try { localStorage.setItem(SITU_PREV_KEY, JSON.stringify([...new Set(tags.map(normTag))])); } catch {}
+}
+
+function openSituWizard(promptStr, opts = {}) {
+  const excludeSet = buildExcludeSet();
+  const prevSet = loadPrevTagSet();           // 前回ウィザードを開いたときのタグ集合
+  const hasPrev = prevSet.size > 0;
+  const allTags = splitTags(promptStr);
+  // チップ状態: { tag, keep(bool) }  keep=採用 / !keep=除外
+  // 前回プロンプトがある場合は「前回に無い=今回追加・変更したタグ」だけ採用。品質/表情/服装は常に除外。
+  const isKeep = tag => {
+    const n = normTag(tag);
+    if (excludeSet.has(n)) return false;
+    return hasPrev ? !prevSet.has(n) : true;
+  };
+  let chips = allTags.map(tag => ({ tag, keep: isKeep(tag) }));
+  // 今回のプロンプトを次回比較用に保存
+  savePrevTagSet(allTags);
+
+  const ov = document.createElement('div');
+  ov.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.80);z-index:160;display:flex;align-items:center;justify-content:center';
+  ov.onclick = e => { if (e.target === ov) ov.remove(); };
+  const box = document.createElement('div');
+  box.style.cssText = 'background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:20px;max-width:820px;width:95vw;max-height:88vh;overflow-y:auto;position:relative';
+  ov.appendChild(box);
+  document.body.appendChild(ov);
+
+  const phaseOpts = sel => PHASES.map(p => `<option ${p === sel ? 'selected' : ''}>${p}</option>`).join('');
+  const sizeOpts = sel => Object.keys(settings.sizes).map(k => `<option ${k === sel ? 'selected' : ''}>${k}</option>`).join('');
+  const outfitKeys = new Set(['normal']);
+  Object.keys(settings.outfitTemplates || {}).forEach(k => outfitKeys.add(k));
+  characters.forEach(c => Object.keys(c.outfits || {}).forEach(k => outfitKeys.add(k)));
+  const outfitOpts = sel => [...outfitKeys].map(k => `<option ${k === sel ? 'selected' : ''}>${k}</option>`).join('');
+  // フェーズ別の既存シチュ optgroup
+  const situOpts = PHASES.map(ph => {
+    const items = situations.filter(s => phaseOf(s) === ph);
+    if (!items.length) return '';
+    return `<optgroup label="${ph}">` + items.map(s => `<option value="${s.id}">${s.name}（${s.variations.length}）</option>`).join('') + '</optgroup>';
+  }).join('');
+  const charOpts = characters.map(c => `<option value="${c.id}">${c.id}（${c.series || ''}）</option>`).join('');
+
+  box.innerHTML = `
+    <button class="ghost" id="swClose" style="position:absolute;top:12px;right:12px;padding:2px 10px">✕</button>
+    <h2 style="margin:0 0 6px;font-size:18px">📝 シチュエーション化</h2>
+    <p class="hint" style="margin:0 0 12px">採用タグ（緑）がシチュエーションになります。品質・服装・表情タグは自動で除外側へ。クリックで切替。${hasPrev ? '<br><b>前回との差分</b>（今回追加・変更したタグ）を自動採用しています。' : ''}</p>
+
+    <div class="row" style="align-items:end;margin-bottom:8px">
+      <div style="flex:0 0 260px"><label style="margin:0">生成時のキャラ（任意・選ぶとそのキャラのタグを除外）</label>
+        <select id="swChar"><option value="">（指定なし）</option>${charOpts}</select></div>
+      <div style="flex:0 0 auto"><label style="margin:0">一括</label>
+        <span style="display:flex;gap:4px">
+          <button class="ghost" id="swAll" style="padding:4px 10px" title="全タグを採用">全採用</button>
+          <button class="ghost" id="swNone" style="padding:4px 10px" title="全タグを除外（品質等のみ残す基準に）">全除外</button>
+          <button class="ghost" id="swDiff" style="padding:4px 10px" title="前回との差分のみ採用に戻す"${hasPrev ? '' : ' disabled'}>差分のみ</button>
+        </span>
+      </div>
+      <div><span class="hint" id="swKeepCount"></span></div>
+    </div>
+
+    <label>✅ 採用（シチュエーション本体）</label>
+    <div id="swKeep" style="display:flex;flex-wrap:wrap;gap:6px;min-height:38px;background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:8px"></div>
+    <label style="margin-top:10px">🚫 除外（キャラ・品質・服装・表情）</label>
+    <div id="swDrop" style="display:flex;flex-wrap:wrap;gap:6px;min-height:38px;background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:8px;opacity:.75"></div>
+
+    <div style="border-top:1px solid var(--border);margin:16px 0 12px"></div>
+
+    <div class="toolbar" style="gap:16px">
+      <label style="margin:0;display:flex;align-items:center;gap:6px;cursor:pointer"><input type="radio" name="swMode" value="append" checked> 既存に追記</label>
+      <label style="margin:0;display:flex;align-items:center;gap:6px;cursor:pointer"><input type="radio" name="swMode" value="new"> 新規作成</label>
+    </div>
+
+    <div id="swAppend">
+      <label>追記先シチュエーション</label>
+      <select id="swTarget" style="max-width:420px">${situOpts}</select>
+      <label style="margin-top:8px;display:flex;align-items:center;gap:6px;cursor:pointer"><input type="checkbox" id="swNote" style="width:15px;height:15px"> notes に来歴を残す</label>
+    </div>
+
+    <div id="swNew" style="display:none">
+      <div class="row">
+        <div><label>表示名</label><input type="text" id="swName" placeholder="新規シチュエーション"></div>
+        <div style="flex:0 0 200px"><label>id（半角英数）</label><input type="text" id="swId"></div>
+        <div style="flex:0 0 130px"><label>フェーズ</label><select id="swPhase">${phaseOpts('その他')}</select></div>
+      </div>
+      <div class="row">
+        <div style="flex:0 0 150px"><label>既定の服装</label><select id="swOutfit">${outfitOpts('normal')}</select></div>
+        <div style="flex:0 0 150px"><label>既定サイズ</label><select id="swSize">${sizeOpts(opts.size || 'portrait_v')}</select></div>
+        <div style="flex:0 0 150px"><label>既定の表情</label><select id="swFace">${faceOptions('none', false)}</select></div>
+      </div>
+    </div>
+
+    <label style="margin-top:12px">プレビュー</label>
+    <pre class="preview" id="swPreview"></pre>
+    <div class="toolbar" style="margin-top:10px;justify-content:flex-end">
+      <button class="primary" id="swSave">保存</button>
+      <span class="hint" id="swMsg"></span>
+    </div>
+  `;
+
+  const close = () => ov.remove();
+  box.querySelector('#swClose').onclick = close;
+
+  function renderChips() {
+    const keepBox = box.querySelector('#swKeep'), dropBox = box.querySelector('#swDrop');
+    keepBox.innerHTML = ''; dropBox.innerHTML = '';
+    chips.forEach((c, i) => {
+      const chip = document.createElement('span');
+      chip.textContent = c.tag;
+      chip.style.cssText = `padding:3px 9px;border-radius:12px;cursor:pointer;font-size:12px;user-select:none;border:1px solid ${c.keep ? 'var(--ok)' : 'var(--border)'};color:${c.keep ? '#cdeccc' : 'var(--fg-dim)'};${c.keep ? 'background:rgba(76,175,125,.15)' : ''}`;
+      chip.title = c.keep ? 'クリックで除外へ' : 'クリックで採用へ';
+      chip.onclick = () => { chips[i].keep = !chips[i].keep; renderChips(); };
+      (c.keep ? keepBox : dropBox).appendChild(chip);
+    });
+    box.querySelector('#swKeepCount').textContent = `採用 ${chips.filter(c => c.keep).length} / 全 ${chips.length} タグ`;
+    renderPreview();
+  }
+
+  const keepStr = () => chips.filter(c => c.keep).map(c => c.tag).join(', ');
+
+  function renderPreview() {
+    const mode = box.querySelector('input[name=swMode]:checked').value;
+    const line = keepStr();
+    if (mode === 'append') {
+      const t = box.querySelector('#swTarget').value;
+      const s = situations.find(x => x.id === t);
+      box.querySelector('#swPreview').textContent = s
+        ? `「${s.name}」の variations に1行追加:\n+ ${line}\n\n（現在 ${s.variations.length} → ${s.variations.length + 1} 行）`
+        : '追記先を選択してください';
+    } else {
+      const name = box.querySelector('#swName').value.trim() || '(名前未入力)';
+      const id = box.querySelector('#swId').value.trim() || '(id未入力)';
+      box.querySelector('#swPreview').textContent =
+        `新規シチュエーション:\nid: ${id}\nname: ${name}\nphase: ${box.querySelector('#swPhase').value}\nbase: (空)\nvariations:\n  - ${line}`;
+    }
+  }
+
+  // 一括ボタン
+  box.querySelector('#swAll').onclick = () => { chips.forEach(c => c.keep = true); renderChips(); };
+  box.querySelector('#swNone').onclick = () => { chips.forEach(c => c.keep = false); renderChips(); };
+  box.querySelector('#swDiff').onclick = () => { chips.forEach(c => c.keep = isKeep(c.tag)); renderChips(); };
+
+  // キャラ選択 → そのキャラの base + 全 outfits タグを除外側へ
+  box.querySelector('#swChar').onchange = e => {
+    const c = characters.find(x => x.id === e.target.value);
+    const charSet = new Set();
+    if (c) {
+      splitTags(c.base).forEach(t => charSet.add(normTag(t)));
+      Object.values(c.outfits || {}).forEach(v => splitTags(v).forEach(t => charSet.add(normTag(t))));
+    }
+    chips.forEach(ch => { if (charSet.has(normTag(ch.tag))) ch.keep = false; });
+    renderChips();
+  };
+
+  // モード切替
+  box.querySelectorAll('input[name=swMode]').forEach(r => r.onchange = () => {
+    const mode = box.querySelector('input[name=swMode]:checked').value;
+    box.querySelector('#swAppend').style.display = mode === 'append' ? '' : 'none';
+    box.querySelector('#swNew').style.display = mode === 'new' ? '' : 'none';
+    renderPreview();
+  });
+  box.querySelector('#swTarget').onchange = renderPreview;
+  // 名前 → id 自動slug
+  box.querySelector('#swName').oninput = () => {
+    const idEl = box.querySelector('#swId');
+    if (!idEl.dataset.touched) idEl.value = 'new_' + Date.now() % 100000;
+    renderPreview();
+  };
+  box.querySelector('#swId').oninput = e => { e.target.dataset.touched = '1'; renderPreview(); };
+  box.querySelector('#swPhase').onchange = renderPreview;
+
+  box.querySelector('#swSave').onclick = async () => {
+    const line = keepStr();
+    if (!line) { box.querySelector('#swMsg').textContent = '採用タグが空です'; return; }
+    const mode = box.querySelector('input[name=swMode]:checked').value;
+    try {
+      if (mode === 'append') {
+        const s = situations.find(x => x.id === box.querySelector('#swTarget').value);
+        if (!s) { box.querySelector('#swMsg').textContent = '追記先を選択してください'; return; }
+        s.variations.push(line);
+        if (box.querySelector('#swNote').checked) {
+          const note = `${todayStr()}${opts.seed ? ' seed ' + opts.seed : ''} から追加`;
+          s.notes = s.notes ? s.notes + '\n' + note : note;
+        }
+        await api.put('/api/data/situations', { situations });
+        status(`「${s.name}」に variation を追加しました`);
+      } else {
+        const id = box.querySelector('#swId').value.trim();
+        const name = box.querySelector('#swName').value.trim();
+        if (!name) { box.querySelector('#swMsg').textContent = '表示名を入力してください'; return; }
+        if (!slugOk(id)) { box.querySelector('#swMsg').textContent = 'id は半角英数(_)で入力してください'; return; }
+        if (situations.some(s => s.id === id)) { box.querySelector('#swMsg').textContent = `id「${id}」は既に存在します`; return; }
+        const s = {
+          id, name, phase: box.querySelector('#swPhase').value, tags: [], base: '',
+          variations: [line], notes: '', negativeExtra: '',
+          defaultOutfit: box.querySelector('#swOutfit').value,
+          defaultSize: box.querySelector('#swSize').value,
+          defaultFace: box.querySelector('#swFace').value,
+        };
+        situations.unshift(s);
+        await api.put('/api/data/situations', { situations });
+        status(`新規シチュエーション「${name}」を作成しました`);
+      }
+      renderSituList();
+      close();
+    } catch (e) {
+      box.querySelector('#swMsg').textContent = 'エラー: ' + e.message;
+    }
+  };
+
+  renderChips();
+}
 
 // ============================================================
 // ギャラリータブ
@@ -1227,13 +1775,34 @@ function renderGallery() {
       catch (e) { sendBtn.textContent = '⚠'; setTimeout(() => { sendBtn.textContent = '➕'; }, 2000); }
     };
 
+    // 📝 シチュエーション化（➕の左）
+    const situBtn = document.createElement('button');
+    situBtn.title = 'このプロンプトをシチュエーションに追加'; situBtn.textContent = '📝';
+    situBtn.style.cssText = btnBase + ';top:10px;right:74px';
+    situBtn.onclick = async () => {
+      situBtn.textContent = '⏳';
+      try {
+        const p = url.replace(/^\/output\//, '').replace(/\?.*$/, '');
+        const info = await api.get('/api/imageinfo?path=' + encodeURIComponent(p));
+        const { pos, seed } = parseInfotext(info.parameters);
+        situBtn.textContent = '📝';
+        openSituWizard(pos, { seed });
+      } catch (e) { situBtn.textContent = '⚠'; setTimeout(() => { situBtn.textContent = '📝'; }, 2000); }
+    };
+
+    // ⬇ メタデータ除去ダウンロード（📝の左）
+    const dlBtn = document.createElement('button');
+    dlBtn.title = 'メタデータを除去してダウンロード'; dlBtn.textContent = '⬇';
+    dlBtn.style.cssText = btnBase + ';top:10px;right:106px';
+    dlBtn.onclick = () => downloadStripped(bustUrl, relPath.split('/').pop());
+
     const cap = document.createElement('div');
     cap.className = 'hint';
     cap.style.cssText = 'margin-top:4px;font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
     cap.textContent = relPath.split('/').pop();
     cap.title = relPath;
 
-    card.append(im, cb, infoBtn, sendBtn, cap);
+    card.append(im, cb, infoBtn, sendBtn, situBtn, dlBtn, cap);
     grid.appendChild(card);
   });
 }
@@ -1248,18 +1817,24 @@ function galCheckedPaths() {
   return s;
 }
 
-async function sendToFree(imgUrl) {
-  const path = imgUrl.replace(/^\/output\//, '').replace(/\?.*$/, '');
-  const info = await api.get('/api/imageinfo?path=' + encodeURIComponent(path));
-  const params = info.parameters || '';
+// PNG infotext (parameters) を ポジ/ネガ/seed に分解
+function parseInfotext(params) {
+  params = params || '';
   const negIdx = params.indexOf('\nNegative prompt:');
   const stepsIdx = params.lastIndexOf('\nSteps:');
   const pos = (negIdx >= 0 ? params.slice(0, negIdx) : stepsIdx >= 0 ? params.slice(0, stepsIdx) : params).trim();
   const neg = negIdx >= 0 ? params.slice(negIdx + 17, stepsIdx >= 0 ? stepsIdx : undefined).trim() : '';
   const seedMatch = params.match(/\bSeed:\s*(\d+)/);
+  return { pos, neg, seed: seedMatch ? seedMatch[1] : null };
+}
+
+async function sendToFree(imgUrl) {
+  const path = imgUrl.replace(/^\/output\//, '').replace(/\?.*$/, '');
+  const info = await api.get('/api/imageinfo?path=' + encodeURIComponent(path));
+  const { pos, neg, seed } = parseInfotext(info.parameters);
   if (pos) $('frPrompt').value = pos;
   if (neg) $('frNeg').value = neg;
-  if (seedMatch) $('frSeed').value = seedMatch[1];
+  if (seed) $('frSeed').value = seed;
   document.querySelector('.tabs button[data-tab="free"]').click();
 }
 

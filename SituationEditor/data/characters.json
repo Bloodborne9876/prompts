@@ -1,6 +1,22 @@
 {
   "characters": [
     {
+      "id": "alisa",
+      "name": "アーリャさん",
+      "series": "アーリャさん",
+      "base": "1girl, solo, <lora:alisa_mikhailovna_kujou-roshidere_s1-ana-anime-soralz:1>, alisa mikhailovna kujou (roshidere), long hair, silver hair, ahoge, hair between eyes, hair ribbon, blue eyes",
+      "outfits": {
+        "normal": "school uniform, grey blazer, brown lapels, white collared shirt, red bowtie, black vest, long sleeves, pleated skirt, white thighhighs",
+        "torn": "torn clothes",
+        "underwear": "white bra, white panties",
+        "nude": "completely nude",
+        "seifuku": "school uniform, grey jacket, open jacket, long sleeves, red bowtie, white shirt, collared shirt, buttons, black vest, pleated skirt, white thighhighs",
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, torn clothes, white collared shirt, short sleeves",
+        "denim": "white camisole, denim skirt,  pencil skirt,",
+        "outfit2": ""
+      }
+    },
+    {
       "id": "yuuka",
       "name": "yuuka",
       "series": "blue_archive",
@@ -3203,7 +3219,8 @@
         "underwear": "white bra, white panties, underwear only",
         "nude": "completely nude",
         "seifuku": "school uniform, pleated skirt, plaid skirt, white collared shirt, short sleeves",
-        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves"
+        "seifuku_torn": "school uniform, pleated skirt, plaid skirt, (torn clothes:1.2), white collared shirt, short sleeves",
+        "denim": "denim skirt,  pencil skirt,  miniskirt,  white t-shirt"
       }
     },
     {

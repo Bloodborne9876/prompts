@@ -31,7 +31,7 @@ RECIPES_DIR = ROOT / "recipes"
 OUTPUT_DIR = ROOT / "output"
 TAGS_DIR = Path(r"C:\sd-webui-forge-neo\extensions\a1111-sd-webui-tagcomplete\tags")
 
-DATA_FILES = {"settings", "characters", "situations", "faces"}
+DATA_FILES = {"settings", "characters", "situations", "faces", "styles"}
 BAD_NAME = re.compile(r'[\\/:*?"<>|]|^\.|^$')
 
 app = FastAPI(title="SituationEditor")
@@ -169,7 +169,7 @@ def delete_recipe(name: str):
 # ---------------------------------------------------------------- 生成エンジン (Invoke-Generate.ps1 移植)
 JOB = {
     "running": False, "mode": "", "title": "", "done": 0, "total": 0,
-    "current": "", "eta_sec": None, "error": "", "images": [], "stop": False,
+    "current": "", "eta_sec": None, "error": "", "images": [], "stop": False, "toTest": False,
 }
 JOB_LOCK = threading.Lock()
 
@@ -177,8 +177,10 @@ JOB_LOCK = threading.Lock()
 LAST_REQUEST = {"time": None, "file": "", "payload": None, "infotext": ""}
 
 
-def resolve_jobs(recipe, settings, characters, situations, faces, mode="full", step_index=None):
-    """レシピ → ジョブ一覧 (PS版と同一の合成・seed・命名)"""
+def resolve_jobs(recipe, settings, characters, situations, faces, mode="full",
+                 step_index=None, variation_index=None, count_override=None):
+    """レシピ → ジョブ一覧 (PS版と同一の合成・seed・命名)
+    mode='variation': step_index の step を variation_index の1行だけで count_override 枚生成"""
     char = next((c for c in characters if c["id"] == recipe.get("character")), None)
     if not char:
         raise HTTPException(400, f"キャラ '{recipe.get('character')}' が characters.json に見つかりません")
@@ -193,7 +195,7 @@ def resolve_jobs(recipe, settings, characters, situations, faces, mode="full", s
 
     jobs = []
     for idx, step in enumerate(recipe.get("steps", []), start=1):
-        if mode == "step" and (step_index is None or idx != step_index + 1):
+        if mode in ("step", "variation") and (step_index is None or idx != step_index + 1):
             continue
         situ = situ_map.get(step.get("situation"))
         if not situ:
@@ -221,14 +223,21 @@ def resolve_jobs(recipe, settings, characters, situations, faces, mode="full", s
 
         variations = situ.get("variations") or [""]
         var_mode = step.get("variationMode", "cycle")
-        count = 1 if mode == "test" else max(1, int(step.get("count", 1)))
+        if mode == "test":
+            count = 1
+        elif mode == "variation":
+            count = max(1, int(count_override or 1))
+        else:
+            count = max(1, int(step.get("count", 1)))
 
         neg_extra = situ.get("negativeExtra", "")
         job_negative = f"{negative}, {neg_extra}" if neg_extra else negative
 
         nn = f"{idx:02d}"
         for i in range(count):
-            if var_mode == "random":
+            if mode == "variation" and variation_index is not None:
+                variation = variations[variation_index % len(variations)]
+            elif var_mode == "random":
                 import random
                 variation = random.choice(variations)
             else:
@@ -278,7 +287,8 @@ def build_payload(job, recipe, settings):
         "prompt": job["prompt"],
         "negative_prompt": job["negative"],
         "width": job["width"], "height": job["height"],
-        "steps": gen["steps"], "cfg_scale": gen["cfg_scale"],
+        # job["steps"] があればそれを優先 (フリータブの構図確認用 step 上書き)
+        "steps": int(job.get("steps") or gen["steps"]), "cfg_scale": gen["cfg_scale"],
         # Forge Neo: distilled_cfg_scale = UIの「Shift」。未指定だとAPI既定3.5になりWebUIと絵が変わる
         "distilled_cfg_scale": gen.get("shift", 3.5),
         "hr_distilled_cfg": gen.get("shift", 3.5),
@@ -309,10 +319,10 @@ def save_png(path: Path, b64: str, infotext: str):
     img.save(path, format="PNG", pnginfo=meta)
 
 
-def run_generation(recipe, settings, jobs, mode, resume):
+def run_generation(recipe, settings, jobs, mode, resume, to_test=False):
     title = recipe.get("title", "untitled")
     work_dir = OUTPUT_DIR / title
-    if mode in ("test", "step"):
+    if to_test:
         work_dir = work_dir / "_test"
     work_dir.mkdir(parents=True, exist_ok=True)
     log_path = work_dir / "generation_log.jsonl"
@@ -407,16 +417,19 @@ def api_generate(body: dict = Body(...)):
         characters = read_json(DATA_DIR / "characters.json")["characters"]
         situations = read_json(DATA_DIR / "situations.json")["situations"]
         faces = read_json(DATA_DIR / "faces.json")["faces"]
-        jobs = resolve_jobs(recipe, settings, characters, situations, faces, mode, body.get("stepIndex"))
+        jobs = resolve_jobs(recipe, settings, characters, situations, faces, mode,
+                            body.get("stepIndex"), body.get("variationIndex"), body.get("count"))
         from_step = int(body.get("from", 1))
         jobs = [j for j in jobs if j["step"] >= from_step]
         if not jobs:
             raise HTTPException(400, "対象ジョブがありません")
+        # 出力先: 既定は test/step は _test、それ以外は本番。body.toTest があれば明示優先
+        to_test = bool(body["toTest"]) if "toTest" in body else (mode in ("test", "step"))
         JOB.update(running=True, mode=mode, title=recipe.get("title", ""), done=0,
-                   total=len(jobs), current="", eta_sec=None, error="", images=[], stop=False)
+                   total=len(jobs), current="", eta_sec=None, error="", images=[], stop=False, toTest=to_test)
         threading.Thread(
             target=run_generation,
-            args=(recipe, settings, jobs, mode, bool(body.get("resume"))),
+            args=(recipe, settings, jobs, mode, bool(body.get("resume")), to_test),
             daemon=True,
         ).start()
         return {"ok": True, "total": len(jobs)}
@@ -528,6 +541,9 @@ def api_generate_free(body: dict = Body(...)):
         size = settings["sizes"].get(size_key, default_size)
         seed_val = int(body.get("seed", -1) if body.get("seed") is not None else -1)
         count = max(1, min(int(body.get("count", 1)), 50))
+        steps_override = None
+        if body.get("steps") is not None:
+            steps_override = max(1, min(int(body["steps"]), 150))
         date_str = time.strftime("%Y%m%d")
         jobs = []
         for i in range(count):
@@ -537,7 +553,7 @@ def api_generate_free(body: dict = Body(...)):
                 "step": 1, "nn": "01", "situId": "free", "seq": i + 1,
                 "width": size["width"], "height": size["height"],
                 "prompt": prompt, "negative": negative,
-                "seed": seed,
+                "seed": seed, "steps": steps_override,
                 "file": plan_file,
                 "folder": date_str,
             })
@@ -547,7 +563,7 @@ def api_generate_free(body: dict = Body(...)):
             "hiresFix": bool(body.get("hiresFix", False)),
         }
         JOB.update(running=True, mode="free", title="_free", done=0,
-                   total=len(jobs), current="", eta_sec=None, error="", images=[], stop=False)
+                   total=len(jobs), current="", eta_sec=None, error="", images=[], stop=False, toTest=False)
         threading.Thread(
             target=run_generation,
             args=(recipe, settings, jobs, "free", False),
